@@ -14,7 +14,7 @@ git branch -m "Your-branch-name"
 
 git checkout "branch-name"
 
-To store credentials for later use
+# To store credentials for later use
 
 git config --global credential.helper store
 

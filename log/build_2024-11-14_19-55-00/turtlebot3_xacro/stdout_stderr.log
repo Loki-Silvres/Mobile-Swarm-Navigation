@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pacman/turtlebot3_ws/build/turtlebot3_xacro
+-- Install configuration: ""
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/launch
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/launch/manual_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/launch/cam_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/launch/Twist.yaml
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/launch/upload_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/launch/description_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/launch/rviz_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/launch/bringup_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/launch/world_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/config
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/config/ekf.yaml
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/config/pi_camera.yaml
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/config/model.rviz
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/bases
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/bases/waffle_base.stl
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/bases/waffle_pi_base.stl
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/bases/burger_base.stl
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/sensors
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/sensors/astra.jpg
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/sensors/astra.dae
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/sensors/r200.jpg
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/sensors/lds.stl
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/sensors/r200.dae
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/wheels
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/wheels/left_tire.stl
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/wheels/right_tire.stl
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/turtlebot3_burger.urdf.xacro
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/common_properties.xacro
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/turtlebot3_world.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/common_properties.urdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/turtlebot3_waffle_pi.urdf.xacro
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/turtlebot3_gazebo.xacro
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/ament_index/resource_index/package_run_dependencies/turtlebot3_xacro
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/ament_index/resource_index/parent_prefix_path/turtlebot3_xacro
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/environment/ament_prefix_path.sh
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/environment/ament_prefix_path.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/environment/path.sh
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/environment/path.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/local_setup.bash
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/local_setup.sh
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/local_setup.zsh
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/local_setup.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/package.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/ament_index/resource_index/packages/turtlebot3_xacro
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/cmake/turtlebot3_xacroConfig.cmake
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/cmake/turtlebot3_xacroConfig-version.cmake
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/package.xml

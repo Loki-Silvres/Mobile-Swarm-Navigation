@@ -1,0 +1,1 @@
+/home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/my_robot_state_publlisher.launch.py

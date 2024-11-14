@@ -1,0 +1,6 @@
+Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/turtlebot3_manipulation -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/turtlebot3_manipulation
+Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/turtlebot3_manipulation -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/turtlebot3_manipulation
+Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation -- -j12 -l12
+Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation -- -j12 -l12
+Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation
+Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation

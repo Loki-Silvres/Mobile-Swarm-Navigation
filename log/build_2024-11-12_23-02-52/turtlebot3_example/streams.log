@@ -1,0 +1,24 @@
+[0.353s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/pacman/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pacman/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data --force
+[0.498s] running develop
+[0.498s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.498s]   warnings.warn(
+[0.576s] running egg_info
+[0.576s] writing turtlebot3_example.egg-info/PKG-INFO
+[0.577s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[0.577s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[0.577s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[0.577s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[0.578s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.579s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.580s] running build_ext
+[0.580s] Creating /home/pacman/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[0.580s] Installing turtlebot3_obstacle_detection script to /home/pacman/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.580s] Installing turtlebot3_patrol_client script to /home/pacman/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.580s] Installing turtlebot3_patrol_server script to /home/pacman/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.580s] Installing turtlebot3_position_control script to /home/pacman/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[0.580s] 
+[0.580s] Installed /home/pacman/turtlebot3_ws/build/turtlebot3_example
+[0.581s] running symlink_data
+[0.581s] symbolically linking /home/pacman/turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/pacman/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.581s] symbolically linking /home/pacman/turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/pacman/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[0.600s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/pacman/turtlebot3_ws/build/turtlebot3_example/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pacman/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data --force

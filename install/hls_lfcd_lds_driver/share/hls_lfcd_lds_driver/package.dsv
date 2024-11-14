@@ -1,0 +1,8 @@
+source;share/hls_lfcd_lds_driver/hook/cmake_prefix_path.ps1
+source;share/hls_lfcd_lds_driver/hook/cmake_prefix_path.dsv
+source;share/hls_lfcd_lds_driver/hook/cmake_prefix_path.sh
+source;share/hls_lfcd_lds_driver/local_setup.bash
+source;share/hls_lfcd_lds_driver/local_setup.dsv
+source;share/hls_lfcd_lds_driver/local_setup.ps1
+source;share/hls_lfcd_lds_driver/local_setup.sh
+source;share/hls_lfcd_lds_driver/local_setup.zsh

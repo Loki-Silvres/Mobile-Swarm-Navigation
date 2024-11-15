@@ -49,7 +49,7 @@
  </xacro:if>
 
  <xacro:macro name="mesh" params="mesh">
-     <mesh filename="package://turtlebot3_xacro/meshes/${mesh}" scale="0.001 0.001 0.001"/>
+     <mesh filename="file://$(find turtlebot3_xacro)/meshes/${mesh}" scale="0.001 0.001 0.001"/>
  </xacro:macro>
 
 </robot>

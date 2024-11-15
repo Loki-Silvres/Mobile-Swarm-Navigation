@@ -35,27 +35,25 @@
 	<material name="white">
 		<color rgba="1.0 1.0 1.0 1.0"/>
 	</material>
-	<gazebo reference="bot_2/base_link">
+	<gazebo reference="bot_1/base_link">
 		<material>Gazebo/DarkGrey</material>
 	</gazebo>
-	<gazebo reference="bot_2/wheel_left_link">
+	<gazebo reference="bot_1/wheel_left_link">
 		<material>Gazebo/FlatBlack</material>
 	</gazebo>
-	<gazebo reference="bot_2/wheel_right_link">
+	<gazebo reference="bot_1/wheel_right_link">
 		<material>Gazebo/FlatBlack</material>
 	</gazebo>
-	<gazebo reference="bot_2/caster_back_right_link">
+	<gazebo reference="bot_1/caster_back_right_link">
 		<material>Gazebo/FlatBlack</material>
 	</gazebo>
-	<gazebo reference="bot_2/caster_back_left_link">
+	<gazebo reference="bot_1/caster_back_left_link">
 		<material>Gazebo/FlatBlack</material>
 	</gazebo>
-	<gazebo reference="bot_2/imu_link">
+	<gazebo reference="bot_1/imu_link">
 		<sensor name="tb3_imu" type="imu">
 			<always_on>true</always_on>
-			<update_rate>50</update_rate>
-			<topic>bot_2/imu</topic>
-			<gz_frame_id>bot_2/imu_link</gz_frame_id>
+			<update_rate>200</update_rate>
 			<imu>
 				<angular_velocity>
 					<x>
@@ -98,38 +96,60 @@
 					</z>
 				</linear_acceleration>
 			</imu>
+			<plugin filename="libgazebo_ros_imu_sensor.so" name="turtlebot3_imu">
+				<ros>
+					<!-- <namespace>/tb3</namespace> -->
+					<remapping>~/out:=bot_1/imu</remapping>
+				</ros>
+			</plugin>
 		</sensor>
 		<material>Gazebo/Grey</material>
 	</gazebo>
 	<gazebo>
-		<plugin filename="libgz-sim-diff-drive-system.so" name="gz::sim::systems::DiffDrive">
+		<plugin filename="libgazebo_ros_diff_drive.so" name="turtlebot3_diff_drive">
+			<ros>
+				<!-- <namespace>/tb3</namespace> -->
+			</ros>
+			<update_rate>30</update_rate>
+			<!-- wheels -->
 			<left_joint>wheel_left_joint</left_joint>
 			<right_joint>wheel_right_joint</right_joint>
+			<!-- kinematics -->
 			<wheel_separation>0.287</wheel_separation>
-			<wheel_radius>0.033</wheel_radius>
-			<child_frame_id>bot_2/base_footprint</child_frame_id>
+			<wheel_diameter>0.066</wheel_diameter>
+			<!-- limits -->
+			<max_wheel_torque>20</max_wheel_torque>
+			<max_wheel_acceleration>1.0</max_wheel_acceleration>
+			<command_topic>bot_1/cmd_vel</command_topic>
+			<!-- output -->
+			<publish_odom>true</publish_odom>
+			<publish_odom_tf>true</publish_odom_tf>
+			<publish_wheel_tf>false</publish_wheel_tf>
+			<odometry_topic>bot_1/odom</odometry_topic>
+			<odometry_frame>bot_1/odom</odometry_frame>
+			<robot_base_frame>bot_1/base_footprint</robot_base_frame>
 		</plugin>
 	</gazebo>
-	<gazebo reference="bot_2/base_scan">
+	<gazebo reference="bot_1/base_scan">
 		<material>Gazebo/FlatBlack</material>
-		<sensor name="lds_lfcd_sensor" type="gpu_ray">
-			<!--       <pose>0 0 0 0 0 0</pose> -->
+		<sensor name="hls_lfcd_lds" type="ray">
+			<always_on>true</always_on>
+			<visualize>true</visualize>
+			<pose>-0.064 0 0.121 0 0 0</pose>
 			<update_rate>5</update_rate>
-			<topic>bot_2/scan</topic>
-			<gz_frame_id>bot_2/base_scan</gz_frame_id>
 			<ray>
 				<scan>
 					<horizontal>
 						<samples>360</samples>
-						<resolution>1</resolution>
-						<min_angle>0.0</min_angle>
-						<max_angle>6.28319</max_angle>
+						<resolution>1.000000</resolution>
+						<min_angle>0.000000</min_angle>
+						<max_angle>6.280000</max_angle>
 					</horizontal>
 				</scan>
 				<range>
-					<min>0.120</min>
+					<min>0.120000</min>
 					<max>3.5</max>
-					<resolution>0.015</resolution>
+					<resolution>0.015000</resolution>
 				</range>
 				<noise>
 					<type>gaussian</type>
@@ -137,48 +157,77 @@
 					<stddev>0.01</stddev>
 				</noise>
 			</ray>
+			<plugin filename="libgazebo_ros_ray_sensor.so" name="turtlebot3_laserscan">
+				<ros>
+					<!-- <namespace>/tb3</namespace> -->
+					<remapping>~/out:=bot_1/scan</remapping>
+				</ros>
+				<output_type>sensor_msgs/LaserScan</output_type>
+				<frame_name>bot_1/base_scan</frame_name>
+			</plugin>
 		</sensor>
 	</gazebo>
-	<gazebo reference="bot_2/camera_rgb_frame">
-		<sensor name="pi_camera" type="camera">
-			<always_on>true</always_on>
-			<camera>
-				<optical_frame_id>bot_2/camera_rgb_optical_frame</optical_frame_id>
-				<horizontal_fov>1.085595</horizontal_fov>
+	<gazebo reference="bot_1/camera_rgb_frame">
+		<sensor name="camera1" type="camera">
+			<update_rate>30.0</update_rate>
+			<camera name="head">
+				<horizontal_fov>1.3962634</horizontal_fov>
 				<image>
-					<width>640</width>
-					<height>480</height>
+					<width>800</width>
+					<height>800</height>
 					<format>R8G8B8</format>
 				</image>
 				<clip>
-					<near>0.03</near>
-					<far>100</far>
+					<near>0.02</near>
+					<far>300</far>
 				</clip>
+				<noise>
+					<type>gaussian</type>
+					<!-- Noise is sampled independently per pixel on each frame.
+               That pixel's noise value is added to each of its color
+               channels, which at that point lie in the range [0,1]. -->
+					<mean>0.0</mean>
+					<stddev>0.007</stddev>
+				</noise>
 			</camera>
-			<topic>bot_2/image</topic>
-			<enable_metrics>false</enable_metrics>
+			<plugin filename="libgazebo_ros_camera.so" name="camera_controller">
+				<alwaysOn>true</alwaysOn>
+				<updateRate>0.0</updateRate>
+				<cameraName>rrbot/camera1</cameraName>
+				<imageTopicName>image_raw</imageTopicName>
+				<cameraInfoTopicName>camera_info</cameraInfoTopicName>
+				<frameName>bot_1/camera_rgb_frame</frameName>
+				<hackBaseline>0.07</hackBaseline>
+				<distortionK1>0.0</distortionK1>
+				<distortionK2>0.0</distortionK2>
+				<distortionK3>0.0</distortionK3>
+				<distortionT1>0.0</distortionT1>
+				<distortionT2>0.0</distortionT2>
+			</plugin>
 		</sensor>
 	</gazebo>
 	<gazebo>
-		<plugin filename="libignition-gazebo-joint-state-publisher-system.so" name="ignition::gazebo::systems::JointStatePublisher"/>
-		<plugin filename="ignition-gazebo-pose-publisher-system" name="ignition::gazebo::systems::PosePublisher">
-			<publish_link_pose>false</publish_link_pose>
-			<publish_collision_pose>false</publish_collision_pose>
-			<publish_visual_pose>false</publish_visual_pose>
-			<publish_nested_model_pose>true</publish_nested_model_pose>
+		<plugin filename="libgazebo_ros_joint_state_publisher.so" name="turtlebot3_joint_state">
+			<ros>
+				<!-- <namespace>/tb3</namespace> -->
+				<remapping>~/out:=bot_1/joint_states</remapping>
+			</ros>
+			<update_rate>30</update_rate>
+			<joint_name>wheel_left_joint</joint_name>
+			<joint_name>wheel_right_joint</joint_name>
 		</plugin>
 	</gazebo>
-	<link name="bot_2/base_footprint"/>
+	<link name="bot_1/base_footprint"/>
 	<joint name="base_joint" type="fixed">
-		<parent link="bot_2/base_footprint"/>
-		<child link="bot_2/base_link"/>
+		<parent link="bot_1/base_footprint"/>
+		<child link="bot_1/base_link"/>
 		<origin rpy="0 0 0" xyz="0 0 0.010"/>
 	</joint>
-	<link name="bot_2/base_link">
+	<link name="bot_1/base_link">
 		<visual>
 			<origin rpy="0 0 0" xyz="-0.064 0 0.0"/>
 			<geometry>
-				<mesh filename="package://turtlebot3_xacro/meshes/bases/waffle_pi_base.stl" scale="0.001 0.001 0.001"/>
+				<mesh filename="file:///home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/bases/waffle_pi_base.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 			<material name="light_black"/>
 		</visual>
@@ -194,17 +243,17 @@
 		</inertial>
 	</link>
 	<joint name="wheel_left_joint" type="continuous">
-		<parent link="bot_2/base_link"/>
-		<child link="bot_2/wheel_left_link"/>
+		<parent link="bot_1/base_link"/>
+		<child link="bot_1/wheel_left_link"/>
 		<origin rpy="-1.57 0 0" xyz="0.0 0.144 0.023"/>
 		<axis xyz="0 0 1"/>
 		<limit effort="10" velocity="7.88"/>
 	</joint>
-	<link name="bot_2/wheel_left_link">
+	<link name="bot_1/wheel_left_link">
 		<visual>
 			<origin rpy="1.57 0 0" xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="package://turtlebot3_xacro/meshes/wheels/left_tire.stl" scale="0.001 0.001 0.001"/>
+				<mesh filename="file:///home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/wheels/left_tire.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 			<material name="dark"/>
 		</visual>
@@ -228,17 +277,17 @@
 		</inertial>
 	</link>
 	<joint name="wheel_right_joint" type="continuous">
-		<parent link="bot_2/base_link"/>
-		<child link="bot_2/wheel_right_link"/>
+		<parent link="bot_1/base_link"/>
+		<child link="bot_1/wheel_right_link"/>
 		<origin rpy="-1.57 0 0" xyz="0.0 -0.144 0.023"/>
 		<axis xyz="0 0 1"/>
 		<limit effort="10" velocity="7.88"/>
 	</joint>
-	<link name="bot_2/wheel_right_link">
+	<link name="bot_1/wheel_right_link">
 		<visual>
 			<origin rpy="1.57 0 0" xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="package://turtlebot3_xacro/meshes/wheels/right_tire.stl" scale="0.001 0.001 0.001"/>
+				<mesh filename="file:///home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/wheels/right_tire.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 			<material name="dark"/>
 		</visual>
@@ -262,11 +311,11 @@
 		</inertial>
 	</link>
 	<joint name="caster_back_right_joint" type="fixed">
-		<parent link="bot_2/base_link"/>
-		<child link="bot_2/caster_back_right_link"/>
+		<parent link="bot_1/base_link"/>
+		<child link="bot_1/caster_back_right_link"/>
 		<origin rpy="-1.57 0 0" xyz="-0.177 -0.064 -0.004"/>
 	</joint>
-	<link name="bot_2/caster_back_right_link">
+	<link name="bot_1/caster_back_right_link">
 		<collision>
 			<origin rpy="0 0 0" xyz="0 0.001 0"/>
 			<geometry>
@@ -289,11 +338,11 @@
 		</inertial>
 	</link>
 	<joint name="caster_back_left_joint" type="fixed">
-		<parent link="bot_2/base_link"/>
-		<child link="bot_2/caster_back_left_link"/>
+		<parent link="bot_1/base_link"/>
+		<child link="bot_1/caster_back_left_link"/>
 		<origin rpy="-1.57 0 0" xyz="-0.177 0.064 -0.004"/>
 	</joint>
-	<link name="bot_2/caster_back_left_link">
+	<link name="bot_1/caster_back_left_link">
 		<collision>
 			<origin rpy="0 0 0" xyz="0 0.001 0"/>
 			<geometry>
@@ -316,26 +365,26 @@
 		</inertial>
 	</link>
 	<joint name="imu_joint" type="fixed">
-		<parent link="bot_2/base_link"/>
-		<child link="bot_2/imu_link"/>
+		<parent link="bot_1/base_link"/>
+		<child link="bot_1/imu_link"/>
 		<origin rpy="0 0 0" xyz="0.0 0 0.068"/>
 	</joint>
-	<link name="bot_2/imu_link">
+	<link name="bot_1/imu_link">
 		<inertial>
 			<mass value="0.001"/>
 			<inertia ixx="0.00000542" ixy="0.0" ixz="0.0" iyy="0.00002104" iyz="0.0" izz="0.00002604"/>
 		</inertial>
 	</link>
 	<joint name="scan_joint" type="fixed">
-		<parent link="bot_2/base_link"/>
-		<child link="bot_2/base_scan"/>
+		<parent link="bot_1/base_link"/>
+		<child link="bot_1/base_scan"/>
 		<origin rpy="0 0 0" xyz="-0.064 0 0.122"/>
 	</joint>
-	<link name="bot_2/base_scan">
+	<link name="bot_1/base_scan">
 		<visual>
 			<origin rpy="0 0 0" xyz="0 0 0.0"/>
 			<geometry>
-				<mesh filename="package://turtlebot3_xacro/meshes/sensors/lds.stl" scale="0.001 0.001 0.001"/>
+				<mesh filename="file:///home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/meshes/sensors/lds.stl" scale="0.001 0.001 0.001"/>
 			</geometry>
 			<material name="dark"/>
 		</visual>
@@ -353,10 +402,10 @@
 	</link>
 	<joint name="camera_joint" type="fixed">
 		<origin rpy="0 0 0" xyz="0.073 -0.011 0.084"/>
-		<parent link="bot_2/base_link"/>
-		<child link="bot_2/camera_link"/>
+		<parent link="bot_1/base_link"/>
+		<child link="bot_1/camera_link"/>
 	</joint>
-	<link name="bot_2/camera_link">
+	<link name="bot_1/camera_link">
 		<collision>
 			<origin rpy="0 0 0" xyz="0.005 0.011 0.013"/>
 			<geometry>
@@ -366,14 +415,14 @@
 	</link>
 	<joint name="camera_rgb_joint" type="fixed">
 		<origin rpy="0 0 0" xyz="0.003 0.011 0.009"/>
-		<parent link="bot_2/camera_link"/>
-		<child link="bot_2/camera_rgb_frame"/>
+		<parent link="bot_1/camera_link"/>
+		<child link="bot_1/camera_rgb_frame"/>
 	</joint>
-	<link name="bot_2/camera_rgb_frame"/>
+	<link name="bot_1/camera_rgb_frame"/>
 	<joint name="camera_rgb_optical_joint" type="fixed">
 		<origin rpy="-1.57 0 -1.57" xyz="0 0 0"/>
-		<parent link="bot_2/camera_rgb_frame"/>
-		<child link="bot_2/camera_rgb_optical_frame"/>
+		<parent link="bot_1/camera_rgb_frame"/>
+		<child link="bot_1/camera_rgb_optical_frame"/>
 	</joint>
-	<link name="bot_2/camera_rgb_optical_frame"/>
+	<link name="bot_1/camera_rgb_optical_frame"/>
 </robot>

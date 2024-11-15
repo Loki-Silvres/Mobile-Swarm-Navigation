@@ -13,9 +13,9 @@ def generate_robot_description(context, *args, **kwargs):
     use_sim_time = LaunchConfiguration('use_sim_time')
 
     xacro_file = os.path.join(get_package_share_directory('turtlebot3_xacro'), 'urdf', 'turtlebot3_waffle_pi.urdf.xacro')
-    doc = xacro.process_file(xacro_file, mappings={"prefix": namespace+'/'})
+    doc = xacro.process_file(xacro_file, mappings={"prefix":namespace+'/'})
     robot_desc = doc.toprettyxml()
-    my_joint_state_topic = '/' + namespace + '/joint_states'
+    my_joint_state_topic = namespace + '/joint_states'
     return [
         Node(
             package='robot_state_publisher',

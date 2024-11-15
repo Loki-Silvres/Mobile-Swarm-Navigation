@@ -29,7 +29,7 @@ def create_launch_description(context, *args, **kwargs):
     with open(urdf_output_path, 'w') as urdf_file:
         urdf_file.write(robot_desc)
 
-    my_robot_desc = '/' + namespace + '/robot_description'
+    my_robot_desc = namespace + '/robot_description'
     # Launch configuration variables specific to simulation
     x_pose = LaunchConfiguration('x_pose', default='0.0')
     y_pose = LaunchConfiguration('y_pose', default='0.0')

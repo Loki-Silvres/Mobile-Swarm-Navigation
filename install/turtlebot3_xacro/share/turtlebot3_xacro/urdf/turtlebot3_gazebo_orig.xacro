@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<robot name="turtlebot3_gazebo" xmlns:xacro="http://ros.org/wiki/xacro">
+ 
+<!-- Arguments common to all turtlebots -->
+ <xacro:arg name="prefix"    default=""/>
+ <xacro:arg name="cmd_vel_topic"    default="cmd_vel"/>
+ <xacro:arg name="odom_topic"    default="odom"/>
+ <xacro:arg name="publish_odom"    default="false"/>
+ 
+<gazebo reference="$(arg prefix)base_link">
+  <material>Gazebo/DarkGrey</material>
+</gazebo>
+
+<gazebo reference="$(arg prefix)wheel_left_link">
+  <material>Gazebo/FlatBlack</material>
+</gazebo>
+
+<gazebo reference="$(arg prefix)wheel_right_link">
+  <material>Gazebo/FlatBlack</material>
+</gazebo>
+
+<gazebo reference="$(arg prefix)caster_back_right_link">
+  <material>Gazebo/FlatBlack</material>
+</gazebo>
+
+<gazebo reference="$(arg prefix)caster_back_left_link">
+  <material>Gazebo/FlatBlack</material>
+</gazebo>
+
+  <gazebo reference="$(arg prefix)imu_link">
+    <sensor name="tb3_imu" type="imu">
+        <always_on>true</always_on>
+        <update_rate>50</update_rate>
+        <topic>$(arg prefix)imu</topic>
+        <gz_frame_id>$(arg prefix)imu_link</gz_frame_id>
+        <imu>
+          <angular_velocity>
+            <x>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </z>
+          </angular_velocity>
+          <linear_acceleration>
+            <x>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </z>
+          </linear_acceleration>
+        </imu>
+    </sensor>
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+ <gazebo>
+    <plugin
+      filename="libgz-sim-diff-drive-system.so"
+      name="gz::sim::systems::DiffDrive">
+      <left_joint>wheel_left_joint</left_joint>
+      <right_joint>wheel_right_joint</right_joint>
+      <wheel_separation>${wheel_separation}</wheel_separation>
+      <wheel_radius>0.033</wheel_radius>
+      <child_frame_id>$(arg prefix)base_footprint</child_frame_id>
+    </plugin>
+
+</gazebo>
+
+  <gazebo reference="$(arg prefix)base_scan">
+    <material>Gazebo/FlatBlack</material>
+    <sensor type="gpu_ray" name="lds_lfcd_sensor">
+<!--       <pose>0 0 0 0 0 0</pose> -->
+      <update_rate>5</update_rate>
+      <topic>$(arg prefix)scan</topic>
+      <gz_frame_id>$(arg prefix)base_scan</gz_frame_id>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>0.0</min_angle>
+            <max_angle>6.28319</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.120</min>
+          <max>3.5</max>
+          <resolution>0.015</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+    </sensor>
+  </gazebo>
+
+<!--link : https://www.raspberrypi.org/documentation/hardware/camera/-->
+  <xacro:if value="$(arg use_cam)">
+
+  <gazebo reference="$(arg prefix)camera_rgb_frame">
+    <sensor type="camera" name="pi_camera">
+      <always_on>true</always_on>
+      <camera>
+        <optical_frame_id>$(arg prefix)camera_rgb_optical_frame</optical_frame_id>
+          <horizontal_fov>1.085595</horizontal_fov>
+          <image>
+              <width>640</width>
+              <height>480</height>
+              <format>R8G8B8</format>
+          </image>
+          <clip>
+              <near>0.03</near>
+              <far>100</far>
+          </clip>
+      </camera>
+       <topic>$(arg prefix)image</topic>
+      <enable_metrics>false</enable_metrics>
+    </sensor>
+
+  </gazebo>
+</xacro:if>
+  
+   <gazebo>
+      <plugin filename="libignition-gazebo-joint-state-publisher-system.so" name="ignition::gazebo::systems::JointStatePublisher"/>
+      <plugin
+            filename="ignition-gazebo-pose-publisher-system"
+            name="ignition::gazebo::systems::PosePublisher">
+            <publish_link_pose>false</publish_link_pose>
+            <publish_collision_pose>false</publish_collision_pose>
+            <publish_visual_pose>false</publish_visual_pose>
+            <publish_nested_model_pose>true</publish_nested_model_pose>
+        </plugin>
+
+    </gazebo>
+    
+</robot>

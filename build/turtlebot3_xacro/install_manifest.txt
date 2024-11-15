@@ -23,6 +23,7 @@
 /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/common_properties.xacro
 /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/turtlebot3_world.sdf
 /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/common_properties.urdf
+/home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/turtlebot3_gazebo_orig.xacro
 /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/turtlebot3_waffle_pi.urdf.xacro
 /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/turtlebot3_xacro/urdf/turtlebot3_gazebo.xacro
 /home/pacman/turtlebot3_ws/install/turtlebot3_xacro/share/ament_index/resource_index/package_run_dependencies/turtlebot3_xacro

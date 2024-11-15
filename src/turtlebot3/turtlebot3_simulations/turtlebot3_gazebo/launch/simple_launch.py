@@ -46,40 +46,40 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses):
     # Parameters for spawning multiple robots
     entity_name = 'waffle_'
     ns = 'bot_'
-
+    i=0
     # # Loop to spawn multiple robots based on num_bots
-    # for i in range(num_bots):
-    #     ent_name = entity_name + str(i)
-    #     ns_name = ns + str(i)
-        
-    #     # Get the x and y pose values from the x_poses array
-    #     x_pose_val = x_poses[i]
-    #     y_pose_val = y_poses[i]  
-    #     # Robot state publisher
-    #     robot_state_publisher_cmd = IncludeLaunchDescription(
-    #         PythonLaunchDescriptionSource(
-    #             os.path.join(launch_file_dir, 'my_robot_state_publisher.launch.py')
-    #         ),
-    #         launch_arguments={'use_sim_time': 'true', 'namespace': ns_name}.items()
-    #     )
-
-    #     # Spawn robot with its pose and namespace
-    #     spawn_turtlebot_cmd = IncludeLaunchDescription(
-    #         PythonLaunchDescriptionSource(
-    #             os.path.join(launch_file_dir, 'my_spawner.launch.py')
-    #         ),
-    #         launch_arguments={
-    #             'x_pose': f"{x_pose_val}",
-    #             'y_pose': f"{y_pose_val}",
-    #             'namespace': ns_name,
-    #             'entity_name': ent_name
-    #         }.items()
-    #     )
-
-    #     # Include robot state publisher and spawn commands
-    #     launch_service.include_launch_description(robot_state_publisher_cmd)
-    #     launch_service.include_launch_description(spawn_turtlebot_cmd)
+    ent_name = entity_name + str(i)
+    ns_name = ns + str(i)
     
+    # Get the x and y pose values from the x_poses array
+    x_pose_val = x_poses[i]
+    y_pose_val = y_poses[i]  
+    # Robot state publisher
+    robot_state_publisher_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(launch_file_dir, 'xacro_robot_state_publisher.launch.py')
+        ),
+        launch_arguments={'use_sim_time': 'true', 'namespace': ns_name}.items()
+    )
+
+    # Spawn robot with its pose and namespace
+    spawn_turtlebot_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(launch_file_dir, 'xacro_spawn_1.launch.py')
+        ),
+        launch_arguments={
+            'x_pose': f"{x_pose_val}",
+            'y_pose': f"{y_pose_val}",
+            'namespace': ns_name,
+            'entity_name': ent_name,
+            'topic':'/'+ns_name +'/robot_description'
+        }.items()
+    )
+
+    # Include robot state publisher and spawn commands
+    launch_service.include_launch_description(robot_state_publisher_cmd)
+    launch_service.include_launch_description(spawn_turtlebot_cmd)
+
     # Run the LaunchService
     launch_service.run()
 

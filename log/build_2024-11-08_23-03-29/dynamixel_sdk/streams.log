@@ -1,0 +1,48 @@
+[0.028s] Invoking command in '/home/pacman/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/utils/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/dynamixel_sdk
+[0.056s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.157s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.233s] -- Configuring done
+[0.239s] -- Generating done
+[0.239s] -- Build files have been written to: /home/pacman/turtlebot3_ws/build/dynamixel_sdk
+[0.306s] Invoked command in '/home/pacman/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/utils/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/dynamixel_sdk
+[0.307s] Invoking command in '/home/pacman/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/dynamixel_sdk -- -j12 -l12
+[0.341s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk[0m
+[0.355s] [100%] Built target dynamixel_sdk
+[0.365s] Invoked command in '/home/pacman/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/dynamixel_sdk -- -j12 -l12
+[0.398s] Invoking command in '/home/pacman/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/dynamixel_sdk
+[0.403s] -- Install configuration: ""
+[0.403s] -- Execute custom install script
+[0.404s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[0.410s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[0.417s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[0.424s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[0.430s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[0.437s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[0.444s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[0.450s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[0.459s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[0.465s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[0.473s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[0.482s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[0.488s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[0.496s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[0.504s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[0.511s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[0.520s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[0.530s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[0.535s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[0.541s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[0.550s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[0.559s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[0.567s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[0.573s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[0.579s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[0.588s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[0.594s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[0.601s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[0.606s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.613s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[0.619s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[0.625s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[0.631s] -- Symlinking: /home/pacman/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[0.640s] Invoked command in '/home/pacman/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/dynamixel_sdk

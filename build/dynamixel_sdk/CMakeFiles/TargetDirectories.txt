@@ -1,0 +1,10 @@
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/uninstall.dir
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk_uninstall.dir
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/test.dir
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/edit_cache.dir
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/rebuild_cache.dir
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/list_install_components.dir
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/install.dir
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/install/local.dir
+/home/pacman/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/install/strip.dir

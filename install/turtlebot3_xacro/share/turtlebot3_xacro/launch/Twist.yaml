@@ -1,0 +1,10 @@
+cmd_vel:
+    type: geometry_msgs/Twist
+    v:
+        min: -0.26
+        max: 0.26
+        to: linear.x
+    w:
+        min: -1
+        max: 1
+        to: angular.z

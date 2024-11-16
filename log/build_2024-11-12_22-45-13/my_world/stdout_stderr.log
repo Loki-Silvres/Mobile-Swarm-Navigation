@@ -1,0 +1,191 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pacman/turtlebot3_ws/build/my_world
+-- Install configuration: ""
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/launch
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/launch/logistics_warehouse.launch
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/launch/bf_world_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/maps
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/maps/005
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/maps/005/map_rotated.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/maps/005/map.yaml
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/maps/005/map.pgm
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/maps/005/map_rotated.pgm
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/maps/002
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/maps/002/map.yaml
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/maps/002/map.pgm
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_RoofB_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_RoofB_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_RoofB_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_RoofB_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_RoofB_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Lamp_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Lamp_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Lamp_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Lamp_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_TrashCanC_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_TrashCanC_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_TrashCanC_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_WallB_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_WallB_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_WallB_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_WallB_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_WallB_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_WallB_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/materials
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/rviz
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/rviz/basic_data.rviz
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/worlds
+-- Installing: /home/pacman/turtlebot3_ws/install/my_world/share/my_world/worlds/warehouse.world
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/pacman/turtlebot3_ws/src/my_world/urdf": No
+  such file or directory.
+
+[0m

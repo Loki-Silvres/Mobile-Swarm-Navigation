@@ -1,1 +1,2 @@
-/home/pacman/turtlebot3_ws/build/my_world/ament_cmake_environment_hooks/local_setup.dsv
+source;share/my_world/environment/ament_prefix_path.sh
+source;share/my_world/environment/path.sh

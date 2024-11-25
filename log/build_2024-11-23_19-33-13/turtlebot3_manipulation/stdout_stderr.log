@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_manipulation
+-- Install configuration: ""
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//launch
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//launch/model.launch.py
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/gripper_left_palm.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link5.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link1.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link4.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/gripper_right_palm.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link2.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link3.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/ladar.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/right_tire.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/left_tire.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/base.stl
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//rviz
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//rviz/model.rviz
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf/turtlebot3_waffle_pi.urdf.xacro
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf/open_manipulator_x.urdf.xacro
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf/turtlebot3_manipulation.urdf.xacro
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/ament_prefix_path.sh
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/ament_prefix_path.dsv
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/path.sh
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/path.dsv
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.bash
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.sh
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.zsh
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.dsv
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.dsv
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/ament_index/resource_index/packages/turtlebot3_manipulation
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/cmake/turtlebot3_manipulationConfig.cmake
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/cmake/turtlebot3_manipulationConfig-version.cmake
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.xml

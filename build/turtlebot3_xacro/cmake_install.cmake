@@ -1,8 +1,8 @@
-# Install script for directory: /home/pacman/turtlebot3_ws/src/turtlebot3_xacro
+# Install script for directory: /home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3_xacro
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pacman/turtlebot3_ws/install/turtlebot3_xacro")
+  set(CMAKE_INSTALL_PREFIX "/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_xacro")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,19 +44,19 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE DIRECTORY FILES
-    "/home/pacman/turtlebot3_ws/src/turtlebot3_xacro/launch"
-    "/home/pacman/turtlebot3_ws/src/turtlebot3_xacro/config"
-    "/home/pacman/turtlebot3_ws/src/turtlebot3_xacro/meshes"
-    "/home/pacman/turtlebot3_ws/src/turtlebot3_xacro/urdf"
+    "/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3_xacro/launch"
+    "/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3_xacro/config"
+    "/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3_xacro/meshes"
+    "/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3_xacro/urdf"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot3_xacro")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot3_xacro")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_xacro")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_xacro")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -64,7 +64,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro/environment" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro/environment" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -72,42 +72,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro/environment" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro/environment" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot3_xacro")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot3_xacro")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro/cmake" TYPE FILE FILES
-    "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_core/turtlebot3_xacroConfig.cmake"
-    "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/ament_cmake_core/turtlebot3_xacroConfig-version.cmake"
+    "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_core/turtlebot3_xacroConfig.cmake"
+    "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/ament_cmake_core/turtlebot3_xacroConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/pacman/turtlebot3_ws/src/turtlebot3_xacro/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_xacro" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3_xacro/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -118,5 +118,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -10,20 +10,20 @@ from launch_ros.actions import Node
 def run_launch_file_with_args(num_bots, x_poses,y_poses):
     # Initialize the LaunchService
     launch_service = LaunchService()
-    world = os.path.join(
-        get_package_share_directory('my_world'),
-        'worlds',
-        'warehouse.world'
-    )
+    # world = os.path.join(
+    #     get_package_share_directory('my_world'),
+    #     'worlds',
+    #     'warehouse.world'
+    # )
     
-    rviz_config_path = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','config.rviz')
+    # rviz_config_path = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','config.rviz')
 
     # Path to launch files
     launch_file_dir = os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch')
     
     spawn_gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(get_package_share_directory('gazebo_ros'),'launch','gazebo.launch.py')]),
-        launch_arguments={'world': world,'use_sim_time':'true'}.items()
+        # launch_arguments={'world': world,'use_sim_time':'true'}.items()
     )
 
 
@@ -69,14 +69,14 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses):
         # Include robot state publisher and spawn commands
         launch_service.include_launch_description(robot_state_publisher_cmd)
         launch_service.include_launch_description(spawn_turtlebot_cmd)
-    rviz_node = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        arguments=['-d', rviz_config_path,'use_sime_time','true'],
-        output='screen'
-    )
-    launch_service.include_launch_description(rviz_node)
+    # rviz_node = Node(
+    #     package='rviz2',
+    #     executable='rviz2',
+    #     name='rviz2',
+    #     arguments=['-d', rviz_config_path,'use_sime_time','true'],
+    #     output='screen'
+    # )
+    # launch_service.include_launch_description(rviz_node)
 
 
 

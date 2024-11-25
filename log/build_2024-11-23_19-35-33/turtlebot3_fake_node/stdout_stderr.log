@@ -1,0 +1,33 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[100%] Built target turtlebot3_fake_node
+-- Install configuration: ""
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+-- Set runtime path of "/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/include/
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+-- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml

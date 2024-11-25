@@ -1,0 +1,21 @@
+[0.513s] Invoking command in '/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build install --record /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[0.657s] running egg_info
+[0.657s] writing ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[0.657s] writing dependency_links to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[0.657s] writing entry points to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[0.657s] writing requirements to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[0.657s] writing top-level names to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[0.658s] reading manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.659s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.659s] running build
+[0.659s] running build_py
+[0.659s] running install
+[0.660s] running install_lib
+[0.661s] running install_data
+[0.661s] running install_egg_info
+[0.662s] removing '/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.1.5-py3.10.egg-info' (and everything under it)
+[0.662s] Copying ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.1.5-py3.10.egg-info
+[0.662s] running install_scripts
+[0.675s] Installing teleop_keyboard script to /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[0.675s] writing list of installed files to '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/install.log'
+[0.693s] Invoked command in '/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build install --record /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data

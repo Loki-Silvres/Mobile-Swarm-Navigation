@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3
+CMAKE_SOURCE_DIR = /home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacman/turtlebot3_ws/build/turtlebot3
+CMAKE_BINARY_DIR = /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/pacman/turtlebot3_ws/build/turtlebot3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3 /home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3 /home/pacman/turtlebot3_ws/build/turtlebot3 /home/pacman/turtlebot3_ws/build/turtlebot3 /home/pacman/turtlebot3_ws/build/turtlebot3/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3 /home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3 /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3 /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3 /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

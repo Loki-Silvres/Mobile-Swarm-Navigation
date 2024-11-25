@@ -1,0 +1,217 @@
+[0.043s] Invoking command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_gazebo -- -j32 -l32
+[0.247s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.247s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.247s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.247s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.247s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.247s]   problems in calling code that expects `find_package` result variables
+[0.247s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.247s] Call Stack (most recent call first):
+[0.247s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.248s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.248s]   CMakeLists.txt:23 (find_package)
+[0.248s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.248s] [0m
+[0.270s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.271s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.278s] -- Searching for dependencies of ignition-math6
+[0.280s] -- Looking for OGRE...
+[0.295s] -- Found Ogre Ghadamon (1.9.0)
+[0.295s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.305s] -- Looking for OGRE_Paging...
+[0.305s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.305s] -- Looking for OGRE_Terrain...
+[0.305s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.305s] -- Looking for OGRE_Property...
+[0.306s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.306s] -- Looking for OGRE_RTShaderSystem...
+[0.306s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.306s] -- Looking for OGRE_Volume...
+[0.306s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.306s] -- Looking for OGRE_Overlay...
+[0.307s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.418s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.419s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.420s] -- Searching for dependencies of ignition-transport8
+[0.438s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.443s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.448s] -- Checking for module 'libzmq >= 4'
+[0.464s] --   Found libzmq , version 4.3.4
+[0.504s] -- Checking for module 'uuid'
+[0.515s] --   Found uuid, version 2.37.2
+[0.544s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.544s] -- Searching for dependencies of ignition-msgs5
+[0.561s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.565s] -- Checking for module 'tinyxml2'
+[0.579s] --   Found tinyxml2, version 9.0.0
+[0.610s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.610s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.610s] -- Searching for dependencies of ignition-common3
+[0.611s] -- Looking for dlfcn.h - found
+[0.611s] -- Looking for libdl - found
+[0.621s] -- Searching for <ignition-common3> component [graphics]
+[0.621s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.621s] -- Searching for dependencies of ignition-common3-graphics
+[0.622s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.623s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.623s] -- Searching for dependencies of ignition-fuel_tools4
+[0.657s] -- Checking for module 'jsoncpp'
+[0.669s] --   Found jsoncpp, version 1.9.5
+[0.704s] -- Checking for module 'libzip'
+[0.717s] --   Found libzip, version 1.7.3
+[0.746s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.746s] -- Looking for ignition-math6 -- found version 6.10.0
+[0.746s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.751s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.752s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.784s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.790s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.801s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.858s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.878s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.910s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.912s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.991s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.032s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.049s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.107s] -- Configuring done
+[1.147s] -- Generating done
+[1.149s] -- Build files have been written to: /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_gazebo
+[1.181s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[1.182s] [35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[1.183s] [35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[1.183s] [35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[1.194s] [ 25%] Built target turtlebot3_drive
+[1.226s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[1.226s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[1.226s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[8.905s] [ 75%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[8.908s] [ 87%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[8.912s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[9.124s] [100%] Built target obstacles
+[9.124s] [100%] Built target obstacle1
+[9.124s] [100%] Built target obstacle2
+[9.134s] Invoked command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_gazebo -- -j32 -l32
+[9.177s] Invoking command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_gazebo
+[9.183s] -- Install configuration: ""
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/rsp.launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/my_launch_file.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/my_world_launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/xacro_spawn_1.launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/simple_launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/xacro_robot_state_publisher.launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[9.184s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/mygazebo.launch.py
+[9.184s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/xacro_launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/my_launch.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/meta_data
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/my_robot_state_publisher.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/my_car_sim.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/my_launch_para.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/xacro_spawn.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/my_spawner.launch.py
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[9.185s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[9.186s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[9.187s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf
+[9.188s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.xacro
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi_world.xacro
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[9.188s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/include/
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[9.189s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[9.189s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[9.189s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[9.189s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[9.189s] -- Up-to-date: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[9.189s] Invoked command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_gazebo

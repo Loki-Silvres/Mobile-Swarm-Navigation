@@ -1,8 +1,8 @@
-# Install script for directory: /home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_cartographer
+# Install script for directory: /home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_cartographer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pacman/turtlebot3_ws/install/turtlebot3_cartographer")
+  set(CMAKE_INSTALL_PREFIX "/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,70 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/pacman/turtlebot3_ws/build/turtlebot3_cartographer/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer" TYPE DIRECTORY FILES
+    "/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_cartographer/config"
+    "/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_cartographer/launch"
+    "/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_cartographer/rviz"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer/environment" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer/environment" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_index/share/ament_index/resource_index/packages/turtlebot3_cartographer")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer/cmake" TYPE FILE FILES
+    "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_core/turtlebot3_cartographerConfig.cmake"
+    "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/ament_cmake_core/turtlebot3_cartographerConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_cartographer" TYPE FILE FILES "/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_cartographer/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +117,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pacman/turtlebot3_ws/build/turtlebot3_cartographer/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

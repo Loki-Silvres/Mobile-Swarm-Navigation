@@ -6,7 +6,7 @@
   <!-- Init colours -->
   <material name="black">
       <color rgba="0.0 0.0 0.0 1.0"/>
-  </material>
+  </material> 
 
   <material name="dark">
     <color rgba="0.3 0.3 0.3 1.0"/>
@@ -163,6 +163,36 @@
                izz="0.001" />
     </inertial>
   </link>
+
+  <!-- April Tags -->
+  <xacro:macro name="april_marker" params="marker_id xyz rpy">
+    <link name="marker_${marker_id}">
+      <visual name="marker_visual_${marker_id}">
+        <geometry>
+          <mesh filename="package://turtlebot3_manipulation_description/meshes/markers/april_${marker_id}.dae" scale ="0.1 0.1 0.1"/>
+        </geometry>
+        <!-- <material name="aruco_${marker_id}-material" submesh="${marker_id}"/> -->
+          <!-- <texture filename="package://turtlebot3_manipulation_description/meshes/markers/aruco_${marker_id}.png"/> -->
+        <!-- </material> -->
+      </visual>
+      <collision name="marker_collision_${marker_id}">
+        <geometry>
+          <box size="0.1 0.1 0.0001"/>
+        </geometry>
+      </collision>
+    </link>
+    <joint name="marker_joint_${marker_id}" type="fixed">
+      <parent link="$(arg prefix)base_link"/>
+      <child link="marker_${marker_id}"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+    </joint>
+  </xacro:macro>  
+
+  <!-- ArUco marker instances on TurtleBot3 -->
+  <xacro:april_marker marker_id="1" xyz="-0.1 0.134 0.05" rpy="-1.57 3.14 0"/>
+  <xacro:april_marker marker_id="2" xyz="-0.1 -0.134 0.05" rpy="1.57 0 0"/>
+  <xacro:april_marker marker_id="3" xyz="0.074 0 0.05" rpy="1.57 0 1.57"/>
+  <xacro:april_marker marker_id="4" xyz="-0.194 -0 0.05" rpy="1.57 0 -1.57"/>
 
   <!-- Add similar $(arg robot_namespace)/ prefix for remaining links and joints -->
 

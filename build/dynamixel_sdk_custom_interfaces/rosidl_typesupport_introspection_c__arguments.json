@@ -1,10 +1,10 @@
 {
   "package_name": "dynamixel_sdk_custom_interfaces",
-  "output_dir": "/home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces",
+  "output_dir": "/home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:msg/SetPosition.idl",
-    "/home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:srv/GetPosition.idl"
+    "/home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:msg/SetPosition.idl",
+    "/home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:srv/GetPosition.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -19,8 +19,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl",
-    "/home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl",
+    "/home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl",
+    "/home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ]

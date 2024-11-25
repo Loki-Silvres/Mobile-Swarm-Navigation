@@ -1,1 +1,2 @@
-/home/pacman/turtlebot3_ws/build/dynamixel_sdk_examples/ament_cmake_environment_hooks/local_setup.dsv
+source;share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+source;share/dynamixel_sdk_examples/environment/path.sh

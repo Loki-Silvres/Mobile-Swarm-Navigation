@@ -1,1 +1,10 @@
-/home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt
+setup.py
+dynamixel_sdk_custom_interfaces/__init__.py
+dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt
+dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+dynamixel_sdk_custom_interfaces/msg/__init__.py
+dynamixel_sdk_custom_interfaces/msg/_set_position.py
+dynamixel_sdk_custom_interfaces/srv/__init__.py
+dynamixel_sdk_custom_interfaces/srv/_get_position.py

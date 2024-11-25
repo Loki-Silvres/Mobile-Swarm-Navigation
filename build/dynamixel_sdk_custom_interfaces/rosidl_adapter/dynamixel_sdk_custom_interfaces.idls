@@ -1,2 +1,2 @@
-/home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:msg/SetPosition.idl
-/home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:srv/GetPosition.idl
+/home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:msg/SetPosition.idl
+/home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:srv/GetPosition.idl

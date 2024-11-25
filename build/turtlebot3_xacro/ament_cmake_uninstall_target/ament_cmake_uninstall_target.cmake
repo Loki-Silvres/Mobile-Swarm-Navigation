@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/pacman/turtlebot3_ws/install/turtlebot3_xacro")
+  set(install_space "/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_xacro")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/pacman/turtlebot3_ws/build/turtlebot3_xacro/install_manifest.txt")
+set(install_manifest "/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_xacro/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

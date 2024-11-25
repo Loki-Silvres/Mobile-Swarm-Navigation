@@ -1,4 +1,0 @@
-Invoking command in '/home/pacman/turtlebot3_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/hls_lfcd_lds_driver -- -j12 -l12
-Invoked command in '/home/pacman/turtlebot3_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/hls_lfcd_lds_driver -- -j12 -l12
-Invoking command in '/home/pacman/turtlebot3_ws/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/hls_lfcd_lds_driver
-Invoked command in '/home/pacman/turtlebot3_ws/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/hls_lfcd_lds_driver

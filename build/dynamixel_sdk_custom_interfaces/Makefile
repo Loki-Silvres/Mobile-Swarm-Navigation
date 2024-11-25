@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacman/turtlebot3_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces
+CMAKE_SOURCE_DIR = /home/duck_sh/Mobile-Swarm-Navigation/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces
+CMAKE_BINARY_DIR = /home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles /home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces/CMakeFiles /home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacman/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/duck_sh/Mobile-Swarm-Navigation/build/dynamixel_sdk_custom_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -315,17 +315,17 @@ dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+# Target rules for targets named ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
 
 # Build rule for target.
-ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
-.PHONY : ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+ament_cmake_python_copy_dynamixel_sdk_custom_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+.PHONY : ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
 
 # fast build rule for target.
-ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/build
-.PHONY : ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces/fast
+ament_cmake_python_copy_dynamixel_sdk_custom_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/build
+.PHONY : ament_cmake_python_copy_dynamixel_sdk_custom_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
@@ -875,7 +875,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg"
-	@echo "... ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces"
+	@echo "... ament_cmake_python_copy_dynamixel_sdk_custom_interfaces"
 	@echo "... dynamixel_sdk_custom_interfaces"
 	@echo "... dynamixel_sdk_custom_interfaces__cpp"
 	@echo "... dynamixel_sdk_custom_interfaces__py"

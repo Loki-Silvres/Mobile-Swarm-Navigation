@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/MultiDOFStateStamped.msg
+// generated code does not contain a copyright notice
+
+#include "control_msgs/msg/SingleDOFState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message presents current controller state of multiple degrees of freedom.")
+    struct MultiDOFStateStamped {
+      @verbatim (language="comment", text=
+        "Header timestamp should be update time of controller state")
+      std_msgs::msg::Header header;
+
+      sequence<control_msgs::msg::SingleDOFState> dof_states;
+    };
+  };
+};

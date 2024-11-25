@@ -1,0 +1,44 @@
+[0.570s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_controllers/ros2_controllers_test_nodes': PYTHONPATH=/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build install --record /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data
+[0.727s] running egg_info
+[0.728s] creating ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info
+[0.728s] writing ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[0.729s] writing dependency_links to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[0.729s] writing entry points to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[0.729s] writing requirements to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[0.729s] writing top-level names to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[0.729s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.729s] reading manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.730s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[0.731s] running build
+[0.731s] running build_py
+[0.731s] creating /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build
+[0.731s] creating /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build/lib
+[0.731s] creating /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[0.731s] copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[0.731s] copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[0.731s] copying ros2_controllers_test_nodes/__init__.py -> /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[0.731s] running install
+[0.731s] running install_lib
+[0.732s] creating /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[0.732s] copying /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[0.732s] copying /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[0.732s] copying /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/__init__.py -> /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[0.732s] byte-compiling /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-310.pyc
+[0.733s] byte-compiling /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-310.pyc
+[0.733s] byte-compiling /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/__init__.py to __init__.cpython-310.pyc
+[0.733s] running install_data
+[0.733s] creating /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/share/ament_index
+[0.734s] creating /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/share/ament_index/resource_index
+[0.734s] creating /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[0.734s] copying resource/ros2_controllers_test_nodes -> /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[0.734s] copying package.xml -> /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[0.734s] creating /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[0.734s] copying test/rrbot_joint_trajectory_publisher.yaml -> /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[0.734s] copying test/rrbot_forward_position_publisher.yaml -> /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[0.734s] running install_egg_info
+[0.735s] Copying ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.38.0-py3.10.egg-info
+[0.736s] running install_scripts
+[0.750s] Installing publisher_forward_position_controller script to /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.750s] Installing publisher_joint_trajectory_controller script to /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[0.750s] writing list of installed files to '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/install.log'
+[0.764s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_controllers/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/build install --record /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data

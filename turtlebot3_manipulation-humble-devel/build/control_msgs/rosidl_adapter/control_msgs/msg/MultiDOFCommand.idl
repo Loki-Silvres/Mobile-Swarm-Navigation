@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/MultiDOFCommand.msg
+// generated code does not contain a copyright notice
+
+
+module control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "The message defines command for multiple degrees of freedom (DoF) typically used by many controllers." "\n"
+      "The message intentionally avoids 'joint' nomenclature because it can be generally use for command with" "\n"
+      "different semantic meanings, e.g., joints, Cartesian axes, or have abstract meaning like GPIO interface.")
+    struct MultiDOFCommand {
+      @verbatim (language="comment", text=
+        "names of degrees of freedom")
+      sequence<string> dof_names;
+
+      @verbatim (language="comment", text=
+        "values used by most of the controller")
+      sequence<double> values;
+
+      @verbatim (language="comment", text=
+        "First derivation of the values, e.g., velocity if values are positions." "\n"
+        "This is useful for PID and similar controllers.")
+      sequence<double> values_dot;
+    };
+  };
+};

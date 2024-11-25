@@ -1,0 +1,83 @@
+[0.029s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control_demos/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.279s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.285s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.355s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.360s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.495s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.635s] -- Configuring done
+[0.637s] -- Generating done
+[0.637s] -- Build files have been written to: /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description
+[0.641s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control_demos/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description
+[0.642s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description -- -j32 -l32
+[0.681s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description -- -j32 -l32
+[0.708s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description
+[0.716s] -- Install configuration: ""
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[0.717s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r3bot/urdf
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r3bot/urdf/threedofbot_description.urdf.xacro
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual
+[0.718s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[0.719s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[0.719s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[0.720s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[0.720s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[0.722s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[0.722s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[0.723s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision
+[0.723s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[0.723s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[0.723s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[0.723s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[0.723s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[0.723s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[0.724s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[0.725s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[0.726s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[0.727s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_demo_description

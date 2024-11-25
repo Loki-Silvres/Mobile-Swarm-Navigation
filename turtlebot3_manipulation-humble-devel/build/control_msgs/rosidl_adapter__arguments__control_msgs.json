@@ -1,0 +1,30 @@
+{
+  "package_name": "control_msgs",
+  "non_idl_tuples": [
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:action/ParallelGripperCommand.action",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:action/FollowJointTrajectory.action",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:action/GripperCommand.action",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:action/JointTrajectory.action",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:action/PointHead.action",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:action/SingleJointPosition.action",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/AdmittanceControllerState.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/DynamicInterfaceGroupValues.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/DynamicJointState.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/GripperCommand.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/InterfaceValue.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/JointComponentTolerance.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/JointControllerState.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/JointJog.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/JointTolerance.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/JointTrajectoryControllerState.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/MecanumDriveControllerState.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/MultiDOFCommand.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/MultiDOFStateStamped.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/PidState.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/SingleDOFState.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/SingleDOFStateStamped.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:msg/SteeringControllerStatus.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:srv/QueryCalibrationState.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/control_msgs/control_msgs:srv/QueryTrajectoryState.srv"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "package_name": "controller_manager_msgs",
+  "non_idl_tuples": [
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:msg/ControllerState.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:msg/ChainConnection.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:msg/HardwareComponentState.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:msg/HardwareInterface.msg",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/ConfigureController.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/ListControllers.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/ListControllerTypes.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/ListHardwareComponents.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/ListHardwareInterfaces.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/LoadController.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/ReloadControllerLibraries.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/SetHardwareComponentState.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/SwitchController.srv",
+    "/home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/controller_manager_msgs:srv/UnloadController.srv"
+  ]
+}

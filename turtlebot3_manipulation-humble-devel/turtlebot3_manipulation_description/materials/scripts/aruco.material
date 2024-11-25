@@ -1,0 +1,129 @@
+material Aruco_Marker_1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture aruco_1.png 2d
+                scale 0.05 0.05
+                filtering trilinear
+            }
+        }
+    }
+}
+
+material Aruco_Marker_2
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture aruco_2.png 2d
+                scale 0.05 0.05
+                filtering trilinear
+            }
+        }
+    }
+}
+
+material Aruco_Marker_3
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture aruco_3.png 2d
+                scale 0.05 0.05
+                filtering trilinear
+            }
+        }
+    }
+}
+
+material Aruco_Marker_4
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture aruco_4.png 2d
+                scale 0.05 0.05
+                filtering trilinear
+            }
+        }
+    }
+}
+
+material Aruco_Marker_5
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture aruco_5.png 2d
+                scale 0.05 0.05
+                filtering trilinear
+            }
+        }
+    }
+}
+
+material Aruco_Marker_6
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture aruco_6.png 2d
+                scale 0.05 0.05
+                filtering trilinear
+            }
+        }
+    }
+}
+
+material Aruco_Marker_7
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture aruco_7.png 2d
+                scale 0.05 0.05
+                filtering trilinear
+            }
+        }
+    }
+}
+
+material Aruco_Marker_8
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture aruco_8.png 2d
+                scale 0.05 0.05
+                filtering trilinear
+            }
+        }
+    }
+}
+
+

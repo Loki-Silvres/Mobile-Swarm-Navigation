@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_generator_c[0m
+[  0%] Built target controller_manager_msgs__cpp
+[  0%] Built target ament_cmake_python_copy_controller_manager_msgs
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 12%] Built target controller_manager_msgs__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 32%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[ 36%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[ 48%] Built target controller_manager_msgs__rosidl_typesupport_c
+[ 60%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[ 84%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[ 84%] Built target controller_manager_msgs
+[ 85%] Built target controller_manager_msgs__py
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_generator_py[0m
+[ 96%] Built target controller_manager_msgs__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_manager_msgs__rosidl_typesupport_c__pyext[0m
+[100%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[100%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing controller_manager_msgs.egg-info/PKG-INFO
+writing dependency_links to controller_manager_msgs.egg-info/dependency_links.txt
+writing top-level names to controller_manager_msgs.egg-info/top_level.txt
+reading manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_controller_manager_msgs_egg

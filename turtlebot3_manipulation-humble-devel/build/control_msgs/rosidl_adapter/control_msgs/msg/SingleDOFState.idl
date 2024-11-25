@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/SingleDOFState.msg
+// generated code does not contain a copyright notice
+
+
+module control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message presents current controller state of one degree of freedom.")
+    struct SingleDOFState {
+      @verbatim (language="comment", text=
+        "DoF name, e.g., joint or Cartesian axis name")
+      string name;
+
+      @verbatim (language="comment", text=
+        "The set point, that is, desired state.")
+      double reference;
+
+      @verbatim (language="comment", text=
+        "Current value of the process (ie: latest sensor measurement on the controlled value).")
+      double feedback;
+
+      @verbatim (language="comment", text=
+        "First time-derivative of the process value. E.g., velocity.")
+      double feedback_dot;
+
+      @verbatim (language="comment", text=
+        "The error of the controlled value, essentially process_value - set_point (for a regular PID implementation).")
+      double error;
+
+      @verbatim (language="comment", text=
+        "First time-derivative of the error of the controlled value.")
+      double error_dot;
+
+      @verbatim (language="comment", text=
+        "Time between two consecutive updates/execution of the control law.")
+      double time_step;
+
+      @verbatim (language="comment", text=
+        "Current output of the controller.")
+      double output;
+    };
+  };
+};

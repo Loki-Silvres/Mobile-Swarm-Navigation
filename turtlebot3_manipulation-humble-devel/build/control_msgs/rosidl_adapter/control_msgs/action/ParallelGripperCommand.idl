@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from control_msgs/action/ParallelGripperCommand.action
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/JointState.idl"
+
+module control_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Parallel grippers refer to an end effector where two opposing fingers grasp an object from opposite sides.")
+    struct ParallelGripperCommand_Goal {
+      sensor_msgs::msg::JointState command;
+    };
+    struct ParallelGripperCommand_Result {
+      @verbatim (language="comment", text=
+        "The current gripper state.")
+      sensor_msgs::msg::JointState state;
+
+      @verbatim (language="comment", text=
+        "position of each joint (radians or meters)" "\n"
+        "optional: velocity of each joint (radians or meters / second)" "\n"
+        "optional: effort of each joint (Newtons or Newton-meters)" "\n"
+        "True if the gripper is exerting max effort and not moving")
+      boolean stalled;
+
+      @verbatim (language="comment", text=
+        "True if the gripper position has reached the commanded setpoint")
+      boolean reached_goal;
+    };
+    struct ParallelGripperCommand_Feedback {
+      @verbatim (language="comment", text=
+        "The current gripper state.")
+      sensor_msgs::msg::JointState state;
+    };
+  };
+};

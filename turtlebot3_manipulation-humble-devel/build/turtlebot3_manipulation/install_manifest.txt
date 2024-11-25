@@ -1,0 +1,15 @@
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/ament_prefix_path.sh
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/ament_prefix_path.dsv
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/path.sh
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/path.dsv
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.bash
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.sh
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.zsh
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.dsv
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.dsv
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/ament_index/resource_index/packages/turtlebot3_manipulation
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/cmake/turtlebot3_manipulationConfig.cmake
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/cmake/turtlebot3_manipulationConfig-version.cmake
+/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.xml

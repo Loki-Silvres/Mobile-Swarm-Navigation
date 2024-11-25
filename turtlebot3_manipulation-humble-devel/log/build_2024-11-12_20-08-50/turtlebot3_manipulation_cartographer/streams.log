@@ -1,0 +1,45 @@
+[0.010s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/duck_sh/turtlebot3_manipulation-humble-devel/turtlebot3_manipulation_cartographer -DCMAKE_INSTALL_PREFIX=/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.137s] -- Detecting C compiler ABI info - done
+[0.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.140s] -- Detecting C compile features
+[0.140s] -- Detecting C compile features - done
+[0.142s] -- Detecting CXX compiler ABI info
+[0.196s] -- Detecting CXX compiler ABI info - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.202s] -- Detecting CXX compile features
+[0.202s] -- Detecting CXX compile features - done
+[0.204s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.316s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.415s] -- Configuring done
+[0.416s] -- Generating done
+[0.417s] -- Build files have been written to: /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer
+[0.420s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/duck_sh/turtlebot3_manipulation-humble-devel/turtlebot3_manipulation_cartographer -DCMAKE_INSTALL_PREFIX=/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer
+[0.421s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer -- -j32 -l32
+[0.445s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer -- -j32 -l32
+[0.464s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer
+[0.468s] -- Install configuration: ""
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/config
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/config/turtlebot3_2d.lua
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/launch
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/launch/cartographer.launch.py
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/rviz
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/rviz/cartographer.rviz
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_cartographer
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_cartographer
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/ament_prefix_path.sh
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/ament_prefix_path.dsv
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/path.sh
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/path.dsv
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.bash
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.sh
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.zsh
+[0.470s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.dsv
+[0.470s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.dsv
+[0.470s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/ament_index/resource_index/packages/turtlebot3_manipulation_cartographer
+[0.470s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/cmake/turtlebot3_manipulation_cartographerConfig.cmake
+[0.470s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/cmake/turtlebot3_manipulation_cartographerConfig-version.cmake
+[0.470s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.xml
+[0.473s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_cartographer

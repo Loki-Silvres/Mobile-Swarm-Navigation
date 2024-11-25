@@ -1,0 +1,9 @@
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[ 83%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[100%] Built target joint_limits_rosparam_test

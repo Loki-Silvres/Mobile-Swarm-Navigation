@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target kinematics_interface[0m
+[100%] Built target kinematics_interface
+-- Install configuration: ""
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/include/kinematics_interface
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/include/kinematics_interface/kinematics_interface
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/include/kinematics_interface/kinematics_interface/visibility_control.h
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/include/kinematics_interface/kinematics_interface/kinematics_interface.hpp
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/lib/libkinematics_interface.so
+-- Set runtime path of "/home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/lib/libkinematics_interface.so" to ""
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/environment/library_path.sh
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/environment/library_path.dsv
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/ament_index/resource_index/package_run_dependencies/kinematics_interface
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/ament_index/resource_index/parent_prefix_path/kinematics_interface
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.sh
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/environment/path.sh
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/environment/path.dsv
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/local_setup.bash
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/local_setup.sh
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/local_setup.zsh
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/local_setup.dsv
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/package.dsv
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/ament_index/resource_index/packages/kinematics_interface
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport.cmake
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/cmake/export_kinematics_interfaceExport-noconfig.cmake
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig.cmake
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/cmake/kinematics_interfaceConfig-version.cmake
+-- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/kinematics_interface/share/kinematics_interface/package.xml

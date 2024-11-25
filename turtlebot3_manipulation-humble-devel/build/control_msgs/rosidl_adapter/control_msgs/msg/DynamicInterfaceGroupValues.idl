@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/DynamicInterfaceGroupValues.msg
+// generated code does not contain a copyright notice
+
+#include "control_msgs/msg/InterfaceValue.idl"
+#include "std_msgs/msg/Header.idl"
+
+module control_msgs {
+  module msg {
+    struct DynamicInterfaceGroupValues {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "List of interface group names , e.g. [\"flange_analog_IOs\", \"flange_vacuum\"]")
+      sequence<string> interface_groups;
+
+      @verbatim (language="comment", text=
+        "Key-value pairs representing interfaces and their corresponding values for each interface group listed in `interface_groups`")
+      sequence<control_msgs::msg::InterfaceValue> interface_values;
+    };
+  };
+};

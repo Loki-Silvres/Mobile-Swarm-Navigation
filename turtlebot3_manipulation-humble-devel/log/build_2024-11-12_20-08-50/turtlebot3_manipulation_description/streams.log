@@ -1,0 +1,68 @@
+[0.013s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/duck_sh/turtlebot3_manipulation-humble-devel/turtlebot3_manipulation_description -DCMAKE_INSTALL_PREFIX=/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.197s] -- Detecting CXX compiler ABI info - done
+[0.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.203s] -- Detecting CXX compile features
+[0.203s] -- Detecting CXX compile features - done
+[0.205s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.412s] -- Configuring done
+[0.412s] -- Generating done
+[0.412s] -- Build files have been written to: /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description
+[0.415s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/duck_sh/turtlebot3_manipulation-humble-devel/turtlebot3_manipulation_description -DCMAKE_INSTALL_PREFIX=/home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description
+[0.415s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description -- -j32 -l32
+[0.440s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description -- -j32 -l32
+[0.462s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description
+[0.467s] -- Install configuration: ""
+[0.467s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch/model.launch.py
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz/model.rviz
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/materials.xacro
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x
+[0.468s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl
+[0.469s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi
+[0.470s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl
+[0.470s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl
+[0.471s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl
+[0.471s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl
+[0.474s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/turtlebot3_manipulation_description.dsv
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_description
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_description
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.sh
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.dsv
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.sh
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.dsv
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.bash
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.sh
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.zsh
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.dsv
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/ament_index/resource_index/packages/turtlebot3_manipulation_description
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig.cmake
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig-version.cmake
+[0.475s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.xml
+[0.480s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/turtlebot3_ws/install/turtlebot3_teleop:/home/duck_sh/turtlebot3_ws/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/turtlebot3_manipulation-humble-devel/build/turtlebot3_manipulation_description

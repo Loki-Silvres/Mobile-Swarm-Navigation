@@ -1,0 +1,44 @@
+[0.034s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets
+[0.190s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.302s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.379s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.497s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.622s] -- Configuring done
+[0.623s] -- Generating done
+[0.624s] -- Build files have been written to: /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets
+[0.627s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/duck_sh/turtlebot3_manipulation-humble-devel/ros-controls/ros2_control/ros2_control_test_assets -DCMAKE_INSTALL_PREFIX=/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets
+[0.629s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets -- -j32 -l32
+[0.671s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets -- -j32 -l32
+[0.699s] Invoking command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets
+[0.707s] -- Install configuration: ""
+[0.707s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/include
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/include/ros2_control_test_assets
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[0.708s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[0.709s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[0.709s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[0.709s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[0.709s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[0.709s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[0.709s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.709s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[0.709s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[0.709s] -- Installing: /home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[0.711s] Invoked command in '/home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/turtlebot3_manipulation-humble-devel/build/ros2_control_test_assets

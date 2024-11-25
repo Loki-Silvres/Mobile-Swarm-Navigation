@@ -1,0 +1,3 @@
+source;share/turtlebot3_manipulation_description/environment/ament_prefix_path.sh
+source;share/turtlebot3_manipulation_description/environment/path.sh
+source;share/turtlebot3_manipulation_description/environment/turtlebot3_manipulation_description.dsv

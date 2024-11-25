@@ -85,9 +85,9 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses):
 def parse_args():
     parser = argparse.ArgumentParser(description="Launch Gazebo with multiple robots.")
     parser.add_argument('--num_bots', type=int, default=3, help="Number of robots to spawn.")
-    parser.add_argument('--x_pose', type=str, nargs='+', default=[0.1, 0.2, 0.3], 
+    parser.add_argument('--x_pose', type=str, nargs='+', default=[0, 0, 0], 
                         help="List of x positions for the robots (space-separated).")
-    parser.add_argument('--y_pose', type=str, nargs='+', default=[0.1, 1, 0.3], 
+    parser.add_argument('--y_pose', type=str, nargs='+', default=[0, 1, 3], 
                         help="List of x positions for the robots (space-separated).")
     
     args = parser.parse_args()

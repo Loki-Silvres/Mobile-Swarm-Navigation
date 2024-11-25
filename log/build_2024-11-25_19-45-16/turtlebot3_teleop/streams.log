@@ -1,0 +1,42 @@
+[0.580s] Invoking command in '/home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/pacman/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build install --record /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[0.807s] running egg_info
+[0.807s] creating ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[0.807s] writing ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[0.807s] writing dependency_links to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[0.807s] writing entry points to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[0.808s] writing requirements to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[0.808s] writing top-level names to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[0.808s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.810s] reading manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.810s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.810s] running build
+[0.811s] running build_py
+[0.813s] creating /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build
+[0.813s] creating /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build/lib
+[0.814s] creating /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[0.814s] copying turtlebot3_teleop/__init__.py -> /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[0.814s] creating /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[0.814s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[0.814s] copying turtlebot3_teleop/script/__init__.py -> /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[0.814s] running install
+[0.814s] running install_lib
+[0.815s] creating /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[0.815s] creating /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[0.815s] copying /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[0.815s] copying /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[0.815s] copying /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[0.815s] byte-compiling /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[0.815s] byte-compiling /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-310.pyc
+[0.815s] byte-compiling /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-310.pyc
+[0.815s] running install_data
+[0.815s] creating /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index
+[0.815s] creating /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[0.815s] creating /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[0.815s] copying resource/turtlebot3_teleop -> /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[0.816s] copying package.xml -> /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[0.816s] running install_egg_info
+[0.817s] Copying ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.1.5-py3.10.egg-info
+[0.818s] running install_scripts
+[0.840s] Installing teleop_keyboard script to /home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[0.843s] writing list of installed files to '/home/pacman/turtlebot3_ws/build/turtlebot3_teleop/install.log'
+[0.878s] Invoked command in '/home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/pacman/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/build install --record /home/pacman/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data

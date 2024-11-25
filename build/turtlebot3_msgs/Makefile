@@ -315,17 +315,17 @@ turtlebot3_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : turtlebot3_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_turtlebot3_msgs
+# Target rules for targets named ament_cmake_python_copy_turtlebot3_msgs
 
 # Build rule for target.
-ament_cmake_python_symlink_turtlebot3_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_turtlebot3_msgs
-.PHONY : ament_cmake_python_symlink_turtlebot3_msgs
+ament_cmake_python_copy_turtlebot3_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_turtlebot3_msgs
+.PHONY : ament_cmake_python_copy_turtlebot3_msgs
 
 # fast build rule for target.
-ament_cmake_python_symlink_turtlebot3_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_turtlebot3_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_turtlebot3_msgs.dir/build
-.PHONY : ament_cmake_python_symlink_turtlebot3_msgs/fast
+ament_cmake_python_copy_turtlebot3_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_turtlebot3_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_turtlebot3_msgs.dir/build
+.PHONY : ament_cmake_python_copy_turtlebot3_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_turtlebot3_msgs_egg
@@ -1643,7 +1643,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_turtlebot3_msgs_egg"
-	@echo "... ament_cmake_python_symlink_turtlebot3_msgs"
+	@echo "... ament_cmake_python_copy_turtlebot3_msgs"
 	@echo "... turtlebot3_msgs"
 	@echo "... turtlebot3_msgs__cpp"
 	@echo "... turtlebot3_msgs__py"

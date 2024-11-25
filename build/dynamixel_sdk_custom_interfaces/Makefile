@@ -315,17 +315,17 @@ dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+# Target rules for targets named ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
 
 # Build rule for target.
-ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
-.PHONY : ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+ament_cmake_python_copy_dynamixel_sdk_custom_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+.PHONY : ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
 
 # fast build rule for target.
-ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces.dir/build
-.PHONY : ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces/fast
+ament_cmake_python_copy_dynamixel_sdk_custom_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_dynamixel_sdk_custom_interfaces.dir/build
+.PHONY : ament_cmake_python_copy_dynamixel_sdk_custom_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
@@ -875,7 +875,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg"
-	@echo "... ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces"
+	@echo "... ament_cmake_python_copy_dynamixel_sdk_custom_interfaces"
 	@echo "... dynamixel_sdk_custom_interfaces"
 	@echo "... dynamixel_sdk_custom_interfaces__cpp"
 	@echo "... dynamixel_sdk_custom_interfaces__py"

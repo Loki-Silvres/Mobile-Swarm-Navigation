@@ -1,1 +1,2 @@
-/home/pacman/turtlebot3_ws/build/hls_lfcd_lds_driver/ament_cmake_environment_hooks/local_setup.dsv
+source;share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+source;share/hls_lfcd_lds_driver/environment/path.sh

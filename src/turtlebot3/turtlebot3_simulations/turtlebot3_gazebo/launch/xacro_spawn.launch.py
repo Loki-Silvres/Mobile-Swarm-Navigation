@@ -33,6 +33,7 @@ def create_launch_description(context, *args, **kwargs):
     # Launch configuration variables specific to simulation
     x_pose = LaunchConfiguration('x_pose', default='0.0')
     y_pose = LaunchConfiguration('y_pose', default='0.0')
+    z_pose = LaunchConfiguration('z_pose', default='0.05')
     
     # Declare launch arguments
     declare_x_position_cmd = DeclareLaunchArgument(
@@ -42,6 +43,10 @@ def create_launch_description(context, *args, **kwargs):
 
     declare_y_position_cmd = DeclareLaunchArgument(
         'y_pose', default_value='0.0',
+        description='Specify y-position of the robot in the simulation'
+    )
+    declare_y_position_cmd = DeclareLaunchArgument(
+        'z_pose', default_value='0.05',
         description='Specify y-position of the robot in the simulation'
     )
 
@@ -73,7 +78,7 @@ def create_launch_description(context, *args, **kwargs):
             '-topic', my_robot_desc,
             '-x', x_pose,
             '-y', y_pose,
-            '-z', '0.01',
+            '-z', z_pose,
             '-robot_namespace', LaunchConfiguration('namespace')
         ],
         output='screen',

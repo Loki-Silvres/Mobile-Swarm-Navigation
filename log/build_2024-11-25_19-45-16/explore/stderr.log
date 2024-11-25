@@ -1,0 +1,5 @@
+[01m[K/home/pacman/turtlebot3_ws/src/explore/src/explore.cpp:[m[K In member function ‘[01m[Kvoid explore::Explore::visualizeFrontiers(const std::vector<frontier_exploration::Frontier>&)[m[K’:
+[01m[K/home/pacman/turtlebot3_ws/src/explore/src/explore.cpp:152:24:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’ from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+  152 |     m.pose.position = {[01;35m[K}[m[K;
+      |                        [01;35m[K^[m[K
+[01m[K/home/pacman/turtlebot3_ws/src/explore/src/explore.cpp:152:24:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit

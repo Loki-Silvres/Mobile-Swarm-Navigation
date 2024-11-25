@@ -6,6 +6,9 @@
       <real_time_factor>1</real_time_factor>
       <real_time_update_rate>1000</real_time_update_rate>
     </physics>
+    
+    
+    
     <model name='aws_robomaker_warehouse_ShelfF_01_001'>
       <link name='aws_robomaker_warehouse_ShelfF_01::link'>
         <inertial>

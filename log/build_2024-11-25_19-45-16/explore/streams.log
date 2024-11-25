@@ -1,0 +1,89 @@
+[0.199s] Invoking command in '/home/pacman/turtlebot3_ws/build/explore': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/explore -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/explore
+[0.685s] -- The C compiler identification is GNU 11.4.0
+[0.685s] -- The CXX compiler identification is GNU 11.4.0
+[0.685s] -- Detecting C compiler ABI info
+[0.685s] -- Detecting C compiler ABI info - done
+[0.685s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.685s] -- Detecting C compile features
+[0.685s] -- Detecting C compile features - done
+[0.685s] -- Detecting CXX compiler ABI info
+[0.685s] -- Detecting CXX compiler ABI info - done
+[0.685s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.685s] -- Detecting CXX compile features
+[0.685s] -- Detecting CXX compile features - done
+[0.685s] -- BuilD for ROS2: humble
+[0.685s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.687s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.755s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.803s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.813s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.842s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.861s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.878s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.924s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.927s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.032s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.067s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.108s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.117s] -- Looking for pthread.h
+[1.191s] -- Looking for pthread.h - found
+[1.191s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.257s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.258s] -- Found Threads: TRUE  
+[1.314s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.350s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.453s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.469s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.469s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.469s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.471s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.522s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[1.543s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.562s] -- Found nav2_costmap_2d: 1.1.16 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[1.756s] -- Configuring done
+[1.810s] -- Generating done
+[1.810s] -- Build files have been written to: /home/pacman/turtlebot3_ws/build/explore
+[1.831s] Invoked command in '/home/pacman/turtlebot3_ws/build/explore' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/explore -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/explore
+[1.832s] Invoking command in '/home/pacman/turtlebot3_ws/build/explore': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/explore -- -j12 -l12
+[1.882s] [ 25%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[1.882s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[1.886s] [ 75%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[6.455s] [01m[K/home/pacman/turtlebot3_ws/src/explore/src/explore.cpp:[m[K In member function ‘[01m[Kvoid explore::Explore::visualizeFrontiers(const std::vector<frontier_exploration::Frontier>&)[m[K’:
+[6.455s] [01m[K/home/pacman/turtlebot3_ws/src/explore/src/explore.cpp:152:24:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’ from initializer list would use explicit constructor ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::Point_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[6.455s]   152 |     m.pose.position = {[01;35m[K}[m[K;
+[6.455s]       |                        [01;35m[K^[m[K
+[6.459s] [01m[K/home/pacman/turtlebot3_ws/src/explore/src/explore.cpp:152:24:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[19.845s] [100%] [32m[1mLinking CXX executable explore[0m
+[20.954s] [100%] Built target explore
+[20.974s] Invoked command in '/home/pacman/turtlebot3_ws/build/explore' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/explore -- -j12 -l12
+[21.000s] Invoking command in '/home/pacman/turtlebot3_ws/build/explore': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/explore
+[21.007s] -- Install configuration: ""
+[21.007s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/include/explore/
+[21.007s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/include/explore//frontier_search.h
+[21.008s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/include/explore//costmap_client.h
+[21.008s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/include/explore//costmap_tools.h
+[21.008s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/include/explore//explore.h
+[21.008s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/config
+[21.008s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/config/params.yaml
+[21.008s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/config/params_costmap.yaml
+[21.008s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/launch
+[21.009s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/launch/explore.launch.py
+[21.009s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/lib/explore/explore
+[21.014s] -- Set runtime path of "/home/pacman/turtlebot3_ws/install/explore/lib/explore/explore" to ""
+[21.014s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/ament_index/resource_index/package_run_dependencies/explore
+[21.014s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/ament_index/resource_index/parent_prefix_path/explore
+[21.015s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/ament_prefix_path.sh
+[21.015s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/ament_prefix_path.dsv
+[21.015s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/path.sh
+[21.015s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/path.dsv
+[21.015s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.bash
+[21.015s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.sh
+[21.015s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.zsh
+[21.015s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.dsv
+[21.015s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/package.dsv
+[21.016s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/ament_index/resource_index/packages/explore
+[21.016s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.016s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/cmake/exploreConfig.cmake
+[21.016s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/cmake/exploreConfig-version.cmake
+[21.016s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/package.xml
+[21.018s] Invoked command in '/home/pacman/turtlebot3_ws/build/explore' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/explore

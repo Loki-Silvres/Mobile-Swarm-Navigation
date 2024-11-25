@@ -1,0 +1,78 @@
+[0.282s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:/home/pacman/slam_gmapping_ws/install/slam_gmapping:/home/pacman/slam_gmapping_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pacman/slam_gmapping_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/turtlebot3_fake_node
+[0.336s] -- The C compiler identification is GNU 11.4.0
+[0.392s] -- The CXX compiler identification is GNU 11.4.0
+[0.399s] -- Detecting C compiler ABI info
+[0.471s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.478s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.482s] -- Detecting CXX compiler ABI info
+[0.566s] -- Detecting CXX compiler ABI info - done
+[0.575s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.575s] -- Detecting CXX compile features
+[0.576s] -- Detecting CXX compile features - done
+[0.578s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.739s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.835s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.872s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.879s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.886s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.899s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.918s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.957s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.972s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.011s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.014s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.097s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.127s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.170s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.179s] -- Looking for pthread.h
+[1.250s] -- Looking for pthread.h - found
+[1.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.324s] -- Found Threads: TRUE  
+[1.360s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.375s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.395s] -- Found tf2_msgs: 0.25.8 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.440s] -- Found turtlebot3_msgs: 2.2.3 (/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.619s] -- Configuring done
+[1.640s] -- Generating done
+[1.648s] -- Build files have been written to: /home/pacman/turtlebot3_ws/build/turtlebot3_fake_node
+[1.674s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:/home/pacman/slam_gmapping_ws/install/slam_gmapping:/home/pacman/slam_gmapping_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pacman/slam_gmapping_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/turtlebot3_fake_node
+[1.674s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:/home/pacman/slam_gmapping_ws/install/slam_gmapping:/home/pacman/slam_gmapping_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pacman/slam_gmapping_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_fake_node -- -j12 -l12
+[1.776s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[11.597s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[11.920s] [100%] Built target turtlebot3_fake_node
+[11.931s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:/home/pacman/slam_gmapping_ws/install/slam_gmapping:/home/pacman/slam_gmapping_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pacman/slam_gmapping_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_fake_node -- -j12 -l12
+[11.953s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:/home/pacman/slam_gmapping_ws/install/slam_gmapping:/home/pacman/slam_gmapping_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pacman/slam_gmapping_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_fake_node
+[11.958s] -- Install configuration: ""
+[11.958s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[11.960s] -- Set runtime path of "/home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[11.960s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[11.960s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[11.961s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[11.961s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[11.961s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[11.961s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[11.961s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[11.961s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/include/
+[11.961s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[11.961s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.962s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[11.963s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[11.963s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[11.964s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:/home/pacman/slam_gmapping_ws/install/slam_gmapping:/home/pacman/slam_gmapping_ws/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pacman/slam_gmapping_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_fake_node

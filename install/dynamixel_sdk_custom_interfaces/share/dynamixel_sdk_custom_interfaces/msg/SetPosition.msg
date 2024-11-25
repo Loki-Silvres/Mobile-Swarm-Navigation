@@ -1,1 +1,3 @@
-/home/pacman/turtlebot3_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+# Messages
+uint8 id
+int32 position

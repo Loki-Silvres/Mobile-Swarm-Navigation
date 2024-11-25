@@ -1,5 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find "/home/pacman/turtlebot3_ws/src/my_world/urdf": No
-  such file or directory.
-
-[0m

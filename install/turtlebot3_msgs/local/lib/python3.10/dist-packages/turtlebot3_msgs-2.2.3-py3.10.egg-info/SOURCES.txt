@@ -1,1 +1,6 @@
-/home/pacman/turtlebot3_ws/build/turtlebot3_msgs/ament_cmake_python/turtlebot3_msgs/turtlebot3_msgs.egg-info/SOURCES.txt
+setup.py
+turtlebot3_msgs/__init__.py
+turtlebot3_msgs.egg-info/PKG-INFO
+turtlebot3_msgs.egg-info/SOURCES.txt
+turtlebot3_msgs.egg-info/dependency_links.txt
+turtlebot3_msgs.egg-info/top_level.txt

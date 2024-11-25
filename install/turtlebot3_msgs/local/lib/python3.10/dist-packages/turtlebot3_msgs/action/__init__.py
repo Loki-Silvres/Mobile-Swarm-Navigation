@@ -1,1 +1,1 @@
-/home/pacman/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_py/turtlebot3_msgs/action/__init__.py
+from turtlebot3_msgs.action._patrol import Patrol  # noqa: F401

@@ -22,7 +22,7 @@ def create_launch_description(context, *args, **kwargs):
     namespace = LaunchConfiguration('namespace').perform(context)
     
 
-    xacro_file = os.path.join(get_package_share_directory('turtlebot3_xacro'), 'urdf', 'turtlebot3_waffle_pi.urdf.xacro')
+    xacro_file = os.path.join(get_package_share_directory('turtlebot3_xacro'), 'urdf', 'turtlebot3_manipulation.urdf.xacro')
     doc = xacro.process_file(xacro_file, mappings={"prefix": namespace+'/'})
     robot_desc = doc.toprettyxml()
     urdf_output_path = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'urdf','my_bot.urdf')

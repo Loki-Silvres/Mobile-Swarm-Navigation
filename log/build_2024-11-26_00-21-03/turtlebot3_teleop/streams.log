@@ -1,0 +1,42 @@
+[0.460s] Invoking command in '/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build install --record /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[0.622s] running egg_info
+[0.623s] creating ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[0.623s] writing ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[0.623s] writing dependency_links to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[0.623s] writing entry points to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[0.623s] writing requirements to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[0.623s] writing top-level names to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[0.624s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.625s] reading manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.625s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.625s] running build
+[0.625s] running build_py
+[0.625s] creating /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build
+[0.625s] creating /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build/lib
+[0.626s] creating /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[0.626s] copying turtlebot3_teleop/__init__.py -> /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[0.626s] creating /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[0.626s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[0.626s] copying turtlebot3_teleop/script/__init__.py -> /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[0.627s] running install
+[0.627s] running install_lib
+[0.630s] creating /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[0.630s] copying /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[0.630s] creating /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[0.630s] copying /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[0.630s] copying /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[0.630s] byte-compiling /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-310.pyc
+[0.630s] byte-compiling /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[0.630s] byte-compiling /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-310.pyc
+[0.631s] running install_data
+[0.631s] creating /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/share/ament_index
+[0.631s] creating /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/share/ament_index/resource_index
+[0.631s] creating /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[0.631s] copying resource/turtlebot3_teleop -> /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[0.631s] copying package.xml -> /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/share/turtlebot3_teleop
+[0.631s] running install_egg_info
+[0.631s] Copying ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.1.5-py3.10.egg-info
+[0.632s] running install_scripts
+[0.647s] Installing teleop_keyboard script to /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[0.647s] writing list of installed files to '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/install.log'
+[0.667s] Invoked command in '/home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/build install --record /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data

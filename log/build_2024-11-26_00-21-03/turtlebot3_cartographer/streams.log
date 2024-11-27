@@ -1,0 +1,46 @@
+[0.029s] Invoking command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer
+[0.244s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.244s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.244s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.510s] -- Configuring done
+[0.511s] -- Generating done
+[0.512s] -- Build files have been written to: /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer
+[0.515s] Invoked command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/duck_sh/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer
+[0.518s] Invoking command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer -- -j32 -l32
+[0.561s] Invoked command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer -- -j32 -l32
+[0.597s] Invoking command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer
+[0.605s] -- Install configuration: ""
+[0.605s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[0.605s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[0.605s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[0.606s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[0.606s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[0.606s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[0.606s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[0.607s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[0.607s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[0.607s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[0.607s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[0.607s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[0.608s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[0.608s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[0.608s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[0.608s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[0.608s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[0.608s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[0.609s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[0.609s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[0.609s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[0.609s] -- Installing: /home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[0.612s] Invoked command in '/home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_teleop:/home/duck_sh/Mobile-Swarm-Navigation/install/turtlebot3_example:/home/duck_sh/ros2_ws/install/my_py_pkg:/home/duck_sh/turtlebot3_manipulation-humble-devel/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/duck_sh/Mobile-Swarm-Navigation/build/turtlebot3_cartographer

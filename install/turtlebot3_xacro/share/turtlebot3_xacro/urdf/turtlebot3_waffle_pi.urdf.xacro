@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
 <robot name="turtlebot3_waffle_pi" xmlns:xacro="http://ros.org/wiki/xacro">
-         
+ <xacro:macro name="turtlebot3_waffle_pi" params="prefix">        
  <!-- Properties of waffle_pi -->
  <xacro:property name="wheel_separation" value="0.287" />
- <xacro:arg name="use_cam"    default="true"/>
+ 
  <xacro:include filename="$(find turtlebot3_xacro)/urdf/common_properties.urdf"/>
 
- <link name="$(arg prefix)base_footprint"/>
+ <link name="${prefix}base_footprint"/>
 
   <joint name="base_joint" type="fixed">
-    <parent link="$(arg prefix)base_footprint"/>
-    <child link="$(arg prefix)base_link" />
+    <parent link="${prefix}base_footprint"/>
+    <child link="${prefix}base_link" />
     <origin xyz="0 0 0.010" rpy="0 0 0"/>
   </joint>
 
-  <link name="$(arg prefix)base_link">
+  <link name="${prefix}base_link">
     <visual>
       <origin xyz="-0.064 0 0.0" rpy="0 0 0"/>
       <geometry>
@@ -40,14 +40,14 @@
   </link>
 
   <joint name="wheel_left_joint" type="continuous">
-    <parent link="$(arg prefix)base_link"/>
-    <child link="$(arg prefix)wheel_left_link"/>
+    <parent link="${prefix}base_link"/>
+    <child link="${prefix}wheel_left_link"/>
     <origin xyz="0.0 0.144 0.023" rpy="-1.57 0 0"/>
     <axis xyz="0 0 1"/>
     <limit velocity="7.88" effort="10"/>
   </joint>
 
-  <link name="$(arg prefix)wheel_left_link">
+  <link name="${prefix}wheel_left_link">
     <visual>
       <origin xyz="0 0 0" rpy="1.57 0 0"/>
       <geometry>
@@ -81,14 +81,14 @@
   </link>
 
   <joint name="wheel_right_joint" type="continuous">
-    <parent link="$(arg prefix)base_link"/>
-    <child link="$(arg prefix)wheel_right_link"/>
+    <parent link="${prefix}base_link"/>
+    <child link="${prefix}wheel_right_link"/>
     <origin xyz="0.0 -0.144 0.023" rpy="-1.57 0 0"/>
     <axis xyz="0 0 1"/>
     <limit velocity="7.88" effort="10"/>
   </joint>
 
-  <link name="$(arg prefix)wheel_right_link">
+  <link name="${prefix}wheel_right_link">
     <visual>
       <origin xyz="0 0 0" rpy="1.57 0 0"/>
       <geometry>
@@ -122,12 +122,12 @@
   </link>
 
   <joint name="caster_back_right_joint" type="fixed">
-    <parent link="$(arg prefix)base_link"/>
-    <child link="$(arg prefix)caster_back_right_link"/>
+    <parent link="${prefix}base_link"/>
+    <child link="${prefix}caster_back_right_link"/>
     <origin xyz="-0.177 -0.064 -0.004" rpy="-1.57 0 0"/>
   </joint>
 
-  <link name="$(arg prefix)caster_back_right_link">
+  <link name="${prefix}caster_back_right_link">
     <collision>
       <origin xyz="0 0.001 0" rpy="0 0 0"/>
       <geometry>
@@ -154,12 +154,12 @@
   </link>
 
   <joint name="caster_back_left_joint" type="fixed">
-    <parent link="$(arg prefix)base_link"/>
-    <child link="$(arg prefix)caster_back_left_link"/>
+    <parent link="${prefix}base_link"/>
+    <child link="${prefix}caster_back_left_link"/>
     <origin xyz="-0.177 0.064 -0.004" rpy="-1.57 0 0"/>
   </joint>
 
-  <link name="$(arg prefix)caster_back_left_link">
+  <link name="${prefix}caster_back_left_link">
     <collision>
       <origin xyz="0 0.001 0" rpy="0 0 0"/>
       <geometry>
@@ -186,12 +186,12 @@
   </link>
 
   <joint name="imu_joint" type="fixed">
-    <parent link="$(arg prefix)base_link"/>
-    <child link="$(arg prefix)imu_link"/>
+    <parent link="${prefix}base_link"/>
+    <child link="${prefix}imu_link"/>
     <origin xyz="0.0 0 0.068" rpy="0 0 0"/>
   </joint>
 
-  <link name="$(arg prefix)imu_link">
+  <link name="${prefix}imu_link">
         <inertial>
       <mass value="0.001"/>
       <inertia ixx="0.00000542" ixy="0.0" ixz="0.0" iyy="0.00002104" iyz="0.0" izz="0.00002604"/>
@@ -199,12 +199,12 @@
   </link>
 
   <joint name="scan_joint" type="fixed">
-    <parent link="$(arg prefix)base_link"/>
-    <child link="$(arg prefix)base_scan"/>
+    <parent link="${prefix}base_link"/>
+    <child link="${prefix}base_scan"/>
     <origin xyz="-0.064 0 0.122" rpy="0 0 0"/>
   </joint>
 
-  <link name="$(arg prefix)base_scan">
+  <link name="${prefix}base_scan">
     <visual>
       <origin xyz="0 0 0.0" rpy="0 0 0"/>
       <geometry>
@@ -231,11 +231,11 @@
 
   <joint name="camera_joint" type="fixed">
     <origin xyz="0.073 -0.011 0.084" rpy="0 0 0"/>
-    <parent link="$(arg prefix)base_link"/>
-    <child link="$(arg prefix)camera_link"/>
+    <parent link="${prefix}base_link"/>
+    <child link="${prefix}camera_link"/>
   </joint>
 
-  <link name="$(arg prefix)camera_link">
+  <link name="${prefix}camera_link">
     <collision>
       <origin xyz="0.005 0.011 0.013" rpy="0 0 0"/>
       <geometry>
@@ -246,38 +246,38 @@
 
   <joint name="camera_rgb_joint" type="fixed">
     <origin xyz="0.003 0.011 0.009" rpy="0 0 0"/>
-    <parent link="$(arg prefix)camera_link"/>
-    <child link="$(arg prefix)camera_rgb_frame"/>
+    <parent link="${prefix}camera_link"/>
+    <child link="${prefix}camera_rgb_frame"/>
   </joint>
-  <link name="$(arg prefix)camera_rgb_frame"/>
+  <link name="${prefix}camera_rgb_frame"/>
 
   <joint name="camera_rgb_optical_joint" type="fixed">
     <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
-    <parent link="$(arg prefix)camera_rgb_frame"/>
-    <child link="$(arg prefix)camera_rgb_optical_frame"/>
+    <parent link="${prefix}camera_rgb_frame"/>
+    <child link="${prefix}camera_rgb_optical_frame"/>
   </joint>
 
-  <link name="$(arg prefix)camera_rgb_optical_frame"/>
+  <link name="${prefix}camera_rgb_optical_frame"/>
 
   <!-- depth cam -->
     <joint name="camera_depth_joint" type="fixed">
     <origin xyz="0.003 0.011 0.009" rpy="0 0 0"/>
-    <parent link="$(arg prefix)camera_link"/>
-    <child link="$(arg prefix)camera_depth_frame"/>
+    <parent link="${prefix}camera_link"/>
+    <child link="${prefix}camera_depth_frame"/>
   </joint>
-  <link name="$(arg prefix)camera_depth_frame"/>
+  <link name="${prefix}camera_depth_frame"/>
 
   <joint name="camera_rgb_depth_joint" type="fixed">
     <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
-    <parent link="$(arg prefix)camera_depth_frame"/>
-    <child link="$(arg prefix)camera_rgb_depth_frame"/>
+    <parent link="${prefix}camera_depth_frame"/>
+    <child link="${prefix}camera_rgb_depth_frame"/>
   </joint>
 
-  <link name="$(arg prefix)camera_rgb_depth_frame"/>
+  <link name="${prefix}camera_rgb_depth_frame"/>
 
 <!-- April Tags -->
   <xacro:macro name="april_marker" params="marker_id xyz rpy">
-    <link name="$(arg prefix)marker_${marker_id}">
+    <link name="${prefix}marker_${marker_id}">
       <visual name="marker_visual_${marker_id}">
         <geometry>
           <mesh filename="package://turtlebot3_xacro/meshes/markers/april_${marker_id}.dae" scale ="0.1 0.1 0.1"/>
@@ -293,8 +293,8 @@
       </collision>
     </link>
     <joint name="marker_joint_${marker_id}" type="fixed">
-      <parent link="$(arg prefix)base_link"/>
-      <child link="$(arg prefix)marker_${marker_id}"/>
+      <parent link="${prefix}base_link"/>
+      <child link="${prefix}marker_${marker_id}"/>
       <origin xyz="${xyz}" rpy="${rpy}"/>
     </joint>
   </xacro:macro>  
@@ -306,6 +306,6 @@
   <xacro:april_marker marker_id="4" xyz="-0.194 -0 0.05" rpy="1.57 0 -1.57"/>
 
   <!-- Add similar $(arg robot_namespace)/ prefix for remaining links and joints -->
-  
+</xacro:macro>  
 
 </robot>

@@ -1,3 +1,4 @@
+<?xml version='1.0'?>
 <sdf version='1.6'>
   <world name='default'>
     <gravity>0 0 -9.8</gravity>
@@ -28,7 +29,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -55,7 +56,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -86,7 +87,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -113,7 +114,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -144,7 +145,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -171,7 +172,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -202,7 +203,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -229,7 +230,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -260,7 +261,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -287,7 +288,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -318,7 +319,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -345,7 +346,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -376,7 +377,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -403,7 +404,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -434,7 +435,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -461,7 +462,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -492,7 +493,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -519,7 +520,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -555,7 +556,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -568,7 +569,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -623,7 +624,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -636,7 +637,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -691,7 +692,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -704,7 +705,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -754,7 +755,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -787,7 +788,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -818,7 +819,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -851,7 +852,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -882,7 +883,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -915,7 +916,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -946,7 +947,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -979,7 +980,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1010,7 +1011,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1043,7 +1044,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1074,7 +1075,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1107,7 +1108,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1138,7 +1139,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1171,7 +1172,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1202,7 +1203,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1235,7 +1236,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1266,7 +1267,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1299,7 +1300,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1330,7 +1331,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1363,7 +1364,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1394,7 +1395,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1421,7 +1422,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1452,7 +1453,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1479,7 +1480,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1554,7 +1555,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+                <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
               </mesh>
             </geometry>
             <meta>
@@ -1567,7 +1568,7 @@
             <pose frame=''>0 0 0 0 -0 0</pose>
             <geometry>
               <mesh>
-                <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+                <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -1617,7 +1618,7 @@
           <collision name='collision'>
             <geometry>
               <mesh>
-                <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
+                <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
                 <scale>1 1 1</scale>
               </mesh>
             </geometry>
@@ -1644,7 +1645,7 @@
           <visual name='visual'>
             <geometry>
               <mesh>
-                <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
+                <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
               </mesh>
             </geometry>
             <meta>
@@ -1678,7 +1679,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1705,7 +1706,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1735,7 +1736,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1762,7 +1763,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1792,7 +1793,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1819,7 +1820,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1854,7 +1855,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -1867,7 +1868,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1917,7 +1918,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1944,7 +1945,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -5458,7 +5459,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -5545,7 +5546,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -5572,7 +5573,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -5602,7 +5603,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -5629,7 +5630,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -5659,7 +5660,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -5686,7 +5687,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -5721,7 +5722,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -5734,7 +5735,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -5789,7 +5790,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -5802,7 +5803,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -5852,7 +5853,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -5885,7 +5886,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -5915,7 +5916,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -5942,7 +5943,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -5972,7 +5973,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -5999,7 +6000,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6029,7 +6030,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6056,7 +6057,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6086,7 +6087,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6113,7 +6114,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6143,7 +6144,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6170,7 +6171,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6200,7 +6201,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6227,7 +6228,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6257,7 +6258,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6284,7 +6285,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6314,7 +6315,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6341,7 +6342,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6371,7 +6372,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6404,7 +6405,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6434,7 +6435,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6461,7 +6462,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6491,7 +6492,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6524,7 +6525,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6554,7 +6555,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6587,7 +6588,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6617,7 +6618,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6650,7 +6651,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6685,7 +6686,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6698,7 +6699,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6748,7 +6749,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6775,7 +6776,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6805,7 +6806,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6832,7 +6833,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6862,7 +6863,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6889,7 +6890,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6919,7 +6920,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -6946,7 +6947,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -6976,7 +6977,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7003,7 +7004,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7038,7 +7039,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7051,7 +7052,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7106,7 +7107,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7119,7 +7120,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7174,7 +7175,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7187,7 +7188,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7237,7 +7238,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7264,7 +7265,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7294,7 +7295,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7321,7 +7322,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7351,7 +7352,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7378,7 +7379,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7408,7 +7409,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7435,7 +7436,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7465,7 +7466,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7492,7 +7493,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7535,7 +7536,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7562,7 +7563,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7592,7 +7593,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7619,7 +7620,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7649,7 +7650,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7682,7 +7683,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -7712,7 +7713,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -7745,7 +7746,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -25973,7 +25974,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26006,7 +26007,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26036,7 +26037,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26069,7 +26070,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26099,7 +26100,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26132,7 +26133,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26162,7 +26163,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26189,7 +26190,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26219,7 +26220,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26246,7 +26247,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26276,7 +26277,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26303,7 +26304,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26333,7 +26334,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26360,7 +26361,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26395,7 +26396,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26408,7 +26409,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26458,7 +26459,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26491,7 +26492,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26521,7 +26522,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26554,7 +26555,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26584,7 +26585,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26611,7 +26612,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26641,7 +26642,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26674,7 +26675,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26704,7 +26705,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26731,7 +26732,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26761,7 +26762,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26788,7 +26789,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26823,7 +26824,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26836,7 +26837,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26886,7 +26887,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26913,7 +26914,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -26943,7 +26944,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -26970,7 +26971,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27000,7 +27001,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27027,7 +27028,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27057,7 +27058,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27090,7 +27091,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27120,7 +27121,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27153,7 +27154,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27183,7 +27184,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27216,7 +27217,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27246,7 +27247,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27279,7 +27280,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27309,7 +27310,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27336,7 +27337,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27371,7 +27372,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27384,7 +27385,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27434,7 +27435,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27461,7 +27462,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27491,7 +27492,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27524,7 +27525,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27554,7 +27555,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27587,7 +27588,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27617,7 +27618,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27650,7 +27651,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27680,7 +27681,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27713,7 +27714,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27743,7 +27744,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27770,7 +27771,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27800,7 +27801,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27827,7 +27828,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27857,7 +27858,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27890,7 +27891,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27920,7 +27921,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -27953,7 +27954,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -27983,7 +27984,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28016,7 +28017,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28046,7 +28047,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28079,7 +28080,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28109,7 +28110,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28142,7 +28143,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28172,7 +28173,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28205,7 +28206,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28240,7 +28241,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28253,7 +28254,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28308,7 +28309,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28321,7 +28322,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28376,7 +28377,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28389,7 +28390,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28444,7 +28445,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28457,7 +28458,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28512,7 +28513,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28525,7 +28526,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28580,7 +28581,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28593,7 +28594,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28648,7 +28649,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28661,7 +28662,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28716,7 +28717,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28729,7 +28730,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28784,7 +28785,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28797,7 +28798,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28847,7 +28848,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28874,7 +28875,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28904,7 +28905,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -28937,7 +28938,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -28967,7 +28968,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29000,7 +29001,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29030,7 +29031,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29063,7 +29064,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29093,7 +29094,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29126,7 +29127,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29156,7 +29157,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29189,7 +29190,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29219,7 +29220,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29252,7 +29253,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29282,7 +29283,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29315,7 +29316,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29345,7 +29346,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29372,7 +29373,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29402,7 +29403,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29429,7 +29430,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29459,7 +29460,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29486,7 +29487,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29516,7 +29517,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29543,7 +29544,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29573,7 +29574,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29600,7 +29601,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29630,7 +29631,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29663,7 +29664,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29693,7 +29694,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29726,7 +29727,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29756,7 +29757,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29789,7 +29790,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29819,7 +29820,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29852,7 +29853,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29882,7 +29883,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29915,7 +29916,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -29945,7 +29946,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -29978,7 +29979,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30008,7 +30009,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30041,7 +30042,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30071,7 +30072,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30104,7 +30105,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30134,7 +30135,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30167,7 +30168,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30197,7 +30198,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30230,7 +30231,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30260,7 +30261,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30293,7 +30294,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30323,7 +30324,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30350,7 +30351,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30380,7 +30381,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30407,7 +30408,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30437,7 +30438,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30464,7 +30465,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30494,7 +30495,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30521,7 +30522,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30556,7 +30557,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30569,7 +30570,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30619,7 +30620,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30646,7 +30647,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30676,7 +30677,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30703,7 +30704,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30733,7 +30734,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30760,7 +30761,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30790,7 +30791,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30817,7 +30818,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30847,7 +30848,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30874,7 +30875,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30904,7 +30905,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30931,7 +30932,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -30961,7 +30962,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -30994,7 +30995,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31024,7 +31025,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31057,7 +31058,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31087,7 +31088,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31120,7 +31121,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31150,7 +31151,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31183,7 +31184,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31213,7 +31214,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31246,7 +31247,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31276,7 +31277,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31309,7 +31310,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31339,7 +31340,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31366,7 +31367,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31396,7 +31397,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31423,7 +31424,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31453,7 +31454,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31480,7 +31481,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31510,7 +31511,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31537,7 +31538,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31567,7 +31568,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31600,7 +31601,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31630,7 +31631,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31663,7 +31664,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31693,7 +31694,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31726,7 +31727,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31756,7 +31757,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31783,7 +31784,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31813,7 +31814,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31840,7 +31841,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31870,7 +31871,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -31897,7 +31898,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31932,7 +31933,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -31945,7 +31946,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -32000,7 +32001,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -32013,7 +32014,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -32063,7 +32064,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -32096,7 +32097,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>
@@ -32126,7 +32127,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -32159,7 +32160,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/pacman/turtlebot3_ws/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
+              <uri>file:///home/loki/Mobile-Swarm-Navigation/src/my_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE</uri>
             </mesh>
           </geometry>
           <meta>

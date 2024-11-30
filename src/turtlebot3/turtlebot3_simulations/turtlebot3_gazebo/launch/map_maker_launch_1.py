@@ -11,9 +11,9 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses):
     # Initialize the LaunchService
     launch_service = LaunchService()
     world = os.path.join(
-        get_package_share_directory('my_world'),
+        get_package_share_directory('aws_robomaker_hospital_world'),
         'worlds',
-        'warehouse_1.world'
+        'hospital.world'
     )
     
     yaml_file = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','mapper_params_online_async.yaml')
@@ -21,7 +21,7 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses):
     with open(yaml_file, "r") as file:
         data = yaml.safe_load(file)
     
-    rviz_config_path = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','config_map_merger.rviz')
+    rviz_config_path = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','config.rviz')
 
     # Path to launch files
     launch_file_dir = os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch')
@@ -42,17 +42,6 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses):
     entity_name = 'waffle_'
     ns = 'bot_'
     launch_service.include_launch_description(spawn_gazebo)
-
-    rviz_node = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        arguments=['-d', rviz_config_path,'use_sime_time','true'],
-        output='screen'
-    )
-
-
-    launch_service.include_launch_description(rviz_node)
 
     for i in range(num_bots):
         ent_name = entity_name + str(i)
@@ -120,6 +109,17 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses):
         launch_service.include_launch_description(robot_state_publisher_cmd)
         launch_service.include_launch_description(spawn_turtlebot_cmd)
         launch_service.include_launch_description(my_slam_toolbox)
+
+        rviz_node = Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            arguments=['-d', rviz_config_path,'use_sime_time','true'],
+            output='screen'
+        )
+
+
+        launch_service.include_launch_description(rviz_node)
 
 
 

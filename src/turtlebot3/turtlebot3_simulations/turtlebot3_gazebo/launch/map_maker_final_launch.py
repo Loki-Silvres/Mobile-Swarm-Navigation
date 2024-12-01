@@ -11,9 +11,9 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses,z_poses):
     # Initialize the LaunchService
     launch_service = LaunchService()
     world = os.path.join(
-        get_package_share_directory('my_world'),
+        get_package_share_directory('aws_robomaker_small_house_world'),
         'worlds',
-        'warehouse_1.world'
+        'small_house.world'
     )
     
     yaml_file = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','mapper_params_online_async.yaml')
@@ -74,14 +74,7 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses,z_poses):
         map_data['map_merge']['ros__parameters'][z_param] = z_poses[i]
         map_data['map_merge']['ros__parameters'][yaw_param] = 0.0
 
-
-
-        
-        
-
         yaml_file = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','mapper_params_online_async_'+str(i)+'.yaml')
-        
-        
 
         data['slam_toolbox']['ros__parameters']['odom_frame']=odom_frame
         data['slam_toolbox']['ros__parameters']['base_frame']=base_frame
@@ -123,7 +116,7 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses,z_poses):
             name='slam_toolbox',
             # namespace=ns_name,
             output='screen',
-            arguments=['--ros-args','--params-file',yaml_file],
+            arguments=['--ros-args','--params-file', yaml_file],
             remappings=[('/map', map_topic)],
         )
        

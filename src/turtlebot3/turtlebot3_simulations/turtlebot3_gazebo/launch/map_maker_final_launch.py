@@ -11,9 +11,9 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses,z_poses):
     # Initialize the LaunchService
     launch_service = LaunchService()
     world = os.path.join(
-        get_package_share_directory('aws_robomaker_small_house_world'),
+        get_package_share_directory('aws_robomaker_hospital_world'),
         'worlds',
-        'small_house.world'
+        'hospital.world'
     )
     
     yaml_file = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','mapper_params_online_async.yaml')

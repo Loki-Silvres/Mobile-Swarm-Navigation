@@ -4,7 +4,7 @@
  <!-- Properties of waffle_pi -->
  <xacro:property name="wheel_separation" value="0.287" />
  <xacro:arg name="use_cam"    default="true"/>
- <xacro:include filename="$(find turtlebot3_xacro)/urdf/common_properties.urdf"/>
+ <xacro:include filename="$(find turtlebot3_xacro)/urdf/common_properties.xacro"/>
 
  <link name="$(arg prefix)base_footprint"/>
 
@@ -258,5 +258,54 @@
   </joint>
 
   <link name="$(arg prefix)camera_rgb_optical_frame"/>
+
+  <!-- depth cam -->
+    <joint name="camera_depth_joint" type="fixed">
+    <origin xyz="0.003 0.011 0.009" rpy="0 0 0"/>
+    <parent link="$(arg prefix)camera_link"/>
+    <child link="$(arg prefix)camera_depth_frame"/>
+  </joint>
+  <link name="$(arg prefix)camera_depth_frame"/>
+
+  <joint name="camera_rgb_depth_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
+    <parent link="$(arg prefix)camera_depth_frame"/>
+    <child link="$(arg prefix)camera_rgb_depth_frame"/>
+  </joint>
+
+  <link name="$(arg prefix)camera_rgb_depth_frame"/>
+
+<!-- April Tags -->
+  <xacro:macro name="april_marker" params="marker_id xyz rpy">
+    <link name="$(arg prefix)marker_${marker_id}">
+      <visual name="marker_visual_${marker_id}">
+        <geometry>
+          <xacro:mesh mesh="markers/april_${marker_id}.dae" />
+        </geometry>
+        <!-- <material name="aruco_${marker_id}-material" submesh="${marker_id}"/> -->
+          <!-- <texture filename="package://turtlebot3_manipulation_description/meshes/markers/aruco_${marker_id}.png"/> -->
+        <!-- </material> -->
+      </visual>
+      <collision name="marker_collision_${marker_id}">
+        <geometry>
+          <box size="0.1 0.1 0.0001"/>
+        </geometry>
+      </collision>
+    </link>
+    <joint name="marker_joint_${marker_id}" type="fixed">
+      <parent link="$(arg prefix)base_link"/>
+      <child link="$(arg prefix)marker_${marker_id}"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+    </joint>
+  </xacro:macro>  
+
+  <!-- ArUco marker instances on TurtleBot3 -->
+  <xacro:april_marker marker_id="1" xyz="-0.1 0.134 0.05" rpy="-1.57 3.14 0"/>
+  <xacro:april_marker marker_id="2" xyz="-0.1 -0.134 0.05" rpy="1.57 0 0"/>
+  <xacro:april_marker marker_id="3" xyz="0.074 0 0.05" rpy="1.57 0 1.57"/>
+  <xacro:april_marker marker_id="4" xyz="-0.194 -0 0.05" rpy="1.57 0 -1.57"/>
+
+  <!-- Add similar $(arg robot_namespace)/ prefix for remaining links and joints -->
+  
 
 </robot>

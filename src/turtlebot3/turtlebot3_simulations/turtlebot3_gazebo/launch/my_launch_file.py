@@ -17,15 +17,15 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses):
     gzserver_launch_file = os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')
     gzclient_launch_file = os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')
     world = os.path.join(
-        get_package_share_directory('turtlebot3_gazebo'),
+        get_package_share_directory('my_world'),
         'worlds',
-        'turtlebot3_world.world'
+        'warehouse_1.world'
     )
     # Create the launch descriptions for gzserver and gzclient
     gzserver_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(gzserver_launch_file)
 
-        # ,launch_arguments={'world': world}.items()
+        ,launch_arguments={'world': world}.items()
     )
 
     gzclient_cmd = IncludeLaunchDescription(

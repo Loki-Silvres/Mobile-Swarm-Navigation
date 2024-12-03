@@ -1,0 +1,1833 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000427] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000447] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000464] (-) JobUnselected: {'identifier': 'explore'}
+[0.000480] (-) JobUnselected: {'identifier': 'frame_changer'}
+[0.000496] (-) JobUnselected: {'identifier': 'hls_lfcd_lds_driver'}
+[0.000512] (-) JobUnselected: {'identifier': 'map_merge'}
+[0.000527] (-) JobUnselected: {'identifier': 'my_world'}
+[0.000543] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000558] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000574] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000589] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000604] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000638] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000655] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000671] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation'}
+[0.000686] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000702] (-) JobUnselected: {'identifier': 'turtlebot3_multi_robot'}
+[0.000717] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000733] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000749] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000764] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000780] (-) JobUnselected: {'identifier': 'turtlebot3_xacro'}
+[0.000797] (aws_robomaker_hospital_world) JobQueued: {'identifier': 'aws_robomaker_hospital_world', 'dependencies': OrderedDict()}
+[0.000815] (aws_robomaker_hospital_world) JobStarted: {'identifier': 'aws_robomaker_hospital_world'}
+[0.006863] (aws_robomaker_hospital_world) JobProgress: {'identifier': 'aws_robomaker_hospital_world', 'progress': 'cmake'}
+[0.007069] (aws_robomaker_hospital_world) Command: {'cmd': ['/usr/bin/cmake', '/home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world', '-DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/aws_robomaker_hospital_world'], 'cwd': '/home/pacman/turtlebot3_ws/build/aws_robomaker_hospital_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pacman'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pacman/turtlebot3_ws/install/map_merge/lib:/home/pacman/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pacman/turtlebot3_ws/install/dynamixel_sdk/lib:/home/pacman/slam_gmapping_ws/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pacman'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/pacman'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5654'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/pacman/slam_gmapping_ws/install:/home/pacman/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pacman'), ('_', '/home/pacman/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pacman'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/models:/usr/share/gazebo-11/models::/home/pacman/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/modelsexport'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/pacman/miniconda3/condabin:/home/pacman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pacman-LOQ-15IRH8:@/tmp/.ICE-unix/1902,unix/pacman-LOQ-15IRH8:/tmp/.ICE-unix/1902'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf2089a3_18d7_487e_9825_e000d43136b3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pacman/turtlebot3_ws/install/turtlebot3_xacro:/home/pacman/turtlebot3_ws/install/turtlebot3:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_simulations:/home/pacman/turtlebot3_ws/install/turtlebot3_bringup:/home/pacman/turtlebot3_ws/install/turtlebot3_node:/home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot:/home/pacman/turtlebot3_ws/install/turtlebot3_navigation2:/home/pacman/turtlebot3_ws/install/turtlebot3_fake_node:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:/home/pacman/turtlebot3_ws/install/turtlebot3_manipulation:/home/pacman/turtlebot3_ws/install/turtlebot3_gazebo:/home/pacman/turtlebot3_ws/install/turtlebot3_description:/home/pacman/turtlebot3_ws/install/turtlebot3_cartographer:/home/pacman/turtlebot3_ws/install/explore:/home/pacman/turtlebot3_ws/install/my_world:/home/pacman/turtlebot3_ws/install/map_merge:/home/pacman/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pacman/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pacman/turtlebot3_ws/install/dynamixel_sdk:/home/pacman/slam_gmapping_ws/install/slam_gmapping:/home/pacman/slam_gmapping_ws/install/openslam_gmapping:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/pacman/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pacman/turtlebot3_ws/build/aws_robomaker_hospital_world'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/pacman/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pacman/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pacman/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pacman/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pacman/turtlebot3_ws/install/frame_changer/lib/python3.10/site-packages:/home/pacman/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pacman/turtlebot3_ws/install/turtlebot3_xacro:/home/pacman/turtlebot3_ws/install/turtlebot3:/home/pacman/turtlebot3_ws/install/turtlebot3_simulations:/home/pacman/turtlebot3_ws/install/turtlebot3_bringup:/home/pacman/turtlebot3_ws/install/turtlebot3_node:/home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot:/home/pacman/turtlebot3_ws/install/turtlebot3_navigation2:/home/pacman/turtlebot3_ws/install/turtlebot3_fake_node:/home/pacman/turtlebot3_ws/install/turtlebot3_msgs:/home/pacman/turtlebot3_ws/install/turtlebot3_manipulation:/home/pacman/turtlebot3_ws/install/turtlebot3_gazebo:/home/pacman/turtlebot3_ws/install/turtlebot3_description:/home/pacman/turtlebot3_ws/install/turtlebot3_cartographer:/home/pacman/turtlebot3_ws/install/explore:/home/pacman/turtlebot3_ws/install/my_world:/home/pacman/turtlebot3_ws/install/map_merge:/home/pacman/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/pacman/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pacman/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pacman/turtlebot3_ws/install/dynamixel_sdk:/home/pacman/slam_gmapping_ws/install/slam_gmapping:/home/pacman/slam_gmapping_ws/install/openslam_gmapping:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/frame_changer:/opt/ros/humble')]), 'shell': False}
+[0.051058] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.090166] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.094878] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099718] (-) TimerEvent: {}
+[0.145942] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.150260] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.150400] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.150480] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.152391] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199807] (-) TimerEvent: {}
+[0.207111] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.214444] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.214594] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.215326] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.217420] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299942] (-) TimerEvent: {}
+[0.320109] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.383388] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.400155] (-) TimerEvent: {}
+[0.418558] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.422846] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.429185] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.437974] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.449648] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.482223] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.484975] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500377] (-) TimerEvent: {}
+[0.553108] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.574468] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.600589] (-) TimerEvent: {}
+[0.602785] (aws_robomaker_hospital_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.609905] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.663860] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.664145] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700817] (-) TimerEvent: {}
+[0.715841] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.716860] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.755839] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.756574] (aws_robomaker_hospital_world) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.767915] (aws_robomaker_hospital_world) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.801019] (-) TimerEvent: {}
+[0.852701] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.894444] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.901125] (-) TimerEvent: {}
+[0.909979] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.932103] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.941860] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.946291] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.950744] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.951682] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.951843] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.956302] (aws_robomaker_hospital_world) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.968371] (aws_robomaker_hospital_world) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.996012] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.000866] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.001181] (-) TimerEvent: {}
+[1.007431] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.011194] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.011263] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.014966] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.015034] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.018612] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.018690] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.022375] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.022444] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.026195] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.026262] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.029912] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.101363] (-) TimerEvent: {}
+[1.110104] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.112290] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.112383] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.124277] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.131750] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.135230] (aws_robomaker_hospital_world) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.146859] (aws_robomaker_hospital_world) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.176376] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.181712] (aws_robomaker_hospital_world) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.193569] (aws_robomaker_hospital_world) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.201451] (-) TimerEvent: {}
+[1.218926] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.221128] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.221342] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.235621] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.239652] (aws_robomaker_hospital_world) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.251301] (aws_robomaker_hospital_world) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.278767] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.280882] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.281157] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.281381] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.282141] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.282975] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.291705] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.291926] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.294019] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.294209] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.294372] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.296851] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.297070] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.301657] (-) TimerEvent: {}
+[1.359668] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.366798] (aws_robomaker_hospital_world) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.379571] (aws_robomaker_hospital_world) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.401867] (-) TimerEvent: {}
+[1.407092] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.410856] (aws_robomaker_hospital_world) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.421927] (aws_robomaker_hospital_world) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.449308] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.449466] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.449837] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.450074] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.452872] (aws_robomaker_hospital_world) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.452956] (aws_robomaker_hospital_world) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.463925] (aws_robomaker_hospital_world) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.489712] (aws_robomaker_hospital_world) StdoutLine: {'line': b'running python3 -m pip install -r /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/requirements.txt 2>&1\n'}
+[1.502038] (-) TimerEvent: {}
+[1.602324] (-) TimerEvent: {}
+[1.662493] (aws_robomaker_hospital_world) StdoutLine: {'line': b'Defaulting to user installation because normal site-packages is not writeable\n'}
+[1.702527] (-) TimerEvent: {}
+[1.791798] (aws_robomaker_hospital_world) StdoutLine: {'line': b'Requirement already satisfied: docopt>=0.6.2 in /home/pacman/.local/lib/python3.10/site-packages (from -r /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/requirements.txt (line 1)) (0.6.2)\n'}
+[1.791919] (aws_robomaker_hospital_world) StdoutLine: {'line': b'Requirement already satisfied: requests in /usr/lib/python3/dist-packages (from -r /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/requirements.txt (line 2)) (2.25.1)\n'}
+[1.792059] (aws_robomaker_hospital_world) StdoutLine: {'line': b'Requirement already satisfied: lxml in /usr/lib/python3/dist-packages (from -r /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/requirements.txt (line 3)) (4.8.0)\n'}
+[1.802697] (-) TimerEvent: {}
+[1.902975] (-) TimerEvent: {}
+[1.919175] (aws_robomaker_hospital_world) StdoutLine: {'line': b'running python3 /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/fuel_utility.py download -m XRayMachine -m IVStand -m BloodPressureMonitor -m BPCart -m BMWCart -m CGMClassic -m StorageRack -m Chair -m InstrumentCart1 -m Scrubs -m PatientWheelChair -m WhiteChipChair -m TrolleyBed -m SurgicalTrolley -m PotatoChipChair -m VisitorKidSit -m FemaleVisitorSit -m AdjTable -m MopCart3 -m MaleVisitorSit -m Drawer -m OfficeChairBlack -m ElderLadyPatient -m ElderMalePatient -m InstrumentCart2 -m MetalCabinet -m BedTable -m BedsideTable -m AnesthesiaMachine -m TrolleyBedPatient -m Shower -m SurgicalTrolleyMed -m StorageRackCovered -m KitchenSink -m Toilet -m VendingMachine -m ParkingTrolleyMin -m PatientFSit -m MaleVisitorOnPhone -m FemaleVisitor -m MalePatientBed -m StorageRackCoverOpen -m ParkingTrolleyMax -d /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/fuel_models --verbose 2>&1\n'}
+[1.987976] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:root:Arguments provided: {"download": true, "--query": null, "--model": ["XRayMachine", "IVStand", "BloodPressureMonitor", "BPCart", "BMWCart", "CGMClassic", "StorageRack", "Chair", "InstrumentCart1", "Scrubs", "PatientWheelChair", "WhiteChipChair", "TrolleyBed", "SurgicalTrolley", "PotatoChipChair", "VisitorKidSit", "FemaleVisitorSit", "AdjTable", "MopCart3", "MaleVisitorSit", "Drawer", "OfficeChairBlack", "ElderLadyPatient", "ElderMalePatient", "InstrumentCart2", "MetalCabinet", "BedTable", "BedsideTable", "AnesthesiaMachine", "TrolleyBedPatient", "Shower", "SurgicalTrolleyMed", "StorageRackCovered", "KitchenSink", "Toilet", "VendingMachine", "ParkingTrolleyMin", "PatientFSit", "MaleVisitorOnPhone", "FemaleVisitor", "MalePatientBed", "StorageRackCoverOpen", "ParkingTrolleyMax"], "--version": 0, "-,": false, "--verbose": true, "--destination": "/home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/fuel_models"}\n'}
+[1.988104] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Starting fuel models..\n'}
+[1.988137] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model XRayMachine.\n'}
+[1.989007] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[2.003282] (-) TimerEvent: {}
+[2.103716] (-) TimerEvent: {}
+[2.204127] (-) TimerEvent: {}
+[2.304554] (-) TimerEvent: {}
+[2.404782] (-) TimerEvent: {}
+[2.505207] (-) TimerEvent: {}
+[2.605646] (-) TimerEvent: {}
+[2.706072] (-) TimerEvent: {}
+[2.806494] (-) TimerEvent: {}
+[2.906952] (-) TimerEvent: {}
+[3.007374] (-) TimerEvent: {}
+[3.107785] (-) TimerEvent: {}
+[3.208206] (-) TimerEvent: {}
+[3.308630] (-) TimerEvent: {}
+[3.409057] (-) TimerEvent: {}
+[3.509477] (-) TimerEvent: {}
+[3.609905] (-) TimerEvent: {}
+[3.710327] (-) TimerEvent: {}
+[3.810750] (-) TimerEvent: {}
+[3.911181] (-) TimerEvent: {}
+[4.011601] (-) TimerEvent: {}
+[4.112043] (-) TimerEvent: {}
+[4.212476] (-) TimerEvent: {}
+[4.312941] (-) TimerEvent: {}
+[4.413340] (-) TimerEvent: {}
+[4.513764] (-) TimerEvent: {}
+[4.614119] (-) TimerEvent: {}
+[4.707945] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/XRayMachine HTTP/1.1" 200 406\n'}
+[4.708634] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model IVStand.\n'}
+[4.709102] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[4.714447] (-) TimerEvent: {}
+[4.814751] (-) TimerEvent: {}
+[4.915012] (-) TimerEvent: {}
+[5.015448] (-) TimerEvent: {}
+[5.115931] (-) TimerEvent: {}
+[5.216408] (-) TimerEvent: {}
+[5.316909] (-) TimerEvent: {}
+[5.417408] (-) TimerEvent: {}
+[5.517904] (-) TimerEvent: {}
+[5.618451] (-) TimerEvent: {}
+[5.718972] (-) TimerEvent: {}
+[5.819468] (-) TimerEvent: {}
+[5.919894] (-) TimerEvent: {}
+[6.020380] (-) TimerEvent: {}
+[6.120673] (-) TimerEvent: {}
+[6.221161] (-) TimerEvent: {}
+[6.321456] (-) TimerEvent: {}
+[6.421946] (-) TimerEvent: {}
+[6.522439] (-) TimerEvent: {}
+[6.553074] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/IVStand HTTP/1.1" 200 408\n'}
+[6.553738] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model BloodPressureMonitor.\n'}
+[6.554012] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[6.622771] (-) TimerEvent: {}
+[6.723254] (-) TimerEvent: {}
+[6.823787] (-) TimerEvent: {}
+[6.924282] (-) TimerEvent: {}
+[7.024537] (-) TimerEvent: {}
+[7.125033] (-) TimerEvent: {}
+[7.225385] (-) TimerEvent: {}
+[7.325913] (-) TimerEvent: {}
+[7.426256] (-) TimerEvent: {}
+[7.526679] (-) TimerEvent: {}
+[7.627009] (-) TimerEvent: {}
+[7.727433] (-) TimerEvent: {}
+[7.827867] (-) TimerEvent: {}
+[7.928289] (-) TimerEvent: {}
+[8.028718] (-) TimerEvent: {}
+[8.129132] (-) TimerEvent: {}
+[8.196183] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/BloodPressureMonitor HTTP/1.1" 200 401\n'}
+[8.196816] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model BPCart.\n'}
+[8.197206] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[8.229368] (-) TimerEvent: {}
+[8.329868] (-) TimerEvent: {}
+[8.430351] (-) TimerEvent: {}
+[8.530829] (-) TimerEvent: {}
+[8.631301] (-) TimerEvent: {}
+[8.731786] (-) TimerEvent: {}
+[8.832275] (-) TimerEvent: {}
+[8.932568] (-) TimerEvent: {}
+[9.033096] (-) TimerEvent: {}
+[9.133578] (-) TimerEvent: {}
+[9.234136] (-) TimerEvent: {}
+[9.334570] (-) TimerEvent: {}
+[9.435008] (-) TimerEvent: {}
+[9.535442] (-) TimerEvent: {}
+[9.635868] (-) TimerEvent: {}
+[9.736289] (-) TimerEvent: {}
+[9.836709] (-) TimerEvent: {}
+[9.937195] (-) TimerEvent: {}
+[10.037584] (-) TimerEvent: {}
+[10.137986] (-) TimerEvent: {}
+[10.238287] (-) TimerEvent: {}
+[10.338643] (-) TimerEvent: {}
+[10.438931] (-) TimerEvent: {}
+[10.442148] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/BPCart HTTP/1.1" 200 402\n'}
+[10.442918] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model BMWCart.\n'}
+[10.443188] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[10.539264] (-) TimerEvent: {}
+[10.639750] (-) TimerEvent: {}
+[10.740284] (-) TimerEvent: {}
+[10.840767] (-) TimerEvent: {}
+[10.941253] (-) TimerEvent: {}
+[11.041744] (-) TimerEvent: {}
+[11.142243] (-) TimerEvent: {}
+[11.242737] (-) TimerEvent: {}
+[11.343285] (-) TimerEvent: {}
+[11.443785] (-) TimerEvent: {}
+[11.544135] (-) TimerEvent: {}
+[11.644634] (-) TimerEvent: {}
+[11.745066] (-) TimerEvent: {}
+[11.845545] (-) TimerEvent: {}
+[11.946008] (-) TimerEvent: {}
+[12.046493] (-) TimerEvent: {}
+[12.146895] (-) TimerEvent: {}
+[12.247435] (-) TimerEvent: {}
+[12.347914] (-) TimerEvent: {}
+[12.448448] (-) TimerEvent: {}
+[12.548930] (-) TimerEvent: {}
+[12.649315] (-) TimerEvent: {}
+[12.749806] (-) TimerEvent: {}
+[12.850290] (-) TimerEvent: {}
+[12.950781] (-) TimerEvent: {}
+[13.002419] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/BMWCart HTTP/1.1" 200 391\n'}
+[13.003201] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model CGMClassic.\n'}
+[13.003491] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[13.051109] (-) TimerEvent: {}
+[13.151591] (-) TimerEvent: {}
+[13.252147] (-) TimerEvent: {}
+[13.352689] (-) TimerEvent: {}
+[13.453171] (-) TimerEvent: {}
+[13.553668] (-) TimerEvent: {}
+[13.654050] (-) TimerEvent: {}
+[13.754532] (-) TimerEvent: {}
+[13.854998] (-) TimerEvent: {}
+[13.955487] (-) TimerEvent: {}
+[14.055971] (-) TimerEvent: {}
+[14.156455] (-) TimerEvent: {}
+[14.256949] (-) TimerEvent: {}
+[14.357444] (-) TimerEvent: {}
+[14.457802] (-) TimerEvent: {}
+[14.558276] (-) TimerEvent: {}
+[14.658758] (-) TimerEvent: {}
+[14.759258] (-) TimerEvent: {}
+[14.859745] (-) TimerEvent: {}
+[14.960230] (-) TimerEvent: {}
+[15.060709] (-) TimerEvent: {}
+[15.161191] (-) TimerEvent: {}
+[15.261697] (-) TimerEvent: {}
+[15.362112] (-) TimerEvent: {}
+[15.462552] (-) TimerEvent: {}
+[15.563007] (-) TimerEvent: {}
+[15.663329] (-) TimerEvent: {}
+[15.763750] (-) TimerEvent: {}
+[15.768493] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/CGMClassic HTTP/1.1" 200 386\n'}
+[15.769205] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model StorageRack.\n'}
+[15.769541] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[15.863871] (-) TimerEvent: {}
+[15.964297] (-) TimerEvent: {}
+[16.064773] (-) TimerEvent: {}
+[16.165190] (-) TimerEvent: {}
+[16.265503] (-) TimerEvent: {}
+[16.365891] (-) TimerEvent: {}
+[16.466307] (-) TimerEvent: {}
+[16.566723] (-) TimerEvent: {}
+[16.667161] (-) TimerEvent: {}
+[16.767587] (-) TimerEvent: {}
+[16.868040] (-) TimerEvent: {}
+[16.968478] (-) TimerEvent: {}
+[17.068907] (-) TimerEvent: {}
+[17.169198] (-) TimerEvent: {}
+[17.269647] (-) TimerEvent: {}
+[17.369862] (-) TimerEvent: {}
+[17.470303] (-) TimerEvent: {}
+[17.570520] (-) TimerEvent: {}
+[17.670964] (-) TimerEvent: {}
+[17.771181] (-) TimerEvent: {}
+[17.871498] (-) TimerEvent: {}
+[17.971766] (-) TimerEvent: {}
+[18.020720] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/StorageRack HTTP/1.1" 200 385\n'}
+[18.021515] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model Chair.\n'}
+[18.021907] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[18.072051] (-) TimerEvent: {}
+[18.172263] (-) TimerEvent: {}
+[18.272566] (-) TimerEvent: {}
+[18.372784] (-) TimerEvent: {}
+[18.473119] (-) TimerEvent: {}
+[18.573432] (-) TimerEvent: {}
+[18.673837] (-) TimerEvent: {}
+[18.774148] (-) TimerEvent: {}
+[18.874443] (-) TimerEvent: {}
+[18.974669] (-) TimerEvent: {}
+[19.074934] (-) TimerEvent: {}
+[19.175162] (-) TimerEvent: {}
+[19.275429] (-) TimerEvent: {}
+[19.375685] (-) TimerEvent: {}
+[19.475942] (-) TimerEvent: {}
+[19.576249] (-) TimerEvent: {}
+[19.676638] (-) TimerEvent: {}
+[19.777059] (-) TimerEvent: {}
+[19.877467] (-) TimerEvent: {}
+[19.977819] (-) TimerEvent: {}
+[20.078252] (-) TimerEvent: {}
+[20.178691] (-) TimerEvent: {}
+[20.278974] (-) TimerEvent: {}
+[20.379274] (-) TimerEvent: {}
+[20.479504] (-) TimerEvent: {}
+[20.579733] (-) TimerEvent: {}
+[20.679952] (-) TimerEvent: {}
+[20.684901] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/Chair HTTP/1.1" 200 391\n'}
+[20.685867] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model InstrumentCart1.\n'}
+[20.686375] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[20.780048] (-) TimerEvent: {}
+[20.880454] (-) TimerEvent: {}
+[20.980891] (-) TimerEvent: {}
+[21.081375] (-) TimerEvent: {}
+[21.181864] (-) TimerEvent: {}
+[21.282355] (-) TimerEvent: {}
+[21.382890] (-) TimerEvent: {}
+[21.483311] (-) TimerEvent: {}
+[21.583732] (-) TimerEvent: {}
+[21.683941] (-) TimerEvent: {}
+[21.784248] (-) TimerEvent: {}
+[21.884551] (-) TimerEvent: {}
+[21.984766] (-) TimerEvent: {}
+[22.084980] (-) TimerEvent: {}
+[22.185289] (-) TimerEvent: {}
+[22.285505] (-) TimerEvent: {}
+[22.385948] (-) TimerEvent: {}
+[22.486265] (-) TimerEvent: {}
+[22.586677] (-) TimerEvent: {}
+[22.630085] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/InstrumentCart1 HTTP/1.1" 200 387\n'}
+[22.630745] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model Scrubs.\n'}
+[22.631175] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[22.686882] (-) TimerEvent: {}
+[22.787307] (-) TimerEvent: {}
+[22.887747] (-) TimerEvent: {}
+[22.988223] (-) TimerEvent: {}
+[23.088658] (-) TimerEvent: {}
+[23.189084] (-) TimerEvent: {}
+[23.289505] (-) TimerEvent: {}
+[23.389769] (-) TimerEvent: {}
+[23.490245] (-) TimerEvent: {}
+[23.590681] (-) TimerEvent: {}
+[23.690895] (-) TimerEvent: {}
+[23.791227] (-) TimerEvent: {}
+[23.891439] (-) TimerEvent: {}
+[23.991864] (-) TimerEvent: {}
+[24.092081] (-) TimerEvent: {}
+[24.192381] (-) TimerEvent: {}
+[24.267368] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/Scrubs HTTP/1.1" 200 382\n'}
+[24.268167] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model PatientWheelChair.\n'}
+[24.268529] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[24.292641] (-) TimerEvent: {}
+[24.393044] (-) TimerEvent: {}
+[24.493399] (-) TimerEvent: {}
+[24.593822] (-) TimerEvent: {}
+[24.694037] (-) TimerEvent: {}
+[24.794362] (-) TimerEvent: {}
+[24.894750] (-) TimerEvent: {}
+[24.994986] (-) TimerEvent: {}
+[25.095354] (-) TimerEvent: {}
+[25.195774] (-) TimerEvent: {}
+[25.296191] (-) TimerEvent: {}
+[25.396619] (-) TimerEvent: {}
+[25.496878] (-) TimerEvent: {}
+[25.597299] (-) TimerEvent: {}
+[25.697521] (-) TimerEvent: {}
+[25.797981] (-) TimerEvent: {}
+[25.898510] (-) TimerEvent: {}
+[25.998889] (-) TimerEvent: {}
+[26.099306] (-) TimerEvent: {}
+[26.117448] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/PatientWheelChair HTTP/1.1" 200 402\n'}
+[26.118251] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model WhiteChipChair.\n'}
+[26.118650] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[26.199558] (-) TimerEvent: {}
+[26.299978] (-) TimerEvent: {}
+[26.400188] (-) TimerEvent: {}
+[26.500424] (-) TimerEvent: {}
+[26.600739] (-) TimerEvent: {}
+[26.701176] (-) TimerEvent: {}
+[26.801623] (-) TimerEvent: {}
+[26.902031] (-) TimerEvent: {}
+[27.002447] (-) TimerEvent: {}
+[27.102868] (-) TimerEvent: {}
+[27.203303] (-) TimerEvent: {}
+[27.303695] (-) TimerEvent: {}
+[27.403900] (-) TimerEvent: {}
+[27.504266] (-) TimerEvent: {}
+[27.604586] (-) TimerEvent: {}
+[27.704930] (-) TimerEvent: {}
+[27.748583] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/WhiteChipChair HTTP/1.1" 200 394\n'}
+[27.749342] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model TrolleyBed.\n'}
+[27.749625] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[27.805143] (-) TimerEvent: {}
+[27.905594] (-) TimerEvent: {}
+[28.005962] (-) TimerEvent: {}
+[28.106326] (-) TimerEvent: {}
+[28.206566] (-) TimerEvent: {}
+[28.306875] (-) TimerEvent: {}
+[28.407103] (-) TimerEvent: {}
+[28.507444] (-) TimerEvent: {}
+[28.607856] (-) TimerEvent: {}
+[28.708081] (-) TimerEvent: {}
+[28.808425] (-) TimerEvent: {}
+[28.908794] (-) TimerEvent: {}
+[29.009226] (-) TimerEvent: {}
+[29.109467] (-) TimerEvent: {}
+[29.209874] (-) TimerEvent: {}
+[29.310294] (-) TimerEvent: {}
+[29.410506] (-) TimerEvent: {}
+[29.510762] (-) TimerEvent: {}
+[29.610974] (-) TimerEvent: {}
+[29.693040] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/TrolleyBed HTTP/1.1" 200 397\n'}
+[29.693655] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model SurgicalTrolley.\n'}
+[29.694269] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[29.711155] (-) TimerEvent: {}
+[29.811635] (-) TimerEvent: {}
+[29.912064] (-) TimerEvent: {}
+[30.012394] (-) TimerEvent: {}
+[30.112712] (-) TimerEvent: {}
+[30.212915] (-) TimerEvent: {}
+[30.313154] (-) TimerEvent: {}
+[30.413407] (-) TimerEvent: {}
+[30.513758] (-) TimerEvent: {}
+[30.613980] (-) TimerEvent: {}
+[30.714391] (-) TimerEvent: {}
+[30.814749] (-) TimerEvent: {}
+[30.915035] (-) TimerEvent: {}
+[31.015453] (-) TimerEvent: {}
+[31.115877] (-) TimerEvent: {}
+[31.216297] (-) TimerEvent: {}
+[31.316723] (-) TimerEvent: {}
+[31.335779] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/SurgicalTrolley HTTP/1.1" 200 383\n'}
+[31.336481] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model PotatoChipChair.\n'}
+[31.336829] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[31.417023] (-) TimerEvent: {}
+[31.517444] (-) TimerEvent: {}
+[31.617870] (-) TimerEvent: {}
+[31.718300] (-) TimerEvent: {}
+[31.818733] (-) TimerEvent: {}
+[31.919159] (-) TimerEvent: {}
+[32.019570] (-) TimerEvent: {}
+[32.120009] (-) TimerEvent: {}
+[32.220314] (-) TimerEvent: {}
+[32.320727] (-) TimerEvent: {}
+[32.420939] (-) TimerEvent: {}
+[32.521250] (-) TimerEvent: {}
+[32.621494] (-) TimerEvent: {}
+[32.721923] (-) TimerEvent: {}
+[32.822236] (-) TimerEvent: {}
+[32.922579] (-) TimerEvent: {}
+[33.022855] (-) TimerEvent: {}
+[33.123111] (-) TimerEvent: {}
+[33.223422] (-) TimerEvent: {}
+[33.323775] (-) TimerEvent: {}
+[33.424037] (-) TimerEvent: {}
+[33.524285] (-) TimerEvent: {}
+[33.624624] (-) TimerEvent: {}
+[33.724850] (-) TimerEvent: {}
+[33.825264] (-) TimerEvent: {}
+[33.925484] (-) TimerEvent: {}
+[33.956838] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/PotatoChipChair HTTP/1.1" 200 411\n'}
+[33.957640] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model VisitorKidSit.\n'}
+[33.958090] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[34.025605] (-) TimerEvent: {}
+[34.125863] (-) TimerEvent: {}
+[34.226077] (-) TimerEvent: {}
+[34.326305] (-) TimerEvent: {}
+[34.426614] (-) TimerEvent: {}
+[34.526827] (-) TimerEvent: {}
+[34.627090] (-) TimerEvent: {}
+[34.727424] (-) TimerEvent: {}
+[34.827654] (-) TimerEvent: {}
+[34.927881] (-) TimerEvent: {}
+[35.028261] (-) TimerEvent: {}
+[35.128522] (-) TimerEvent: {}
+[35.228756] (-) TimerEvent: {}
+[35.328995] (-) TimerEvent: {}
+[35.429243] (-) TimerEvent: {}
+[35.529491] (-) TimerEvent: {}
+[35.629878] (-) TimerEvent: {}
+[35.730103] (-) TimerEvent: {}
+[35.830551] (-) TimerEvent: {}
+[35.930899] (-) TimerEvent: {}
+[36.031124] (-) TimerEvent: {}
+[36.131387] (-) TimerEvent: {}
+[36.231643] (-) TimerEvent: {}
+[36.331862] (-) TimerEvent: {}
+[36.432185] (-) TimerEvent: {}
+[36.532747] (-) TimerEvent: {}
+[36.553543] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/VisitorKidSit HTTP/1.1" 200 396\n'}
+[36.554292] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model FemaleVisitorSit.\n'}
+[36.554708] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[36.633044] (-) TimerEvent: {}
+[36.733259] (-) TimerEvent: {}
+[36.833695] (-) TimerEvent: {}
+[36.934151] (-) TimerEvent: {}
+[37.034644] (-) TimerEvent: {}
+[37.135067] (-) TimerEvent: {}
+[37.235488] (-) TimerEvent: {}
+[37.335987] (-) TimerEvent: {}
+[37.436457] (-) TimerEvent: {}
+[37.536896] (-) TimerEvent: {}
+[37.637363] (-) TimerEvent: {}
+[37.737796] (-) TimerEvent: {}
+[37.838040] (-) TimerEvent: {}
+[37.938306] (-) TimerEvent: {}
+[38.038593] (-) TimerEvent: {}
+[38.138820] (-) TimerEvent: {}
+[38.239297] (-) TimerEvent: {}
+[38.294596] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/FemaleVisitorSit HTTP/1.1" 200 379\n'}
+[38.295494] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model AdjTable.\n'}
+[38.295820] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[38.339418] (-) TimerEvent: {}
+[38.439647] (-) TimerEvent: {}
+[38.539867] (-) TimerEvent: {}
+[38.640185] (-) TimerEvent: {}
+[38.740514] (-) TimerEvent: {}
+[38.840750] (-) TimerEvent: {}
+[38.941020] (-) TimerEvent: {}
+[39.041324] (-) TimerEvent: {}
+[39.141746] (-) TimerEvent: {}
+[39.242003] (-) TimerEvent: {}
+[39.342427] (-) TimerEvent: {}
+[39.442844] (-) TimerEvent: {}
+[39.543269] (-) TimerEvent: {}
+[39.643590] (-) TimerEvent: {}
+[39.743834] (-) TimerEvent: {}
+[39.844153] (-) TimerEvent: {}
+[39.944634] (-) TimerEvent: {}
+[40.045069] (-) TimerEvent: {}
+[40.145502] (-) TimerEvent: {}
+[40.245836] (-) TimerEvent: {}
+[40.345954] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/AdjTable HTTP/1.1" 200 391\n'}
+[40.346064] (-) TimerEvent: {}
+[40.346497] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model MopCart3.\n'}
+[40.347150] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[40.446164] (-) TimerEvent: {}
+[40.546508] (-) TimerEvent: {}
+[40.646754] (-) TimerEvent: {}
+[40.747102] (-) TimerEvent: {}
+[40.847374] (-) TimerEvent: {}
+[40.947801] (-) TimerEvent: {}
+[41.048245] (-) TimerEvent: {}
+[41.148463] (-) TimerEvent: {}
+[41.248691] (-) TimerEvent: {}
+[41.348915] (-) TimerEvent: {}
+[41.449167] (-) TimerEvent: {}
+[41.549492] (-) TimerEvent: {}
+[41.649757] (-) TimerEvent: {}
+[41.749973] (-) TimerEvent: {}
+[41.850300] (-) TimerEvent: {}
+[41.950729] (-) TimerEvent: {}
+[42.051061] (-) TimerEvent: {}
+[42.151507] (-) TimerEvent: {}
+[42.251880] (-) TimerEvent: {}
+[42.352304] (-) TimerEvent: {}
+[42.452641] (-) TimerEvent: {}
+[42.553070] (-) TimerEvent: {}
+[42.653510] (-) TimerEvent: {}
+[42.753794] (-) TimerEvent: {}
+[42.854077] (-) TimerEvent: {}
+[42.903958] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/MopCart3 HTTP/1.1" 200 395\n'}
+[42.904975] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model MaleVisitorSit.\n'}
+[42.905546] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[42.954164] (-) TimerEvent: {}
+[43.054476] (-) TimerEvent: {}
+[43.154853] (-) TimerEvent: {}
+[43.255265] (-) TimerEvent: {}
+[43.355701] (-) TimerEvent: {}
+[43.456182] (-) TimerEvent: {}
+[43.556623] (-) TimerEvent: {}
+[43.657107] (-) TimerEvent: {}
+[43.757584] (-) TimerEvent: {}
+[43.858030] (-) TimerEvent: {}
+[43.958346] (-) TimerEvent: {}
+[44.058775] (-) TimerEvent: {}
+[44.159200] (-) TimerEvent: {}
+[44.259460] (-) TimerEvent: {}
+[44.359807] (-) TimerEvent: {}
+[44.460070] (-) TimerEvent: {}
+[44.560398] (-) TimerEvent: {}
+[44.660838] (-) TimerEvent: {}
+[44.761271] (-) TimerEvent: {}
+[44.861694] (-) TimerEvent: {}
+[44.962030] (-) TimerEvent: {}
+[45.062508] (-) TimerEvent: {}
+[45.162953] (-) TimerEvent: {}
+[45.263365] (-) TimerEvent: {}
+[45.363796] (-) TimerEvent: {}
+[45.464226] (-) TimerEvent: {}
+[45.564536] (-) TimerEvent: {}
+[45.565150] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/MaleVisitorSit HTTP/1.1" 200 376\n'}
+[45.565998] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model Drawer.\n'}
+[45.566467] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[45.664886] (-) TimerEvent: {}
+[45.765432] (-) TimerEvent: {}
+[45.865959] (-) TimerEvent: {}
+[45.966246] (-) TimerEvent: {}
+[46.066750] (-) TimerEvent: {}
+[46.167232] (-) TimerEvent: {}
+[46.267526] (-) TimerEvent: {}
+[46.368018] (-) TimerEvent: {}
+[46.468553] (-) TimerEvent: {}
+[46.568978] (-) TimerEvent: {}
+[46.669500] (-) TimerEvent: {}
+[46.770062] (-) TimerEvent: {}
+[46.870552] (-) TimerEvent: {}
+[46.971069] (-) TimerEvent: {}
+[47.071554] (-) TimerEvent: {}
+[47.172090] (-) TimerEvent: {}
+[47.213088] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/Drawer HTTP/1.1" 200 377\n'}
+[47.213871] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model OfficeChairBlack.\n'}
+[47.214292] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[47.272469] (-) TimerEvent: {}
+[47.372966] (-) TimerEvent: {}
+[47.473440] (-) TimerEvent: {}
+[47.573947] (-) TimerEvent: {}
+[47.674270] (-) TimerEvent: {}
+[47.774751] (-) TimerEvent: {}
+[47.875235] (-) TimerEvent: {}
+[47.975727] (-) TimerEvent: {}
+[48.076206] (-) TimerEvent: {}
+[48.176769] (-) TimerEvent: {}
+[48.277286] (-) TimerEvent: {}
+[48.377775] (-) TimerEvent: {}
+[48.478030] (-) TimerEvent: {}
+[48.578562] (-) TimerEvent: {}
+[48.679089] (-) TimerEvent: {}
+[48.779543] (-) TimerEvent: {}
+[48.880024] (-) TimerEvent: {}
+[48.980349] (-) TimerEvent: {}
+[49.080675] (-) TimerEvent: {}
+[49.181047] (-) TimerEvent: {}
+[49.281505] (-) TimerEvent: {}
+[49.381939] (-) TimerEvent: {}
+[49.482370] (-) TimerEvent: {}
+[49.582796] (-) TimerEvent: {}
+[49.683223] (-) TimerEvent: {}
+[49.783674] (-) TimerEvent: {}
+[49.884119] (-) TimerEvent: {}
+[49.984547] (-) TimerEvent: {}
+[50.085030] (-) TimerEvent: {}
+[50.185461] (-) TimerEvent: {}
+[50.285899] (-) TimerEvent: {}
+[50.386326] (-) TimerEvent: {}
+[50.486756] (-) TimerEvent: {}
+[50.586975] (-) TimerEvent: {}
+[50.687387] (-) TimerEvent: {}
+[50.787869] (-) TimerEvent: {}
+[50.888282] (-) TimerEvent: {}
+[50.988700] (-) TimerEvent: {}
+[51.089126] (-) TimerEvent: {}
+[51.189557] (-) TimerEvent: {}
+[51.289997] (-) TimerEvent: {}
+[51.390356] (-) TimerEvent: {}
+[51.490846] (-) TimerEvent: {}
+[51.591069] (-) TimerEvent: {}
+[51.609508] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/OfficeChairBlack HTTP/1.1" 200 402\n'}
+[51.610189] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model ElderLadyPatient.\n'}
+[51.610480] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[51.691379] (-) TimerEvent: {}
+[51.791800] (-) TimerEvent: {}
+[51.892232] (-) TimerEvent: {}
+[51.992670] (-) TimerEvent: {}
+[52.093094] (-) TimerEvent: {}
+[52.193544] (-) TimerEvent: {}
+[52.293919] (-) TimerEvent: {}
+[52.394349] (-) TimerEvent: {}
+[52.494778] (-) TimerEvent: {}
+[52.595097] (-) TimerEvent: {}
+[52.695527] (-) TimerEvent: {}
+[52.795972] (-) TimerEvent: {}
+[52.896419] (-) TimerEvent: {}
+[52.996848] (-) TimerEvent: {}
+[53.097290] (-) TimerEvent: {}
+[53.197776] (-) TimerEvent: {}
+[53.298269] (-) TimerEvent: {}
+[53.398763] (-) TimerEvent: {}
+[53.499200] (-) TimerEvent: {}
+[53.599416] (-) TimerEvent: {}
+[53.699886] (-) TimerEvent: {}
+[53.800234] (-) TimerEvent: {}
+[53.900455] (-) TimerEvent: {}
+[54.000869] (-) TimerEvent: {}
+[54.101304] (-) TimerEvent: {}
+[54.201747] (-) TimerEvent: {}
+[54.302118] (-) TimerEvent: {}
+[54.377207] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/ElderLadyPatient HTTP/1.1" 200 460\n'}
+[54.377971] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model ElderMalePatient.\n'}
+[54.378313] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[54.402427] (-) TimerEvent: {}
+[54.502861] (-) TimerEvent: {}
+[54.603291] (-) TimerEvent: {}
+[54.703714] (-) TimerEvent: {}
+[54.804125] (-) TimerEvent: {}
+[54.904440] (-) TimerEvent: {}
+[55.004874] (-) TimerEvent: {}
+[55.105301] (-) TimerEvent: {}
+[55.205745] (-) TimerEvent: {}
+[55.306173] (-) TimerEvent: {}
+[55.406595] (-) TimerEvent: {}
+[55.507038] (-) TimerEvent: {}
+[55.607469] (-) TimerEvent: {}
+[55.707898] (-) TimerEvent: {}
+[55.808211] (-) TimerEvent: {}
+[55.908458] (-) TimerEvent: {}
+[56.008845] (-) TimerEvent: {}
+[56.109272] (-) TimerEvent: {}
+[56.209717] (-) TimerEvent: {}
+[56.310070] (-) TimerEvent: {}
+[56.410325] (-) TimerEvent: {}
+[56.510765] (-) TimerEvent: {}
+[56.611089] (-) TimerEvent: {}
+[56.711515] (-) TimerEvent: {}
+[56.811959] (-) TimerEvent: {}
+[56.912391] (-) TimerEvent: {}
+[57.012853] (-) TimerEvent: {}
+[57.113326] (-) TimerEvent: {}
+[57.213746] (-) TimerEvent: {}
+[57.314173] (-) TimerEvent: {}
+[57.414596] (-) TimerEvent: {}
+[57.444074] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/ElderMalePatient HTTP/1.1" 200 467\n'}
+[57.444835] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model InstrumentCart2.\n'}
+[57.445132] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[57.514897] (-) TimerEvent: {}
+[57.615331] (-) TimerEvent: {}
+[57.715790] (-) TimerEvent: {}
+[57.816264] (-) TimerEvent: {}
+[57.916695] (-) TimerEvent: {}
+[58.017128] (-) TimerEvent: {}
+[58.117499] (-) TimerEvent: {}
+[58.217831] (-) TimerEvent: {}
+[58.318142] (-) TimerEvent: {}
+[58.418476] (-) TimerEvent: {}
+[58.518657] (-) TimerEvent: {}
+[58.618879] (-) TimerEvent: {}
+[58.719229] (-) TimerEvent: {}
+[58.819711] (-) TimerEvent: {}
+[58.920076] (-) TimerEvent: {}
+[59.020511] (-) TimerEvent: {}
+[59.120963] (-) TimerEvent: {}
+[59.221285] (-) TimerEvent: {}
+[59.321715] (-) TimerEvent: {}
+[59.421956] (-) TimerEvent: {}
+[59.522275] (-) TimerEvent: {}
+[59.622494] (-) TimerEvent: {}
+[59.722829] (-) TimerEvent: {}
+[59.823091] (-) TimerEvent: {}
+[59.923532] (-) TimerEvent: {}
+[60.023993] (-) TimerEvent: {}
+[60.124448] (-) TimerEvent: {}
+[60.209122] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/InstrumentCart2 HTTP/1.1" 200 388\n'}
+[60.209749] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model MetalCabinet.\n'}
+[60.210147] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[60.224784] (-) TimerEvent: {}
+[60.325206] (-) TimerEvent: {}
+[60.425569] (-) TimerEvent: {}
+[60.526084] (-) TimerEvent: {}
+[60.626629] (-) TimerEvent: {}
+[60.727111] (-) TimerEvent: {}
+[60.827597] (-) TimerEvent: {}
+[60.928097] (-) TimerEvent: {}
+[61.028581] (-) TimerEvent: {}
+[61.129070] (-) TimerEvent: {}
+[61.229353] (-) TimerEvent: {}
+[61.329708] (-) TimerEvent: {}
+[61.430197] (-) TimerEvent: {}
+[61.530699] (-) TimerEvent: {}
+[61.631203] (-) TimerEvent: {}
+[61.731741] (-) TimerEvent: {}
+[61.832302] (-) TimerEvent: {}
+[61.932829] (-) TimerEvent: {}
+[62.033319] (-) TimerEvent: {}
+[62.133811] (-) TimerEvent: {}
+[62.234299] (-) TimerEvent: {}
+[62.334822] (-) TimerEvent: {}
+[62.435330] (-) TimerEvent: {}
+[62.535821] (-) TimerEvent: {}
+[62.636338] (-) TimerEvent: {}
+[62.736702] (-) TimerEvent: {}
+[62.837181] (-) TimerEvent: {}
+[62.874367] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/MetalCabinet HTTP/1.1" 200 382\n'}
+[62.875059] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model BedTable.\n'}
+[62.875683] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[62.937480] (-) TimerEvent: {}
+[63.037914] (-) TimerEvent: {}
+[63.138344] (-) TimerEvent: {}
+[63.238773] (-) TimerEvent: {}
+[63.339189] (-) TimerEvent: {}
+[63.439658] (-) TimerEvent: {}
+[63.540163] (-) TimerEvent: {}
+[63.640546] (-) TimerEvent: {}
+[63.740952] (-) TimerEvent: {}
+[63.841383] (-) TimerEvent: {}
+[63.941848] (-) TimerEvent: {}
+[64.042268] (-) TimerEvent: {}
+[64.142743] (-) TimerEvent: {}
+[64.243170] (-) TimerEvent: {}
+[64.343592] (-) TimerEvent: {}
+[64.444015] (-) TimerEvent: {}
+[64.508807] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/BedTable HTTP/1.1" 200 399\n'}
+[64.509535] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model BedsideTable.\n'}
+[64.510032] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[64.544313] (-) TimerEvent: {}
+[64.644744] (-) TimerEvent: {}
+[64.745170] (-) TimerEvent: {}
+[64.845602] (-) TimerEvent: {}
+[64.946041] (-) TimerEvent: {}
+[65.046264] (-) TimerEvent: {}
+[65.146708] (-) TimerEvent: {}
+[65.247131] (-) TimerEvent: {}
+[65.347626] (-) TimerEvent: {}
+[65.448052] (-) TimerEvent: {}
+[65.548384] (-) TimerEvent: {}
+[65.648885] (-) TimerEvent: {}
+[65.749322] (-) TimerEvent: {}
+[65.849744] (-) TimerEvent: {}
+[65.950172] (-) TimerEvent: {}
+[66.050620] (-) TimerEvent: {}
+[66.150961] (-) TimerEvent: {}
+[66.251425] (-) TimerEvent: {}
+[66.351773] (-) TimerEvent: {}
+[66.452030] (-) TimerEvent: {}
+[66.552493] (-) TimerEvent: {}
+[66.652943] (-) TimerEvent: {}
+[66.753365] (-) TimerEvent: {}
+[66.756666] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/BedsideTable HTTP/1.1" 200 401\n'}
+[66.757388] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model AnesthesiaMachine.\n'}
+[66.757773] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[66.853679] (-) TimerEvent: {}
+[66.954107] (-) TimerEvent: {}
+[67.054532] (-) TimerEvent: {}
+[67.154974] (-) TimerEvent: {}
+[67.255413] (-) TimerEvent: {}
+[67.355895] (-) TimerEvent: {}
+[67.456256] (-) TimerEvent: {}
+[67.556698] (-) TimerEvent: {}
+[67.657158] (-) TimerEvent: {}
+[67.757626] (-) TimerEvent: {}
+[67.857957] (-) TimerEvent: {}
+[67.958274] (-) TimerEvent: {}
+[68.058614] (-) TimerEvent: {}
+[68.158939] (-) TimerEvent: {}
+[68.259170] (-) TimerEvent: {}
+[68.359472] (-) TimerEvent: {}
+[68.459772] (-) TimerEvent: {}
+[68.560206] (-) TimerEvent: {}
+[68.660685] (-) TimerEvent: {}
+[68.761004] (-) TimerEvent: {}
+[68.861504] (-) TimerEvent: {}
+[68.961943] (-) TimerEvent: {}
+[69.062331] (-) TimerEvent: {}
+[69.162753] (-) TimerEvent: {}
+[69.263181] (-) TimerEvent: {}
+[69.363662] (-) TimerEvent: {}
+[69.426212] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/AnesthesiaMachine HTTP/1.1" 200 377\n'}
+[69.426890] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model TrolleyBedPatient.\n'}
+[69.427490] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[69.463956] (-) TimerEvent: {}
+[69.564378] (-) TimerEvent: {}
+[69.664800] (-) TimerEvent: {}
+[69.765214] (-) TimerEvent: {}
+[69.865547] (-) TimerEvent: {}
+[69.965769] (-) TimerEvent: {}
+[70.066197] (-) TimerEvent: {}
+[70.166637] (-) TimerEvent: {}
+[70.267070] (-) TimerEvent: {}
+[70.367496] (-) TimerEvent: {}
+[70.467767] (-) TimerEvent: {}
+[70.568194] (-) TimerEvent: {}
+[70.668631] (-) TimerEvent: {}
+[70.768845] (-) TimerEvent: {}
+[70.869270] (-) TimerEvent: {}
+[70.969702] (-) TimerEvent: {}
+[71.070130] (-) TimerEvent: {}
+[71.155703] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/TrolleyBedPatient HTTP/1.1" 200 395\n'}
+[71.156441] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model Shower.\n'}
+[71.156850] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[71.170440] (-) TimerEvent: {}
+[71.270802] (-) TimerEvent: {}
+[71.371196] (-) TimerEvent: {}
+[71.471569] (-) TimerEvent: {}
+[71.571907] (-) TimerEvent: {}
+[71.672339] (-) TimerEvent: {}
+[71.772693] (-) TimerEvent: {}
+[71.873110] (-) TimerEvent: {}
+[71.973457] (-) TimerEvent: {}
+[72.073865] (-) TimerEvent: {}
+[72.174295] (-) TimerEvent: {}
+[72.274769] (-) TimerEvent: {}
+[72.375236] (-) TimerEvent: {}
+[72.475566] (-) TimerEvent: {}
+[72.575912] (-) TimerEvent: {}
+[72.676228] (-) TimerEvent: {}
+[72.776557] (-) TimerEvent: {}
+[72.876787] (-) TimerEvent: {}
+[72.977014] (-) TimerEvent: {}
+[73.077314] (-) TimerEvent: {}
+[73.177533] (-) TimerEvent: {}
+[73.277771] (-) TimerEvent: {}
+[73.378075] (-) TimerEvent: {}
+[73.478409] (-) TimerEvent: {}
+[73.578721] (-) TimerEvent: {}
+[73.679054] (-) TimerEvent: {}
+[73.779392] (-) TimerEvent: {}
+[73.879721] (-) TimerEvent: {}
+[73.979963] (-) TimerEvent: {}
+[74.038188] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/Shower HTTP/1.1" 200 385\n'}
+[74.038986] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model SurgicalTrolleyMed.\n'}
+[74.039549] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[74.080151] (-) TimerEvent: {}
+[74.180473] (-) TimerEvent: {}
+[74.280775] (-) TimerEvent: {}
+[74.381006] (-) TimerEvent: {}
+[74.481461] (-) TimerEvent: {}
+[74.581920] (-) TimerEvent: {}
+[74.682387] (-) TimerEvent: {}
+[74.782849] (-) TimerEvent: {}
+[74.883274] (-) TimerEvent: {}
+[74.983688] (-) TimerEvent: {}
+[75.084107] (-) TimerEvent: {}
+[75.184531] (-) TimerEvent: {}
+[75.284979] (-) TimerEvent: {}
+[75.385395] (-) TimerEvent: {}
+[75.485823] (-) TimerEvent: {}
+[75.567869] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/SurgicalTrolleyMed HTTP/1.1" 200 400\n'}
+[75.568641] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model StorageRackCovered.\n'}
+[75.568957] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[75.586129] (-) TimerEvent: {}
+[75.686558] (-) TimerEvent: {}
+[75.787006] (-) TimerEvent: {}
+[75.887423] (-) TimerEvent: {}
+[75.987732] (-) TimerEvent: {}
+[76.088156] (-) TimerEvent: {}
+[76.188583] (-) TimerEvent: {}
+[76.289025] (-) TimerEvent: {}
+[76.389480] (-) TimerEvent: {}
+[76.489886] (-) TimerEvent: {}
+[76.590146] (-) TimerEvent: {}
+[76.690396] (-) TimerEvent: {}
+[76.790628] (-) TimerEvent: {}
+[76.891076] (-) TimerEvent: {}
+[76.991498] (-) TimerEvent: {}
+[77.091982] (-) TimerEvent: {}
+[77.192453] (-) TimerEvent: {}
+[77.292885] (-) TimerEvent: {}
+[77.393368] (-) TimerEvent: {}
+[77.493852] (-) TimerEvent: {}
+[77.594355] (-) TimerEvent: {}
+[77.694796] (-) TimerEvent: {}
+[77.795220] (-) TimerEvent: {}
+[77.895694] (-) TimerEvent: {}
+[77.996145] (-) TimerEvent: {}
+[78.096588] (-) TimerEvent: {}
+[78.197077] (-) TimerEvent: {}
+[78.297558] (-) TimerEvent: {}
+[78.333553] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/StorageRackCovered HTTP/1.1" 200 381\n'}
+[78.334254] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model KitchenSink.\n'}
+[78.334742] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[78.397860] (-) TimerEvent: {}
+[78.498291] (-) TimerEvent: {}
+[78.598568] (-) TimerEvent: {}
+[78.698824] (-) TimerEvent: {}
+[78.799176] (-) TimerEvent: {}
+[78.899523] (-) TimerEvent: {}
+[78.999770] (-) TimerEvent: {}
+[79.100049] (-) TimerEvent: {}
+[79.200535] (-) TimerEvent: {}
+[79.300767] (-) TimerEvent: {}
+[79.400989] (-) TimerEvent: {}
+[79.501308] (-) TimerEvent: {}
+[79.601737] (-) TimerEvent: {}
+[79.702168] (-) TimerEvent: {}
+[79.802654] (-) TimerEvent: {}
+[79.902974] (-) TimerEvent: {}
+[80.003411] (-) TimerEvent: {}
+[80.073679] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/KitchenSink HTTP/1.1" 200 407\n'}
+[80.074432] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model Toilet.\n'}
+[80.075044] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[80.103710] (-) TimerEvent: {}
+[80.204131] (-) TimerEvent: {}
+[80.304549] (-) TimerEvent: {}
+[80.404986] (-) TimerEvent: {}
+[80.505296] (-) TimerEvent: {}
+[80.605765] (-) TimerEvent: {}
+[80.706188] (-) TimerEvent: {}
+[80.806603] (-) TimerEvent: {}
+[80.907020] (-) TimerEvent: {}
+[81.007482] (-) TimerEvent: {}
+[81.107901] (-) TimerEvent: {}
+[81.208327] (-) TimerEvent: {}
+[81.308751] (-) TimerEvent: {}
+[81.409160] (-) TimerEvent: {}
+[81.509481] (-) TimerEvent: {}
+[81.608647] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/Toilet HTTP/1.1" 200 383\n'}
+[81.609335] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model VendingMachine.\n'}
+[81.609531] (-) TimerEvent: {}
+[81.609670] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[81.709843] (-) TimerEvent: {}
+[81.810249] (-) TimerEvent: {}
+[81.910721] (-) TimerEvent: {}
+[82.011200] (-) TimerEvent: {}
+[82.111695] (-) TimerEvent: {}
+[82.212180] (-) TimerEvent: {}
+[82.312700] (-) TimerEvent: {}
+[82.413231] (-) TimerEvent: {}
+[82.513749] (-) TimerEvent: {}
+[82.614182] (-) TimerEvent: {}
+[82.714657] (-) TimerEvent: {}
+[82.815144] (-) TimerEvent: {}
+[82.915631] (-) TimerEvent: {}
+[83.016129] (-) TimerEvent: {}
+[83.116595] (-) TimerEvent: {}
+[83.216867] (-) TimerEvent: {}
+[83.317351] (-) TimerEvent: {}
+[83.417844] (-) TimerEvent: {}
+[83.518377] (-) TimerEvent: {}
+[83.618916] (-) TimerEvent: {}
+[83.719419] (-) TimerEvent: {}
+[83.819956] (-) TimerEvent: {}
+[83.920440] (-) TimerEvent: {}
+[84.020925] (-) TimerEvent: {}
+[84.121427] (-) TimerEvent: {}
+[84.173661] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/VendingMachine HTTP/1.1" 200 424\n'}
+[84.174395] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model ParkingTrolleyMin.\n'}
+[84.174867] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[84.221506] (-) TimerEvent: {}
+[84.322020] (-) TimerEvent: {}
+[84.422499] (-) TimerEvent: {}
+[84.522994] (-) TimerEvent: {}
+[84.623245] (-) TimerEvent: {}
+[84.723595] (-) TimerEvent: {}
+[84.823966] (-) TimerEvent: {}
+[84.924454] (-) TimerEvent: {}
+[85.024977] (-) TimerEvent: {}
+[85.125504] (-) TimerEvent: {}
+[85.225872] (-) TimerEvent: {}
+[85.326262] (-) TimerEvent: {}
+[85.426755] (-) TimerEvent: {}
+[85.527247] (-) TimerEvent: {}
+[85.627724] (-) TimerEvent: {}
+[85.713156] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/ParkingTrolleyMin HTTP/1.1" 200 417\n'}
+[85.713919] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model PatientFSit.\n'}
+[85.714286] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[85.728056] (-) TimerEvent: {}
+[85.828569] (-) TimerEvent: {}
+[85.928947] (-) TimerEvent: {}
+[86.029335] (-) TimerEvent: {}
+[86.129741] (-) TimerEvent: {}
+[86.230131] (-) TimerEvent: {}
+[86.330525] (-) TimerEvent: {}
+[86.431042] (-) TimerEvent: {}
+[86.531523] (-) TimerEvent: {}
+[86.632068] (-) TimerEvent: {}
+[86.732439] (-) TimerEvent: {}
+[86.832819] (-) TimerEvent: {}
+[86.933207] (-) TimerEvent: {}
+[87.033600] (-) TimerEvent: {}
+[87.134010] (-) TimerEvent: {}
+[87.234382] (-) TimerEvent: {}
+[87.334866] (-) TimerEvent: {}
+[87.435354] (-) TimerEvent: {}
+[87.535760] (-) TimerEvent: {}
+[87.636130] (-) TimerEvent: {}
+[87.736521] (-) TimerEvent: {}
+[87.837039] (-) TimerEvent: {}
+[87.937546] (-) TimerEvent: {}
+[88.038049] (-) TimerEvent: {}
+[88.138537] (-) TimerEvent: {}
+[88.238900] (-) TimerEvent: {}
+[88.339392] (-) TimerEvent: {}
+[88.439746] (-) TimerEvent: {}
+[88.540211] (-) TimerEvent: {}
+[88.640717] (-) TimerEvent: {}
+[88.741226] (-) TimerEvent: {}
+[88.748348] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/PatientFSit HTTP/1.1" 200 371\n'}
+[88.749383] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model MaleVisitorOnPhone.\n'}
+[88.750088] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[88.841431] (-) TimerEvent: {}
+[88.941783] (-) TimerEvent: {}
+[89.042184] (-) TimerEvent: {}
+[89.142582] (-) TimerEvent: {}
+[89.243074] (-) TimerEvent: {}
+[89.343542] (-) TimerEvent: {}
+[89.444045] (-) TimerEvent: {}
+[89.544400] (-) TimerEvent: {}
+[89.644755] (-) TimerEvent: {}
+[89.745037] (-) TimerEvent: {}
+[89.845444] (-) TimerEvent: {}
+[89.945952] (-) TimerEvent: {}
+[90.046444] (-) TimerEvent: {}
+[90.147014] (-) TimerEvent: {}
+[90.247418] (-) TimerEvent: {}
+[90.347803] (-) TimerEvent: {}
+[90.448186] (-) TimerEvent: {}
+[90.548568] (-) TimerEvent: {}
+[90.649042] (-) TimerEvent: {}
+[90.749601] (-) TimerEvent: {}
+[90.769541] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/MaleVisitorOnPhone HTTP/1.1" 200 428\n'}
+[90.770229] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model FemaleVisitor.\n'}
+[90.770512] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[90.849899] (-) TimerEvent: {}
+[90.950211] (-) TimerEvent: {}
+[91.050558] (-) TimerEvent: {}
+[91.150916] (-) TimerEvent: {}
+[91.251229] (-) TimerEvent: {}
+[91.351550] (-) TimerEvent: {}
+[91.451803] (-) TimerEvent: {}
+[91.552209] (-) TimerEvent: {}
+[91.652654] (-) TimerEvent: {}
+[91.752882] (-) TimerEvent: {}
+[91.853184] (-) TimerEvent: {}
+[91.953433] (-) TimerEvent: {}
+[92.053783] (-) TimerEvent: {}
+[92.134283] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/FemaleVisitor HTTP/1.1" 200 377\n'}
+[92.135062] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model MalePatientBed.\n'}
+[92.135587] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[92.153922] (-) TimerEvent: {}
+[92.254355] (-) TimerEvent: {}
+[92.354801] (-) TimerEvent: {}
+[92.455168] (-) TimerEvent: {}
+[92.555603] (-) TimerEvent: {}
+[92.656050] (-) TimerEvent: {}
+[92.756484] (-) TimerEvent: {}
+[92.856918] (-) TimerEvent: {}
+[92.957459] (-) TimerEvent: {}
+[93.057661] (-) TimerEvent: {}
+[93.157878] (-) TimerEvent: {}
+[93.258210] (-) TimerEvent: {}
+[93.358513] (-) TimerEvent: {}
+[93.458784] (-) TimerEvent: {}
+[93.494887] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/MalePatientBed HTTP/1.1" 200 481\n'}
+[93.495696] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model StorageRackCoverOpen.\n'}
+[93.496229] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[93.558891] (-) TimerEvent: {}
+[93.659375] (-) TimerEvent: {}
+[93.759642] (-) TimerEvent: {}
+[93.860183] (-) TimerEvent: {}
+[93.960675] (-) TimerEvent: {}
+[94.061180] (-) TimerEvent: {}
+[94.161668] (-) TimerEvent: {}
+[94.261994] (-) TimerEvent: {}
+[94.362491] (-) TimerEvent: {}
+[94.462748] (-) TimerEvent: {}
+[94.563029] (-) TimerEvent: {}
+[94.663331] (-) TimerEvent: {}
+[94.763585] (-) TimerEvent: {}
+[94.864101] (-) TimerEvent: {}
+[94.964579] (-) TimerEvent: {}
+[95.065077] (-) TimerEvent: {}
+[95.165557] (-) TimerEvent: {}
+[95.266073] (-) TimerEvent: {}
+[95.366667] (-) TimerEvent: {}
+[95.467205] (-) TimerEvent: {}
+[95.567760] (-) TimerEvent: {}
+[95.668283] (-) TimerEvent: {}
+[95.768662] (-) TimerEvent: {}
+[95.868954] (-) TimerEvent: {}
+[95.948374] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/StorageRackCoverOpen HTTP/1.1" 200 394\n'}
+[95.949084] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Fetching model ParkingTrolleyMax.\n'}
+[95.949331] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[95.969284] (-) TimerEvent: {}
+[96.069799] (-) TimerEvent: {}
+[96.170318] (-) TimerEvent: {}
+[96.270885] (-) TimerEvent: {}
+[96.371446] (-) TimerEvent: {}
+[96.471699] (-) TimerEvent: {}
+[96.572195] (-) TimerEvent: {}
+[96.672500] (-) TimerEvent: {}
+[96.772883] (-) TimerEvent: {}
+[96.873323] (-) TimerEvent: {}
+[96.973796] (-) TimerEvent: {}
+[97.074270] (-) TimerEvent: {}
+[97.174750] (-) TimerEvent: {}
+[97.275003] (-) TimerEvent: {}
+[97.375484] (-) TimerEvent: {}
+[97.475985] (-) TimerEvent: {}
+[97.576403] (-) TimerEvent: {}
+[97.676663] (-) TimerEvent: {}
+[97.776918] (-) TimerEvent: {}
+[97.877218] (-) TimerEvent: {}
+[97.892099] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/ParkingTrolleyMax HTTP/1.1" 200 418\n'}
+[97.893219] (aws_robomaker_hospital_world) StdoutLine: {'line': b"DEBUG:root:Complete model list: [{'createdAt': '2020-08-06T11:41:57Z', 'updatedAt': '2024-12-03T17:45:49Z', 'name': 'XRayMachine', 'owner': 'OpenRobotics', 'description': '', 'likes': 0, 'downloads': 5129, 'filesize': 345665, 'upload_date': '2020-08-06T11:41:56Z', 'modify_date': '2023-09-27T15:22:20Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/XRayMachine/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['xray', 'machine', 'xraymachine'], 'categories': ['Electronics', 'Appliance']}, {'createdAt': '2020-08-06T11:26:29Z', 'updatedAt': '2024-12-03T17:46:02Z', 'name': 'IVStand', 'owner': 'OpenRobotics', 'description': 'A generic hospital IV stand', 'likes': 0, 'downloads': 23603, 'filesize': 774855, 'upload_date': '2020-08-06T11:26:28Z', 'modify_date': '2023-09-27T15:23:16Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/IVStand/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['stand', 'IV', 'IVStand'], 'categories': ['Appliance']}, {'createdAt': '2020-08-06T11:21:27Z', 'updatedAt': '2024-12-03T17:46:36Z', 'name': 'BloodPressureMonitor', 'owner': 'OpenRobotics', 'description': '', 'likes': 0, 'downloads': 5276, 'filesize': 237020, 'upload_date': '2020-08-06T11:21:26Z', 'modify_date': '2023-09-27T15:23:44Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/BloodPressureMonitor/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['monitor', 'bloodpressure', 'blood', 'bloodpressuremonitor'], 'categories': ['Appliance']}, {'createdAt': '2020-08-06T11:22:38Z', 'updatedAt': '2024-12-03T17:46:45Z', 'name': 'BPCart', 'owner': 'OpenRobotics', 'description': 'A generic hospital cart', 'likes': 0, 'downloads': 5284, 'filesize': 1659990, 'upload_date': '2020-08-06T11:22:35Z', 'modify_date': '2023-09-27T15:23:37Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/BPCart/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['bp', 'cart', 'bpcart'], 'categories': ['Appliance']}, {'createdAt': '2020-06-26T09:36:40Z', 'updatedAt': '2024-12-03T17:47:47Z', 'name': 'BMWCart', 'owner': 'OpenRobotics', 'description': 'A generic hospital cart', 'likes': 0, 'downloads': 5407, 'filesize': 1607574, 'upload_date': '2020-06-26T09:36:38Z', 'modify_date': '2023-09-27T15:26:53Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/BMWCart/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Appliance']}, {'createdAt': '2019-10-28T05:53:59Z', 'updatedAt': '2024-12-03T17:48:20Z', 'name': 'CGMClassic', 'owner': 'OpenRobotics', 'description': 'A CGMClassic hospital bed', 'likes': 0, 'downloads': 5323, 'filesize': 1597545, 'upload_date': '2019-10-28T05:53:56Z', 'modify_date': '2023-09-27T16:22:35Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/CGMClassic/tip/files/thumbnails/1.png', 'version': 4, 'private': False, 'tags': ['hospital', 'bed']}, {'createdAt': '2019-10-28T06:40:47Z', 'updatedAt': '2024-12-03T17:48:54Z', 'name': 'StorageRack', 'owner': 'OpenRobotics', 'description': 'Empty Grilled Storage Rack', 'likes': 1, 'downloads': 63704, 'filesize': 70905, 'upload_date': '2019-10-28T06:40:44Z', 'modify_date': '2023-09-27T16:19:50Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/StorageRack/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['hospital']}, {'createdAt': '2020-05-20T19:30:13Z', 'updatedAt': '2024-12-03T17:49:03Z', 'name': 'Chair', 'owner': 'OpenRobotics', 'description': 'A generic hospital chair', 'likes': 0, 'downloads': 86171, 'filesize': 2741574, 'upload_date': '2020-05-20T19:30:11Z', 'modify_date': '2023-09-27T15:40:33Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/Chair/tip/files/thumbnails/1.png', 'version': 3, 'private': False, 'categories': ['Furniture and Home']}, {'createdAt': '2019-10-28T06:19:00Z', 'updatedAt': '2024-12-03T17:51:06Z', 'name': 'InstrumentCart1', 'owner': 'OpenRobotics', 'description': 'Description of the model', 'likes': 0, 'downloads': 5330, 'filesize': 135677, 'upload_date': '2019-10-28T06:18:57Z', 'modify_date': '2023-09-27T16:21:22Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/InstrumentCart1/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['hospital']}, {'createdAt': '2020-07-06T10:19:54Z', 'updatedAt': '2024-12-03T17:51:15Z', 'name': 'Scrubs', 'owner': 'OpenRobotics', 'description': 'A person in scrubs.', 'likes': 0, 'downloads': 24909, 'filesize': 1028421, 'upload_date': '2020-07-06T10:19:52Z', 'modify_date': '2023-09-27T15:26:25Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/Scrubs/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People']}, {'createdAt': '2019-10-28T06:33:50Z', 'updatedAt': '2024-12-03T17:51:58Z', 'name': 'PatientWheelChair', 'owner': 'OpenRobotics', 'description': 'Elderly patient on a wheelchair', 'likes': 0, 'downloads': 23622, 'filesize': 1175273, 'upload_date': '2019-10-28T06:33:46Z', 'modify_date': '2023-09-27T16:20:17Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/PatientWheelChair/tip/files/thumbnails/1.png', 'version': 4, 'private': False, 'tags': ['person', 'hospital']}, {'createdAt': '2019-10-28T06:48:13Z', 'updatedAt': '2024-12-03T17:52:37Z', 'name': 'WhiteChipChair', 'owner': 'OpenRobotics', 'description': 'White row of seats', 'likes': 0, 'downloads': 42747, 'filesize': 792333, 'upload_date': '2019-10-28T06:48:10Z', 'modify_date': '2023-09-27T16:18:41Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/WhiteChipChair/tip/files/thumbnails/1.png', 'version': 3, 'private': False, 'tags': ['hospital', 'furniture']}, {'createdAt': '2019-10-25T09:22:08Z', 'updatedAt': '2024-12-03T17:53:07Z', 'name': 'TrolleyBed', 'owner': 'OpenRobotics', 'description': 'Bed to transport patients.', 'likes': 0, 'downloads': 5361, 'filesize': 1015682, 'upload_date': '2019-10-25T09:22:04Z', 'modify_date': '2023-09-27T16:23:11Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/TrolleyBed/tip/files/thumbnails/1.png', 'version': 3, 'private': False, 'tags': ['static', 'hospital', 'bed']}, {'createdAt': '2019-10-28T06:43:28Z', 'updatedAt': '2024-12-03T17:53:39Z', 'name': 'SurgicalTrolley', 'owner': 'OpenRobotics', 'description': 'Surgical supply trolley', 'likes': 0, 'downloads': 4635, 'filesize': 849805, 'upload_date': '2019-10-28T06:43:25Z', 'modify_date': '2023-09-27T16:19:23Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/SurgicalTrolley/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['hospital']}, {'createdAt': '2019-10-28T06:34:44Z', 'updatedAt': '2024-12-03T17:54:17Z', 'name': 'PotatoChipChair', 'owner': 'OpenRobotics', 'description': 'Three-seater bench for waiting outpatients', 'likes': 0, 'downloads': 51304, 'filesize': 824743, 'upload_date': '2019-10-28T06:34:41Z', 'modify_date': '2023-09-27T16:20:10Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/PotatoChipChair/tip/files/thumbnails/1.png', 'version': 3, 'private': False, 'tags': ['hospital', 'furniture']}, {'createdAt': '2020-05-20T19:38:37Z', 'updatedAt': '2024-12-03T17:54:47Z', 'name': 'VisitorKidSit', 'owner': 'OpenRobotics', 'description': 'Kid sitting down reading a book.', 'likes': 0, 'downloads': 40150, 'filesize': 744956, 'upload_date': '2020-05-20T19:38:35Z', 'modify_date': '2023-09-27T15:39:59Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/VisitorKidSit/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People']}, {'createdAt': '2020-05-20T19:34:41Z', 'updatedAt': '2024-12-03T17:55:06Z', 'name': 'FemaleVisitorSit', 'owner': 'OpenRobotics', 'description': '', 'likes': 0, 'downloads': 41287, 'filesize': 669884, 'upload_date': '2020-05-20T19:34:39Z', 'modify_date': '2023-09-27T15:40:21Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/FemaleVisitorSit/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People']}, {'createdAt': '2020-06-09T12:06:50Z', 'updatedAt': '2024-12-03T17:55:32Z', 'name': 'AdjTable', 'owner': 'OpenRobotics', 'description': 'Description of the model', 'likes': 1, 'downloads': 83601, 'filesize': 4100585, 'upload_date': '2020-06-09T12:06:48Z', 'modify_date': '2023-09-27T15:33:59Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/AdjTable/tip/files/thumbnails/1.png', 'version': 4, 'private': False, 'categories': ['Furniture and Home']}, {'createdAt': '2020-06-22T08:41:13Z', 'updatedAt': '2024-12-03T17:58:03Z', 'name': 'MopCart3', 'owner': 'OpenRobotics', 'description': 'Last version of another mop cart', 'likes': 0, 'downloads': 30457, 'filesize': 5787981, 'upload_date': '2020-06-22T08:41:10Z', 'modify_date': '2023-09-27T15:29:40Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/MopCart3/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Appliance']}, {'createdAt': '2020-05-20T19:36:36Z', 'updatedAt': '2024-12-03T18:01:40Z', 'name': 'MaleVisitorSit', 'owner': 'OpenRobotics', 'description': '', 'likes': 0, 'downloads': 40377, 'filesize': 596416, 'upload_date': '2020-05-20T19:36:34Z', 'modify_date': '2023-09-27T15:40:10Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/MaleVisitorSit/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People']}, {'createdAt': '2020-06-09T12:11:18Z', 'updatedAt': '2024-12-03T18:01:54Z', 'name': 'Drawer', 'owner': 'OpenRobotics', 'description': '', 'likes': 1, 'downloads': 50293, 'filesize': 135520, 'upload_date': '2020-06-09T12:11:16Z', 'modify_date': '2023-09-27T15:33:39Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/Drawer/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Furniture and Home']}, {'createdAt': '2020-06-09T12:12:56Z', 'updatedAt': '2024-12-03T18:02:04Z', 'name': 'OfficeChairBlack', 'owner': 'OpenRobotics', 'description': 'Chair from meeting room.', 'likes': 0, 'downloads': 70426, 'filesize': 793096, 'upload_date': '2020-06-09T12:12:54Z', 'modify_date': '2023-09-27T15:33:27Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/OfficeChairBlack/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Furniture and Home']}, {'createdAt': '2020-05-21T06:09:55Z', 'updatedAt': '2024-12-03T18:06:07Z', 'name': 'ElderLadyPatient', 'owner': 'OpenRobotics', 'description': 'An elder lady patient\\nCharacter generated from Autodesk Character Generator - https://charactergenerator.autodesk.com/\\nPose from Mixamo - https://www.mixamo.com/', 'likes': 0, 'downloads': 23695, 'filesize': 2731549, 'upload_date': '2020-05-21T06:09:52Z', 'modify_date': '2023-09-27T15:39:19Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/ElderLadyPatient/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People']}, {'createdAt': '2020-05-21T06:13:26Z', 'updatedAt': '2024-12-03T18:07:41Z', 'name': 'ElderMalePatient', 'owner': 'OpenRobotics', 'description': 'An elder male patient lying down.\\nCharacter generated from Autodesk Character Generator - https://charactergenerator.autodesk.com/\\nPose from Mixamo - https://www.mixamo.com/', 'likes': 0, 'downloads': 23460, 'filesize': 2918271, 'upload_date': '2020-05-21T06:13:24Z', 'modify_date': '2023-09-27T15:39:11Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/ElderMalePatient/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People']}, {'createdAt': '2019-10-28T06:19:44Z', 'updatedAt': '2024-12-03T18:08:42Z', 'name': 'InstrumentCart2', 'owner': 'OpenRobotics', 'description': 'Description of the model', 'likes': 0, 'downloads': 4565, 'filesize': 702606, 'upload_date': '2019-10-28T06:19:41Z', 'modify_date': '2023-09-27T16:21:17Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/InstrumentCart2/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['hospital']}, {'createdAt': '2019-10-28T06:23:41Z', 'updatedAt': '2024-12-03T18:09:16Z', 'name': 'MetalCabinet', 'owner': 'OpenRobotics', 'description': 'Tall grey metal cabinet', 'likes': 0, 'downloads': 32043, 'filesize': 29065, 'upload_date': '2019-10-28T06:23:37Z', 'modify_date': '2023-09-27T16:20:57Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/MetalCabinet/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['hospital']}, {'createdAt': '2020-05-21T05:53:52Z', 'updatedAt': '2024-12-03T18:09:28Z', 'name': 'BedTable', 'owner': 'OpenRobotics', 'description': 'A generic hospital bed table', 'likes': 0, 'downloads': 8771, 'filesize': 1088303, 'upload_date': '2020-05-21T05:53:49Z', 'modify_date': '2023-09-27T15:39:31Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/BedTable/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Furniture and Home']}, {'createdAt': '2020-05-21T05:27:18Z', 'updatedAt': '2024-12-03T18:09:53Z', 'name': 'BedsideTable', 'owner': 'OpenRobotics', 'description': 'A generic hospital bedside table', 'likes': 0, 'downloads': 23701, 'filesize': 691910, 'upload_date': '2020-05-21T05:27:16Z', 'modify_date': '2023-09-27T15:39:43Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/BedsideTable/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Furniture and Home']}, {'createdAt': '2020-06-26T09:35:49Z', 'updatedAt': '2024-12-03T18:10:25Z', 'name': 'AnesthesiaMachine', 'owner': 'OpenRobotics', 'description': '', 'likes': 0, 'downloads': 5312, 'filesize': 541299, 'upload_date': '2020-06-26T09:35:47Z', 'modify_date': '2023-09-27T15:27:00Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/AnesthesiaMachine/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Appliance']}, {'createdAt': '2019-10-28T06:45:05Z', 'updatedAt': '2024-12-03T18:10:44Z', 'name': 'TrolleyBedPatient', 'owner': 'OpenRobotics', 'description': 'Trolley Bed with patient', 'likes': 0, 'downloads': 4784, 'filesize': 1479205, 'upload_date': '2019-10-28T06:45:01Z', 'modify_date': '2023-09-27T16:19:05Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/TrolleyBedPatient/tip/files/thumbnails/1.png', 'version': 3, 'private': False, 'tags': ['person', 'hospital', 'furniture']}, {'createdAt': '2020-06-25T10:18:19Z', 'updatedAt': '2024-12-03T18:11:28Z', 'name': 'Shower', 'owner': 'OpenRobotics', 'description': 'A generic shower', 'likes': 1, 'downloads': 29406, 'filesize': 568856, 'upload_date': '2020-06-25T10:18:17Z', 'modify_date': '2023-09-27T15:27:42Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/Shower/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Furniture and Home']}, {'createdAt': '2020-06-26T09:39:00Z', 'updatedAt': '2024-12-03T18:11:43Z', 'name': 'SurgicalTrolleyMed', 'owner': 'OpenRobotics', 'description': 'Medium sized surgical trolley.', 'likes': 1, 'downloads': 23230, 'filesize': 860176, 'upload_date': '2020-06-26T09:38:58Z', 'modify_date': '2023-09-27T15:26:41Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/SurgicalTrolleyMed/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Appliance']}, {'createdAt': '2019-10-28T06:42:26Z', 'updatedAt': '2024-12-03T18:12:28Z', 'name': 'StorageRackCovered', 'owner': 'OpenRobotics', 'description': 'Storage rack covered.', 'likes': 0, 'downloads': 22437, 'filesize': 536807, 'upload_date': '2019-10-28T06:42:22Z', 'modify_date': '2023-09-27T16:19:32Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/StorageRackCovered/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['hospital']}, {'createdAt': '2020-06-22T08:38:48Z', 'updatedAt': '2024-12-03T18:12:53Z', 'name': 'KitchenSink', 'owner': 'OpenRobotics', 'description': 'A countertop with a kitchen sink', 'likes': 0, 'downloads': 31115, 'filesize': 41731, 'upload_date': '2020-06-22T08:38:47Z', 'modify_date': '2023-09-27T15:30:05Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/KitchenSink/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Furniture and Home', 'Kitchen']}, {'createdAt': '2020-06-25T10:18:48Z', 'updatedAt': '2024-12-03T18:13:02Z', 'name': 'Toilet', 'owner': 'OpenRobotics', 'description': 'A generic toilet', 'likes': 0, 'downloads': 65590, 'filesize': 205503, 'upload_date': '2020-06-25T10:18:46Z', 'modify_date': '2023-09-27T15:27:37Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/Toilet/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['Furniture and Home']}, {'createdAt': '2020-06-25T10:20:57Z', 'updatedAt': '2024-12-03T18:13:14Z', 'name': 'VendingMachine', 'owner': 'OpenRobotics', 'description': 'Beverage vending device mostly seen across singapore, including hospitals', 'likes': 0, 'downloads': 66671, 'filesize': 619550, 'upload_date': '2020-06-25T10:20:53Z', 'modify_date': '2023-09-27T15:27:16Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/VendingMachine/tip/files/thumbnails/1.png', 'version': 3, 'private': False, 'categories': ['Appliance']}, {'createdAt': '2019-10-28T06:31:59Z', 'updatedAt': '2024-12-03T18:13:34Z', 'name': 'ParkingTrolleyMin', 'owner': 'OpenRobotics', 'description': 'Trolley and carts parking area with bags, this one has less bags', 'likes': 0, 'downloads': 4403, 'filesize': 1946726, 'upload_date': '2019-10-28T06:31:55Z', 'modify_date': '2023-09-27T16:20:24Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/ParkingTrolleyMin/tip/files/thumbnails/1.png', 'version': 3, 'private': False, 'tags': ['hospital']}, {'createdAt': '2020-06-25T10:17:29Z', 'updatedAt': '2024-12-03T13:37:23Z', 'name': 'PatientFSit', 'owner': 'OpenRobotics', 'description': '', 'likes': 0, 'downloads': 23717, 'filesize': 657045, 'upload_date': '2020-06-25T10:17:27Z', 'modify_date': '2023-09-27T15:27:47Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/PatientFSit/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People']}, {'createdAt': '2020-06-25T10:13:35Z', 'updatedAt': '2024-12-03T17:20:53Z', 'name': 'MaleVisitorOnPhone', 'owner': 'OpenRobotics', 'description': 'A man wearing purple shirt, looking at his phone', 'likes': 0, 'downloads': 31406, 'filesize': 1394258, 'upload_date': '2020-06-25T10:13:33Z', 'modify_date': '2023-09-27T15:28:15Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/MaleVisitorOnPhone/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People', 'Tablet and Smartphone']}, {'createdAt': '2020-05-20T19:33:13Z', 'updatedAt': '2024-12-03T13:35:52Z', 'name': 'FemaleVisitor', 'owner': 'OpenRobotics', 'description': 'Female visitor', 'likes': 0, 'downloads': 48554, 'filesize': 685516, 'upload_date': '2020-05-20T19:33:11Z', 'modify_date': '2023-09-27T15:40:27Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/FemaleVisitor/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People']}, {'createdAt': '2020-06-25T10:12:27Z', 'updatedAt': '2024-12-03T10:12:43Z', 'name': 'MalePatientBed', 'owner': 'OpenRobotics', 'description': 'A male patient lying down on a hospital bed.\\nCharacter generated from Autodesk Character Generator - https://charactergenerator.autodesk.com/\\nPose from Mixamo - https://www.mixamo.com/\\nBed from Cole Biesemeyer.', 'likes': 0, 'downloads': 5311, 'filesize': 2087725, 'upload_date': '2020-06-25T10:12:25Z', 'modify_date': '2023-09-27T15:28:21Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/MalePatientBed/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'categories': ['People']}, {'createdAt': '2019-10-28T06:41:39Z', 'updatedAt': '2024-12-03T10:12:53Z', 'name': 'StorageRackCoverOpen', 'owner': 'OpenRobotics', 'description': 'Storage rack with blue cover, open.', 'likes': 1, 'downloads': 20803, 'filesize': 635216, 'upload_date': '2019-10-28T06:41:36Z', 'modify_date': '2023-09-27T16:19:41Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/StorageRackCoverOpen/tip/files/thumbnails/1.png', 'version': 2, 'private': False, 'tags': ['hospital']}, {'createdAt': '2019-10-28T06:30:59Z', 'updatedAt': '2024-12-03T13:34:43Z', 'name': 'ParkingTrolleyMax', 'owner': 'OpenRobotics', 'description': 'Trolley and carts parking area with bags, this one has more bags', 'likes': 0, 'downloads': 30477, 'filesize': 778398, 'upload_date': '2019-10-28T06:30:55Z', 'modify_date': '2023-09-27T16:20:32Z', 'license_id': 2, 'license_name': 'Creative Commons Attribution 4.0 International', 'license_url': 'http://creativecommons.org/licenses/by/4.0/', 'license_image': 'https://i.creativecommons.org/l/by/4.0/88x31.png', 'permission': 0, 'url_name': '', 'thumbnail_url': '/OpenRobotics/models/ParkingTrolleyMax/tip/files/thumbnails/1.png', 'version': 3, 'private': False, 'tags': ['hospital']}]\n"}
+[97.893577] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Downloading zip files and extracting them into /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/fuel_models directory\n'}
+[97.893696] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model XRayMachine already downloaded.\n'}
+[97.893740] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model IVStand already downloaded.\n'}
+[97.893768] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model BloodPressureMonitor already downloaded.\n'}
+[97.893795] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model BPCart already downloaded.\n'}
+[97.893820] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model BMWCart already downloaded.\n'}
+[97.893881] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model CGMClassic already downloaded.\n'}
+[97.893907] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model StorageRack already downloaded.\n'}
+[97.893931] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model Chair already downloaded.\n'}
+[97.893953] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model InstrumentCart1 already downloaded.\n'}
+[97.893976] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model Scrubs already downloaded.\n'}
+[97.893998] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model PatientWheelChair already downloaded.\n'}
+[97.894020] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model WhiteChipChair already downloaded.\n'}
+[97.894042] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model TrolleyBed already downloaded.\n'}
+[97.894063] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model SurgicalTrolley already downloaded.\n'}
+[97.894085] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model PotatoChipChair already downloaded.\n'}
+[97.894108] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model VisitorKidSit already downloaded.\n'}
+[97.894130] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model FemaleVisitorSit already downloaded.\n'}
+[97.894153] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model AdjTable already downloaded.\n'}
+[97.894176] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model MopCart3 already downloaded.\n'}
+[97.894201] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model MaleVisitorSit already downloaded.\n'}
+[97.894225] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model Drawer already downloaded.\n'}
+[97.894251] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model OfficeChairBlack already downloaded.\n'}
+[97.894278] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model ElderLadyPatient already downloaded.\n'}
+[97.894300] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model ElderMalePatient already downloaded.\n'}
+[97.894322] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model InstrumentCart2 already downloaded.\n'}
+[97.894345] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model MetalCabinet already downloaded.\n'}
+[97.894368] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model BedTable already downloaded.\n'}
+[97.894395] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model BedsideTable already downloaded.\n'}
+[97.894440] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model AnesthesiaMachine already downloaded.\n'}
+[97.894464] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model TrolleyBedPatient already downloaded.\n'}
+[97.894486] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model Shower already downloaded.\n'}
+[97.894509] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model SurgicalTrolleyMed already downloaded.\n'}
+[97.894532] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model StorageRackCovered already downloaded.\n'}
+[97.894554] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model KitchenSink already downloaded.\n'}
+[97.894577] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model Toilet already downloaded.\n'}
+[97.894601] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Model VendingMachine already downloaded.\n'}
+[97.894637] (aws_robomaker_hospital_world) StdoutLine: {'line': b'INFO:root:Downloading ParkingTrolleyMin\n'}
+[97.894665] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443\n'}
+[97.977393] (-) TimerEvent: {}
+[98.077654] (-) TimerEvent: {}
+[98.177871] (-) TimerEvent: {}
+[98.278302] (-) TimerEvent: {}
+[98.378721] (-) TimerEvent: {}
+[98.479146] (-) TimerEvent: {}
+[98.579560] (-) TimerEvent: {}
+[98.679964] (-) TimerEvent: {}
+[98.780389] (-) TimerEvent: {}
+[98.880819] (-) TimerEvent: {}
+[98.981243] (-) TimerEvent: {}
+[99.081485] (-) TimerEvent: {}
+[99.181692] (-) TimerEvent: {}
+[99.281914] (-) TimerEvent: {}
+[99.382239] (-) TimerEvent: {}
+[99.427569] (aws_robomaker_hospital_world) StdoutLine: {'line': b'DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/ParkingTrolleyMin/3/ParkingTrolleyMin.zip HTTP/1.1" 200 1946726\n'}
+[99.482330] (-) TimerEvent: {}
+[99.582639] (-) TimerEvent: {}
+[99.682927] (-) TimerEvent: {}
+[99.783236] (-) TimerEvent: {}
+[99.883568] (-) TimerEvent: {}
+[99.983881] (-) TimerEvent: {}
+[100.084139] (-) TimerEvent: {}
+[100.184568] (-) TimerEvent: {}
+[100.285013] (-) TimerEvent: {}
+[100.385425] (-) TimerEvent: {}
+[100.485925] (-) TimerEvent: {}
+[100.586387] (-) TimerEvent: {}
+[100.686815] (-) TimerEvent: {}
+[100.787287] (-) TimerEvent: {}
+[100.887757] (-) TimerEvent: {}
+[100.988184] (-) TimerEvent: {}
+[101.088511] (-) TimerEvent: {}
+[101.188994] (-) TimerEvent: {}
+[101.289442] (-) TimerEvent: {}
+[101.389865] (-) TimerEvent: {}
+[101.490298] (-) TimerEvent: {}
+[101.590723] (-) TimerEvent: {}
+[101.691144] (-) TimerEvent: {}
+[101.791593] (-) TimerEvent: {}
+[101.892046] (-) TimerEvent: {}
+[101.992301] (-) TimerEvent: {}
+[102.092720] (-) TimerEvent: {}
+[102.193104] (-) TimerEvent: {}
+[102.293434] (-) TimerEvent: {}
+[102.393788] (-) TimerEvent: {}
+[102.494234] (-) TimerEvent: {}
+[102.594701] (-) TimerEvent: {}
+[102.695127] (-) TimerEvent: {}
+[102.795555] (-) TimerEvent: {}
+[102.895994] (-) TimerEvent: {}
+[102.996433] (-) TimerEvent: {}
+[103.096900] (-) TimerEvent: {}
+[103.197326] (-) TimerEvent: {}
+[103.297769] (-) TimerEvent: {}
+[103.398221] (-) TimerEvent: {}
+[103.498685] (-) TimerEvent: {}
+[103.598939] (-) TimerEvent: {}
+[103.699406] (-) TimerEvent: {}
+[103.799834] (-) TimerEvent: {}
+[103.900273] (-) TimerEvent: {}
+[104.000762] (-) TimerEvent: {}
+[104.101229] (-) TimerEvent: {}
+[104.201665] (-) TimerEvent: {}
+[104.302104] (-) TimerEvent: {}
+[104.402532] (-) TimerEvent: {}
+[104.502953] (-) TimerEvent: {}
+[104.603370] (-) TimerEvent: {}
+[104.703793] (-) TimerEvent: {}
+[104.804221] (-) TimerEvent: {}
+[104.904440] (-) TimerEvent: {}
+[105.004761] (-) TimerEvent: {}
+[105.105102] (-) TimerEvent: {}
+[105.205373] (-) TimerEvent: {}
+[105.305639] (-) TimerEvent: {}
+[105.406060] (-) TimerEvent: {}
+[105.506298] (-) TimerEvent: {}
+[105.606817] (-) TimerEvent: {}
+[105.707250] (-) TimerEvent: {}
+[105.807684] (-) TimerEvent: {}
+[105.907897] (-) TimerEvent: {}
+[106.008218] (-) TimerEvent: {}
+[106.108462] (-) TimerEvent: {}
+[106.208656] (-) TimerEvent: {}
+[106.308884] (-) TimerEvent: {}
+[106.409145] (-) TimerEvent: {}
+[106.509644] (-) TimerEvent: {}
+[106.609898] (-) TimerEvent: {}
+[106.710370] (-) TimerEvent: {}
+[106.810631] (-) TimerEvent: {}
+[106.910894] (-) TimerEvent: {}
+[107.011291] (-) TimerEvent: {}
+[107.111594] (-) TimerEvent: {}
+[107.211896] (-) TimerEvent: {}
+[107.312379] (-) TimerEvent: {}
+[107.412853] (-) TimerEvent: {}
+[107.513340] (-) TimerEvent: {}
+[107.613819] (-) TimerEvent: {}
+[107.714311] (-) TimerEvent: {}
+[107.814634] (-) TimerEvent: {}
+[107.915172] (-) TimerEvent: {}
+[108.015703] (-) TimerEvent: {}
+[108.116240] (-) TimerEvent: {}
+[108.216733] (-) TimerEvent: {}
+[108.316980] (-) TimerEvent: {}
+[108.417343] (-) TimerEvent: {}
+[108.517851] (-) TimerEvent: {}
+[108.618325] (-) TimerEvent: {}
+[108.718777] (-) TimerEvent: {}
+[108.819258] (-) TimerEvent: {}
+[108.919748] (-) TimerEvent: {}
+[109.020269] (-) TimerEvent: {}
+[109.120767] (-) TimerEvent: {}
+[109.221262] (-) TimerEvent: {}
+[109.321765] (-) TimerEvent: {}
+[109.422051] (-) TimerEvent: {}
+[109.522538] (-) TimerEvent: {}
+[109.622802] (-) TimerEvent: {}
+[109.723283] (-) TimerEvent: {}
+[109.823773] (-) TimerEvent: {}
+[109.924159] (-) TimerEvent: {}
+[110.024456] (-) TimerEvent: {}
+[110.124912] (-) TimerEvent: {}
+[110.225175] (-) TimerEvent: {}
+[110.325470] (-) TimerEvent: {}
+[110.425734] (-) TimerEvent: {}
+[110.526069] (-) TimerEvent: {}
+[110.626501] (-) TimerEvent: {}
+[110.726978] (-) TimerEvent: {}
+[110.827461] (-) TimerEvent: {}
+[110.927910] (-) TimerEvent: {}
+[111.028370] (-) TimerEvent: {}
+[111.128795] (-) TimerEvent: {}
+[111.229209] (-) TimerEvent: {}
+[111.329654] (-) TimerEvent: {}
+[111.429972] (-) TimerEvent: {}
+[111.530257] (-) TimerEvent: {}
+[111.630471] (-) TimerEvent: {}
+[111.730696] (-) TimerEvent: {}
+[111.831020] (-) TimerEvent: {}
+[111.931436] (-) TimerEvent: {}
+[112.031854] (-) TimerEvent: {}
+[112.132280] (-) TimerEvent: {}
+[112.232747] (-) TimerEvent: {}
+[112.333189] (-) TimerEvent: {}
+[112.433619] (-) TimerEvent: {}
+[112.533860] (-) TimerEvent: {}
+[112.634208] (-) TimerEvent: {}
+[112.734656] (-) TimerEvent: {}
+[112.835105] (-) TimerEvent: {}
+[112.935431] (-) TimerEvent: {}
+[113.035862] (-) TimerEvent: {}
+[113.136200] (-) TimerEvent: {}
+[113.236729] (-) TimerEvent: {}
+[113.337268] (-) TimerEvent: {}
+[113.437754] (-) TimerEvent: {}
+[113.538221] (-) TimerEvent: {}
+[113.638652] (-) TimerEvent: {}
+[113.739106] (-) TimerEvent: {}
+[113.839532] (-) TimerEvent: {}
+[113.940031] (-) TimerEvent: {}
+[114.040489] (-) TimerEvent: {}
+[114.140998] (-) TimerEvent: {}
+[114.241434] (-) TimerEvent: {}
+[114.341884] (-) TimerEvent: {}
+[114.442349] (-) TimerEvent: {}
+[114.542772] (-) TimerEvent: {}
+[114.642979] (-) TimerEvent: {}
+[114.743379] (-) TimerEvent: {}
+[114.843794] (-) TimerEvent: {}
+[114.944217] (-) TimerEvent: {}
+[115.044639] (-) TimerEvent: {}
+[115.145076] (-) TimerEvent: {}
+[115.245537] (-) TimerEvent: {}
+[115.346003] (-) TimerEvent: {}
+[115.446419] (-) TimerEvent: {}
+[115.546863] (-) TimerEvent: {}
+[115.647334] (-) TimerEvent: {}
+[115.747801] (-) TimerEvent: {}
+[115.848235] (-) TimerEvent: {}
+[115.948716] (-) TimerEvent: {}
+[116.049148] (-) TimerEvent: {}
+[116.149618] (-) TimerEvent: {}
+[116.250077] (-) TimerEvent: {}
+[116.350534] (-) TimerEvent: {}
+[116.450974] (-) TimerEvent: {}
+[116.551223] (-) TimerEvent: {}
+[116.651535] (-) TimerEvent: {}
+[116.751766] (-) TimerEvent: {}
+[116.851984] (-) TimerEvent: {}
+[116.952213] (-) TimerEvent: {}
+[117.052529] (-) TimerEvent: {}
+[117.152761] (-) TimerEvent: {}
+[117.253179] (-) TimerEvent: {}
+[117.353599] (-) TimerEvent: {}
+[117.453939] (-) TimerEvent: {}
+[117.554189] (-) TimerEvent: {}
+[117.654413] (-) TimerEvent: {}
+[117.754666] (-) TimerEvent: {}
+[117.854929] (-) TimerEvent: {}
+[117.955181] (-) TimerEvent: {}
+[118.055587] (-) TimerEvent: {}
+[118.155888] (-) TimerEvent: {}
+[118.256395] (-) TimerEvent: {}
+[118.356920] (-) TimerEvent: {}
+[118.457266] (-) TimerEvent: {}
+[118.557765] (-) TimerEvent: {}
+[118.658016] (-) TimerEvent: {}
+[118.758498] (-) TimerEvent: {}
+[118.859011] (-) TimerEvent: {}
+[118.959268] (-) TimerEvent: {}
+[119.059655] (-) TimerEvent: {}
+[119.159978] (-) TimerEvent: {}
+[119.260323] (-) TimerEvent: {}
+[119.360616] (-) TimerEvent: {}
+[119.460954] (-) TimerEvent: {}
+[119.561400] (-) TimerEvent: {}
+[119.661765] (-) TimerEvent: {}
+[119.762134] (-) TimerEvent: {}
+[119.862393] (-) TimerEvent: {}
+[119.962737] (-) TimerEvent: {}
+[120.063002] (-) TimerEvent: {}
+[120.163428] (-) TimerEvent: {}
+[120.263859] (-) TimerEvent: {}
+[120.364120] (-) TimerEvent: {}
+[120.464408] (-) TimerEvent: {}
+[120.564649] (-) TimerEvent: {}
+[120.664844] (-) TimerEvent: {}
+[120.765147] (-) TimerEvent: {}
+[120.865402] (-) TimerEvent: {}
+[120.965813] (-) TimerEvent: {}
+[121.066052] (-) TimerEvent: {}
+[121.166302] (-) TimerEvent: {}
+[121.266518] (-) TimerEvent: {}
+[121.366785] (-) TimerEvent: {}
+[121.467213] (-) TimerEvent: {}
+[121.567595] (-) TimerEvent: {}
+[121.668092] (-) TimerEvent: {}
+[121.768451] (-) TimerEvent: {}
+[121.868877] (-) TimerEvent: {}
+[121.969303] (-) TimerEvent: {}
+[122.069734] (-) TimerEvent: {}
+[122.170199] (-) TimerEvent: {}
+[122.270642] (-) TimerEvent: {}
+[122.371055] (-) TimerEvent: {}
+[122.471483] (-) TimerEvent: {}
+[122.571776] (-) TimerEvent: {}
+[122.672059] (-) TimerEvent: {}
+[122.772486] (-) TimerEvent: {}
+[122.872849] (-) TimerEvent: {}
+[122.973298] (-) TimerEvent: {}
+[123.073768] (-) TimerEvent: {}
+[123.174214] (-) TimerEvent: {}
+[123.274682] (-) TimerEvent: {}
+[123.374897] (-) TimerEvent: {}
+[123.475313] (-) TimerEvent: {}
+[123.575764] (-) TimerEvent: {}
+[123.675986] (-) TimerEvent: {}
+[123.776399] (-) TimerEvent: {}
+[123.877029] (-) TimerEvent: {}
+[123.977519] (-) TimerEvent: {}
+[124.077809] (-) TimerEvent: {}
+[124.178254] (-) TimerEvent: {}
+[124.278705] (-) TimerEvent: {}
+[124.379129] (-) TimerEvent: {}
+[124.479587] (-) TimerEvent: {}
+[124.579824] (-) TimerEvent: {}
+[124.680238] (-) TimerEvent: {}
+[124.780703] (-) TimerEvent: {}
+[124.881153] (-) TimerEvent: {}
+[124.981626] (-) TimerEvent: {}
+[125.081843] (-) TimerEvent: {}
+[125.182102] (-) TimerEvent: {}
+[125.282354] (-) TimerEvent: {}
+[125.382596] (-) TimerEvent: {}
+[125.483022] (-) TimerEvent: {}
+[125.583438] (-) TimerEvent: {}
+[125.683866] (-) TimerEvent: {}
+[125.784296] (-) TimerEvent: {}
+[125.884629] (-) TimerEvent: {}
+[125.984847] (-) TimerEvent: {}
+[126.085223] (-) TimerEvent: {}
+[126.185599] (-) TimerEvent: {}
+[126.285818] (-) TimerEvent: {}
+[126.386240] (-) TimerEvent: {}
+[126.486718] (-) TimerEvent: {}
+[126.587178] (-) TimerEvent: {}
+[126.687592] (-) TimerEvent: {}
+[126.787949] (-) TimerEvent: {}
+[126.888397] (-) TimerEvent: {}
+[126.988773] (-) TimerEvent: {}
+[127.089149] (-) TimerEvent: {}
+[127.189555] (-) TimerEvent: {}
+[127.289788] (-) TimerEvent: {}
+[127.390029] (-) TimerEvent: {}
+[127.490446] (-) TimerEvent: {}
+[127.590656] (-) TimerEvent: {}
+[127.691016] (-) TimerEvent: {}
+[127.791389] (-) TimerEvent: {}
+[127.891851] (-) TimerEvent: {}
+[127.992271] (-) TimerEvent: {}
+[128.092675] (-) TimerEvent: {}
+[128.193121] (-) TimerEvent: {}
+[128.293631] (-) TimerEvent: {}
+[128.394109] (-) TimerEvent: {}
+[128.494578] (-) TimerEvent: {}
+[128.595058] (-) TimerEvent: {}
+[128.695489] (-) TimerEvent: {}
+[128.795748] (-) TimerEvent: {}
+[128.895965] (-) TimerEvent: {}
+[128.996298] (-) TimerEvent: {}
+[129.096525] (-) TimerEvent: {}
+[129.196760] (-) TimerEvent: {}
+[129.296991] (-) TimerEvent: {}
+[129.397425] (-) TimerEvent: {}
+[129.497847] (-) TimerEvent: {}
+[129.598306] (-) TimerEvent: {}
+[129.698735] (-) TimerEvent: {}
+[129.799171] (-) TimerEvent: {}
+[129.899692] (-) TimerEvent: {}
+[129.999941] (-) TimerEvent: {}
+[130.100203] (-) TimerEvent: {}
+[130.200529] (-) TimerEvent: {}
+[130.300767] (-) TimerEvent: {}
+[130.400997] (-) TimerEvent: {}
+[130.501246] (-) TimerEvent: {}
+[130.601633] (-) TimerEvent: {}
+[130.701865] (-) TimerEvent: {}
+[130.802295] (-) TimerEvent: {}
+[130.902761] (-) TimerEvent: {}
+[131.003187] (-) TimerEvent: {}
+[131.103639] (-) TimerEvent: {}
+[131.204083] (-) TimerEvent: {}
+[131.304552] (-) TimerEvent: {}
+[131.405023] (-) TimerEvent: {}
+[131.505477] (-) TimerEvent: {}
+[131.605865] (-) TimerEvent: {}
+[131.706133] (-) TimerEvent: {}
+[131.806590] (-) TimerEvent: {}
+[131.906976] (-) TimerEvent: {}
+[132.007393] (-) TimerEvent: {}
+[132.107870] (-) TimerEvent: {}
+[132.208299] (-) TimerEvent: {}
+[132.308724] (-) TimerEvent: {}
+[132.409150] (-) TimerEvent: {}
+[132.509417] (-) TimerEvent: {}
+[132.609737] (-) TimerEvent: {}
+[132.710161] (-) TimerEvent: {}
+[132.810525] (-) TimerEvent: {}
+[132.910784] (-) TimerEvent: {}
+[133.011006] (-) TimerEvent: {}
+[133.111318] (-) TimerEvent: {}
+[133.211756] (-) TimerEvent: {}
+[133.312230] (-) TimerEvent: {}
+[133.412570] (-) TimerEvent: {}
+[133.513001] (-) TimerEvent: {}
+[133.613335] (-) TimerEvent: {}
+[133.713761] (-) TimerEvent: {}
+[133.813976] (-) TimerEvent: {}
+[133.914256] (-) TimerEvent: {}
+[134.014701] (-) TimerEvent: {}
+[134.115052] (-) TimerEvent: {}
+[134.215473] (-) TimerEvent: {}
+[134.315903] (-) TimerEvent: {}
+[134.416351] (-) TimerEvent: {}
+[134.516843] (-) TimerEvent: {}
+[134.617257] (-) TimerEvent: {}
+[134.717700] (-) TimerEvent: {}
+[134.818145] (-) TimerEvent: {}
+[134.918621] (-) TimerEvent: {}
+[135.019067] (-) TimerEvent: {}
+[135.119398] (-) TimerEvent: {}
+[135.219843] (-) TimerEvent: {}
+[135.320193] (-) TimerEvent: {}
+[135.420690] (-) TimerEvent: {}
+[135.521147] (-) TimerEvent: {}
+[135.621568] (-) TimerEvent: {}
+[135.722065] (-) TimerEvent: {}
+[135.822372] (-) TimerEvent: {}
+[135.922791] (-) TimerEvent: {}
+[136.023220] (-) TimerEvent: {}
+[136.123705] (-) TimerEvent: {}
+[136.224123] (-) TimerEvent: {}
+[136.324567] (-) TimerEvent: {}
+[136.425052] (-) TimerEvent: {}
+[136.525468] (-) TimerEvent: {}
+[136.625929] (-) TimerEvent: {}
+[136.726349] (-) TimerEvent: {}
+[136.826675] (-) TimerEvent: {}
+[136.926895] (-) TimerEvent: {}
+[137.027344] (-) TimerEvent: {}
+[137.127773] (-) TimerEvent: {}
+[137.228198] (-) TimerEvent: {}
+[137.328634] (-) TimerEvent: {}
+[137.429064] (-) TimerEvent: {}
+[137.529473] (-) TimerEvent: {}
+[137.629786] (-) TimerEvent: {}
+[137.730207] (-) TimerEvent: {}
+[137.830637] (-) TimerEvent: {}
+[137.931069] (-) TimerEvent: {}
+[138.031371] (-) TimerEvent: {}
+[138.131691] (-) TimerEvent: {}
+[138.232021] (-) TimerEvent: {}
+[138.332444] (-) TimerEvent: {}
+[138.432839] (-) TimerEvent: {}
+[138.533291] (-) TimerEvent: {}
+[138.633678] (-) TimerEvent: {}
+[138.734039] (-) TimerEvent: {}
+[138.834499] (-) TimerEvent: {}
+[138.934931] (-) TimerEvent: {}
+[139.035383] (-) TimerEvent: {}
+[139.135797] (-) TimerEvent: {}
+[139.236217] (-) TimerEvent: {}
+[139.336668] (-) TimerEvent: {}
+[139.437078] (-) TimerEvent: {}
+[139.537286] (-) TimerEvent: {}
+[139.637677] (-) TimerEvent: {}
+[139.737893] (-) TimerEvent: {}
+[139.838308] (-) TimerEvent: {}
+[139.938730] (-) TimerEvent: {}
+[140.039045] (-) TimerEvent: {}
+[140.139363] (-) TimerEvent: {}
+[140.239622] (-) TimerEvent: {}
+[140.339847] (-) TimerEvent: {}
+[140.440212] (-) TimerEvent: {}
+[140.540685] (-) TimerEvent: {}
+[140.641186] (-) TimerEvent: {}
+[140.741626] (-) TimerEvent: {}
+[140.842042] (-) TimerEvent: {}
+[140.942459] (-) TimerEvent: {}
+[141.042894] (-) TimerEvent: {}
+[141.143283] (-) TimerEvent: {}
+[141.243496] (-) TimerEvent: {}
+[141.343848] (-) TimerEvent: {}
+[141.444102] (-) TimerEvent: {}
+[141.544423] (-) TimerEvent: {}
+[141.644838] (-) TimerEvent: {}
+[141.745257] (-) TimerEvent: {}
+[141.845736] (-) TimerEvent: {}
+[141.946206] (-) TimerEvent: {}
+[142.046642] (-) TimerEvent: {}
+[142.147093] (-) TimerEvent: {}
+[142.247521] (-) TimerEvent: {}
+[142.347978] (-) TimerEvent: {}
+[142.448403] (-) TimerEvent: {}
+[142.548875] (-) TimerEvent: {}
+[142.649335] (-) TimerEvent: {}
+[142.749842] (-) TimerEvent: {}
+[142.850301] (-) TimerEvent: {}
+[142.950721] (-) TimerEvent: {}
+[143.051110] (-) TimerEvent: {}
+[143.151452] (-) TimerEvent: {}
+[143.251851] (-) TimerEvent: {}
+[143.352275] (-) TimerEvent: {}
+[143.452735] (-) TimerEvent: {}
+[143.553188] (-) TimerEvent: {}
+[143.653600] (-) TimerEvent: {}
+[143.754041] (-) TimerEvent: {}
+[143.854476] (-) TimerEvent: {}
+[143.954952] (-) TimerEvent: {}
+[144.055379] (-) TimerEvent: {}
+[144.155809] (-) TimerEvent: {}
+[144.256288] (-) TimerEvent: {}
+[144.356770] (-) TimerEvent: {}
+[144.457249] (-) TimerEvent: {}
+[144.557688] (-) TimerEvent: {}
+[144.658111] (-) TimerEvent: {}
+[144.758532] (-) TimerEvent: {}
+[144.859000] (-) TimerEvent: {}
+[144.959422] (-) TimerEvent: {}
+[145.059778] (-) TimerEvent: {}
+[145.160183] (-) TimerEvent: {}
+[145.260396] (-) TimerEvent: {}
+[145.360711] (-) TimerEvent: {}
+[145.461201] (-) TimerEvent: {}
+[145.561656] (-) TimerEvent: {}
+[145.662164] (-) TimerEvent: {}
+[145.762597] (-) TimerEvent: {}
+[145.863082] (-) TimerEvent: {}
+[145.963520] (-) TimerEvent: {}
+[146.063962] (-) TimerEvent: {}
+[146.164415] (-) TimerEvent: {}
+[146.264900] (-) TimerEvent: {}
+[146.365360] (-) TimerEvent: {}
+[146.465803] (-) TimerEvent: {}
+[146.566258] (-) TimerEvent: {}
+[146.666679] (-) TimerEvent: {}
+[146.767114] (-) TimerEvent: {}
+[146.867436] (-) TimerEvent: {}
+[146.967888] (-) TimerEvent: {}
+[147.068308] (-) TimerEvent: {}
+[147.168775] (-) TimerEvent: {}
+[147.269243] (-) TimerEvent: {}
+[147.369684] (-) TimerEvent: {}
+[147.470147] (-) TimerEvent: {}
+[147.570586] (-) TimerEvent: {}
+[147.670869] (-) TimerEvent: {}
+[147.771294] (-) TimerEvent: {}
+[147.871590] (-) TimerEvent: {}
+[147.971808] (-) TimerEvent: {}
+[148.072013] (-) TimerEvent: {}
+[148.172244] (-) TimerEvent: {}
+[148.272456] (-) TimerEvent: {}
+[148.372693] (-) TimerEvent: {}
+[148.472903] (-) TimerEvent: {}
+[148.573329] (-) TimerEvent: {}
+[148.673804] (-) TimerEvent: {}
+[148.774248] (-) TimerEvent: {}
+[148.874715] (-) TimerEvent: {}
+[148.974931] (-) TimerEvent: {}
+[149.075423] (-) TimerEvent: {}
+[149.175923] (-) TimerEvent: {}
+[149.276186] (-) TimerEvent: {}
+[149.376639] (-) TimerEvent: {}
+[149.477077] (-) TimerEvent: {}
+[149.577558] (-) TimerEvent: {}
+[149.677995] (-) TimerEvent: {}
+[149.778494] (-) TimerEvent: {}
+[149.878973] (-) TimerEvent: {}
+[149.979399] (-) TimerEvent: {}
+[150.079867] (-) TimerEvent: {}
+[150.180338] (-) TimerEvent: {}
+[150.280753] (-) TimerEvent: {}
+[150.381097] (-) TimerEvent: {}
+[150.481359] (-) TimerEvent: {}
+[150.581678] (-) TimerEvent: {}
+[150.681894] (-) TimerEvent: {}
+[150.782314] (-) TimerEvent: {}
+[150.882773] (-) TimerEvent: {}
+[150.983190] (-) TimerEvent: {}
+[151.083574] (-) TimerEvent: {}
+[151.183787] (-) TimerEvent: {}
+[151.284063] (-) TimerEvent: {}
+[151.384473] (-) TimerEvent: {}
+[151.484919] (-) TimerEvent: {}
+[151.585385] (-) TimerEvent: {}
+[151.685809] (-) TimerEvent: {}
+[151.786244] (-) TimerEvent: {}
+[151.886721] (-) TimerEvent: {}
+[151.987098] (-) TimerEvent: {}
+[152.087560] (-) TimerEvent: {}
+[152.187995] (-) TimerEvent: {}
+[152.288424] (-) TimerEvent: {}
+[152.388905] (-) TimerEvent: {}
+[152.489309] (-) TimerEvent: {}
+[152.589760] (-) TimerEvent: {}
+[152.690177] (-) TimerEvent: {}
+[152.790635] (-) TimerEvent: {}
+[152.890950] (-) TimerEvent: {}
+[152.898208] (aws_robomaker_hospital_world) CommandEnded: {'returncode': -2}
+[152.899094] (aws_robomaker_hospital_world) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure\n    buildfile = get_buildfile(cmake_cache)\n  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile\n    if \'Visual Studio\' in generator:\nTypeError: argument of type \'NoneType\' is not iterable\n'}
+[152.899193] (aws_robomaker_hospital_world) JobEnded: {'identifier': 'aws_robomaker_hospital_world', 'rc': 'SIGINT'}
+[152.909699] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+source;share/hls_lfcd_lds_driver/local_setup.bash
+source;share/hls_lfcd_lds_driver/local_setup.dsv
+source;share/hls_lfcd_lds_driver/local_setup.sh
+source;share/hls_lfcd_lds_driver/local_setup.zsh

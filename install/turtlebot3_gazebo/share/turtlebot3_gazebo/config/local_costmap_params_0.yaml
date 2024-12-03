@@ -1,0 +1,35 @@
+costmap:
+  costmap:
+    ros__parameters:
+      update_frequency: 5.0
+      publish_frequency: 2.0
+      global_frame: map
+      robot_base_frame: bot_0/base_link
+      use_sim_time: True
+      robot_radius: 0.22
+      resolution: 0.05
+      track_unknown_space: true
+      plugins: ["static_layer", "inflation_layer", "obstacle_layer"] 
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"
+        map_subscribe_transient_local: True
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        cost_scaling_factor: 3.0
+        inflation_radius: 0.55
+      obstacle_layer: 
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        observation_sources: "laser_scan"
+        laser_scan:
+          sensor_frame: "bot_0/base_scan"
+          data_type: "LaserScan"
+          topic: "/bot_0/scan"
+          marking: true
+          clearing: true
+          obstacle_range: 2.5  
+          raytrace_range: 3.0  
+      rolling_window: true  
+      always_send_full_costmap: True
+      transform_tolerance: 10.0  # Wait up to 10 seconds for transforms
+      wait_for_transform_timeout: 10.0  # Wait up to 10 seconds for transforms
+

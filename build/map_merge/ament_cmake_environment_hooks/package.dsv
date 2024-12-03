@@ -1,0 +1,4 @@
+source;share/map_merge/local_setup.bash
+source;share/map_merge/local_setup.dsv
+source;share/map_merge/local_setup.sh
+source;share/map_merge/local_setup.zsh

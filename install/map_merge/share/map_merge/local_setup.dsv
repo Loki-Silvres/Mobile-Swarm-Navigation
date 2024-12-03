@@ -1,0 +1,3 @@
+source;share/map_merge/environment/ament_prefix_path.sh
+source;share/map_merge/environment/library_path.sh
+source;share/map_merge/environment/path.sh

@@ -1,0 +1,6 @@
+Invoking command in '/home/pacman/turtlebot3_ws/build/map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/map_merge -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/map_merge
+Invoked command in '/home/pacman/turtlebot3_ws/build/map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/map_merge -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/map_merge
+Invoking command in '/home/pacman/turtlebot3_ws/build/map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/map_merge -- -j12 -l12
+Invoked command in '/home/pacman/turtlebot3_ws/build/map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/map_merge -- -j12 -l12
+Invoking command in '/home/pacman/turtlebot3_ws/build/map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/map_merge
+Invoked command in '/home/pacman/turtlebot3_ws/build/map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/map_merge

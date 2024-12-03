@@ -1,0 +1,687 @@
+[0.041s] Invoking command in '/home/pacman/turtlebot3_ws/build/nav2_costmap_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/nav2_costmap_2d -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/nav2_costmap_2d
+[0.248s] -- The C compiler identification is GNU 11.4.0
+[0.248s] -- The CXX compiler identification is GNU 11.4.0
+[0.248s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.389s] -- Detecting CXX compile features
+[0.390s] -- Detecting CXX compile features - done
+[0.394s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.518s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.612s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.615s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.658s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.664s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.673s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.733s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.781s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.854s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.877s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.907s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.917s] -- Looking for pthread.h
+[0.974s] -- Looking for pthread.h - found
+[0.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.022s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.023s] -- Found Threads: TRUE  
+[1.078s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[1.105s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[1.109s] -- Found nav2_common: 1.1.16 (/opt/ros/humble/share/nav2_common/cmake)
+[1.111s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.146s] -- Found nav2_util: 1.1.16 (/opt/ros/humble/share/nav2_util/cmake)
+[1.205s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.205s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.249s] -- Found nav2_voxel_grid: 1.1.16 (/opt/ros/humble/share/nav2_voxel_grid/cmake)
+[1.253s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.267s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.275s] -- Found tf2_sensor_msgs: 0.25.8 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[1.279s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.292s] -- Setting build type to Release as none was specified.
+[1.294s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.413s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.446s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.446s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pacman/turtlebot3_ws/src/nav2_costmap_2d/include>
+[1.446s] -- Configured cppcheck exclude dirs and/or files: 
+[1.447s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.448s] -- Added test 'lint_cmake' to check CMake code style
+[1.448s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.450s] -- Added test 'uncrustify' to check C / C++ code style
+[1.450s] -- Configured uncrustify additional arguments: 
+[1.451s] -- Added test 'xmllint' to check XML markup files
+[1.453s] -- Configuring done
+[1.460s] [31mCMake Error at CMakeLists.txt:30 (add_library):
+[1.460s]   Target "nav2_costmap_2d_core" links to target "nav2_util::nav2_util_core"
+[1.460s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.460s]   an IMPORTED target, or an ALIAS target is missing?
+[1.460s] 
+[1.460s] [0m
+[1.460s] [31mCMake Error at CMakeLists.txt:30 (add_library):
+[1.460s]   Target "nav2_costmap_2d_core" links to target
+[1.460s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.461s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.461s]   is missing?
+[1.461s] 
+[1.461s] [0m
+[1.461s] [31mCMake Error at CMakeLists.txt:62 (add_library):
+[1.461s]   Target "layers" links to target "nav2_voxel_grid::voxel_grid" but the
+[1.461s]   target was not found.  Perhaps a find_package() call is missing for an
+[1.461s]   IMPORTED target, or an ALIAS target is missing?
+[1.461s] 
+[1.461s] [0m
+[1.461s] [31mCMake Error at CMakeLists.txt:62 (add_library):
+[1.461s]   Target "layers" links to target "nav2_util::nav2_util_core" but the target
+[1.461s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[1.461s]   target, or an ALIAS target is missing?
+[1.461s] 
+[1.461s] [0m
+[1.461s] [31mCMake Error at CMakeLists.txt:62 (add_library):
+[1.461s]   Target "layers" links to target "tf2_sensor_msgs::tf2_sensor_msgs" but the
+[1.461s]   target was not found.  Perhaps a find_package() call is missing for an
+[1.461s]   IMPORTED target, or an ALIAS target is missing?
+[1.461s] 
+[1.461s] [0m
+[1.461s] [31mCMake Error at CMakeLists.txt:89 (add_library):
+[1.462s]   Target "filters" links to target "nav2_util::nav2_util_core" but the target
+[1.462s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[1.462s]   target, or an ALIAS target is missing?
+[1.462s] 
+[1.462s] [0m
+[1.462s] [31mCMake Error at CMakeLists.txt:89 (add_library):
+[1.462s]   Target "filters" links to target "tf2_sensor_msgs::tf2_sensor_msgs" but the
+[1.462s]   target was not found.  Perhaps a find_package() call is missing for an
+[1.462s]   IMPORTED target, or an ALIAS target is missing?
+[1.462s] 
+[1.462s] [0m
+[1.462s] [31mCMake Error at CMakeLists.txt:105 (add_library):
+[1.462s]   Target "nav2_costmap_2d_client" links to target "nav2_util::nav2_util_core"
+[1.462s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.462s]   an IMPORTED target, or an ALIAS target is missing?
+[1.462s] 
+[1.462s] [0m
+[1.462s] [31mCMake Error at CMakeLists.txt:105 (add_library):
+[1.462s]   Target "nav2_costmap_2d_client" links to target
+[1.462s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.462s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.462s]   is missing?
+[1.462s] 
+[1.462s] [0m
+[1.462s] [31mCMake Error at CMakeLists.txt:121 (add_executable):
+[1.462s]   Target "nav2_costmap_2d_markers" links to target
+[1.462s]   "nav2_voxel_grid::voxel_grid" but the target was not found.  Perhaps a
+[1.462s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.462s]   is missing?
+[1.462s] 
+[1.462s] [0m
+[1.462s] [31mCMake Error at CMakeLists.txt:121 (add_executable):
+[1.462s]   Target "nav2_costmap_2d_markers" links to target
+[1.462s]   "nav2_util::nav2_util_core" but the target was not found.  Perhaps a
+[1.462s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.462s]   is missing?
+[1.462s] 
+[1.462s] [0m
+[1.462s] [31mCMake Error at CMakeLists.txt:130 (add_executable):
+[1.462s]   Target "nav2_costmap_2d_cloud" links to target
+[1.462s]   "nav2_voxel_grid::voxel_grid" but the target was not found.  Perhaps a
+[1.463s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.463s]   is missing?
+[1.463s] 
+[1.463s] [0m
+[1.463s] [31mCMake Error at CMakeLists.txt:130 (add_executable):
+[1.463s]   Target "nav2_costmap_2d_cloud" links to target "nav2_util::nav2_util_core"
+[1.463s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.463s]   an IMPORTED target, or an ALIAS target is missing?
+[1.463s] 
+[1.463s] [0m
+[1.463s] [31mCMake Error at CMakeLists.txt:140 (add_executable):
+[1.463s]   Target "nav2_costmap_2d" links to target "nav2_util::nav2_util_core" but
+[1.463s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.463s]   IMPORTED target, or an ALIAS target is missing?
+[1.463s] 
+[1.463s] [0m
+[1.463s] [31mCMake Error at CMakeLists.txt:140 (add_executable):
+[1.463s]   Target "nav2_costmap_2d" links to target "tf2_sensor_msgs::tf2_sensor_msgs"
+[1.463s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.463s]   an IMPORTED target, or an ALIAS target is missing?
+[1.463s] 
+[1.463s] [0m
+[1.463s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.463s]   Target "collision_footprint_test" links to target
+[1.463s]   "nav2_util::nav2_util_core" but the target was not found.  Perhaps a
+[1.463s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.463s]   is missing?
+[1.463s] Call Stack (most recent call first):
+[1.463s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.463s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.463s]   test/unit/CMakeLists.txt:1 (ament_add_gtest)
+[1.463s] 
+[1.463s] [0m
+[1.463s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.463s]   Target "collision_footprint_test" links to target
+[1.463s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.463s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.464s]   is missing?
+[1.464s] Call Stack (most recent call first):
+[1.464s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.464s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.464s]   test/unit/CMakeLists.txt:1 (ament_add_gtest)
+[1.464s] 
+[1.464s] [0m
+[1.464s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.464s]   Target "costmap_convesion_test" links to target "nav2_util::nav2_util_core"
+[1.464s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.464s]   an IMPORTED target, or an ALIAS target is missing?
+[1.464s] Call Stack (most recent call first):
+[1.464s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.464s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.464s]   test/unit/CMakeLists.txt:6 (ament_add_gtest)
+[1.464s] 
+[1.464s] [0m
+[1.464s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.464s]   Target "costmap_convesion_test" links to target
+[1.464s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.464s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.464s]   is missing?
+[1.464s] Call Stack (most recent call first):
+[1.464s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.464s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.464s]   test/unit/CMakeLists.txt:6 (ament_add_gtest)
+[1.464s] 
+[1.464s] [0m
+[1.464s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.464s]   Target "costmap_cost_service_test" links to target
+[1.464s]   "nav2_util::nav2_util_core" but the target was not found.  Perhaps a
+[1.464s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.464s]   is missing?
+[1.464s] Call Stack (most recent call first):
+[1.464s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.464s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.464s]   test/unit/CMakeLists.txt:11 (ament_add_gtest)
+[1.464s] 
+[1.464s] [0m
+[1.464s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.464s]   Target "costmap_cost_service_test" links to target
+[1.464s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.464s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.464s]   is missing?
+[1.465s] Call Stack (most recent call first):
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.465s]   test/unit/CMakeLists.txt:11 (ament_add_gtest)
+[1.465s] 
+[1.465s] [0m
+[1.465s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.465s]   Target "declare_parameter_test" links to target "nav2_util::nav2_util_core"
+[1.465s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.465s]   an IMPORTED target, or an ALIAS target is missing?
+[1.465s] Call Stack (most recent call first):
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.465s]   test/unit/CMakeLists.txt:16 (ament_add_gtest)
+[1.465s] 
+[1.465s] [0m
+[1.465s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.465s]   Target "declare_parameter_test" links to target
+[1.465s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.465s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.465s]   is missing?
+[1.465s] Call Stack (most recent call first):
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.465s]   test/unit/CMakeLists.txt:16 (ament_add_gtest)
+[1.465s] 
+[1.465s] [0m
+[1.465s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.465s]   Target "costmap_filter_test" links to target "nav2_util::nav2_util_core"
+[1.465s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.465s]   an IMPORTED target, or an ALIAS target is missing?
+[1.465s] Call Stack (most recent call first):
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.465s]   test/unit/CMakeLists.txt:21 (ament_add_gtest)
+[1.465s] 
+[1.465s] [0m
+[1.465s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.465s]   Target "costmap_filter_test" links to target
+[1.465s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.465s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.465s]   is missing?
+[1.465s] Call Stack (most recent call first):
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.465s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.465s]   test/unit/CMakeLists.txt:21 (ament_add_gtest)
+[1.466s] 
+[1.466s] [0m
+[1.466s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.466s]   Target "keepout_filter_test" links to target "nav2_util::nav2_util_core"
+[1.466s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.466s]   an IMPORTED target, or an ALIAS target is missing?
+[1.466s] Call Stack (most recent call first):
+[1.466s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.466s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.466s]   test/unit/CMakeLists.txt:26 (ament_add_gtest)
+[1.466s] 
+[1.466s] [0m
+[1.466s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.466s]   Target "keepout_filter_test" links to target
+[1.466s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.466s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.466s]   is missing?
+[1.466s] Call Stack (most recent call first):
+[1.466s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.466s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.466s]   test/unit/CMakeLists.txt:26 (ament_add_gtest)
+[1.466s] 
+[1.466s] [0m
+[1.466s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.466s]   Target "speed_filter_test" links to target "nav2_util::nav2_util_core" but
+[1.466s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.466s]   IMPORTED target, or an ALIAS target is missing?
+[1.466s] Call Stack (most recent call first):
+[1.466s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.466s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.466s]   test/unit/CMakeLists.txt:32 (ament_add_gtest)
+[1.466s] 
+[1.466s] [0m
+[1.466s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.466s]   Target "speed_filter_test" links to target
+[1.466s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.466s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.466s]   is missing?
+[1.466s] Call Stack (most recent call first):
+[1.466s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.466s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.466s]   test/unit/CMakeLists.txt:32 (ament_add_gtest)
+[1.466s] 
+[1.466s] [0m
+[1.466s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.466s]   Target "binary_filter_test" links to target "nav2_util::nav2_util_core" but
+[1.467s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.467s]   IMPORTED target, or an ALIAS target is missing?
+[1.467s] Call Stack (most recent call first):
+[1.467s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.467s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.467s]   test/unit/CMakeLists.txt:38 (ament_add_gtest)
+[1.467s] 
+[1.467s] [0m
+[1.467s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.467s]   Target "binary_filter_test" links to target
+[1.467s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.467s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.467s]   is missing?
+[1.467s] Call Stack (most recent call first):
+[1.467s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.467s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.467s]   test/unit/CMakeLists.txt:38 (ament_add_gtest)
+[1.467s] 
+[1.467s] [0m
+[1.467s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.467s]   Target "copy_window_test" links to target "nav2_util::nav2_util_core" but
+[1.467s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.467s]   IMPORTED target, or an ALIAS target is missing?
+[1.467s] Call Stack (most recent call first):
+[1.467s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.467s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.467s]   test/unit/CMakeLists.txt:45 (ament_add_gtest)
+[1.467s] 
+[1.467s] [0m
+[1.467s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.467s]   Target "copy_window_test" links to target
+[1.467s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.467s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.467s]   is missing?
+[1.467s] Call Stack (most recent call first):
+[1.467s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.467s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.467s]   test/unit/CMakeLists.txt:45 (ament_add_gtest)
+[1.467s] 
+[1.467s] [0m
+[1.467s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.467s]   Target "costmap_filter_service_test" links to target
+[1.467s]   "nav2_util::nav2_util_core" but the target was not found.  Perhaps a
+[1.467s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.467s]   is missing?
+[1.467s] Call Stack (most recent call first):
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.468s]   test/unit/CMakeLists.txt:50 (ament_add_gtest)
+[1.468s] 
+[1.468s] [0m
+[1.468s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.468s]   Target "costmap_filter_service_test" links to target
+[1.468s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.468s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.468s]   is missing?
+[1.468s] Call Stack (most recent call first):
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.468s]   test/unit/CMakeLists.txt:50 (ament_add_gtest)
+[1.468s] 
+[1.468s] [0m
+[1.468s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.468s]   Target "denoise_layer_test" links to target "nav2_util::nav2_util_core" but
+[1.468s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.468s]   IMPORTED target, or an ALIAS target is missing?
+[1.468s] Call Stack (most recent call first):
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.468s]   test/unit/CMakeLists.txt:55 (ament_add_gtest)
+[1.468s] 
+[1.468s] [0m
+[1.468s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.468s]   Target "denoise_layer_test" links to target
+[1.468s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.468s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.468s]   is missing?
+[1.468s] Call Stack (most recent call first):
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.468s]   test/unit/CMakeLists.txt:55 (ament_add_gtest)
+[1.468s] 
+[1.468s] [0m
+[1.468s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.468s]   Target "denoise_layer_test" links to target "nav2_voxel_grid::voxel_grid"
+[1.468s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.468s]   an IMPORTED target, or an ALIAS target is missing?
+[1.468s] Call Stack (most recent call first):
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.468s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.468s]   test/unit/CMakeLists.txt:55 (ament_add_gtest)
+[1.468s] 
+[1.469s] [0m
+[1.469s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.469s]   Target "lifecycle_test" links to target "nav2_util::nav2_util_core" but the
+[1.469s]   target was not found.  Perhaps a find_package() call is missing for an
+[1.469s]   IMPORTED target, or an ALIAS target is missing?
+[1.469s] Call Stack (most recent call first):
+[1.469s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.469s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.469s]   test/unit/CMakeLists.txt:61 (ament_add_gtest)
+[1.469s] 
+[1.469s] [0m
+[1.469s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.469s]   Target "lifecycle_test" links to target "tf2_sensor_msgs::tf2_sensor_msgs"
+[1.469s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.469s]   an IMPORTED target, or an ALIAS target is missing?
+[1.469s] Call Stack (most recent call first):
+[1.469s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.469s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.469s]   test/unit/CMakeLists.txt:61 (ament_add_gtest)
+[1.469s] 
+[1.469s] [0m
+[1.469s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.469s]   Target "footprint_tests_exec" links to target "nav2_util::nav2_util_core"
+[1.469s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.469s]   an IMPORTED target, or an ALIAS target is missing?
+[1.469s] Call Stack (most recent call first):
+[1.469s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.469s]   test/integration/CMakeLists.txt:1 (ament_add_gtest_executable)
+[1.469s] 
+[1.469s] [0m
+[1.469s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.469s]   Target "footprint_tests_exec" links to target
+[1.469s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.469s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.469s]   is missing?
+[1.469s] Call Stack (most recent call first):
+[1.469s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.469s]   test/integration/CMakeLists.txt:1 (ament_add_gtest_executable)
+[1.469s] 
+[1.469s] [0m
+[1.469s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.469s]   Target "footprint_tests_exec" links to target "nav2_voxel_grid::voxel_grid"
+[1.469s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.469s]   an IMPORTED target, or an ALIAS target is missing?
+[1.469s] Call Stack (most recent call first):
+[1.470s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.470s]   test/integration/CMakeLists.txt:1 (ament_add_gtest_executable)
+[1.470s] 
+[1.470s] [0m
+[1.470s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.470s]   Target "test_collision_checker_exec" links to target
+[1.470s]   "nav2_util::nav2_util_core" but the target was not found.  Perhaps a
+[1.470s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.470s]   is missing?
+[1.470s] Call Stack (most recent call first):
+[1.470s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.470s]   test/integration/CMakeLists.txt:9 (ament_add_gtest_executable)
+[1.470s] 
+[1.470s] [0m
+[1.470s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.470s]   Target "test_collision_checker_exec" links to target
+[1.470s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.470s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.470s]   is missing?
+[1.470s] Call Stack (most recent call first):
+[1.470s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.470s]   test/integration/CMakeLists.txt:9 (ament_add_gtest_executable)
+[1.470s] 
+[1.470s] [0m
+[1.470s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.470s]   Target "test_collision_checker_exec" links to target
+[1.470s]   "nav2_voxel_grid::voxel_grid" but the target was not found.  Perhaps a
+[1.470s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.470s]   is missing?
+[1.470s] Call Stack (most recent call first):
+[1.470s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.470s]   test/integration/CMakeLists.txt:9 (ament_add_gtest_executable)
+[1.470s] 
+[1.470s] [0m
+[1.470s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.470s]   Target "inflation_tests_exec" links to target "nav2_util::nav2_util_core"
+[1.470s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.470s]   an IMPORTED target, or an ALIAS target is missing?
+[1.470s] Call Stack (most recent call first):
+[1.470s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.470s]   test/integration/CMakeLists.txt:18 (ament_add_gtest_executable)
+[1.470s] 
+[1.470s] [0m
+[1.470s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.470s]   Target "inflation_tests_exec" links to target
+[1.470s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.471s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.471s]   is missing?
+[1.471s] Call Stack (most recent call first):
+[1.471s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.471s]   test/integration/CMakeLists.txt:18 (ament_add_gtest_executable)
+[1.471s] 
+[1.471s] [0m
+[1.471s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.471s]   Target "inflation_tests_exec" links to target "nav2_voxel_grid::voxel_grid"
+[1.471s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.471s]   an IMPORTED target, or an ALIAS target is missing?
+[1.471s] Call Stack (most recent call first):
+[1.471s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.471s]   test/integration/CMakeLists.txt:18 (ament_add_gtest_executable)
+[1.471s] 
+[1.471s] [0m
+[1.471s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.471s]   Target "obstacle_tests_exec" links to target "nav2_util::nav2_util_core"
+[1.471s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.471s]   an IMPORTED target, or an ALIAS target is missing?
+[1.471s] Call Stack (most recent call first):
+[1.471s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.471s]   test/integration/CMakeLists.txt:26 (ament_add_gtest_executable)
+[1.471s] 
+[1.471s] [0m
+[1.471s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.471s]   Target "obstacle_tests_exec" links to target
+[1.471s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.471s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.471s]   is missing?
+[1.471s] Call Stack (most recent call first):
+[1.471s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.471s]   test/integration/CMakeLists.txt:26 (ament_add_gtest_executable)
+[1.471s] 
+[1.471s] [0m
+[1.471s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.471s]   Target "obstacle_tests_exec" links to target "nav2_voxel_grid::voxel_grid"
+[1.471s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.471s]   an IMPORTED target, or an ALIAS target is missing?
+[1.471s] Call Stack (most recent call first):
+[1.471s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.471s]   test/integration/CMakeLists.txt:26 (ament_add_gtest_executable)
+[1.471s] 
+[1.471s] [0m
+[1.471s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.471s]   Target "range_tests_exec" links to target "nav2_util::nav2_util_core" but
+[1.472s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.472s]   IMPORTED target, or an ALIAS target is missing?
+[1.472s] Call Stack (most recent call first):
+[1.472s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.472s]   test/integration/CMakeLists.txt:34 (ament_add_gtest_executable)
+[1.472s] 
+[1.472s] [0m
+[1.472s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.472s]   Target "range_tests_exec" links to target
+[1.472s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.472s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.472s]   is missing?
+[1.472s] Call Stack (most recent call first):
+[1.472s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.472s]   test/integration/CMakeLists.txt:34 (ament_add_gtest_executable)
+[1.472s] 
+[1.472s] [0m
+[1.472s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.472s]   Target "range_tests_exec" links to target "nav2_voxel_grid::voxel_grid" but
+[1.472s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.472s]   IMPORTED target, or an ALIAS target is missing?
+[1.472s] Call Stack (most recent call first):
+[1.472s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.472s]   test/integration/CMakeLists.txt:34 (ament_add_gtest_executable)
+[1.472s] 
+[1.472s] [0m
+[1.472s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.472s]   Target "dyn_params_tests" links to target "nav2_util::nav2_util_core" but
+[1.472s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.472s]   IMPORTED target, or an ALIAS target is missing?
+[1.472s] Call Stack (most recent call first):
+[1.472s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.472s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.472s]   test/integration/CMakeLists.txt:42 (ament_add_gtest)
+[1.472s] 
+[1.472s] [0m
+[1.472s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.472s]   Target "dyn_params_tests" links to target
+[1.472s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.472s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.472s]   is missing?
+[1.472s] Call Stack (most recent call first):
+[1.472s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.472s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.472s]   test/integration/CMakeLists.txt:42 (ament_add_gtest)
+[1.472s] 
+[1.473s] [0m
+[1.473s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.473s]   Target "test_costmap_publisher_exec" links to target
+[1.473s]   "nav2_util::nav2_util_core" but the target was not found.  Perhaps a
+[1.473s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.473s]   is missing?
+[1.473s] Call Stack (most recent call first):
+[1.473s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.473s]   test/integration/CMakeLists.txt:49 (ament_add_gtest_executable)
+[1.473s] 
+[1.473s] [0m
+[1.473s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.473s]   Target "test_costmap_publisher_exec" links to target
+[1.473s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.473s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.473s]   is missing?
+[1.473s] Call Stack (most recent call first):
+[1.473s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.473s]   test/integration/CMakeLists.txt:49 (ament_add_gtest_executable)
+[1.473s] 
+[1.473s] [0m
+[1.473s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.473s]   Target "test_costmap_publisher_exec" links to target
+[1.473s]   "nav2_voxel_grid::voxel_grid" but the target was not found.  Perhaps a
+[1.473s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.473s]   is missing?
+[1.473s] Call Stack (most recent call first):
+[1.473s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.473s]   test/integration/CMakeLists.txt:49 (ament_add_gtest_executable)
+[1.473s] 
+[1.473s] [0m
+[1.473s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.473s]   Target "test_costmap_subscriber_exec" links to target
+[1.473s]   "nav2_util::nav2_util_core" but the target was not found.  Perhaps a
+[1.473s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.473s]   is missing?
+[1.473s] Call Stack (most recent call first):
+[1.473s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.473s]   test/integration/CMakeLists.txt:58 (ament_add_gtest_executable)
+[1.473s] 
+[1.473s] [0m
+[1.473s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.473s]   Target "test_costmap_subscriber_exec" links to target
+[1.473s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.473s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.473s]   is missing?
+[1.474s] Call Stack (most recent call first):
+[1.474s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.474s]   test/integration/CMakeLists.txt:58 (ament_add_gtest_executable)
+[1.474s] 
+[1.474s] [0m
+[1.474s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.474s]   Target "costmap_bresenham_2d" links to target "nav2_util::nav2_util_core"
+[1.474s]   but the target was not found.  Perhaps a find_package() call is missing for
+[1.474s]   an IMPORTED target, or an ALIAS target is missing?
+[1.474s] Call Stack (most recent call first):
+[1.474s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.474s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.474s]   test/regression/CMakeLists.txt:2 (ament_add_gtest)
+[1.474s] 
+[1.474s] [0m
+[1.474s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.474s]   Target "costmap_bresenham_2d" links to target
+[1.474s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.474s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.474s]   is missing?
+[1.474s] Call Stack (most recent call first):
+[1.474s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.474s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.474s]   test/regression/CMakeLists.txt:2 (ament_add_gtest)
+[1.474s] 
+[1.474s] [0m
+[1.474s] [31mCMake Error at test/regression/CMakeLists.txt:8 (add_library):
+[1.474s]   Target "order_layer" links to target "nav2_util::nav2_util_core" but the
+[1.474s]   target was not found.  Perhaps a find_package() call is missing for an
+[1.474s]   IMPORTED target, or an ALIAS target is missing?
+[1.474s] 
+[1.474s] [0m
+[1.474s] [31mCMake Error at test/regression/CMakeLists.txt:8 (add_library):
+[1.474s]   Target "order_layer" links to target "tf2_sensor_msgs::tf2_sensor_msgs" but
+[1.474s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.474s]   IMPORTED target, or an ALIAS target is missing?
+[1.474s] 
+[1.474s] [0m
+[1.474s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.474s]   Target "plugin_api_order" links to target "nav2_util::nav2_util_core" but
+[1.474s]   the target was not found.  Perhaps a find_package() call is missing for an
+[1.475s]   IMPORTED target, or an ALIAS target is missing?
+[1.475s] Call Stack (most recent call first):
+[1.475s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.475s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.475s]   test/regression/CMakeLists.txt:20 (ament_add_gtest)
+[1.475s] 
+[1.475s] [0m
+[1.475s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[1.475s]   Target "plugin_api_order" links to target
+[1.475s]   "tf2_sensor_msgs::tf2_sensor_msgs" but the target was not found.  Perhaps a
+[1.475s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[1.475s]   is missing?
+[1.475s] Call Stack (most recent call first):
+[1.475s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[1.475s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[1.475s]   test/regression/CMakeLists.txt:20 (ament_add_gtest)
+[1.475s] 
+[1.475s] [0m
+[1.537s] -- Generating done
+[1.539s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.550s] Invoked command in '/home/pacman/turtlebot3_ws/build/nav2_costmap_2d' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/nav2_costmap_2d -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/nav2_costmap_2d

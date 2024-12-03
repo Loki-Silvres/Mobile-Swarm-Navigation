@@ -1,0 +1,19 @@
+digraph G {
+"bot_0/odom" -> "bot_0/base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 29.61\nBuffer length: 5.032\nMost recent transform: 12.757\nOldest transform: 7.725\n"];
+"bot_0/base_footprint" -> "bot_0/base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/camera_link" -> "bot_0/camera_depth_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/base_link" -> "bot_0/camera_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/camera_depth_frame" -> "bot_0/camera_depth_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/camera_link" -> "bot_0/camera_rgb_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/camera_rgb_frame" -> "bot_0/camera_rgb_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/base_link" -> "bot_0/caster_back_left_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/base_link" -> "bot_0/caster_back_right_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/base_link" -> "bot_0/imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/base_link" -> "bot_0/base_scan"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"bot_0/base_link" -> "bot_0/wheel_left_link"[label=" Broadcaster: default_authority\nAverage rate: 10.073\nBuffer length: 4.964\nMost recent transform: 12.757\nOldest transform: 7.793\n"];
+"bot_0/base_link" -> "bot_0/wheel_right_link"[label=" Broadcaster: default_authority\nAverage rate: 10.078\nBuffer length: 4.862\nMost recent transform: 12.655\nOldest transform: 7.793\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1733234894.1457944"[ shape=plaintext ] ;
+}->"bot_0/odom";
+}

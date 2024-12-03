@@ -1,0 +1,21 @@
+[0.735s] Invoking command in '/home/pacman/turtlebot3_ws/src/frame_changer': PYTHONPATH=/home/pacman/turtlebot3_ws/build/frame_changer/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/frame_changer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/frame_changer build --build-base /home/pacman/turtlebot3_ws/build/frame_changer/build install --record /home/pacman/turtlebot3_ws/build/frame_changer/install.log --single-version-externally-managed install_data
+[0.865s] running egg_info
+[0.866s] writing ../../build/frame_changer/frame_changer.egg-info/PKG-INFO
+[0.866s] writing dependency_links to ../../build/frame_changer/frame_changer.egg-info/dependency_links.txt
+[0.866s] writing entry points to ../../build/frame_changer/frame_changer.egg-info/entry_points.txt
+[0.866s] writing requirements to ../../build/frame_changer/frame_changer.egg-info/requires.txt
+[0.866s] writing top-level names to ../../build/frame_changer/frame_changer.egg-info/top_level.txt
+[0.867s] reading manifest file '../../build/frame_changer/frame_changer.egg-info/SOURCES.txt'
+[0.868s] writing manifest file '../../build/frame_changer/frame_changer.egg-info/SOURCES.txt'
+[0.868s] running build
+[0.868s] running build_py
+[0.868s] running install
+[0.868s] running install_lib
+[0.869s] running install_data
+[0.869s] running install_egg_info
+[0.870s] removing '/home/pacman/turtlebot3_ws/install/frame_changer/lib/python3.10/site-packages/frame_changer-0.0.0-py3.10.egg-info' (and everything under it)
+[0.870s] Copying ../../build/frame_changer/frame_changer.egg-info to /home/pacman/turtlebot3_ws/install/frame_changer/lib/python3.10/site-packages/frame_changer-0.0.0-py3.10.egg-info
+[0.871s] running install_scripts
+[0.884s] Installing frame_changer script to /home/pacman/turtlebot3_ws/install/frame_changer/lib/frame_changer
+[0.885s] writing list of installed files to '/home/pacman/turtlebot3_ws/build/frame_changer/install.log'
+[0.950s] Invoked command in '/home/pacman/turtlebot3_ws/src/frame_changer' returned '0': PYTHONPATH=/home/pacman/turtlebot3_ws/build/frame_changer/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/frame_changer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/frame_changer build --build-base /home/pacman/turtlebot3_ws/build/frame_changer/build install --record /home/pacman/turtlebot3_ws/build/frame_changer/install.log --single-version-externally-managed install_data

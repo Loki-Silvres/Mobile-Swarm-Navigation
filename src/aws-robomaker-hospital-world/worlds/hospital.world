@@ -173,13 +173,46 @@
         <pose>-9.61916 -12.5112 0 0 0 -3.12353</pose>
       </include>
     </model>
-    <model name="Scrubs_2">
+
+    <model name="Scrubs_2_box">
+      <pose>0.054597 4.05849 0 0 -0 3.12413</pose>
+      <link name="Scrubs_2_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.5 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <pose>0 0 -0.5 0 0 0</pose>
+          <geometry>
+            <mesh>
+            <uri>model://Scrubs/meshes/scrubs.obj</uri>
+          </mesh>
+          </geometry>
+        </visual>
+      </link>
+
+    <plugin name="model_move" filename="libmodel_move.so">
+      <goals>
+        <pose>-2.0      2.0 0 0 0 0</pose>
+        <pose>0.054597 4.05849 0 0 -0 3.12413</pose>
+        <pose> 2.0      2.0 0 0 0 0</pose>
+        <pose>0.054597 4.05849 0 0 -0 3.12413</pose>
+      </goals>
+    </plugin>
+
+    </model>
+
+    <!-- <model name="Scrubs_2">
       <include>
         <uri>model://Scrubs</uri>
         <static>true</static>
         <pose>0.054597 4.05849 0 0 -0 3.12413</pose>
       </include>
-    </model>
+    </model> -->
 
     <model name="PatientWheelChair_1_box">
       <pose>-5.46091 1.23577 0 0 0 0</pose>
@@ -204,7 +237,9 @@
 
     <plugin name="model_move" filename="libmodel_move.so">
       <goals>
-        <pose>-5.46091 -9.23577 0 0 0 0</pose>
+        <pose>-5.46091 -9.5 0 0 0 0</pose>
+        <pose> 3.43310 -9.5 0 0 0 0</pose>
+        <pose>-5.46091 -9.5 0 0 0 0</pose>
         <pose>-5.46091 1.23577 0 0 0 0</pose>
       </goals>
     </plugin>
@@ -219,13 +254,47 @@
       </include>
     </model> -->
 
-    <model name="Scrubs_3">
+    <model name="Scrubs_3_box">
+      <pose>-10.0 -26.0 0 0 0 3.14</pose>
+      <link name="Scrubs_3_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.5 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <pose>0 0 -0.5 0 0 0</pose>
+          <geometry>
+            <mesh>
+            <uri>model://Scrubs/meshes/scrubs.obj</uri>
+          </mesh>
+          </geometry>
+        </visual>
+      </link>
+
+    <plugin name="model_move" filename="libmodel_move.so">
+      <goals>
+        <pose>-7.5 -25 0 0 -0 0</pose>
+        <pose>-5 -25 0 0 -0 0</pose>
+        <pose>-5 -34 0 0 -0 0</pose>
+        <pose>-7.5 -34 0 0 -0 0</pose>
+        <pose>-7.5 -25 0 0 -0 0</pose>
+        <pose>-10.0 -26.0 0 0 0 3.14</pose>
+      </goals>
+    </plugin>
+
+    </model>
+
+    <!-- <model name="Scrubs_3">
       <include>
         <uri>model://Scrubs</uri>
         <static>true</static>
         <pose>-5.38513 1.82526 0 0 0 -1.63757</pose>
       </include>
-    </model>
+    </model> -->
     <model name="WhiteChipChair_1">
       <include>
         <uri>model://WhiteChipChair</uri>
@@ -1045,13 +1114,44 @@
         <pose>-10.8902 9.18683 0.228965 0 -0 1.58161</pose>
       </include>
     </model>
-    <model name="MaleVisitorOnPhone_1">
+
+    <model name="MaleVisitorOnPhone_1_box">
+      <pose>-0.760316 7.58474 0 0 0 -1.14974</pose>
+      <link name="MaleVisitorOnPhone_1_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.5 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <pose>0 0 -0.5 0 0 0</pose>
+          <geometry>
+            <mesh>
+            <uri>model://MaleVisitorOnPhone/meshes/MaleVisitorStatic.obj</uri>
+          </mesh>
+          </geometry>
+        </visual>
+      </link>
+
+    <plugin name="model_move" filename="libmodel_move.so">
+      <goals>
+        <pose>-4.00000  7.58474 0 0 0 -1.14974</pose>
+        <pose>-0.760316 7.58474 0 0 0 -1.14974</pose>
+      </goals>
+    </plugin>
+
+    </model>
+
+    <!-- <model name="MaleVisitorOnPhone_1">
       <include>
         <uri>model://MaleVisitorOnPhone</uri>
         <static>true</static>
         <pose>-0.760316 7.58474 0 0 0 -1.14974</pose>
       </include>
-    </model>
+    </model> -->
     <model name="FemaleVisitor_1">
       <include>
         <uri>model://FemaleVisitor</uri>
@@ -1262,13 +1362,46 @@
         <pose>-10.931 -1.9483 0 0 -0 0</pose>
       </include>
     </model>
-    <model name="Scrubs_7">
+
+    <model name="Scrubs_7_box">
+      <pose>-9.75875 -2.67552 0 0 -0 0</pose>
+      <link name="Scrubs_7_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.5 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <pose>0 0 -0.5 0 0 0</pose>
+          <geometry>
+            <mesh>
+            <uri>model://Scrubs/meshes/scrubs.obj</uri>
+          </mesh>
+          </geometry>
+        </visual>
+      </link>
+
+    <plugin name="model_move" filename="libmodel_move.so">
+      <goals>
+        <pose>-7.05875 -2.67552 0 0 -0 0</pose>
+        <pose>-7.05875 -7.67552 0 0 -0 0</pose>
+        <pose>-7.05875 -2.67552 0 0 -0 0</pose>
+        <pose>-9.75875 -2.67552 0 0 -0 0</pose>
+      </goals>
+    </plugin>
+
+    </model>
+
+    <!-- <model name="Scrubs_7">
       <include>
         <uri>model://Scrubs</uri>
         <static>true</static>
         <pose>-9.75875 -2.67552 0 0 -0 0</pose>
       </include>
-    </model>
+    </model> -->
     <model name="BPCart_1">
       <include>
         <uri>model://BPCart</uri>

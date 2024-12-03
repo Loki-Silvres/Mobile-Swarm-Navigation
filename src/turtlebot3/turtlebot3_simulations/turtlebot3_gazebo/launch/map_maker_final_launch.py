@@ -16,8 +16,8 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses,z_poses):
         'hospital.world'
     )
     world = '/home/loki/Mobile-Swarm-Navigation/src/aws-robomaker-hospital-world/worlds/hospital.world'
-    world = '/home/loki/Mobile-Swarm-Navigation/src/aws-robomaker-small-house-world/worlds/small_house.world'
-    world = '/home/loki/Mobile-Swarm-Navigation/src/aws-robomaker-small-warehouse-world/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world'
+    # world = '/home/loki/Mobile-Swarm-Navigation/src/aws-robomaker-small-house-world/worlds/small_house.world'
+    # world = '/home/loki/Mobile-Swarm-Navigation/src/aws-robomaker-small-warehouse-world/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world'
     
     
     yaml_file = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','mapper_params_online_async.yaml')
@@ -151,6 +151,7 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses,z_poses):
     launch_service.run()
 
 def parse_args():
+    
     parser = argparse.ArgumentParser(description="Launch Gazebo with multiple robots.")
     parser.add_argument('--num_bots', type=int, default=3, help="Number of robots to spawn.")
     parser.add_argument('--x_pose', type=str, nargs='+', default=[0.0, 0.0, 0.0], 

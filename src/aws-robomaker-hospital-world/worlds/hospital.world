@@ -180,13 +180,45 @@
         <pose>0.054597 4.05849 0 0 -0 3.12413</pose>
       </include>
     </model>
-    <model name="PatientWheelChair_1">
+
+    <model name="PatientWheelChair_1_box">
+      <pose>-5.46091 1.23577 0 0 0 0</pose>
+      <link name="PatientWheelChair_1_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.5 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <pose>0 0 -0.5 0 0 0</pose>
+          <geometry>
+            <mesh>
+            <uri>model://PatientWheelChair/meshes/PatientWheelChair.obj</uri>
+          </mesh>
+          </geometry>
+        </visual>
+      </link>
+
+    <plugin name="model_move" filename="libmodel_move.so">
+      <goals>
+        <pose>-5.46091 -9.23577 0 0 0 0</pose>
+        <pose>-5.46091 1.23577 0 0 0 0</pose>
+      </goals>
+    </plugin>
+
+    </model>
+
+    <!-- <model name="PatientWheelChair_1">
       <include>
         <uri>model://PatientWheelChair</uri>
         <static>true</static>
         <pose>-5.46091 1.23577 0 0 0 -1.54828</pose>
       </include>
-    </model>
+    </model> -->
+
     <model name="Scrubs_3">
       <include>
         <uri>model://Scrubs</uri>

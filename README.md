@@ -13,8 +13,9 @@ export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$HOME/Mobile-Swarm-Navigation/src/tu
 export TURTLEBOT3_MODEL=waffle_pi 
 export GAZEBO_MODEL_PATH=$HOME/Mobile-Swarm-Navigation/src/aws-robomaker-hospital-world/models:$GAZEBO_MODEL_PATH
 export GAZEBO_MODEL_PATH=$HOME/Mobile-Swarm-Navigation/src/aws-robomaker-hospital-world/fuel_models:$GAZEBO_MODEL_PATH
-export GAZEBO_MODEL_PATH=$HOME/Mobile-Swarm-Navigation/src/my_world/models:$GAZEBO_MODEL_PATH
+# export GAZEBO_MODEL_PATH=$HOME/Mobile-Swarm-Navigation/src/my_world/models:$GAZEBO_MODEL_PATH
 export GAZEBO_MODEL_PATH=$HOME/Mobile-Swarm-Navigation/src/aws-robomaker-small-warehouse-world/models:$GAZEBO_MODEL_PATH
+export GAZEBO_PLUGIN_PATH=$HOME/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/plugins:$GAZEBO_PLUGIN_PATH
 
 cd src/aws-robomaker-hospital-world/
 rosdep install --from-paths . --ignore-src -r -y

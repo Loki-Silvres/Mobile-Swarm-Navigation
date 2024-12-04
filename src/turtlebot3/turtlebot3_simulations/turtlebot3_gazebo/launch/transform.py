@@ -1,3 +1,4 @@
+import numpy as np
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray
@@ -29,7 +30,7 @@ class SemanticObject:
 class SemanticDB:
     def __init__(self):
         self.objects = []   
-        self.same_obj_thres = 1.0
+        self.same_obj_thres = 0.5
 
     def add_object(self, obj: SemanticObject):
         for existing_obj in self.objects:
@@ -69,13 +70,15 @@ class MultiArrayTransformer(Node):
         self.marker_publisher = self.create_publisher(Marker, '/visualization_marker', 10)
         self.source_frame = 'bot_0/camera_rgb_depth_frame'  # Replace with your source frame
         self.target_frame = 'bot_0/odom'  # Replace with your target frame
-        self.model = YOLO('/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/inter-iit-final4.pt')  # Replace with your YOLO model path
+        model_path = '/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/inter-iit-final4.pt'
+        self.model = YOLO(model_path)  # Replace with your YOLO model path
 
         # Open the CSV file in append mode
         self.file = open('coordinates.csv', mode='a', newline='')
         self.writer = csv.writer(self.file)
-        self.same_obj_thres = 0.5
         self.semantic_db = SemanticDB()
+
+        self.half_visual_angle = np.pi / 2
 
         self.create_timer(0.1, self.check_front_area)
 
@@ -181,26 +184,26 @@ class MultiArrayTransformer(Node):
         # Publish the marker
         self.marker_publisher.publish(marker)
 
+    # def check_front_area(self):
+    #     # Define the area in front of the robot to check
+    #     front_threshold = 1.0  # Distance threshold in meters
+    #     removed_objects = []
+
+    #     for obj in self.semantic_db.objects:
+    #         # Check if the object is in front of the robot
+    #         if obj.x < front_threshold and abs(obj.y) < front_threshold:
+    #             print(f"Object {obj.obj_id} is still in front")
+    #         else:
+    #             removed_objects.append(obj)
+
+    #     # Remove objects no longer in the front area
+    #     for obj in removed_objects:
+    #         self.semantic_db.remove_object(obj)
+    #         self.remove_marker(obj)
+
     def check_front_area(self):
-        # Define the area in front of the robot to check
-        front_threshold = 1.0  # Distance threshold in meters
         removed_objects = []
-
-        for obj in self.semantic_db.objects:
-            # Check if the object is in front of the robot
-            if obj.x < front_threshold and abs(obj.y) < front_threshold:
-                print(f"Object {obj.obj_id} is still in front")
-            else:
-                removed_objects.append(obj)
-
-        # Remove objects no longer in the front area
-        for obj in removed_objects:
-            self.semantic_db.remove_object(obj)
-            self.remove_marker(obj)
-
-    def timer_callback(self):
-        removed_objects = []
-        front_threshold = 1.0  # Define the front area threshold
+        front_threshold = 2.0  # Define the front area threshold
 
         for obj in self.semantic_db.objects:
             # Transform object's position to the robot's frame
@@ -222,8 +225,8 @@ class MultiArrayTransformer(Node):
                 point_in_robot_frame = do_transform_point(point_in_odom, transform)
 
                 # Check if the object is in front of the robot
-                if (0 < point_in_robot_frame.point.x < front_threshold and 
-                    abs(point_in_robot_frame.point.y) < front_threshold):
+                if (0 < point_in_robot_frame.point.z < front_threshold and 
+                    abs(point_in_robot_frame.point.x) < point_in_robot_frame.point.z * np.tan(self.half_visual_angle)):
                     print(f"Object {obj.obj_id} is still in front")
                 else:
                     removed_objects.append(obj)

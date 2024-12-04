@@ -12,7 +12,7 @@ class DepthCamera(Node):
         super().__init__('depth_camera_node')
 
         # Load YOLO model
-        self.model = YOLO('/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/inter-iit1n.pt')  # Replace with your YOLO model path
+        self.model = YOLO('/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/inter-iit-final2.pt')  # Replace with your YOLO model path
 
         # Subscribe to camera info
         self.subscription = self.create_subscription(
@@ -95,7 +95,7 @@ class DepthCamera(Node):
                 self.centroid_x.append(int(centroid_x))
                 self.centroid_y.append(int(centroid_y))
                 self.class_id.append(int(box.cls[0].item()))
-                self.get_logger().info(f"Class: {self.id_to_label[int(box.cls[0].item())]}, Centroid: ({centroid_x:.2f}, {centroid_y:.2f})")
+                self.get_logger().info(f"Class: {self.model.names[int(box.cls[0].item())]}, Centroid: ({centroid_x:.2f}, {centroid_y:.2f})")
 
         # Annotated frame for visualization
         self.annotated_frame = np.array(results[0].plot())  # Annotated image with bounding boxes
@@ -118,7 +118,7 @@ class DepthCamera(Node):
 
             # Publish the 3D coordinates to the topic
             self.publisher_.publish(msg_coord)
-            self.get_logger().info(f"Publishing 3D coordinates for class {self.id_to_label[self.class_id[i]]}: X={x:.2f}, Y={y:.2f}, Z={z:.2f}")
+            self.get_logger().info(f"Publishing 3D coordinates for class {self.model.names[self.class_id[i]]}: X={x:.2f}, Y={y:.2f}, Z={z:.2f}")
 
             # Annotate the frame with 3D coordinates
             cv2.putText(self.annotated_frame, f"({x:.2f},{y:.2f},{z:.2f})", 

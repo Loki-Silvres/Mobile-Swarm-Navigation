@@ -156,6 +156,19 @@ path_publisher/fast:
 .PHONY : path_publisher/fast
 
 #=============================================================================
+# Target rules for targets named teleport_model
+
+# Build rule for target.
+teleport_model: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 teleport_model
+.PHONY : teleport_model
+
+# fast build rule for target.
+teleport_model/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleport_model.dir/build.make CMakeFiles/teleport_model.dir/build
+.PHONY : teleport_model/fast
+
+#=============================================================================
 # Target rules for targets named model_move
 
 # Build rule for target.
@@ -264,6 +277,30 @@ path_publisher.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/path_publisher.dir/build.make CMakeFiles/path_publisher.dir/path_publisher.cc.s
 .PHONY : path_publisher.cc.s
 
+teleport_model.o: teleport_model.cc.o
+.PHONY : teleport_model.o
+
+# target to build an object file
+teleport_model.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleport_model.dir/build.make CMakeFiles/teleport_model.dir/teleport_model.cc.o
+.PHONY : teleport_model.cc.o
+
+teleport_model.i: teleport_model.cc.i
+.PHONY : teleport_model.i
+
+# target to preprocess a source file
+teleport_model.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleport_model.dir/build.make CMakeFiles/teleport_model.dir/teleport_model.cc.i
+.PHONY : teleport_model.cc.i
+
+teleport_model.s: teleport_model.cc.s
+.PHONY : teleport_model.s
+
+# target to generate assembly for a file
+teleport_model.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleport_model.dir/build.make CMakeFiles/teleport_model.dir/teleport_model.cc.s
+.PHONY : teleport_model.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,6 +313,7 @@ help:
 	@echo "... model_move"
 	@echo "... model_push"
 	@echo "... path_publisher"
+	@echo "... teleport_model"
 	@echo "... hello_world.o"
 	@echo "... hello_world.i"
 	@echo "... hello_world.s"
@@ -288,6 +326,9 @@ help:
 	@echo "... path_publisher.o"
 	@echo "... path_publisher.i"
 	@echo "... path_publisher.s"
+	@echo "... teleport_model.o"
+	@echo "... teleport_model.i"
+	@echo "... teleport_model.s"
 .PHONY : help
 
 

@@ -152,6 +152,13 @@
         <pose>11.1179 -14.6493 0 0 0 -3.13599</pose>
       </include>
     </model>
+    <model name="Chair__">
+      <include>
+        <uri>model://Chair</uri>
+        <static>true</static>
+        <pose>-10.3058 -22.8392 -0 0 -0 0</pose>
+      </include>
+    </model>
     <model name="Chair_1">
       <include>
         <uri>model://Chair</uri>
@@ -173,6 +180,16 @@
         <pose>-9.61916 -12.5112 0 0 0 -3.12353</pose>
       </include>
     </model>
+    <model name='cardboard_box_1'>
+        <pose>-3.10778 -1.65417 0.149501 0 -1e-06 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-3.10778 -1.65417 0.149501 0 -1e-06 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>-0 -0 -0 0 -0 0</acceleration>
+          <wrench>-0 -0 -0 0 -0 0</wrench>
+        </link>
+      </model>
 
     <model name="Scrubs_2_box">
       <pose>0.054597 4.05849 0 0 -0 3.12413</pose>
@@ -385,13 +402,26 @@
         <static>true</static>
         <pose>-7.69163 6.9857 0 0 -0 1.56778</pose>
       </include>
+      <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+        <teleport_interval>10.0</teleport_interval>
+        <goals>
+          <pose>-7.69163 7.9857 0 0 -0 1.56778</pose>
+          <pose>-7.69163 6.9857 0 0 -0 1.56778</pose>
+        </goals>
+      </plugin>
     </model>
     <model name="FemaleVisitorSit_1">
       <include>
         <uri>model://FemaleVisitorSit</uri>
-        <static>true</static>
         <pose>-7.61435 7.50057 0 0 -0 1.60052</pose>
       </include>
+      <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+        <teleport_interval>30.0</teleport_interval>
+        <goals>
+          <pose>-7.61435 8.55057 0 0 -0 1.60052</pose>
+          <pose>-7.61435 7.50057 0 0 -0 1.60052</pose>
+        </goals>
+      </plugin>
     </model>
     <model name="AdjTable_1">
       <include>
@@ -529,9 +559,15 @@
     <model name="MaleVisitorSit_1">
       <include>
         <uri>model://MaleVisitorSit</uri>
-        <static>true</static>
         <pose>6.41259 8.18749 0 0.000578 -0 -1.56624</pose>
       </include>
+      <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+        <teleport_interval>40.0</teleport_interval>
+        <goals>
+          <pose>5.29 8.11749 0 0.000578 -0 1.56624</pose>
+          <pose>6.41259 8.18749 0 0.000578 -0 -1.56624</pose>
+        </goals>
+      </plugin>
     </model>
     <model name="Drawer_1">
       <include>
@@ -1450,6 +1486,493 @@
         <static>true</static>
         <pose>1.30985 -0.727185 -0 0 0 -1.53446</pose>
       </include>
+    </model>
+    <model name='coke_can_0'>
+      <include>
+          <uri>model://coke_can</uri>
+          <static>true</static>
+          <pose>-7.9762 10.0853 -0.002976 0 0 0</pose>
+      </include>
+    </model>
+      <model name='coke_can'>
+        <include>
+            <uri>model://coke_can</uri>
+            <static>true</static>
+            <pose>-7.98814 10.2442 -0.003018 0 0 0</pose>
+        </include>
+      </model>
+      <model name='cardboard_box'>
+        <pose>-3.07797 -1.68409 0.148999 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='cardboard_box::link'>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://cardboard_box/meshes/cardboard_box.dae</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://cardboard_box/meshes/cardboard_box.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+          <teleport_interval>45.0</teleport_interval>
+          <goals>
+            <pose>-1.10797 -1.68409 0.148999 0 -0 0</pose>
+            <pose>-3.07797 -1.68409 0.148999 0 -0 0</pose>
+          </goals>
+        </plugin>
+      </model>
+
+      <model name='cardboard_box_2'>
+        <pose>3.86797 -25.63 0.149501 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://cardboard_box/meshes/cardboard_box.dae</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://cardboard_box/meshes/cardboard_box.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+          <teleport_interval>50.0</teleport_interval>
+          <goals>
+            <pose>1.86797 -25.63 0.149501 0 -0 0</pose>
+            <pose>3.86797 -25.63 0.149501 0 -0 0</pose>
+          </goals>
+        </plugin>
+      </model>
+
+
+      <model name='Fire Extinguisher_0'>
+        <link name='link'>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://fire_extinguisher/meshes/extinguisher.dae</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://fire_extinguisher/meshes/extinguisher.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>5.80011 13.09 0 0 -0 0</pose>
+        <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+          <teleport_interval>40.0</teleport_interval>
+          <goals>
+            <pose>3.61 14.7934 0 0 -0 0</pose>
+            <pose>5.80011 13.09 0 0 -0 0</pose>
+          </goals>
+        </plugin>
+      </model>
+
+
+
+      <model name='Fire Extinguisher_1'>
+        <link name='link'>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://fire_extinguisher/meshes/extinguisher.dae</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://fire_extinguisher/meshes/extinguisher.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>12.33 -33.88 0.0 0 -0 0</pose>
+        <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+          <teleport_interval>30.0</teleport_interval>
+          <goals>
+            <pose>9.95 -32.19 0 0 -0 0</pose>
+            <pose>12.33 -33.88 0.0 0 -0 0</pose>
+          </goals>
+        </plugin>
+      </model>
+
+      <model name='Fire Extinguisher_2'>
+        <link name='link'>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://fire_extinguisher/meshes/extinguisher.dae</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://fire_extinguisher/meshes/extinguisher.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>-3.21 -26.82 0.0 0 -0 0</pose>
+        <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+          <teleport_interval>35.0</teleport_interval>
+          <goals>
+            <pose>-1.58 -26.21 0 0 -0 0</pose>
+            <pose>-3.21 -26.82 0.0 0 -0 0</pose>
+          </goals>
+        </plugin>
+      </model>
+
+      <model name='Construction Cone'>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-5.41601 19.2994 0 0 -0 0</pose>
+    </model>
+    <model name='Construction Cone_0'>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-5.39163 20.2409 0 0 -0 0</pose>
+    </model>
+    <model name='Construction Cone_1'>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>5.45197 20.3753 0 0 -0 0</pose>
+    </model>
+    <model name='Construction Cone_2'>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>5.46674 19.5149 0 0 -0 0</pose>
+    </model>
+    <model name='Construction Cone_3'>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.759627 15.7634 0 0 -0 0</pose>
+      <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+        <teleport_interval>100.0</teleport_interval>
+        <goals>
+          <pose>-1.95 14.4634 0 0 -0 0</pose>
+          <pose>4.0 14.0634 0 0 -0 0</pose>
+          <pose>0.759627 15.7634 0 0 -0 0</pose>
+        </goals>
+      </plugin>
     </model>
   </world>
 </sdf>

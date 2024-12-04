@@ -24,7 +24,7 @@ class MultiArrayTransformer(Node):
         self.marker_publisher = self.create_publisher(Marker, '/visualization_marker', 10)
         self.source_frame = 'bot_0/camera_rgb_depth_frame'  # Replace with your source frame
         self.target_frame = 'bot_0/odom'  # Replace with your target frame
-        self.model = YOLO('/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/inter-iit1n.pt')  # Replace with your YOLO model path
+        self.model = YOLO('/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/inter-iit-final2.pt')  # Replace with your YOLO model path
 
         # Open the CSV file in append mode
         self.file = open('coordinates.csv', mode='a', newline='')

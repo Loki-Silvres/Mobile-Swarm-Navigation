@@ -12,7 +12,7 @@ class DepthCamera(Node):
         super().__init__('depth_camera_node')
 
         # Load YOLO model
-        self.model = YOLO('/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/inter-iit-final2.pt')  # Replace with your YOLO model path
+        self.model = YOLO('/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/inter-iit-final4.pt')  # Replace with your YOLO model path
 
         # Subscribe to camera info
         self.subscription = self.create_subscription(
@@ -45,30 +45,20 @@ class DepthCamera(Node):
         self.centroid_x = []
         self.centroid_y = []
         self.class_id = []
-        self.id_to_label = {
-                            0:'ball',
-                            1:'bed',
-                            2:'box',
-                            3:'box stack',
-                            4:'can',
-                            5:'chair',
-                            6:'cupboard',
-                            7:'door',
-                            8:'drill machine',
-                            9:'dustbin',
-                            10:'fire extinguisher',
-                            11:'laptop',
-                            12:'objects',
-                            13:'picker',
-                            14:'rack',
-                            15:'sofa',
-                            16:'stopcone',
-                            17:'table',
-                            18:'toolbox'
-                            }
+        self.width = []
         self.create_timer(1, self.logging_callback)  # Call logging_callback every 1 second
         self.cv_image = None
         self.depth_image = None
+
+    def pixel2depth(self, x, y):
+        depth = self.depth_image[y, x]
+
+        # Convert to real-world coordinates (X, Y, Z)
+        x = (x - self.intrinsics['cx']) * depth / self.intrinsics['fx']
+        y = (y - self.intrinsics['cy']) * depth / self.intrinsics['fy']
+        z = depth
+
+        return x, y, z
     
     def logging_callback(self):
         # Run YOLO detection
@@ -80,6 +70,7 @@ class DepthCamera(Node):
         self.centroid_x.clear()  # Clear previous centroids
         self.centroid_y.clear()
         self.class_id.clear()
+        self.width.clear()
 
         if detections is not None and len(detections) > 0:
             for box in detections:
@@ -88,6 +79,7 @@ class DepthCamera(Node):
                 if conf < 0.3 or box.cls[0].item() == 10:
                     continue
                 x_min, y_min, x_max, y_max = box.xyxy[0].tolist()
+                widths = [int(x_max),int(x_min),int(y_min)] 
                 
                 # Calculate centroids
                 centroid_x = (x_min + x_max) / 2
@@ -95,6 +87,7 @@ class DepthCamera(Node):
                 self.centroid_x.append(int(centroid_x))
                 self.centroid_y.append(int(centroid_y))
                 self.class_id.append(int(box.cls[0].item()))
+                self.width.append(widths)
                 self.get_logger().info(f"Class: {self.model.names[int(box.cls[0].item())]}, Centroid: ({centroid_x:.2f}, {centroid_y:.2f})")
 
         # Annotated frame for visualization
@@ -102,15 +95,8 @@ class DepthCamera(Node):
 
         # Process each detected object
         for i in range(len(self.centroid_x)):
-            u, v = self.centroid_x[i], self.centroid_y[i]  # Pixel coordinates (e.g., centroids)
-
-            # Depth value at (u, v)
-            depth = self.depth_image[v, u]
-
-            # Convert to real-world coordinates (X, Y, Z)
-            x = (u - self.intrinsics['cx']) * depth / self.intrinsics['fx']
-            y = (v - self.intrinsics['cy']) * depth / self.intrinsics['fy']
-            z = depth
+            
+            x, y, z = self.pixel2depth(self.centroid_x[i], self.centroid_y[i])
 
             # Create a Point message to store the 3D coordinates
             msg_coord = Float32MultiArray()
@@ -153,9 +139,7 @@ class DepthCamera(Node):
             self.get_logger().warn("Camera intrinsics not received yet.")
             return
         
-        try:
-            # Ensure annotated_frame is initialized
-            
+        try:            
             # Convert ROS Image to OpenCV format
             self.depth_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough')
 

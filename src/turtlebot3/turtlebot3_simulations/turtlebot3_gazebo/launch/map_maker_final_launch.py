@@ -17,7 +17,7 @@ def run_launch_file_with_args(num_bots, x_poses,y_poses,z_poses):
     )
     world = '/home/loki/Mobile-Swarm-Navigation/src/aws-robomaker-hospital-world/worlds/hospital.world'
     # world = '/home/loki/Mobile-Swarm-Navigation/src/aws-robomaker-small-house-world/worlds/small_house.world'
-    # world = '/home/loki/Mobile-Swarm-Navigation/src/aws-robomaker-small-warehouse-world/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world'
+    world = '/home/loki/Mobile-Swarm-Navigation/src/aws-robomaker-small-warehouse-world/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world'
     
     
     yaml_file = os.path.join(get_package_share_directory('turtlebot3_gazebo'),'config','mapper_params_online_async.yaml')

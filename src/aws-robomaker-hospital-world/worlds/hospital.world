@@ -396,26 +396,86 @@
         <pose>-4.85665 8.03277 0 0 0 -3.13096</pose>
       </include>
     </model>
-    <model name="VisitorKidSit_1">
-      <include>
-        <uri>model://VisitorKidSit</uri>
-        <static>true</static>
-        <pose>-7.69163 6.9857 0 0 -0 1.56778</pose>
-      </include>
-      <plugin name="teleport_model_plugin" filename="libteleport_model.so">
-        <teleport_interval>10.0</teleport_interval>
+
+    <model name='VisitorKidSit_1'>
+      <pose>-7.88163 6.9857 0.3 0 -0 1.56778</pose>
+      <link name='VisitorKidSit::body'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://VisitorKidSit/meshes/VisitorKidSit.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://VisitorKidSit/meshes/VisitorKidSit_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <plugin name='teleport_model_plugin' filename='libteleport_model.so'>
+        <teleport_interval>30.0</teleport_interval>
         <goals>
-          <pose>-7.69163 7.9857 0 0 -0 1.56778</pose>
-          <pose>-7.69163 6.9857 0 0 -0 1.56778</pose>
+          <pose>-7.88163 7.9857 0.3 0 -0 1.56778</pose>
+          <pose>-7.88163 6.9857 0.3 0 -0 1.56778</pose>
         </goals>
       </plugin>
     </model>
-    <model name="FemaleVisitorSit_1">
-      <include>
-        <uri>model://FemaleVisitorSit</uri>
-        <pose>-7.61435 7.50057 0 0 -0 1.60052</pose>
-      </include>
-      <plugin name="teleport_model_plugin" filename="libteleport_model.so">
+
+    <model name='FemaleVisitorSit_1'>
+      
+      <pose>-7.61435 7.50057 0 0 -0 1.60052</pose>
+      <link name='FemaleVisitorSit::body'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://FemaleVisitorSit/meshes/FemaleVisitorSit.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://FemaleVisitorSit/meshes/FemaleVisitorSit_Col.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <plugin name='teleport_model_plugin' filename='libteleport_model.so'>
         <teleport_interval>30.0</teleport_interval>
         <goals>
           <pose>-7.61435 8.55057 0 0 -0 1.60052</pose>
@@ -423,6 +483,7 @@
         </goals>
       </plugin>
     </model>
+
     <model name="AdjTable_1">
       <include>
         <uri>model://AdjTable</uri>

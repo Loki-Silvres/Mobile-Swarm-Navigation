@@ -15,7 +15,7 @@ from std_msgs.msg import Float32MultiArray
 
 global class_count, class_id_count
 
-yaml_file_path = '/home/loki/Downloads/data.yaml'
+yaml_file_path = '/home/loki/segmentation/dataset/data.yaml'
 with open(yaml_file_path, 'r') as file:
     yaml_content = yaml.safe_load(file)
     class_id_count = {i: 0 for i, name in enumerate(yaml_content['names'])}
@@ -87,29 +87,11 @@ class DepthCamera(Node):
         super().__init__('depth_camera_node')
 
         
-        model_path = '/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/inter-iit-final4.pt'
+        model_path = '/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/best.pt'
         self.model = YOLO(model_path)  
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
-        self.subscription = self.create_subscription(
-            Image,
-            '/bot_0/camera1/image_raw',
-            self.image_callback,
-            1  
-        )
-        self.camera_info_sub = self.create_subscription(
-            CameraInfo,
-            '/bot_0/camera1/depth/camera_info',  
-            self.camera_info_callback,
-            10
-        )
-        self.depth_sub = self.create_subscription(
-            Image,
-            '/bot_0/camera1/depth/image_raw',  
-            self.depth_image_callback,
-            10
-        )
 
         self.bridge = CvBridge()
         self.declare_parameter('bot_name', 'bot_0')
@@ -118,6 +100,24 @@ class DepthCamera(Node):
         self.target_frame = f'{self.bot_name}/odom'  
         # self.target_frame = f'map'  
 
+        self.subscription = self.create_subscription(
+            Image,
+            f'{self.bot_name}/camera1/image_raw',
+            self.image_callback,
+            1  
+        )
+        self.camera_info_sub = self.create_subscription(
+            CameraInfo,
+            f'{self.bot_name}/camera1/depth/camera_info',  
+            self.camera_info_callback,
+            10
+        )
+        self.depth_sub = self.create_subscription(
+            Image,
+            f'{self.bot_name}/camera1/depth/image_raw',  
+            self.depth_image_callback,
+            10
+        )
         self.intrinsics = None
         self.annotated_frame = None  
         self.cv_image = None

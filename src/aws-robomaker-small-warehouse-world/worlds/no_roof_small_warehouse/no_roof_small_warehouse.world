@@ -38,26 +38,26 @@
         <pose frame="">4.73156 0.57943 0 0 0 0</pose>
 	</model>
 
-        <model name="aws_robomaker_warehouse_ShelfE_01_002">
+        <!-- <model name="aws_robomaker_warehouse_ShelfE_01_002">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
         <pose frame="">4.73156 -4.827049 0 0 0 0</pose>
-	</model>
+	</model> -->
         
-        <model name="aws_robomaker_warehouse_ShelfE_01_003">
+        <!-- <model name="aws_robomaker_warehouse_ShelfE_01_003">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
         <pose frame="">4.73156 -8.6651 0 0 0 0</pose>
-	</model>
+	</model> -->
 
-        <model name="aws_robomaker_warehouse_ShelfD_01_001">
+        <!-- <model name="aws_robomaker_warehouse_ShelfD_01_001">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
         </include>
         <pose frame="">4.73156 -1.242668 0 0 0 0</pose>
-	</model>
+	</model> -->
 
         <model name="aws_robomaker_warehouse_ShelfD_01_002">
         <include>
@@ -124,12 +124,12 @@
         <pose frame="">-1.8321 -6.3752 0 0 0 -1.563161</pose>
 	</model>
 
-        <model name="aws_robomaker_warehouse_Bucket_01_022">
+        <!-- <model name="aws_robomaker_warehouse_Bucket_01_022">
         <include>
             <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
         </include>
         <pose frame="">0.433449 8.59 0 0 0 -1.563161</pose>
-	</model>
+	</model> -->
 
   <model name='aws_robomaker_warehouse_ClutteringA_01_016'>
         <include>
@@ -138,19 +138,19 @@
         <pose frame=''>5.708138 8.616844 -0.017477 0 0 0</pose>
 	</model>
 
-      <model name='aws_robomaker_warehouse_ClutteringA_01_017'>
+      <!-- <model name='aws_robomaker_warehouse_ClutteringA_01_017'>
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
         </include>
         <pose frame=''>3.408638 8.616844 -0.017477 0 0 0</pose>
-	</model>
+	</model> -->
 
-      <model name='aws_robomaker_warehouse_ClutteringA_01_018'>
+      <!-- <model name='aws_robomaker_warehouse_ClutteringA_01_018'>
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringA_01</uri>
         </include>
         <pose frame=''>-1.491287 5.222435 -0.017477 0 0 -1.583185</pose>
-	</model>
+	</model> -->
 
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_027">
@@ -160,26 +160,26 @@
         <pose frame="">3.324959 3.822449 -0.012064 0 0 1.563871</pose>
 	</model>
 
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028">
+     <!-- <model name="aws_robomaker_warehouse_ClutteringC_01_028">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
         <pose frame="">5.54171 3.816475 -0.015663 0 0 -1.583191</pose>
-	</model>
+	</model> -->
 
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029">
+     <!-- <model name="aws_robomaker_warehouse_ClutteringC_01_029">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
         <pose frame="">5.384239 6.137154 0 0 0 3.150000</pose>
-	</model>
+	</model> -->
 
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030">
+     <!-- <model name="aws_robomaker_warehouse_ClutteringC_01_030">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
         <pose frame="">3.236 6.137154 0 0 0 3.150000</pose>
-	</model>
+	</model> -->
 
      <model name="aws_robomaker_warehouse_ClutteringC_01_031">
         <include>
@@ -188,12 +188,12 @@
         <pose frame="">-1.573677 2.301994 -0.015663 0 0 -3.133191</pose>
 	</model>
 
-     <model name="aws_robomaker_warehouse_ClutteringC_01_032">
+     <!-- <model name="aws_robomaker_warehouse_ClutteringC_01_032">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
         </include>
         <pose frame="">-1.2196 9.407 -0.015663 0 0 1.563871</pose>
-	</model>
+	</model> -->
 
      <model name='aws_robomaker_warehouse_ClutteringD_01_005'>
         <include>
@@ -216,6 +216,28 @@
         </include>
         <pose frame=''>-0.276098 -9.481944 0.023266 0 0 0</pose>
 	</model>
+
+      <model name='aws_robomaker_warehouse_PalletJackB_01_002'>
+        <include>
+            <uri>model://aws_robomaker_warehouse_PalletJackB_01</uri>
+        </include>
+        <pose frame=''>1.91 6.66 0.023266 0 0 1.57</pose>
+	</model>
+
+      <model name='aws_robomaker_residential_Trash_01_001'>
+        <include>
+            <uri>model://aws_robomaker_residential_Trash_01</uri>
+        </include>
+        <pose frame=''>6.38 -9.86 0.035 0 0 0</pose>
+	</model>
+
+  <model name="Chair_0">
+      <include>
+        <uri>model://Chair</uri>
+        <static>true</static>
+        <pose>-6.07 9.17 0.034 0 -0 0</pose>
+      </include>
+    </model>
 
     	
     <model name="MaleVisitorOnPhone_1_box">
@@ -241,7 +263,7 @@
 
     <plugin name="model_move" filename="libmodel_move.so">
       <goals>
-        <pose>-3.60000  -0.58474 0.12 0 0 -1.14974</pose>
+        <pose>-2.60000  -0.58474 0.12 0 0 -1.14974</pose>
         <pose>-0.760316 -0.58474 0.12 0 0 -1.14974</pose>
       </goals>
     </plugin>
@@ -296,6 +318,56 @@
         <kinematic>0</kinematic>
       </link>
       <pose>-1 -5.5 0.12 0 -0 0</pose>
+    </model>
+
+    <model name='Construction Cone_3'>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>10 10 10</scale>
+              <uri>model://construction_cone/meshes/construction_cone.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>6.02 6.23 0.034 0 -0 0</pose>
     </model>
     
     <model name='Construction Cone_2'>
@@ -396,6 +468,42 @@
             <pose>2.5 0.3 0.12 0 -0 0</pose>
           </goals>
         </plugin>
+      </model>
+
+      <model name='Fire Extinguisher_2'>
+        <link name='link'>
+          <collision name='collision'>
+            <geometry>
+              <mesh>
+                <uri>model://fire_extinguisher/meshes/extinguisher.dae</uri>
+              </mesh>
+            </geometry>
+            <max_contacts>10</max_contacts>
+            <surface>
+              <contact>
+                <ode/>
+              </contact>
+              <bounce/>
+              <friction>
+                <torsional>
+                  <ode/>
+                </torsional>
+                <ode/>
+              </friction>
+            </surface>
+          </collision>
+          <visual name='visual'>
+            <geometry>
+              <mesh>
+                <uri>model://fire_extinguisher/meshes/extinguisher.dae</uri>
+              </mesh>
+            </geometry>
+          </visual>
+          <self_collide>0</self_collide>
+          <enable_wind>0</enable_wind>
+          <kinematic>0</kinematic>
+        </link>
+        <pose>2.71 9.85 0.12 0 -0 0</pose>
       </model>
 
     <model name='Fire Extinguisher_1'>

@@ -10,13 +10,14 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-     ('share/' + package_name + '/config', ['config/data.yaml']),  # Add your config files here
-     ('share/' + package_name + '/config', ['config/inter-iit-final4.pt']),  # Add your config files here
+     ('share/' + package_name + '/config', ['config/data.yaml']),  
+     ('share/' + package_name + '/weights', ['weights/best.pt']), 
+     ('share/' + package_name + '/map', ['map/semantic_database.csv']), 
        ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='pacman',
-    maintainer_email='guptakanishk217@gmail.com',
+    maintainer_email='xyz@example.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],

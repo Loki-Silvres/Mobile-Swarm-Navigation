@@ -17,12 +17,6 @@ names:
 - table
 - toolbox
 nc: 17
-roboflow:
-  license: Private
-  project: instance-segmentation-umm7m
-  url: https://universe.roboflow.com/interiit-3g4m4/instance-segmentation-umm7m/dataset/8
-  version: 8
-  workspace: interiit-3g4m4
 test: ../test/images
 train: ../train/images
 val: ../valid/images

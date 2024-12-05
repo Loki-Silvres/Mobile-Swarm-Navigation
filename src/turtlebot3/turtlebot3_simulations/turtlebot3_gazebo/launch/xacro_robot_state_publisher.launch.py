@@ -33,7 +33,28 @@ def generate_robot_description(context, *args, **kwargs):
     ]
 
 def generate_launch_description():
+    # Declare input arguments for x, y, and z coordinates (can be provided during launch)
+    x_arg = DeclareLaunchArgument('x', default_value='192.0', description='X coordinate for joint target')
+    y_arg = DeclareLaunchArgument('y', default_value='0.0', description='Y coordinate for joint target')
+    z_arg = DeclareLaunchArgument('z', default_value='131.0', description='Z coordinate for joint target')
+    
     return LaunchDescription([
+        
+        x_arg,
+        y_arg,
+        z_arg,
+        Node(
+            package='turtlebot3_gazebo',  # Replace with the correct package name
+            executable='joint_angle_publish.py',  # Ensure this script is in the correct folder and executable
+            name='joint_angle_publisher',  # Name of the node
+            output='screen',  # Output logs to the terminal
+            parameters=[
+                # Pass the x, y, z arguments as parameters to the node
+                {'x': LaunchConfiguration('x')},
+                {'y': LaunchConfiguration('y')},
+                {'z': LaunchConfiguration('z')}
+            ]
+        ),
         DeclareLaunchArgument(
             'use_sim_time',
             default_value='true',

@@ -51,4 +51,4 @@ arm_controller:
 gripper_controller:
   ros__parameters:
     use_sim_time: True
-    joint: gripper_left_joint
+    joint: cgripper_left_joint

@@ -77,6 +77,11 @@ install(DIRECTORY include/
   DESTINATION include/
 )
 
+install(
+    PROGRAMS launch/joint_angle_publish.py
+    DESTINATION lib/${PROJECT_NAME}
+)
+
 ################################################################################
 # Macro for ament package
 ################################################################################

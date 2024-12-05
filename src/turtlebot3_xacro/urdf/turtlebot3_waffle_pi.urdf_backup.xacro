@@ -3,8 +3,8 @@
          
  <!-- Properties of waffle_pi -->
  <xacro:property name="wheel_separation" value="0.287" />
- <!-- <xacro:arg name="use_cam"    default="true"/> -->
- <!-- <xacro:include filename="$(find turtlebot3_xacro)/urdf/common_properties.urdf"/> -->
+ 
+ <xacro:include filename="$(find turtlebot3_xacro)/urdf/common_properties.urdf"/>
 
  <link name="$(arg prefix)base_footprint"/>
 
@@ -258,5 +258,8 @@
   </joint>
 
   <link name="$(arg prefix)camera_rgb_optical_frame"/>
+
+
+
 
 </robot>

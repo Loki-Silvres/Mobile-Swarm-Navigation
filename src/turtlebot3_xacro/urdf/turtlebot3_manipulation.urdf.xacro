@@ -17,45 +17,41 @@
   <!-- <xacro:arg name="fake_sensor_commands" default="true" /> -->
 
   <!-- Import common_properties macro -->
-  <!-- <xacro:include filename="$(find turtlebot3_xacro)/urdf/common_properties.xacro" /> -->
+  <xacro:include filename="$(find turtlebot3_xacro)/urdf/common_properties.xacro" />
 
   <!-- Include TurtleBot3 Waffle Pi urdf macro -->
   <xacro:include filename="$(find turtlebot3_xacro)/urdf/turtlebot3_waffle_pi.urdf.xacro" />
 
   <!-- Include TurtleBot3 Waffle Pi gazebo macro -->
-  <xacro:include filename="$(find turtlebot3_xacro)/urdf/turtlebot3_gazebo.xacro"/>
+  <xacro:if value="$(arg gazebo)">
+    <!-- <xacro:include filename="$(find turtlebot3_xacro)/urdf/turtlebot3_gazebo.xacro"/> -->
+  </xacro:if>
 
   <!-- Include OpenManipulator-X urdf macro -->
-  <!-- <xacro:include filename="$(find turtlebot3_xacro)/urdf/open_manipulator_x.urdf.xacro" /> -->
+  <xacro:include filename="$(find turtlebot3_xacro)/urdf/open_manipulator_x.urdf.xacro" />
 
   <!-- Include OpenManipulator-X gazebo macro -->
-  <!-- <xacro:include filename="$(find turtlebot3_xacro)/urdf/open_manipulator_x.gazebo.xacro" /> -->
+  <xacro:include filename="$(find turtlebot3_xacro)/urdf/open_manipulator_x.gazebo.xacro" />
 
   <!-- Include TurtleBot3 Manipulation ros2 control macro -->
-  <!-- <xacro:include filename="$(find turtlebot3_xacro)/urdf/turtlebot3_manipulation_system.ros2_control.xacro" /> -->
+  <xacro:include filename="$(find turtlebot3_xacro)/urdf/turtlebot3_manipulation_system.ros2_control.xacro" />
 
-  <xacro:turtlebot3_gazebo prefix="$(arg prefix)" />
+  
 
   <!-- Used for fixing OpenManipulator-X on TurtleBot3 Waffle Pi -->
-  <!-- <joint name="$(arg prefix)base_fixed" type="fixed">
+  <joint name="$(arg prefix)base_fixed" type="fixed">
     <parent link="$(arg prefix)base_link"/>
     <child link="$(arg prefix)link1"/>
     <origin xyz="-0.092 0.0 0.091" rpy="0 0 0"/>
-  </joint> -->
-
-  <!-- <xacro:open_manipulator_x prefix="$(arg prefix)" /> -->
-  <!-- <xacro:open_manipulator_x_gazebo prefix="$(arg prefix)" /> -->
-
-  <!-- <xacro:turtlebot3_manipulation_system
-    prefix="$(arg prefix)" use_sim="$(arg use_sim)"
-    use_fake_hardware="$(arg use_fake_hardware)"
-    fake_sensor_commands="$(arg fake_sensor_commands)"/> -->
+  </joint>
+<!--  -->
+  <xacro:open_manipulator_x prefix="$(arg prefix)" />
+  <xacro:open_manipulator_x_gazebo prefix="$(arg prefix)" />
   
-  <!-- <gazebo>
+  <gazebo>
     <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
       <parameters>$(find turtlebot3_xacro)/config/gazebo_controller_manager.yaml</parameters>
     </plugin>
-
-  </gazebo> -->
+  </gazebo>
 
 </robot>

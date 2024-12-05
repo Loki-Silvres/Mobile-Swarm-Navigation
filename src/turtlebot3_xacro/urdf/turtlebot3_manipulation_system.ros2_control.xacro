@@ -4,6 +4,8 @@
 
   <xacro:macro name="turtlebot3_manipulation_system" params="prefix use_sim:=^|true use_fake_hardware:=^|true fake_sensor_commands:=^|true">
 
+
+
     <ros2_control name="${prefix}TurtleBot3ManipulationSystem" type="system">
 
       
@@ -11,18 +13,23 @@
         <plugin>gazebo_ros2_control/GazeboSystem</plugin>
       </hardware>
       
-      <joint name="${prefix}wheel_left_joint">
+      <!-- <joint name="${prefix}wheel_left_joint">
+        
         <command_interface name="velocity">
           <param name="min">-24.5</param>
           <param name="max">24.5</param>
         </command_interface>
+        
         <state_interface name="position">
           <param name="initial_value">0.0</param>
         </state_interface>
+        
         <state_interface name="velocity">
           <param name="initial_value">0.0</param>
         </state_interface>
       </joint>
+      
+      
       <joint name="${prefix}wheel_right_joint">
         <command_interface name="velocity">
           <param name="min">-24.5</param>
@@ -34,9 +41,9 @@
         <state_interface name="velocity">
           <param name="initial_value">0.0</param>
         </state_interface>
-      </joint>
+      </joint> -->
 
-      <sensor name="imu">
+      <!-- <sensor name="imu">
         <state_interface name="orientation.x">
           <param name="initial_value">0.0</param>
         </state_interface>
@@ -67,9 +74,9 @@
         <state_interface name="linear_acceleration.z">
           <param name="initial_value">0.0</param>
         </state_interface>
-      </sensor>
+      </sensor> -->
 
-      <sensor name="battery">
+      <!-- <sensor name="battery">
         <state_interface name="voltage">
           <param name="initial_value">0.0</param>
         </state_interface>
@@ -82,7 +89,7 @@
         <state_interface name="present">
           <param name="initial_value">0.0</param>
         </state_interface>
-      </sensor>
+      </sensor> -->
 
       <joint name="${prefix}joint1">
         <command_interface name="position">

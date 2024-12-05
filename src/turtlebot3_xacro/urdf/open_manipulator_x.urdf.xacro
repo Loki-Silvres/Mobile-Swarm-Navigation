@@ -4,10 +4,10 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   
   <xacro:macro name="open_manipulator_x" params="prefix">
-    <xacro:include filename="$(find turtlebot3_xacro)/urdf/common_properties.urdf"/>
+    <!-- <xacro:include filename="$(find turtlebot3_xacro)/urdf/common_properties.urdf"/> -->
     <xacro:property
       name="meshes_file_direction"
-      value="package://turtlebot3_xacro/meshes/open_manipulator_x"/>
+      value="file://$(find turtlebot3_xacro)/meshes/open_manipulator_x"/>
 
     <link name="${prefix}link1">
       <visual>

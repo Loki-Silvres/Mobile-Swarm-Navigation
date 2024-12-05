@@ -42,11 +42,11 @@
     <color rgba="1.0 1.0 1.0 1.0"/>
   </material>
 
- <!-- <xacro:arg name="gazebo" default="true"/>
+ <xacro:arg name="gazebo" default="true"/>
 
  <xacro:if value="$(arg gazebo)">
    <xacro:include filename="$(find turtlebot3_xacro)/urdf/turtlebot3_gazebo.xacro"/>
- </xacro:if> -->
+ </xacro:if>
 
  <xacro:macro name="mesh" params="mesh">
      <mesh filename="file://$(find turtlebot3_xacro)/meshes/${mesh}" scale="0.001 0.001 0.001"/>

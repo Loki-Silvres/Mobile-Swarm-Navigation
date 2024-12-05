@@ -1,11 +1,15 @@
+# !/usr/bin/env python3
+
 import rclpy
 from geometry_msgs.msg import PointStamped
 from rclpy.node import Node
 from sensor_msgs.msg import Image, CameraInfo
 from cv_bridge import CvBridge
+from visualization_msgs.msg import Marker
 from tf2_ros import Buffer, TransformListener
 import numpy as np
 import cv2
+import matplotlib.pyplot as plt
 import time
 from tf2_geometry_msgs import do_transform_point
 import yaml
@@ -22,7 +26,8 @@ with open(yaml_file_path, 'r') as file:
     class_count = {name: 0 for name in yaml_content['names']}
 
 class SemanticObject:
-    def __init__(self, x_in_odom, y_in_odom, z_in_odom, class_id, x_in_depth = None, y_in_depth = None, z_in_depth = None, marker=None):
+    def __init__(self, x_in_odom, y_in_odom, z_in_odom, class_id, 
+                 x_in_depth = None, y_in_depth = None, z_in_depth = None, target_frame = 'map', marker=None):
         self.obj_id = None
         self.x = x_in_odom
         self.y = y_in_odom
@@ -32,8 +37,29 @@ class SemanticObject:
         self.z_in_depth = z_in_depth
         self.class_id = class_id
         self.marker = marker
+        self.target_frame = target_frame
         self.timestamp = time.time()
         self.lifespan = 5
+        self.colors = {  # Add colors for 18 classes
+            0: (1.0, 0.0, 0.0, 1.0),   # Red
+            1: (0.0, 1.0, 0.0, 1.0),   # Green
+            2: (0.0, 0.0, 1.0, 1.0),   # Blue
+            3: (1.0, 1.0, 0.0, 1.0),   # Yellow
+            4: (1.0, 0.0, 1.0, 1.0),   # Magenta
+            5: (0.0, 1.0, 1.0, 1.0),   # Cyan
+            6: (0.5, 0.0, 0.5, 1.0),   # Purple
+            7: (0.5, 0.5, 0.0, 1.0),   # Olive
+            8: (0.0, 0.5, 0.5, 1.0),   # Teal
+            9: (0.5, 0.5, 0.5, 1.0),   # Gray
+            10: (1.0, 0.5, 0.0, 1.0),  # Orange
+            11: (0.0, 1.0, 0.5, 1.0),  # Spring Green
+            12: (0.5, 0.0, 1.0, 1.0),  # Violet
+            13: (1.0, 0.0, 0.5, 1.0),  # Rose
+            14: (0.5, 1.0, 0.0, 1.0),  # Lime
+            15: (0.0, 0.5, 1.0, 1.0),  # Sky Blue
+            16: (0.5, 0.5, 1.0, 1.0),  # Light Purple
+            17: (1.0, 0.5, 0.5, 1.0),  # Salmon
+        }
         
     @property
     def isAlive(self):
@@ -42,10 +68,34 @@ class SemanticObject:
     def renew(self):
         self.timestamp = time.time()
 
+    def addMarker(self):
+        marker = Marker()
+        marker.header.frame_id = self.target_frame
+        marker.header.stamp = DepthCamera().get_clock().now().to_msg()
+        marker.ns = "transformed_points"
+        marker.id = int(self.class_id * 10000 + self.obj_id)
+        marker.type = Marker.SPHERE  # Use a sphere to represent points
+        marker.action = Marker.ADD
+        marker.pose.position.x = self.x
+        marker.pose.position.y = self.y
+        marker.pose.position.z = self.z
+        marker.pose.orientation.w = 1.0
+
+        # Customize marker appearance
+        marker.scale.x = 0.2  # Sphere radius
+        marker.scale.y = 0.2
+        marker.scale.z = 0.2
+
+        # Set marker color based on class ID
+        color = self.colors.get(self.class_id, (1.0, 1.0, 1.0, 1.0))  # Default to white if class_id not found
+        marker.color.r, marker.color.g, marker.color.b, marker.color.a = color
+        self.marker = marker
+
 class SemanticDB:
     def __init__(self, path2write = None):
         self.objects = []   
         self.same_obj_thres = 0.5
+        self.named_window = "Semantic Database"
         if path2write is not None:
             self.path2write = path2write
         else:
@@ -58,7 +108,6 @@ class SemanticDB:
                 existing_obj.class_id == obj.class_id
                 and abs(existing_obj.x - obj.x) < self.same_obj_thres
                 and abs(existing_obj.y - obj.y) < self.same_obj_thres
-                and abs(existing_obj.z - obj.z) < self.same_obj_thres
                 ):  
 
                 self.objects[i].renew()
@@ -66,6 +115,7 @@ class SemanticDB:
                 return False
         obj.obj_id = class_id_count[obj.class_id]
         class_id_count[obj.class_id] += 1
+        obj.addMarker()
         self.objects.append(obj)
         print("New Semantic object discovered of class {}".format(obj.class_id), "Number of objects: {}".format(len(self.objects)))
         return True
@@ -76,11 +126,20 @@ class SemanticDB:
     
     def write2csv(self):
         with open(self.path2write, 'w') as f:
-            f.write("obj_id,class_id,class_name,x,y,z,isAlive\n")
+            f.write("obj_id,class_id,class_name,x,y,z,isAlive,x_depth,y_depth,z_depth\n")
             for obj in self.objects:
-                f.write(f"{obj.obj_id},{obj.class_id},{yaml_content['names'][obj.class_id]},{obj.x},{obj.y},{obj.z},{obj.isAlive}\n")
+                f.write(f"{obj.obj_id},{obj.class_id},{yaml_content['names'][obj.class_id]},{obj.x},{obj.y},{obj.z},{obj.isAlive},{obj.x_in_depth},{obj.y_in_depth},{obj.z_in_depth}\n")
 
         print(f"Database written to {self.path2write}")
+
+    # def plot_database(self):
+        
+    #     fig = plt.figure()
+    #     ax = fig.add_subplot(projection='3d')
+    #     for obj in self.objects:
+    #         ax.plot([obj.x], [obj.y], [obj.z], 'o', label=obj.class_id)
+    #     ax.legend()
+    #     plt.show()
 
 class DepthCamera(Node):
     def __init__(self, debug=False):
@@ -91,7 +150,7 @@ class DepthCamera(Node):
         self.model = YOLO(model_path)  
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
-
+        self.marker_publisher = self.create_publisher(Marker, '/visualization_marker', 10)
 
         self.bridge = CvBridge()
         self.declare_parameter('bot_name', 'bot_0')
@@ -128,11 +187,11 @@ class DepthCamera(Node):
         self.class_id = []
         self.width = []
         self.debug = debug
-        self.half_visual_angle = np.pi / 2
+        self.half_visual_angle = np.pi / 3
         self.conf_thres = 0.7
         self.semantic_db = SemanticDB()
 
-        self.create_timer(1, self.logging_callback)  
+        self.create_timer(0.5, self.logging_callback)  
 
     def pixel2depth_transform(self, x, y):
         depth = self.depth_image[y, x]
@@ -190,17 +249,20 @@ class DepthCamera(Node):
                 continue
 
             semantic_obj = SemanticObject(x_in_odom, y_in_odom, z_in_odom, self.class_id[i], 
-                                          x_in_depth, y_in_depth, z_in_depth)
+                                          x_in_depth, y_in_depth, z_in_depth, self.target_frame)
             added = self.semantic_db.add_object(semantic_obj)
 
-            self.check_front_area()
-
-            self.semantic_db.write2csv()
 
             if self.debug == True:
                 cv2.putText(self.annotated_frame, f"({x_in_odom:.2f},{y_in_odom:.2f},{z_in_odom:.2f})", 
                         (self.centroid_x[i], self.centroid_y[i]), cv2.FONT_HERSHEY_SIMPLEX, 
                         0.5, (0, 0, 0), 3, cv2.LINE_AA)
+                
+        self.check_front_area()
+        self.semantic_db.write2csv()
+
+        for obj in self.semantic_db.objects:
+            self.marker_publisher.publish(obj.marker)
             
         if self.debug == True:
             resized_image = cv2.resize(self.annotated_frame, dsize=(1000, 1000), interpolation=cv2.INTER_LINEAR)
@@ -273,18 +335,35 @@ class DepthCamera(Node):
         
     def check_front_area(self):
         removed_objects = []
-        front_threshold = 2.0  # Define the front area threshold
+        front_threshold = 3.0  # Define the front area threshold
 
         for obj in self.semantic_db.objects:
             # Transform object's position to the robot's frame
-            x_in_depth = obj.x_in_depth
-            y_in_depth = obj.y_in_depth
-            z_in_depth = obj.z_in_depth
             isAlive = obj.isAlive
+            point_in_odom = PointStamped()
+            point_in_odom.header.frame_id = self.target_frame  # 'odom' frame
+            point_in_odom.header.stamp = self.get_clock().now().to_msg()
+            point_in_odom.point.x = obj.x
+            point_in_odom.point.y = obj.y
+            point_in_odom.point.z = obj.z
+
+            try:
+                # Transform to the robot's base frame
+                transform = self.tf_buffer.lookup_transform(
+                    self.source_frame,  # Robot's base frame
+                    self.target_frame,  # 'odom' frame
+                    rclpy.time.Time(),
+                    timeout=rclpy.time.Duration(seconds=1.0)
+                )
+                point_in_robot_frame = do_transform_point(point_in_odom, transform)
+            except Exception as e:
+                self.get_logger().error(f"Error transforming object {obj.obj_id}: {e}")
+                continue
+
 
             # Check if the object is in front of the robot
-            if (0 < z_in_depth < front_threshold and 
-                abs(x_in_depth) < z_in_depth * np.tan(self.half_visual_angle) and
+            if (0 < point_in_robot_frame.point.z < front_threshold and 
+                abs(point_in_robot_frame.point.x) < point_in_robot_frame.point.z * np.tan(self.half_visual_angle) and
                 not isAlive
                 ):
                 print(f"Object {obj.obj_id} is Dead.")
@@ -293,11 +372,20 @@ class DepthCamera(Node):
         # Remove objects no longer in the front area
         for obj in removed_objects:
             self.semantic_db.objects.remove(obj)  # Remove from semantic DB
-            # self.remove_marker(obj)  # Remove associated marker from RViz
+            self.remove_marker(obj)  # Remove associated marker from RViz
             print(f"Object {obj.obj_id} removed from semantic DB and RViz markers")
-        
-        
 
+    def remove_marker(self, obj):
+        # Send a marker DELETE action for the removed object
+        marker = Marker()
+        marker.header.frame_id = self.target_frame
+        marker.header.stamp = self.get_clock().now().to_msg()
+        marker.ns = "transformed_points"
+        marker.id = obj.obj_id
+        marker.action = Marker.DELETE
+        self.marker_publisher.publish(marker)
+        
+    
 def main(args=None):
     rclpy.init(args=args)
     node = DepthCamera(debug=True)

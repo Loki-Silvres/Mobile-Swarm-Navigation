@@ -59,7 +59,6 @@ class SemanticDB:
                 existing_obj.class_id == obj.class_id
                 and abs(existing_obj.x - obj.x) < self.same_obj_thres
                 and abs(existing_obj.y - obj.y) < self.same_obj_thres
-                and abs(existing_obj.z - obj.z) < self.same_obj_thres
                 ):  
 
                 self.objects[i].renew()

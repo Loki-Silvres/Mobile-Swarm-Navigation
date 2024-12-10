@@ -1,5 +1,6 @@
-# !/usr/bin/env python3
+#!/usr/bin/env python3
 
+from ament_index_python import get_package_share_directory
 import rclpy
 from geometry_msgs.msg import PointStamped
 from rclpy.node import Node
@@ -9,17 +10,16 @@ from visualization_msgs.msg import Marker
 from tf2_ros import Buffer, TransformListener
 import numpy as np
 import cv2
-import matplotlib.pyplot as plt
 import time
 from tf2_geometry_msgs import do_transform_point
 import yaml
+import os
 from ultralytics import YOLO  
-from std_msgs.msg import Float32MultiArray
 
 
 global class_count, class_id_count
 
-yaml_file_path = '/home/loki/segmentation/dataset/data.yaml'
+yaml_file_path = yaml_file_path = os.path.join(get_package_share_directory('semantic_mapper'),'config','data.yaml')
 with open(yaml_file_path, 'r') as file:
     yaml_content = yaml.safe_load(file)
     class_id_count = {i: 0 for i, name in enumerate(yaml_content['names'])}
@@ -40,7 +40,7 @@ class SemanticObject:
         self.target_frame = target_frame
         self.timestamp = time.time()
         self.lifespan = 5
-        self.colors = {  # Add colors for 18 classes
+        self.colors = {                # Colors for 18 classes
             0: (1.0, 0.0, 0.0, 1.0),   # Red
             1: (0.0, 1.0, 0.0, 1.0),   # Green
             2: (0.0, 0.0, 1.0, 1.0),   # Blue
@@ -74,19 +74,17 @@ class SemanticObject:
         marker.header.stamp = DepthCamera().get_clock().now().to_msg()
         marker.ns = "transformed_points"
         marker.id = int(self.class_id * 10000 + self.obj_id)
-        marker.type = Marker.SPHERE  # Use a sphere to represent points
+        print(f'Marker id: {marker.id} added')
+        marker.type = Marker.SPHERE  
         marker.action = Marker.ADD
         marker.pose.position.x = self.x
         marker.pose.position.y = self.y
         marker.pose.position.z = self.z
         marker.pose.orientation.w = 1.0
-
-        # Customize marker appearance
-        marker.scale.x = 0.2  # Sphere radius
+        marker.scale.x = 0.2 
         marker.scale.y = 0.2
         marker.scale.z = 0.2
 
-        # Set marker color based on class ID
         color = self.colors.get(self.class_id, (1.0, 1.0, 1.0, 1.0))  # Default to white if class_id not found
         marker.color.r, marker.color.g, marker.color.b, marker.color.a = color
         self.marker = marker
@@ -99,7 +97,7 @@ class SemanticDB:
         if path2write is not None:
             self.path2write = path2write
         else:
-            self.path2write = "semantic_database.csv"
+            self.path2write = os.path.join(get_package_share_directory('semantic_mapper'),'map','semantic_database.csv')
 
     def add_object(self, obj: SemanticObject):
         for i in range(len(self.objects)):
@@ -132,22 +130,13 @@ class SemanticDB:
 
         print(f"Database written to {self.path2write}")
 
-    # def plot_database(self):
-        
-    #     fig = plt.figure()
-    #     ax = fig.add_subplot(projection='3d')
-    #     for obj in self.objects:
-    #         ax.plot([obj.x], [obj.y], [obj.z], 'o', label=obj.class_id)
-    #     ax.legend()
-    #     plt.show()
-
 class DepthCamera(Node):
     def __init__(self, debug=False):
         super().__init__('depth_camera_node')
 
         
-        model_path = '/home/loki/Mobile-Swarm-Navigation/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/launch/best.pt'
-        self.model = YOLO(model_path)  
+        model_path = os.path.join(get_package_share_directory('semantic_mapper'),'weights','best.pt')
+        self.model = YOLO(model_path) 
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
         self.marker_publisher = self.create_publisher(Marker, '/visualization_marker', 10)
@@ -156,24 +145,25 @@ class DepthCamera(Node):
         self.declare_parameter('bot_name', 'bot_0')
         self.bot_name = self.get_parameter('bot_name').value
         self.source_frame = f'{self.bot_name}/camera_rgb_depth_frame'  
+        self.source_frame = f'camera_rgb_optical_frame'  
         self.target_frame = f'{self.bot_name}/odom'  
-        # self.target_frame = f'map'  
+        self.target_frame = f'map'  
 
         self.subscription = self.create_subscription(
             Image,
-            f'{self.bot_name}/camera1/image_raw',
+            f'/camera/image_raw',
             self.image_callback,
             1  
         )
         self.camera_info_sub = self.create_subscription(
             CameraInfo,
-            f'{self.bot_name}/camera1/depth/camera_info',  
+            f'/camera/depth/camera_info',  
             self.camera_info_callback,
             10
         )
         self.depth_sub = self.create_subscription(
             Image,
-            f'{self.bot_name}/camera1/depth/image_raw',  
+            f'/camera/depth/image_raw',  
             self.depth_image_callback,
             10
         )
@@ -187,8 +177,9 @@ class DepthCamera(Node):
         self.class_id = []
         self.width = []
         self.debug = debug
-        self.half_visual_angle = np.pi / 3
+        self.half_visual_angle = np.pi / 4
         self.conf_thres = 0.7
+        self.register_obj_thres_z = 4.0
         self.semantic_db = SemanticDB()
 
         self.create_timer(0.5, self.logging_callback)  
@@ -239,7 +230,7 @@ class DepthCamera(Node):
             x_in_depth, y_in_depth, z_in_depth = self.pixel2depth_transform(self.centroid_x[i], self.centroid_y[i])
             point_stamped_in_odom = self.depth2odom_transform(float(x_in_depth), float(y_in_depth), float(z_in_depth))
 
-            if point_stamped_in_odom is None:
+            if point_stamped_in_odom is None or z_in_depth > self.register_obj_thres_z:
                 continue    
             x_in_odom = point_stamped_in_odom.point.x
             y_in_odom = point_stamped_in_odom.point.y
@@ -270,9 +261,7 @@ class DepthCamera(Node):
             cv2.waitKey(1)
 
     def image_callback(self, msg):
-        
         try:
-            
             self.cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
             
         except Exception as e:
@@ -292,11 +281,8 @@ class DepthCamera(Node):
             self.get_logger().warn("Camera intrinsics not received yet.")
             return
         
-        try:            
-            
+        try:           
             self.depth_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='passthrough')
-
-            
             if self.depth_image.dtype == np.uint16:  
                 self.depth_image = self.depth_image / 1000.0  
             elif self.depth_image.dtype == np.float32:  
@@ -335,10 +321,9 @@ class DepthCamera(Node):
         
     def check_front_area(self):
         removed_objects = []
-        front_threshold = 3.0  # Define the front area threshold
+        front_threshold = 3.0
 
         for obj in self.semantic_db.objects:
-            # Transform object's position to the robot's frame
             isAlive = obj.isAlive
             point_in_odom = PointStamped()
             point_in_odom.header.frame_id = self.target_frame  # 'odom' frame
@@ -348,9 +333,8 @@ class DepthCamera(Node):
             point_in_odom.point.z = obj.z
 
             try:
-                # Transform to the robot's base frame
                 transform = self.tf_buffer.lookup_transform(
-                    self.source_frame,  # Robot's base frame
+                    self.source_frame,  # Robot's depth camera frame
                     self.target_frame,  # 'odom' frame
                     rclpy.time.Time(),
                     timeout=rclpy.time.Duration(seconds=1.0)
@@ -360,7 +344,6 @@ class DepthCamera(Node):
                 self.get_logger().error(f"Error transforming object {obj.obj_id}: {e}")
                 continue
 
-
             # Check if the object is in front of the robot
             if (0 < point_in_robot_frame.point.z < front_threshold and 
                 abs(point_in_robot_frame.point.x) < point_in_robot_frame.point.z * np.tan(self.half_visual_angle) and
@@ -369,19 +352,18 @@ class DepthCamera(Node):
                 print(f"Object {obj.obj_id} is Dead.")
                 removed_objects.append(obj)
 
-        # Remove objects no longer in the front area
         for obj in removed_objects:
             self.semantic_db.objects.remove(obj)  # Remove from semantic DB
             self.remove_marker(obj)  # Remove associated marker from RViz
             print(f"Object {obj.obj_id} removed from semantic DB and RViz markers")
 
     def remove_marker(self, obj):
-        # Send a marker DELETE action for the removed object
         marker = Marker()
         marker.header.frame_id = self.target_frame
         marker.header.stamp = self.get_clock().now().to_msg()
         marker.ns = "transformed_points"
-        marker.id = obj.obj_id
+        marker.id = int(obj.class_id * 10000 + obj.obj_id)
+        print(f'Marker id: {marker.id} removed')
         marker.action = Marker.DELETE
         self.marker_publisher.publish(marker)
         

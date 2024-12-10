@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+from ament_index_python import get_package_share_directory
 import rclpy
 import rclpy.logging
 from rclpy.node import Node
@@ -51,12 +53,6 @@ def remove_row_by_columns(file_path, col1_value, col2_value):
 
     os.replace(temp_file, file_path)
 
-# Example usage:
-# Assuming the CSV file is structured as:
-# Name, Age, City
-# John, 25, New York
-# Jane, 30, London
-# remove_row_by_columns('example.csv', 'John', '25')
 
 class Interpreter_node(Node):
     def __init__(self):
@@ -64,7 +60,7 @@ class Interpreter_node(Node):
         self.data_queue = queue.Queue(maxsize=0)
         self.listener=self.create_subscription(String,'/get_object',self.listener_callback,10)
         self.timer = self.create_timer(0.1,self.send_goal)
-        self.filename = '/home/pacman/semantic_database.csv'
+        self.filename = os.path.join(get_package_share_directory('semantic_mapper'),'map','semantic_database.csv')
         self.goal_sender = self.create_publisher(PoseStamped,'/schedule_goal',10)
 
 
@@ -74,30 +70,31 @@ class Interpreter_node(Node):
 
     def send_goal(self):
 
-        self.get_logger().info('goal_pose')
         if self.data_queue.qsize() > 0:
             filtered = filter_rows(self.filename,self.data_queue.get())
-            remove_row_by_columns(self.filename,filtered[0][0],filtered[0][1])
-            goal_pose = PoseStamped()
+            if(len(filtered)>0):
 
-            # Set the header
-            goal_pose.header = Header()
-            goal_pose.header.stamp = self.get_clock().now().to_msg()
-            goal_pose.header.frame_id = 'map'  # You can change this frame as needed
+                remove_row_by_columns(self.filename,filtered[0][0],filtered[0][1])
+                goal_pose = PoseStamped()
 
-            # Set position (x, y, z)
-            goal_pose.pose.position.x = float(filtered[0][3])
-            goal_pose.pose.position.y = float(filtered[0][4])
-            goal_pose.pose.position.z = float(filtered[0][5])
+                # Set the header
+                goal_pose.header = Header()
+                goal_pose.header.stamp = self.get_clock().now().to_msg()
+                goal_pose.header.frame_id = 'map'  # You can change this frame as needed
 
-            # Set default orientation (x, y, z, w)
-            goal_pose.pose.orientation.x = 0.0
-            goal_pose.pose.orientation.y = 0.0
-            goal_pose.pose.orientation.z = 0.0
-            goal_pose.pose.orientation.w = 1.0  # Default orientation (no rotation)
+                # Set position (x, y, z)
+                goal_pose.pose.position.x = float(filtered[0][3])
+                goal_pose.pose.position.y = float(filtered[0][4])
+                goal_pose.pose.position.z = float(filtered[0][5])
 
-            self.goal_sender.publish(goal_pose)
-            # self.get_logger().info(goal_pose)
+                # Set default orientation (x, y, z, w)
+                goal_pose.pose.orientation.x = 0.0
+                goal_pose.pose.orientation.y = 0.0
+                goal_pose.pose.orientation.z = 0.0
+                goal_pose.pose.orientation.w = 1.0  # Default orientation (no rotation)
+
+                self.get_logger().info('assigning job....')
+                self.goal_sender.publish(goal_pose)
             
 
 def main(args=None):

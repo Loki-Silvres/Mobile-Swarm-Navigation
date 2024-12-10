@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import rclpy
 import rclpy.logging
 from rclpy.node import Node
@@ -22,6 +23,7 @@ class get_data():
         self.goal_y = 0
         self.distance = 0
         self.task_id = 0
+        self.goal_clearance = 0.6
 
 
         
@@ -32,7 +34,7 @@ class get_data():
         self.y = msg.pose.pose.position.y
         self.distance = math.sqrt((self.x-self.goal_x)**2+(self.y-self.goal_y)**2)
         # print(self.distance)
-        if (self.distance<=0.3):
+        if (self.distance<=self.goal_clearance):
             self.state = 0
             if not self.bot_id in idle_bots:
                     

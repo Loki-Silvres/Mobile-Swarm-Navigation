@@ -128,6 +128,8 @@ class SemanticDB:
         else:
             self.path2write = os.path.join(get_package_share_directory('semantic_mapper'),'map','semantic_database.csv')
 
+            # self.path2write = '/home/loki/semantic_database.csv'
+
     def add_object(self, obj: SemanticObject):
         """
         Add a SemanticObject to the database.
@@ -166,10 +168,11 @@ class SemanticDB:
     def write2csv(self):
         with open(self.path2write, 'w') as f:
             f.write("obj_id,class_id,class_name,x,y,z,isAlive,x_depth,y_depth,z_depth\n")
+            var = False
             for obj in self.objects:
-                f.write(f"{obj.obj_id},{obj.class_id},{yaml_content['names'][obj.class_id]},{obj.x},{obj.y},{obj.z},{obj.isAlive},{obj.x_in_depth},{obj.y_in_depth},{obj.z_in_depth}\n")
-
-        print(f"Database written to {self.path2write}")
+                var = f.write(f"{obj.obj_id},{obj.class_id},{yaml_content['names'][obj.class_id]},{obj.x},{obj.y},{obj.z},{obj.isAlive},{obj.x_in_depth},{obj.y_in_depth},{obj.z_in_depth}\n")
+            f.close()
+        print(f"Database written to {self.path2write} successfully: {var}")
 
 class SemanticMapper(Node):
     def __init__(self, debug=False):
@@ -257,7 +260,7 @@ class SemanticMapper(Node):
         self.register_obj_thres_z = 4.0
         self.semantic_db = SemanticDB()
 
-        self.create_timer(0.5, self.logging_callback)  
+        self.create_timer(1, self.logging_callback)  
 
     def pixel2depth_transform(self, x, y):
         """
@@ -447,7 +450,7 @@ class SemanticMapper(Node):
 
             # Check if the object is in front of the robot
             if (0 < point_in_robot_frame.point.z < front_threshold and 
-                abs(point_in_robot_frame.point.x) < point_in_robot_frame.point.z * np.tan(self.half_visual_angle) and
+                abs(point_in_robot_frame.point.x) < point_in_robot_frame.point.z / np.tan(self.half_visual_angle) and
                 not isAlive
                 ):
                 print(f"Object {obj.obj_id} is Dead.")

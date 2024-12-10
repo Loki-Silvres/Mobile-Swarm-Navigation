@@ -1,22 +1,5 @@
-names:
-- ball
-- bed
-- box
-- bucket
-- can
-- chair
-- cupboard
-- door
-- dustbin
-- fire extinguisher
-- forklift
-- laptop
-- rack
-- sofa
-- stopcone
-- table
-- toolbox
-nc: 17
-test: ../test/images
 train: ../train/images
 val: ../valid/images
+
+nc: 18
+names: ['ball', 'bed', 'box', 'bucket', 'can', 'chair', 'cupboard', 'door', 'drawer', 'dustbin', 'fire extinguisher', 'forklift', 'laptop', 'rack', 'sofa', 'stopcone', 'table', 'toolbox']

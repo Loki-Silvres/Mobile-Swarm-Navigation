@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/loki/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/loki/turtlebot3_ws/install/turtlebot3_msgs/include/**",
+        "/home/loki/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/loki/turtlebot3_ws/install/map_merge/include/**",
+        "/home/loki/turtlebot3_ws/install/explore/include/**",
+        "/home/loki/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/loki/turtlebot3_ws/install/dynamixel_sdk/include/**",
+        "/home/loki/mybot_ws/install/bumperbot_cpp_examples/include/**",
+        "/home/loki/mybot_ws/install/bumperbot_msgs/include/**",
+        "/home/loki/mybot_ws/install/bumperbot_mapping/include/**",
+        "/home/loki/mybot_ws/install/bumperbot_localization/include/**",
+        "/home/loki/mybot_ws/install/bumperbot_controller/include/**",
+        "/home/loki/cognipilot/cranium/install/synapse_tinyframe/include/**",
+        "/home/loki/cognipilot/cranium/install/synapse_protobuf/include/**",
+        "/home/loki/cognipilot/cranium/install/synapse_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/loki/team_53_ws/src/auto_explore/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

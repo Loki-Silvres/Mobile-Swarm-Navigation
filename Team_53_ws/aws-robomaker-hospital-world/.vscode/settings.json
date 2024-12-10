@@ -1,0 +1,39 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/loki/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/loki/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/loki/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/loki/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages",
+        "/home/loki/mybot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages",
+        "/home/loki/cognipilot/cranium/install/nxp_cup_vision/lib/python3.10/site-packages",
+        "/home/loki/cognipilot/cranium/install/corti/local/lib/python3.10/dist-packages",
+        "/home/loki/cognipilot/cranium/install/b3rb_ros_line_follower/lib/python3.10/site-packages",
+        "/home/loki/cognipilot/cranium/install/synapse_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/loki/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/loki/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/loki/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/loki/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages",
+        "/home/loki/mybot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages",
+        "/home/loki/mybot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages",
+        "/home/loki/cognipilot/cranium/install/nxp_cup_vision/lib/python3.10/site-packages",
+        "/home/loki/cognipilot/cranium/install/corti/local/lib/python3.10/dist-packages",
+        "/home/loki/cognipilot/cranium/install/b3rb_ros_line_follower/lib/python3.10/site-packages",
+        "/home/loki/cognipilot/cranium/install/synapse_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

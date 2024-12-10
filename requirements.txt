@@ -1,0 +1,14 @@
+# Python Core Libraries
+numpy==1.21.5
+
+# Machine Learning and AI (if applicable)
+ultralytics==8.3.40
+
+# Computer Vision (if applicable)
+opencv-python==4.10.0
+
+#chatbot generative AI
+google-generativeai>=0.8.3
+
+ipython
+flask

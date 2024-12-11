@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
 package_name = 'semantic_mapper'
 
@@ -13,6 +15,7 @@ setup(
      ('share/' + package_name + '/config', ['config/data.yaml']),  
      ('share/' + package_name + '/weights', ['weights/best.pt']), 
      ('share/' + package_name + '/map', ['map/semantic_database.csv']), 
+     (os.path.join('share', package_name, 'srv'), glob('srv/*.srv')),
        ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -25,6 +28,7 @@ setup(
         'console_scripts': [
         
             'semantic_mapper = semantic_mapper.semantic_database:main',
+            'semantic_mapping_service = semantic_mapper.semantic_mapper_server:main',
         ],
     },
 )

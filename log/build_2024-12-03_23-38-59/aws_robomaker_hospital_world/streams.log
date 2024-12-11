@@ -1,0 +1,189 @@
+[0.229s] Invoking command in '/home/pacman/turtlebot3_ws/build/aws_robomaker_hospital_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/frame_changer:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/aws_robomaker_hospital_world
+[0.389s] -- The C compiler identification is GNU 11.4.0
+[0.390s] -- The CXX compiler identification is GNU 11.4.0
+[0.398s] -- Detecting C compiler ABI info
+[0.461s] -- Detecting C compiler ABI info - done
+[0.468s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.468s] -- Detecting C compile features
+[0.468s] -- Detecting C compile features - done
+[0.471s] -- Detecting CXX compiler ABI info
+[0.536s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.541s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.546s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.688s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.805s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.869s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.878s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.890s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.917s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.961s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.965s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.042s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.068s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.101s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.112s] -- Looking for pthread.h
+[1.171s] -- Looking for pthread.h - found
+[1.171s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.225s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.226s] -- Found Threads: TRUE  
+[1.279s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.280s] -- Checking for module 'bullet>=2.82'
+[1.292s] --   Found bullet, version 3.05
+[1.382s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.421s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.444s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.482s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.498s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.503s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.509s] -- Searching for dependencies of ignition-math6
+[1.510s] -- Looking for OGRE...
+[1.511s] -- OGRE_PREFIX_WATCH changed.
+[1.515s] -- Checking for module 'OGRE'
+[1.526s] --   Found OGRE, version 1.9.0
+[1.554s] -- Found Ogre Ghadamon (1.9.0)
+[1.559s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.566s] -- Looking for OGRE_Paging...
+[1.571s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.571s] -- Looking for OGRE_Terrain...
+[1.575s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.575s] -- Looking for OGRE_Property...
+[1.580s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.580s] -- Looking for OGRE_RTShaderSystem...
+[1.584s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.584s] -- Looking for OGRE_Volume...
+[1.588s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.588s] -- Looking for OGRE_Overlay...
+[1.592s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.681s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.683s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.684s] -- Searching for dependencies of ignition-transport8
+[1.697s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.706s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.709s] -- Checking for module 'libzmq >= 4'
+[1.722s] --   Found libzmq , version 4.3.4
+[1.752s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.756s] -- Checking for module 'uuid'
+[1.768s] --   Found uuid, version 2.37.2
+[1.794s] -- Found UUID: TRUE  
+[1.797s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.797s] -- Searching for dependencies of ignition-msgs5
+[1.813s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.818s] -- Checking for module 'tinyxml2'
+[1.830s] --   Found tinyxml2, version 9.0.0
+[1.858s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.861s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.862s] -- Searching for dependencies of ignition-common3
+[1.862s] -- Looking for dlfcn.h - found
+[1.863s] -- Looking for libdl - found
+[1.864s] -- Found DL: TRUE  
+[1.874s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.875s] -- Searching for <ignition-common3> component [graphics]
+[1.877s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.877s] -- Searching for dependencies of ignition-common3-graphics
+[1.877s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.881s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.881s] -- Searching for dependencies of ignition-fuel_tools4
+[1.946s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.955s] -- Checking for module 'jsoncpp'
+[1.968s] --   Found jsoncpp, version 1.9.5
+[1.994s] -- Found JSONCPP: TRUE  
+[1.998s] -- Checking for module 'libzip'
+[2.010s] --   Found libzip, version 1.7.3
+[2.035s] -- Found ZIP: TRUE  
+[2.035s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.035s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.036s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.039s] -- Gazebo version: 11.10
+[2.039s] -- Checking for module 'tbb'
+[2.051s] --   Found tbb, version 2021.5.0
+[2.079s] running python3 -m pip install -r /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/requirements.txt 2>&1
+[2.264s] Defaulting to user installation because normal site-packages is not writeable
+[2.395s] Requirement already satisfied: docopt>=0.6.2 in /home/pacman/.local/lib/python3.10/site-packages (from -r /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/requirements.txt (line 1)) (0.6.2)
+[2.395s] Requirement already satisfied: requests in /usr/lib/python3/dist-packages (from -r /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/requirements.txt (line 2)) (2.25.1)
+[2.395s] Requirement already satisfied: lxml in /usr/lib/python3/dist-packages (from -r /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/requirements.txt (line 3)) (4.8.0)
+[2.538s] running python3 /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/fuel_utility.py download -m XRayMachine -m IVStand -m BloodPressureMonitor -m BPCart -m BMWCart -m CGMClassic -m StorageRack -m Chair -m InstrumentCart1 -m Scrubs -m PatientWheelChair -m WhiteChipChair -m TrolleyBed -m SurgicalTrolley -m PotatoChipChair -m VisitorKidSit -m FemaleVisitorSit -m AdjTable -m MopCart3 -m MaleVisitorSit -m Drawer -m OfficeChairBlack -m ElderLadyPatient -m ElderMalePatient -m InstrumentCart2 -m MetalCabinet -m BedTable -m BedsideTable -m AnesthesiaMachine -m TrolleyBedPatient -m Shower -m SurgicalTrolleyMed -m StorageRackCovered -m KitchenSink -m Toilet -m VendingMachine -m ParkingTrolleyMin -m PatientFSit -m MaleVisitorOnPhone -m FemaleVisitor -m MalePatientBed -m StorageRackCoverOpen -m ParkingTrolleyMax -d /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/fuel_models --verbose 2>&1
+[2.607s] DEBUG:root:Arguments provided: {"download": true, "--query": null, "--model": ["XRayMachine", "IVStand", "BloodPressureMonitor", "BPCart", "BMWCart", "CGMClassic", "StorageRack", "Chair", "InstrumentCart1", "Scrubs", "PatientWheelChair", "WhiteChipChair", "TrolleyBed", "SurgicalTrolley", "PotatoChipChair", "VisitorKidSit", "FemaleVisitorSit", "AdjTable", "MopCart3", "MaleVisitorSit", "Drawer", "OfficeChairBlack", "ElderLadyPatient", "ElderMalePatient", "InstrumentCart2", "MetalCabinet", "BedTable", "BedsideTable", "AnesthesiaMachine", "TrolleyBedPatient", "Shower", "SurgicalTrolleyMed", "StorageRackCovered", "KitchenSink", "Toilet", "VendingMachine", "ParkingTrolleyMin", "PatientFSit", "MaleVisitorOnPhone", "FemaleVisitor", "MalePatientBed", "StorageRackCoverOpen", "ParkingTrolleyMax"], "--version": 0, "-,": false, "--verbose": true, "--destination": "/home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world/fuel_models"}
+[2.607s] INFO:root:Starting fuel models..
+[2.607s] INFO:root:Fetching model XRayMachine.
+[2.608s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[4.166s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/XRayMachine HTTP/1.1" 200 406
+[4.167s] INFO:root:Fetching model IVStand.
+[4.168s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[5.805s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/IVStand HTTP/1.1" 200 408
+[5.806s] INFO:root:Fetching model BloodPressureMonitor.
+[5.806s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[8.569s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/BloodPressureMonitor HTTP/1.1" 200 401
+[8.570s] INFO:root:Fetching model BPCart.
+[8.570s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[10.208s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/BPCart HTTP/1.1" 200 402
+[10.209s] INFO:root:Fetching model BMWCart.
+[10.209s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[12.460s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/BMWCart HTTP/1.1" 200 391
+[12.460s] INFO:root:Fetching model CGMClassic.
+[12.461s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[14.100s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/CGMClassic HTTP/1.1" 200 386
+[14.101s] INFO:root:Fetching model StorageRack.
+[14.101s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[15.737s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/StorageRack HTTP/1.1" 200 385
+[15.737s] INFO:root:Fetching model Chair.
+[15.738s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[17.277s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/Chair HTTP/1.1" 200 391
+[17.278s] INFO:root:Fetching model InstrumentCart1.
+[17.278s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[18.920s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/InstrumentCart1 HTTP/1.1" 200 387
+[18.921s] INFO:root:Fetching model Scrubs.
+[18.921s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[21.473s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/Scrubs HTTP/1.1" 200 382
+[21.473s] INFO:root:Fetching model PatientWheelChair.
+[21.474s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[27.822s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/PatientWheelChair HTTP/1.1" 200 402
+[27.823s] INFO:root:Fetching model WhiteChipChair.
+[27.823s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[30.656s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/WhiteChipChair HTTP/1.1" 200 394
+[30.657s] INFO:root:Fetching model TrolleyBed.
+[30.658s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[32.026s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/TrolleyBed HTTP/1.1" 200 397
+[32.026s] INFO:root:Fetching model SurgicalTrolley.
+[32.026s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[34.681s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/SurgicalTrolley HTTP/1.1" 200 383
+[34.681s] INFO:root:Fetching model PotatoChipChair.
+[34.682s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[37.343s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/PotatoChipChair HTTP/1.1" 200 411
+[37.344s] INFO:root:Fetching model VisitorKidSit.
+[37.344s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[39.800s] DEBUG:urllib3.connectionpool:https://fuel.ignitionrobotics.org:443 "GET /1.0/OpenRobotics/models/VisitorKidSit HTTP/1.1" 200 396
+[39.801s] INFO:root:Fetching model FemaleVisitorSit.
+[39.801s] DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): fuel.ignitionrobotics.org:443
+[40.886s] Invoked command in '/home/pacman/turtlebot3_ws/build/aws_robomaker_hospital_world' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/frame_changer:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/aws-robomaker-hospital-world -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/aws_robomaker_hospital_world
+[40.888s] Traceback (most recent call last):
+  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/home/pacman/.local/lib/python3.10/site-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

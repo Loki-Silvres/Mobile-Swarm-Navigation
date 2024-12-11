@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+
+<robot name="xacro_properties" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Init colour -->  
+  <material name="black">
+      <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+
+  <material name="dark">
+    <color rgba="0.3 0.3 0.3 1.0"/>
+  </material>
+  <material name="light_black">
+    <color rgba="0.4 0.4 0.4 1.0"/>
+  </material>
+
+  <material name="blue">
+    <color rgba="0.0 0.0 0.8 1.0"/>
+  </material>
+
+  <material name="green">
+    <color rgba="0.0 0.8 0.0 1.0"/>
+  </material>
+
+  <material name="grey">
+    <color rgba="0.5 0.5 0.5 1.0"/>
+  </material>
+
+  <material name="orange">
+    <color rgba="${255/255} ${108/255} ${10/255} 1.0"/>
+  </material>
+
+  <material name="brown">
+    <color rgba="${222/255} ${207/255} ${195/255} 1.0"/>
+  </material>
+
+  <material name="red">
+    <color rgba="0.8 0.0 0.0 1.0"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+
+ <xacro:arg name="gazebo" default="true"/>
+
+ <xacro:if value="$(arg gazebo)">
+   <xacro:include filename="$(find turtlebot3_xacro)/urdf/turtlebot3_gazebo.xacro"/>
+ </xacro:if>
+
+ <xacro:macro name="mesh" params="mesh">
+     <mesh filename="file://$(find turtlebot3_xacro)/meshes/${mesh}" scale="0.001 0.001 0.001"/>
+ </xacro:macro>
+
+</robot>

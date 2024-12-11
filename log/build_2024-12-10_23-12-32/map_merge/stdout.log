@@ -1,0 +1,53 @@
+[ 66%] Built target combine_grids
+[ 83%] [32mBuilding CXX object CMakeFiles/map_merge.dir/src/map_merge.cpp.o[0m
+[100%] [32m[1mLinking CXX executable map_merge[0m
+[100%] Built target map_merge
+-- Install configuration: ""
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/include/map_merge/
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/include/map_merge//ros1_names.hpp
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/include/map_merge//map_merge.h
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/map_merge.launch
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/map_merge.rviz
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/from_map_server.launch.py
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/worlds
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/worlds/world_only.model
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/config
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/config/nav2_multirobot_params_1.yaml
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/config/nav2_multirobot_params_2.yaml
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/multi_tb3_simulation_launch.py
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/slam_toolbox.py
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/bringup_launch.py
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/tb3_simulation_launch.py
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/map_merge.launch.py
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/from_map_server.launch
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/experiments
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/experiments/3-robots.ttt.launch
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/experiments/demo-scene-orientation-exp.ttt.launch
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/experiments/demo-scene-1.ttt.launch
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/config
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/config/params.yaml
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/config/params_orig.yaml
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/lib/libcombine_grids.a
+-- Installing: /home/pacman/turtlebot3_ws/install/map_merge/lib/map_merge/map_merge
+-- Set runtime path of "/home/pacman/turtlebot3_ws/install/map_merge/lib/map_merge/map_merge" to ""
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/library_path.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/library_path.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/ament_index/resource_index/package_run_dependencies/map_merge
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/ament_index/resource_index/parent_prefix_path/map_merge
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/path.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/path.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/local_setup.bash
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/local_setup.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/local_setup.zsh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/local_setup.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/package.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/ament_index/resource_index/packages/map_merge
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/cmake/map_mergeConfig.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/cmake/map_mergeConfig-version.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/package.xml

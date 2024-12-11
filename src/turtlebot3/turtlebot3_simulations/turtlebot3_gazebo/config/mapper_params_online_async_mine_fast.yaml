@@ -1,0 +1,62 @@
+slam_toolbox:
+  ros__parameters:
+    # Plugin params
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: None
+
+    # ROS Parameters
+    use_sim_time: true
+    odom_frame: bot_0/odom
+    map_frame: map
+    base_frame: bot_0/base_footprint
+    scan_topic: /bot_0/bot_0/scan
+    use_map_saver: false  # Disable map saving to disk
+    mode: mapping # Localizing and mapping
+    debug_logging: false
+    throttle_scans: 0  # Process all scans immediately
+    transform_publish_period: 0.01  # Publish transforms at 100 Hz
+    map_update_interval: 0.0  # Disable rate-limited updates (update immediately)
+    resolution: 0.05  # Keep resolution low for fast processing
+    max_laser_range: 10.0  # Limit laser range if needed for faster updates
+    minimum_time_interval: 0.2  # Allow faster updates from sensor data
+    transform_timeout: 0.1  # Reduced timeout for quicker transforms
+    tf_buffer_duration: 30.0  # Keep the TF buffer large enough to avoid missing transforms
+    stack_size_to_use: 40000000  # Large stack size to avoid crashes with larger maps
+    enable_interactive_mode: true  # Enable interactive mode for immediate updates
+
+    # General Parameters
+    use_scan_matching: true
+    use_scan_barycenter: true
+    minimum_travel_distance: 0.5
+    minimum_travel_heading: 0.5
+    scan_buffer_size: 30  # Increased buffer size to handle more scans
+    scan_buffer_maximum_scan_distance: 20.0  # Allow for longer scan distances
+    link_match_minimum_response_fine: 0.05  # Increased sensitivity to smaller features
+    link_scan_maximum_distance: 1.5
+    loop_search_maximum_distance: 2.0  # Faster loop closure search
+    do_loop_closing: true 
+    loop_match_minimum_chain_size: 10           
+    loop_match_maximum_variance_coarse: 3.0  
+    loop_match_minimum_response_coarse: 0.35    
+    loop_match_minimum_response_fine: 0.45
+
+    # Correlation Parameters - Adjusted for faster loop closure and map updates
+    correlation_search_space_dimension: 0.3  # Smaller search space for faster processing
+    correlation_search_space_resolution: 0.005  # Increased resolution for quicker updates
+    correlation_search_space_smear_deviation: 0.05  # Reduced smear for faster convergence
+
+    # Scan Matcher Parameters
+    distance_variance_penalty: 0.2  # Lower penalty for faster response
+    angle_variance_penalty: 0.5    
+
+    fine_search_angle_offset: 0.00349     
+    coarse_search_angle_offset: 0.349   
+    coarse_angle_resolution: 0.0349        
+    minimum_angle_penalty: 0.9
+    minimum_distance_penalty: 0.5
+    use_response_expansion: true
+

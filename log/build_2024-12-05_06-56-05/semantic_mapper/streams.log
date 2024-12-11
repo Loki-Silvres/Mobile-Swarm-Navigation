@@ -1,0 +1,24 @@
+[3.524s] Invoking command in '/home/pacman/turtlebot3_ws/src/semantic_mapper': PYTHONPATH=/home/pacman/turtlebot3_ws/build/semantic_mapper/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/semantic_mapper build --build-base /home/pacman/turtlebot3_ws/build/semantic_mapper/build install --record /home/pacman/turtlebot3_ws/build/semantic_mapper/install.log --single-version-externally-managed install_data
+[4.509s] running egg_info
+[4.510s] writing ../../build/semantic_mapper/semantic_mapper.egg-info/PKG-INFO
+[4.510s] writing dependency_links to ../../build/semantic_mapper/semantic_mapper.egg-info/dependency_links.txt
+[4.510s] writing entry points to ../../build/semantic_mapper/semantic_mapper.egg-info/entry_points.txt
+[4.510s] writing requirements to ../../build/semantic_mapper/semantic_mapper.egg-info/requires.txt
+[4.511s] writing top-level names to ../../build/semantic_mapper/semantic_mapper.egg-info/top_level.txt
+[4.513s] reading manifest file '../../build/semantic_mapper/semantic_mapper.egg-info/SOURCES.txt'
+[4.518s] writing manifest file '../../build/semantic_mapper/semantic_mapper.egg-info/SOURCES.txt'
+[4.518s] running build
+[4.519s] running build_py
+[4.520s] copying semantic_mapper/semantic_database.py -> /home/pacman/turtlebot3_ws/build/semantic_mapper/build/lib/semantic_mapper
+[4.520s] running install
+[4.521s] running install_lib
+[4.522s] copying /home/pacman/turtlebot3_ws/build/semantic_mapper/build/lib/semantic_mapper/semantic_database.py -> /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper
+[4.523s] byte-compiling /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper/semantic_database.py to semantic_database.cpython-310.pyc
+[4.530s] running install_data
+[4.531s] running install_egg_info
+[4.536s] removing '/home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper-0.0.0-py3.10.egg-info' (and everything under it)
+[4.536s] Copying ../../build/semantic_mapper/semantic_mapper.egg-info to /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper-0.0.0-py3.10.egg-info
+[4.536s] running install_scripts
+[4.579s] Installing semantic_mapper script to /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/semantic_mapper
+[4.582s] writing list of installed files to '/home/pacman/turtlebot3_ws/build/semantic_mapper/install.log'
+[4.658s] Invoked command in '/home/pacman/turtlebot3_ws/src/semantic_mapper' returned '0': PYTHONPATH=/home/pacman/turtlebot3_ws/build/semantic_mapper/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/semantic_mapper build --build-base /home/pacman/turtlebot3_ws/build/semantic_mapper/build install --record /home/pacman/turtlebot3_ws/build/semantic_mapper/install.log --single-version-externally-managed install_data

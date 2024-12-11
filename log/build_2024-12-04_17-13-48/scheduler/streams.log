@@ -1,0 +1,39 @@
+[0.513s] Invoking command in '/home/pacman/turtlebot3_ws/build/scheduler': PYTHONPATH=/home/pacman/turtlebot3_ws/build/scheduler/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pacman/turtlebot3_ws/build/scheduler/build
+[0.667s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.667s]   warnings.warn(
+[0.668s] running develop
+[0.748s] Removing /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler.egg-link (link to .)
+[0.766s] Invoked command in '/home/pacman/turtlebot3_ws/build/scheduler' returned '0': PYTHONPATH=/home/pacman/turtlebot3_ws/build/scheduler/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pacman/turtlebot3_ws/build/scheduler/build
+[0.766s] Invoking command in '/home/pacman/turtlebot3_ws/src/scheduler': PYTHONPATH=/home/pacman/turtlebot3_ws/build/scheduler/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/scheduler build --build-base /home/pacman/turtlebot3_ws/build/scheduler/build install --record /home/pacman/turtlebot3_ws/build/scheduler/install.log --single-version-externally-managed install_data --force
+[0.897s] running egg_info
+[0.897s] writing ../../build/scheduler/scheduler.egg-info/PKG-INFO
+[0.897s] writing dependency_links to ../../build/scheduler/scheduler.egg-info/dependency_links.txt
+[0.897s] writing entry points to ../../build/scheduler/scheduler.egg-info/entry_points.txt
+[0.897s] writing requirements to ../../build/scheduler/scheduler.egg-info/requires.txt
+[0.897s] writing top-level names to ../../build/scheduler/scheduler.egg-info/top_level.txt
+[0.898s] reading manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+[0.899s] writing manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+[0.899s] running build
+[0.899s] running build_py
+[0.899s] copying scheduler/sub_scheduler.py -> /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler
+[0.899s] running install
+[0.899s] running install_lib
+[0.900s] creating /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+[0.900s] copying /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler/sub_scheduler.py -> /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+[0.900s] copying /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler/scheduler_2.py -> /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+[0.900s] copying /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler/scheduler_1.py -> /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+[0.900s] copying /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler/__init__.py -> /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+[0.900s] byte-compiling /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler/sub_scheduler.py to sub_scheduler.cpython-310.pyc
+[0.901s] byte-compiling /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler/scheduler_2.py to scheduler_2.cpython-310.pyc
+[0.902s] byte-compiling /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler/scheduler_1.py to scheduler_1.cpython-310.pyc
+[0.902s] byte-compiling /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler/__init__.py to __init__.cpython-310.pyc
+[0.902s] running install_data
+[0.902s] copying resource/scheduler -> /home/pacman/turtlebot3_ws/install/scheduler/share/ament_index/resource_index/packages
+[0.902s] copying package.xml -> /home/pacman/turtlebot3_ws/install/scheduler/share/scheduler
+[0.902s] running install_egg_info
+[0.904s] Copying ../../build/scheduler/scheduler.egg-info to /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler-0.0.0-py3.10.egg-info
+[0.904s] running install_scripts
+[0.918s] Installing scheduler_2 script to /home/pacman/turtlebot3_ws/install/scheduler/lib/scheduler
+[0.918s] Installing sub_scheduler script to /home/pacman/turtlebot3_ws/install/scheduler/lib/scheduler
+[0.918s] writing list of installed files to '/home/pacman/turtlebot3_ws/build/scheduler/install.log'
+[0.934s] Invoked command in '/home/pacman/turtlebot3_ws/src/scheduler' returned '0': PYTHONPATH=/home/pacman/turtlebot3_ws/build/scheduler/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/scheduler build --build-base /home/pacman/turtlebot3_ws/build/scheduler/build install --record /home/pacman/turtlebot3_ws/build/scheduler/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,33 @@
+[0.270s] Invoking command in '/home/pacman/turtlebot3_ws/build/explore': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/explore -- -j12 -l12
+[0.429s] [100%] Built target explore
+[0.440s] Invoked command in '/home/pacman/turtlebot3_ws/build/explore' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/explore -- -j12 -l12
+[0.556s] Invoking command in '/home/pacman/turtlebot3_ws/build/explore': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/explore
+[0.564s] -- Install configuration: ""
+[0.565s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore/
+[0.565s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore//frontier_search.h
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore//costmap_client.h
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore//costmap_tools.h
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore//explore.h
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/config
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/config/params.yaml
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/config/params_costmap.yaml
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/launch
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/launch/explore.launch.py
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/lib/explore/explore
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/ament_index/resource_index/package_run_dependencies/explore
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/ament_index/resource_index/parent_prefix_path/explore
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/ament_prefix_path.sh
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/ament_prefix_path.dsv
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/path.sh
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/path.dsv
+[0.566s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.bash
+[0.567s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.sh
+[0.567s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.zsh
+[0.567s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.dsv
+[0.567s] -- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/package.dsv
+[0.567s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/ament_index/resource_index/packages/explore
+[0.567s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.567s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/cmake/exploreConfig.cmake
+[0.567s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/cmake/exploreConfig-version.cmake
+[0.567s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/package.xml
+[0.593s] Invoked command in '/home/pacman/turtlebot3_ws/build/explore' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/explore

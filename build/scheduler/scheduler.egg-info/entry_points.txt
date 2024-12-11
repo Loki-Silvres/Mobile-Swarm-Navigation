@@ -1,0 +1,5 @@
+[console_scripts]
+scheduler_2 = scheduler.scheduler_2:main
+scheduler_3 = scheduler.scheduler_3:main
+sub_scheduler = scheduler.sub_scheduler:main
+

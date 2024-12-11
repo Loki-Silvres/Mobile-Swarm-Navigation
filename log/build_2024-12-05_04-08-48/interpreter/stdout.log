@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/interpreter/interpreter.egg-info
+writing ../../build/interpreter/interpreter.egg-info/PKG-INFO
+writing dependency_links to ../../build/interpreter/interpreter.egg-info/dependency_links.txt
+writing entry points to ../../build/interpreter/interpreter.egg-info/entry_points.txt
+writing requirements to ../../build/interpreter/interpreter.egg-info/requires.txt
+writing top-level names to ../../build/interpreter/interpreter.egg-info/top_level.txt
+writing manifest file '../../build/interpreter/interpreter.egg-info/SOURCES.txt'
+reading manifest file '../../build/interpreter/interpreter.egg-info/SOURCES.txt'
+writing manifest file '../../build/interpreter/interpreter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pacman/turtlebot3_ws/build/interpreter/build
+creating /home/pacman/turtlebot3_ws/build/interpreter/build/lib
+creating /home/pacman/turtlebot3_ws/build/interpreter/build/lib/interpreter
+copying interpreter/__init__.py -> /home/pacman/turtlebot3_ws/build/interpreter/build/lib/interpreter
+copying interpreter/interpreter.py -> /home/pacman/turtlebot3_ws/build/interpreter/build/lib/interpreter
+running install
+running install_lib
+creating /home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter
+copying /home/pacman/turtlebot3_ws/build/interpreter/build/lib/interpreter/__init__.py -> /home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter
+copying /home/pacman/turtlebot3_ws/build/interpreter/build/lib/interpreter/interpreter.py -> /home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter
+byte-compiling /home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter/interpreter.py to interpreter.cpython-310.pyc
+running install_data
+creating /home/pacman/turtlebot3_ws/install/interpreter/share/ament_index
+creating /home/pacman/turtlebot3_ws/install/interpreter/share/ament_index/resource_index
+creating /home/pacman/turtlebot3_ws/install/interpreter/share/ament_index/resource_index/packages
+copying resource/interpreter -> /home/pacman/turtlebot3_ws/install/interpreter/share/ament_index/resource_index/packages
+copying package.xml -> /home/pacman/turtlebot3_ws/install/interpreter/share/interpreter
+running install_egg_info
+Copying ../../build/interpreter/interpreter.egg-info to /home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing interpreter script to /home/pacman/turtlebot3_ws/install/interpreter/lib/interpreter
+writing list of installed files to '/home/pacman/turtlebot3_ws/build/interpreter/install.log'

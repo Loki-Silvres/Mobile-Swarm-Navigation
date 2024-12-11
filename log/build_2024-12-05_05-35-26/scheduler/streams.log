@@ -1,0 +1,16 @@
+[0.853s] Invoking command in '/home/pacman/turtlebot3_ws/src/scheduler': PYTHONPATH=/home/pacman/turtlebot3_ws/build/scheduler/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/scheduler build --build-base /home/pacman/turtlebot3_ws/build/scheduler/build install --record /home/pacman/turtlebot3_ws/build/scheduler/install.log --single-version-externally-managed install_data
+[1.057s] running egg_info
+[1.057s] writing ../../build/scheduler/scheduler.egg-info/PKG-INFO
+[1.058s] writing dependency_links to ../../build/scheduler/scheduler.egg-info/dependency_links.txt
+[1.058s] writing entry points to ../../build/scheduler/scheduler.egg-info/entry_points.txt
+[1.059s] writing requirements to ../../build/scheduler/scheduler.egg-info/requires.txt
+[1.059s] writing top-level names to ../../build/scheduler/scheduler.egg-info/top_level.txt
+[1.059s] reading manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+[1.061s] writing manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+[1.061s] running build
+[1.061s] running build_py
+[1.061s] running install
+[1.061s] running install_lib
+[1.062s] running install_data
+[1.062s] error: can't copy 'launch/*.py': doesn't exist or not a regular file
+[1.076s] Invoked command in '/home/pacman/turtlebot3_ws/src/scheduler' returned '1': PYTHONPATH=/home/pacman/turtlebot3_ws/build/scheduler/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/scheduler build --build-base /home/pacman/turtlebot3_ws/build/scheduler/build install --record /home/pacman/turtlebot3_ws/build/scheduler/install.log --single-version-externally-managed install_data

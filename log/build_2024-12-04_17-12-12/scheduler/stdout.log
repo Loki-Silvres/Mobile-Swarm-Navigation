@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing scheduler.egg-info/PKG-INFO
+writing dependency_links to scheduler.egg-info/dependency_links.txt
+writing entry points to scheduler.egg-info/entry_points.txt
+writing requirements to scheduler.egg-info/requires.txt
+writing top-level names to scheduler.egg-info/top_level.txt
+reading manifest file 'scheduler.egg-info/SOURCES.txt'
+writing manifest file 'scheduler.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler.egg-link (link to .)
+Installing scheduler_2 script to /home/pacman/turtlebot3_ws/install/scheduler/lib/scheduler
+Installing sub_scheduler script to /home/pacman/turtlebot3_ws/install/scheduler/lib/scheduler
+
+Installed /home/pacman/turtlebot3_ws/build/scheduler
+running symlink_data
+symbolically linking /home/pacman/turtlebot3_ws/build/scheduler/resource/scheduler -> /home/pacman/turtlebot3_ws/install/scheduler/share/ament_index/resource_index/packages
+symbolically linking /home/pacman/turtlebot3_ws/build/scheduler/package.xml -> /home/pacman/turtlebot3_ws/install/scheduler/share/scheduler

@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target explore[0m
+[ 20%] Built target gtest
+[ 40%] Built target gtest_main
+[ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[ 70%] Built target test_explore
+[ 80%] [32m[1mLinking CXX executable explore[0m
+[100%] Built target explore
+-- Install configuration: ""
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore/
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore//frontier_search.h
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore//costmap_client.h
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore//costmap_tools.h
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore//explore.h
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/config
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/config/params.yaml
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/launch
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/explore_lite/lib/explore_lite/explore
+-- Set runtime path of "/home/pacman/turtlebot3_ws/install/explore_lite/lib/explore_lite/explore" to ""
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/path.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.bash
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/package.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/package.xml

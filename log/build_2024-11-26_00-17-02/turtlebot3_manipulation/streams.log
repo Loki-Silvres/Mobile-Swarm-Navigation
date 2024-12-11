@@ -1,0 +1,66 @@
+[0.023s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/turtlebot3_manipulation -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/turtlebot3_manipulation
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.264s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.271s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.405s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.479s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.545s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.546s] -- Added test 'lint_cmake' to check CMake code style
+[0.546s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.548s] -- Added test 'xmllint' to check XML markup files
+[0.551s] -- Configuring done
+[0.553s] -- Generating done
+[0.554s] -- Build files have been written to: /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation
+[0.561s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/turtlebot3_manipulation -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/turtlebot3_manipulation
+[0.563s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation -- -j12 -l12
+[0.595s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation -- -j12 -l12
+[0.609s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation
+[0.615s] -- Install configuration: ""
+[0.616s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//launch
+[0.616s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//launch/model.launch.py
+[0.616s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes
+[0.616s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi
+[0.616s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/ladar.stl
+[0.616s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/left_tire.stl
+[0.616s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/base.stl
+[0.621s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/right_tire.stl
+[0.621s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x
+[0.621s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link3.stl
+[0.622s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link4.stl
+[0.622s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link2.stl
+[0.623s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/gripper_left_palm.stl
+[0.623s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link5.stl
+[0.623s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link1.stl
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/gripper_right_palm.stl
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//rviz
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//rviz/model.rviz
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf/turtlebot3_manipulation.urdf.xacro
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf/open_manipulator_x.urdf.xacro
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf/turtlebot3_waffle_pi.urdf.xacro
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/ament_prefix_path.sh
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/ament_prefix_path.dsv
+[0.624s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/path.sh
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/path.dsv
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.bash
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.sh
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.zsh
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.dsv
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.dsv
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/ament_index/resource_index/packages/turtlebot3_manipulation
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/cmake/turtlebot3_manipulationConfig.cmake
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/cmake/turtlebot3_manipulationConfig-version.cmake
+[0.625s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.xml
+[0.627s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/semantic_mapper/semantic_mapper.egg-info
+writing ../../build/semantic_mapper/semantic_mapper.egg-info/PKG-INFO
+writing dependency_links to ../../build/semantic_mapper/semantic_mapper.egg-info/dependency_links.txt
+writing entry points to ../../build/semantic_mapper/semantic_mapper.egg-info/entry_points.txt
+writing requirements to ../../build/semantic_mapper/semantic_mapper.egg-info/requires.txt
+writing top-level names to ../../build/semantic_mapper/semantic_mapper.egg-info/top_level.txt
+writing manifest file '../../build/semantic_mapper/semantic_mapper.egg-info/SOURCES.txt'
+reading manifest file '../../build/semantic_mapper/semantic_mapper.egg-info/SOURCES.txt'
+writing manifest file '../../build/semantic_mapper/semantic_mapper.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pacman/turtlebot3_ws/build/semantic_mapper/build
+creating /home/pacman/turtlebot3_ws/build/semantic_mapper/build/lib
+creating /home/pacman/turtlebot3_ws/build/semantic_mapper/build/lib/semantic_mapper
+copying semantic_mapper/semantic_database.py -> /home/pacman/turtlebot3_ws/build/semantic_mapper/build/lib/semantic_mapper
+copying semantic_mapper/__init__.py -> /home/pacman/turtlebot3_ws/build/semantic_mapper/build/lib/semantic_mapper
+running install
+running install_lib
+creating /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper
+copying /home/pacman/turtlebot3_ws/build/semantic_mapper/build/lib/semantic_mapper/semantic_database.py -> /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper
+copying /home/pacman/turtlebot3_ws/build/semantic_mapper/build/lib/semantic_mapper/__init__.py -> /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper
+byte-compiling /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper/semantic_database.py to semantic_database.cpython-310.pyc
+byte-compiling /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pacman/turtlebot3_ws/install/semantic_mapper/share/ament_index
+creating /home/pacman/turtlebot3_ws/install/semantic_mapper/share/ament_index/resource_index
+creating /home/pacman/turtlebot3_ws/install/semantic_mapper/share/ament_index/resource_index/packages
+copying resource/semantic_mapper -> /home/pacman/turtlebot3_ws/install/semantic_mapper/share/ament_index/resource_index/packages
+copying package.xml -> /home/pacman/turtlebot3_ws/install/semantic_mapper/share/semantic_mapper
+running install_egg_info
+Copying ../../build/semantic_mapper/semantic_mapper.egg-info to /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/python3.10/site-packages/semantic_mapper-0.0.0-py3.10.egg-info
+running install_scripts
+Installing semantic_mapper script to /home/pacman/turtlebot3_ws/install/semantic_mapper/lib/semantic_mapper
+writing list of installed files to '/home/pacman/turtlebot3_ws/build/semantic_mapper/install.log'

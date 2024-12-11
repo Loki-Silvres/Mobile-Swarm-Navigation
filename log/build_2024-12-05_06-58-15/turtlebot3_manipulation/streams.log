@@ -1,0 +1,42 @@
+[1.486s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation -- -j12 -l12
+[1.822s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation -- -j12 -l12
+[1.986s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation
+[2.073s] -- Install configuration: ""
+[2.073s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//launch
+[2.073s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//launch/model.launch.py
+[2.073s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/ladar.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/left_tire.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/base.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/turtlebot3_waffle_pi/right_tire.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link3.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link4.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link2.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/gripper_left_palm.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link5.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/link1.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//meshes/open_manipulator_x/gripper_right_palm.stl
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//rviz
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//rviz/model.rviz
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf/turtlebot3_manipulation.urdf.xacro
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf/open_manipulator_x.urdf.xacro
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation//urdf/turtlebot3_waffle_pi.urdf.xacro
+[2.074s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation
+[2.075s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation
+[2.075s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/ament_prefix_path.sh
+[2.075s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/ament_prefix_path.dsv
+[2.075s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/path.sh
+[2.075s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/environment/path.dsv
+[2.075s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.bash
+[2.094s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.sh
+[2.094s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.zsh
+[2.094s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/local_setup.dsv
+[2.094s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.dsv
+[2.094s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/ament_index/resource_index/packages/turtlebot3_manipulation
+[2.094s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/cmake/turtlebot3_manipulationConfig.cmake
+[2.094s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/cmake/turtlebot3_manipulationConfig-version.cmake
+[2.094s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_manipulation/share/turtlebot3_manipulation/package.xml
+[2.191s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_manipulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_manipulation

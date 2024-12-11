@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target explore[0m
+[100%] Built target explore
+-- Install configuration: ""
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore/
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore//frontier_search.h
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore//costmap_client.h
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore//costmap_tools.h
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/include/explore//explore.h
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/config
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/config/params.yaml
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/config/params_costmap.yaml
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/launch
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/launch/explore.launch.py
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/lib/explore/explore
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/ament_index/resource_index/package_run_dependencies/explore
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/ament_index/resource_index/parent_prefix_path/explore
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/path.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/environment/path.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.bash
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.sh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.zsh
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/local_setup.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/explore/share/explore/package.dsv
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/ament_index/resource_index/packages/explore
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/cmake/exploreConfig.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/cmake/exploreConfig-version.cmake
+-- Up-to-date: /home/pacman/turtlebot3_ws/install/explore/share/explore/package.xml

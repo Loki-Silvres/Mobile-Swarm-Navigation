@@ -1,0 +1,27 @@
+In file included from [01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:44[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:[m[K In function ‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstSharedPtr pad_map2(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstSharedPtr, unsigned int, unsigned int)[m[K’:
+[01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:122:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  122 |   for (int i=0;  [01;35m[Ki < padded_map->info.width * bottom0_height_[m[K; i++)
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:129:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst _height_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  129 |   for (int item_counter=0; [01;35m[Kitem_counter < map->info.height[m[K; item_counter++)
+      |                            [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:135:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  135 |     for (int q=0; [01;35m[Kq < bottom0_width_[m[K; q++)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:142:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst _width_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  142 |     for (int a = 0; [01;35m[Ka < map->info.width[m[K; a++)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:153:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  153 |     for (int u=0; [01;35m[Ku < (padded_map->info.width - map->info.width - bottom0_width_)[m[K; u++)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:164:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  164 |   for (int z=0;  [01;35m[Kz < ((height - map->info.height - bottom0_height_) * padded_map->info.width)[m[K; z++)
+      |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:[m[K In member function ‘[01m[Kvoid map_merge::MapMerge::mapMerging()[m[K’:
+[01m[K/home/pacman/turtlebot3_ws/src/map_merge/src/map_merge.cpp:365:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  365 |       int [01;35m[Ki[m[K = 0;
+      |           [01;35m[K^[m[K

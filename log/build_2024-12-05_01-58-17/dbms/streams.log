@@ -1,0 +1,20 @@
+[0.972s] Invoking command in '/home/pacman/turtlebot3_ws/src/dbms': PYTHONPATH=/home/pacman/turtlebot3_ws/build/dbms/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dbms build --build-base /home/pacman/turtlebot3_ws/build/dbms/build install --record /home/pacman/turtlebot3_ws/build/dbms/install.log --single-version-externally-managed install_data
+[1.128s] running egg_info
+[1.129s] writing ../../build/dbms/dbms.egg-info/PKG-INFO
+[1.129s] writing dependency_links to ../../build/dbms/dbms.egg-info/dependency_links.txt
+[1.129s] writing entry points to ../../build/dbms/dbms.egg-info/entry_points.txt
+[1.129s] writing requirements to ../../build/dbms/dbms.egg-info/requires.txt
+[1.129s] writing top-level names to ../../build/dbms/dbms.egg-info/top_level.txt
+[1.131s] reading manifest file '../../build/dbms/dbms.egg-info/SOURCES.txt'
+[1.131s] writing manifest file '../../build/dbms/dbms.egg-info/SOURCES.txt'
+[1.131s] running build
+[1.131s] running build_py
+[1.131s] running install
+[1.132s] running install_lib
+[1.133s] running install_data
+[1.133s] running install_egg_info
+[1.134s] removing '/home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms-0.0.0-py3.10.egg-info' (and everything under it)
+[1.134s] Copying ../../build/dbms/dbms.egg-info to /home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms-0.0.0-py3.10.egg-info
+[1.134s] running install_scripts
+[1.150s] writing list of installed files to '/home/pacman/turtlebot3_ws/build/dbms/install.log'
+[1.213s] Invoked command in '/home/pacman/turtlebot3_ws/src/dbms' returned '0': PYTHONPATH=/home/pacman/turtlebot3_ws/build/dbms/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dbms build --build-base /home/pacman/turtlebot3_ws/build/dbms/build install --record /home/pacman/turtlebot3_ws/build/dbms/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+[0.128s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[0.873s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.245s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_cartographer
+[1.271s] -- Install configuration: ""
+[1.273s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.274s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.277s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.277s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.277s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.277s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.277s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.277s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.277s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.277s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.277s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.277s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.570s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_cartographer

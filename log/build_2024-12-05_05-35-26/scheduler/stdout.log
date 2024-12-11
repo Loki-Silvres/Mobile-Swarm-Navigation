@@ -1,0 +1,13 @@
+running egg_info
+writing ../../build/scheduler/scheduler.egg-info/PKG-INFO
+writing dependency_links to ../../build/scheduler/scheduler.egg-info/dependency_links.txt
+writing entry points to ../../build/scheduler/scheduler.egg-info/entry_points.txt
+writing requirements to ../../build/scheduler/scheduler.egg-info/requires.txt
+writing top-level names to ../../build/scheduler/scheduler.egg-info/top_level.txt
+reading manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+writing manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data

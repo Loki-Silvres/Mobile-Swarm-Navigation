@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/dbms/dbms.egg-info
+writing ../../build/dbms/dbms.egg-info/PKG-INFO
+writing dependency_links to ../../build/dbms/dbms.egg-info/dependency_links.txt
+writing entry points to ../../build/dbms/dbms.egg-info/entry_points.txt
+writing requirements to ../../build/dbms/dbms.egg-info/requires.txt
+writing top-level names to ../../build/dbms/dbms.egg-info/top_level.txt
+writing manifest file '../../build/dbms/dbms.egg-info/SOURCES.txt'
+reading manifest file '../../build/dbms/dbms.egg-info/SOURCES.txt'
+writing manifest file '../../build/dbms/dbms.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pacman/turtlebot3_ws/build/dbms/build
+creating /home/pacman/turtlebot3_ws/build/dbms/build/lib
+creating /home/pacman/turtlebot3_ws/build/dbms/build/lib/dbms
+copying dbms/__init__.py -> /home/pacman/turtlebot3_ws/build/dbms/build/lib/dbms
+copying dbms/dbms_processor.py -> /home/pacman/turtlebot3_ws/build/dbms/build/lib/dbms
+copying dbms/dbms1.py -> /home/pacman/turtlebot3_ws/build/dbms/build/lib/dbms
+running install
+running install_lib
+creating /home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms
+copying /home/pacman/turtlebot3_ws/build/dbms/build/lib/dbms/__init__.py -> /home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms
+copying /home/pacman/turtlebot3_ws/build/dbms/build/lib/dbms/dbms_processor.py -> /home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms
+copying /home/pacman/turtlebot3_ws/build/dbms/build/lib/dbms/dbms1.py -> /home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms
+byte-compiling /home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms/dbms_processor.py to dbms_processor.cpython-310.pyc
+byte-compiling /home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms/dbms1.py to dbms1.cpython-310.pyc
+running install_data
+creating /home/pacman/turtlebot3_ws/install/dbms/share/ament_index
+creating /home/pacman/turtlebot3_ws/install/dbms/share/ament_index/resource_index
+creating /home/pacman/turtlebot3_ws/install/dbms/share/ament_index/resource_index/packages
+copying resource/dbms -> /home/pacman/turtlebot3_ws/install/dbms/share/ament_index/resource_index/packages
+copying package.xml -> /home/pacman/turtlebot3_ws/install/dbms/share/dbms
+running install_egg_info
+Copying ../../build/dbms/dbms.egg-info to /home/pacman/turtlebot3_ws/install/dbms/lib/python3.10/site-packages/dbms-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/pacman/turtlebot3_ws/build/dbms/install.log'

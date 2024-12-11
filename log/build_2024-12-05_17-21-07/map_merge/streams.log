@@ -1,0 +1,54 @@
+[0.923s] Invoking command in '/home/pacman/turtlebot3_ws/build/map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/map_merge -- -j12 -l12
+[1.119s] [ 66%] Built target combine_grids
+[1.230s] [100%] Built target map_merge
+[1.540s] Invoked command in '/home/pacman/turtlebot3_ws/build/map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/map_merge -- -j12 -l12
+[2.325s] Invoking command in '/home/pacman/turtlebot3_ws/build/map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/map_merge
+[2.448s] -- Install configuration: ""
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/include/map_merge/
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/include/map_merge//ros1_names.hpp
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/include/map_merge//map_merge.h
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/map_merge.launch
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/map_merge.rviz
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/from_map_server.launch.py
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/worlds
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/worlds/world_only.model
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/config
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/config/nav2_multirobot_params_1.yaml
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/config/nav2_multirobot_params_2.yaml
+[2.448s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/multi_tb3_simulation_launch.py
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/slam_toolbox.py
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/bringup_launch.py
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/tb3_simulation/tb3_simulation_launch.py
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/map_merge.launch.py
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/from_map_server.launch
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/experiments
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/experiments/3-robots.ttt.launch
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/experiments/demo-scene-orientation-exp.ttt.launch
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/launch/experiments/demo-scene-1.ttt.launch
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/config
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/config/params.yaml
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/config/params_orig.yaml
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/lib/libcombine_grids.a
+[2.449s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/lib/map_merge/map_merge
+[2.450s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/library_path.sh
+[2.450s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/library_path.dsv
+[2.450s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/ament_index/resource_index/package_run_dependencies/map_merge
+[2.450s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/ament_index/resource_index/parent_prefix_path/map_merge
+[2.475s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/ament_prefix_path.sh
+[2.475s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/ament_prefix_path.dsv
+[2.475s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/path.sh
+[2.475s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/environment/path.dsv
+[2.475s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/local_setup.bash
+[2.475s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/local_setup.sh
+[2.476s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/local_setup.zsh
+[2.476s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/local_setup.dsv
+[2.476s] -- Installing: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/package.dsv
+[2.476s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/ament_index/resource_index/packages/map_merge
+[2.476s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.500s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/cmake/ament_cmake_export_libraries-extras.cmake
+[2.500s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/cmake/map_mergeConfig.cmake
+[2.500s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/cmake/map_mergeConfig-version.cmake
+[2.500s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/map_merge/share/map_merge/package.xml
+[2.612s] Invoked command in '/home/pacman/turtlebot3_ws/build/map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/map_merge

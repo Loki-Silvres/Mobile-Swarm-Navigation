@@ -1,0 +1,24 @@
+[0.737s] Invoking command in '/home/pacman/turtlebot3_ws/src/interpreter': PYTHONPATH=/home/pacman/turtlebot3_ws/build/interpreter/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/interpreter build --build-base /home/pacman/turtlebot3_ws/build/interpreter/build install --record /home/pacman/turtlebot3_ws/build/interpreter/install.log --single-version-externally-managed install_data
+[0.926s] running egg_info
+[0.926s] writing ../../build/interpreter/interpreter.egg-info/PKG-INFO
+[0.927s] writing dependency_links to ../../build/interpreter/interpreter.egg-info/dependency_links.txt
+[0.927s] writing entry points to ../../build/interpreter/interpreter.egg-info/entry_points.txt
+[0.927s] writing requirements to ../../build/interpreter/interpreter.egg-info/requires.txt
+[0.927s] writing top-level names to ../../build/interpreter/interpreter.egg-info/top_level.txt
+[0.928s] reading manifest file '../../build/interpreter/interpreter.egg-info/SOURCES.txt'
+[0.928s] writing manifest file '../../build/interpreter/interpreter.egg-info/SOURCES.txt'
+[0.929s] running build
+[0.929s] running build_py
+[0.929s] copying interpreter/interpreter.py -> /home/pacman/turtlebot3_ws/build/interpreter/build/lib/interpreter
+[0.929s] running install
+[0.929s] running install_lib
+[0.930s] copying /home/pacman/turtlebot3_ws/build/interpreter/build/lib/interpreter/interpreter.py -> /home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter
+[0.931s] byte-compiling /home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter/interpreter.py to interpreter.cpython-310.pyc
+[0.932s] running install_data
+[0.932s] running install_egg_info
+[0.934s] removing '/home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter-0.0.0-py3.10.egg-info' (and everything under it)
+[0.934s] Copying ../../build/interpreter/interpreter.egg-info to /home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages/interpreter-0.0.0-py3.10.egg-info
+[0.935s] running install_scripts
+[0.953s] Installing interpreter script to /home/pacman/turtlebot3_ws/install/interpreter/lib/interpreter
+[0.953s] writing list of installed files to '/home/pacman/turtlebot3_ws/build/interpreter/install.log'
+[0.971s] Invoked command in '/home/pacman/turtlebot3_ws/src/interpreter' returned '0': PYTHONPATH=/home/pacman/turtlebot3_ws/build/interpreter/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/interpreter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/interpreter build --build-base /home/pacman/turtlebot3_ws/build/interpreter/build install --record /home/pacman/turtlebot3_ws/build/interpreter/install.log --single-version-externally-managed install_data

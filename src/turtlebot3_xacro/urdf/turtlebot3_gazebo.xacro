@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<robot name="turtlebot3_gazebo" xmlns:xacro="http://ros.org/wiki/xacro">
+ 
+<!-- Arguments common to all turtlebots -->
+ <xacro:arg name="prefix"    default=""/>
+ <xacro:arg name="cmd_vel_topic"    default="cmd_vel"/>
+ <xacro:arg name="odom_topic"    default="odom"/>
+ <xacro:arg name="publish_odom"    default="false"/>
+ 
+<gazebo reference="$(arg prefix)base_link">
+  <material>Gazebo/DarkGrey</material>
+</gazebo>
+
+<gazebo reference="$(arg prefix)wheel_left_link">
+  <material>Gazebo/FlatBlack</material>
+</gazebo>
+
+<gazebo reference="$(arg prefix)wheel_right_link">
+  <material>Gazebo/FlatBlack</material>
+</gazebo>
+
+<gazebo reference="$(arg prefix)caster_back_right_link">
+  <material>Gazebo/FlatBlack</material>
+</gazebo>
+
+<gazebo reference="$(arg prefix)caster_back_left_link">
+  <material>Gazebo/FlatBlack</material>
+</gazebo>
+
+<gazebo reference="$(arg prefix)april_marker_1"/>
+<gazebo reference="$(arg prefix)april_marker_2"/>
+<gazebo reference="$(arg prefix)april_marker_3"/>
+<gazebo reference="$(arg prefix)april_marker_4"/>
+
+  <gazebo reference="$(arg prefix)imu_link">
+    <sensor name="tb3_imu" type="imu">
+        <always_on>true</always_on>
+        <update_rate>200</update_rate>
+        <imu>
+          <angular_velocity>
+            <x>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </z>
+          </angular_velocity>
+          <linear_acceleration>
+            <x>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </z>
+          </linear_acceleration>
+        </imu>
+        <plugin name="turtlebot3_imu" filename="libgazebo_ros_imu_sensor.so">
+          <ros>
+            <!-- <namespace>/tb3</namespace> -->
+            <!-- <remapping>~/out:=$(arg prefix)imu</remapping> -->
+            <remapping>~/out:=imu</remapping>
+            
+          </ros>
+        </plugin>
+      </sensor>
+      <material>Gazebo/Grey</material>
+  </gazebo>
+
+ <gazebo>
+
+    <plugin name="turtlebot3_diff_drive" filename="libgazebo_ros_diff_drive.so">
+
+      <ros>
+        <!-- <namespace>/tb3</namespace> -->
+      </ros>
+
+      <update_rate>30</update_rate>
+
+      <!-- wheels -->
+      <left_joint>wheel_left_joint</left_joint>
+      <right_joint>wheel_right_joint</right_joint>
+
+      <!-- kinematics -->
+      <wheel_separation>0.287</wheel_separation>
+      <wheel_diameter>0.066</wheel_diameter>
+
+      <!-- limits -->
+      <max_wheel_torque>20</max_wheel_torque>
+      <max_wheel_acceleration>1.0</max_wheel_acceleration>
+
+      <command_topic>$(arg prefix)cmd_vel</command_topic>
+
+      <!-- output -->
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>false</publish_wheel_tf>
+
+      <odometry_topic>$(arg prefix)odom</odometry_topic>
+      <odometry_frame>$(arg prefix)odom</odometry_frame>
+      <robot_base_frame>$(arg prefix)base_footprint</robot_base_frame>
+
+    </plugin>
+</gazebo>
+
+  <gazebo reference="$(arg prefix)base_scan">
+    <material>Gazebo/FlatBlack</material>
+<sensor name="hls_lfcd_lds" type="ray">
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <pose>-0.064 0 0.121 0 0 0</pose>
+        <update_rate>5</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>360</samples>
+              <resolution>1.000000</resolution>
+              <min_angle>0.000000</min_angle>
+              <max_angle>6.280000</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.20000</min>
+            <max>10.0</max>
+            <resolution>0.015000</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.01</stddev>
+          </noise>
+        </ray>
+        <plugin name="turtlebot3_laserscan" filename="libgazebo_ros_ray_sensor.so">
+          <ros>
+            <!-- <namespace>/tb3</namespace> -->
+            <!-- <remapping>~/out:=$(arg prefix)scan</remapping> -->
+            <remapping>~/out:=scan</remapping>
+          </ros>
+          <output_type>sensor_msgs/LaserScan</output_type>
+          <frame_name>$(arg prefix)base_scan</frame_name>
+        </plugin>
+      </sensor>
+  </gazebo>
+
+<!--link : https://www.raspberrypi.org/documentation/hardware/camera/-->
+  <xacro:if value="$(arg use_cam)">
+    <gazebo reference="$(arg prefix)camera_rgb_frame">
+        <sensor type="depth" name="camera1">
+        <update_rate>30.0</update_rate>
+        <visualize>true</visualize>
+        <camera name="head">
+            <horizontal_fov>1.3962634</horizontal_fov>
+            <image>
+            <width>800</width>
+            <height>800</height>
+            <format>R8G8B8</format>
+            </image>
+            <clip>
+            <near>0.02</near>
+            <far>300</far>
+            </clip>
+            <noise>
+            <type>gaussian</type>
+            <!-- Noise is sampled independently per pixel on each frame.
+                That pixel's noise value is added to each of its color
+                channels, which at that point lie in the range [0,1]. -->
+            <mean>0.0</mean>
+            <stddev>0.007</stddev>
+            </noise>
+        </camera>
+        <plugin name="depth_camera_controller" filename="libgazebo_ros_camera.so">
+            <alwaysOn>true</alwaysOn>
+            <updateRate>0.0</updateRate>
+            <cameraName>rrbot/camera1</cameraName>
+            <depthImageTopicName>image_raw</depthImageTopicName>
+            <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+            <pointCloudTopicName>points</pointCloudTopicName>
+            <frame_name>$(arg prefix)camera_rgb_depth_frame</frame_name>
+            <hackBaseline>0.07</hackBaseline>
+            <distortionK1>0.0</distortionK1>
+            <distortionK2>0.0</distortionK2>
+            <distortionK3>0.0</distortionK3>
+            <distortionT1>0.0</distortionT1>
+            <distortionT2>0.0</distortionT2>
+        </plugin>
+        </sensor>
+  </gazebo>
+  
+  
+  <gazebo reference="$(arg prefix)camera_rgb_frame">
+        <sensor type="camera" name="camera2">
+      <update_rate>30.0</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise is sampled independently per pixel on each frame.
+               That pixel's noise value is added to each of its color
+               channels, which at that point lie in the range [0,1]. -->
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>0.0</updateRate>
+        <cameraName>rrbot/camera2</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>$(arg prefix)camera_rgb_frame</frameName>
+        <hackBaseline>0.07</hackBaseline>
+        <distortionK1>0.0</distortionK1>
+        <distortionK2>0.0</distortionK2>
+        <distortionK3>0.0</distortionK3>
+        <distortionT1>0.0</distortionT1>
+        <distortionT2>0.0</distortionT2>
+      </plugin>
+    </sensor>
+
+  </gazebo>
+</xacro:if>
+  
+  
+  
+   <gazebo>
+    <plugin name="turtlebot3_joint_state" filename="libgazebo_ros_joint_state_publisher.so">
+      <ros>
+        <!-- <namespace>/tb3</namespace> -->
+        <remapping>~/out:=$(arg prefix)joint_states</remapping>
+      </ros>
+      <update_rate>30</update_rate>
+      <joint_name>wheel_left_joint</joint_name>
+      <joint_name>wheel_right_joint</joint_name>
+    </plugin>    
+
+    </gazebo>
+    
+</robot>

@@ -1,0 +1,40 @@
+[0.130s] Invoking command in '/home/pacman/turtlebot3_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/explore_lite -- -j12 -l12
+[0.387s] [35m[1mConsolidate compiler generated dependencies of target explore[0m
+[0.387s] [ 20%] Built target gtest_main
+[0.387s] [ 40%] Built target gtest
+[0.387s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[0.387s] [ 70%] Built target test_explore
+[10.112s] [ 80%] [32m[1mLinking CXX executable explore[0m
+[11.815s] [100%] Built target explore
+[11.825s] Invoked command in '/home/pacman/turtlebot3_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/explore_lite -- -j12 -l12
+[11.855s] Invoking command in '/home/pacman/turtlebot3_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/explore_lite
+[11.862s] -- Install configuration: ""
+[11.862s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore/
+[11.862s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore//frontier_search.h
+[11.862s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore//costmap_client.h
+[11.863s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore//costmap_tools.h
+[11.863s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/include/explore//explore.h
+[11.863s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/config
+[11.863s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[11.863s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[11.863s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/launch
+[11.863s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[11.863s] -- Installing: /home/pacman/turtlebot3_ws/install/explore_lite/lib/explore_lite/explore
+[11.867s] -- Set runtime path of "/home/pacman/turtlebot3_ws/install/explore_lite/lib/explore_lite/explore" to ""
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[11.868s] -- Installing: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/package.dsv
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[11.868s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/explore_lite/share/explore_lite/package.xml
+[11.869s] Invoked command in '/home/pacman/turtlebot3_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/semantic_mapper:/home/pacman/turtlebot3_ws/install/scheduler:/home/pacman/turtlebot3_ws/install/interpreter:/home/pacman/turtlebot3_ws/install/frame_changer:/home/pacman/turtlebot3_ws/install/dbms:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/explore_lite

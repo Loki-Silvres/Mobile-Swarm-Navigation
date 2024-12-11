@@ -1,0 +1,3 @@
+[console_scripts]
+frame_changer = frame_changer.frame_change:main
+

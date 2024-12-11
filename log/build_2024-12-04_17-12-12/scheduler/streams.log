@@ -1,0 +1,22 @@
+[0.344s] Invoking command in '/home/pacman/turtlebot3_ws/build/scheduler': PYTHONPATH=/home/pacman/turtlebot3_ws/build/scheduler/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pacman/turtlebot3_ws/build/scheduler/build --no-deps symlink_data --force
+[0.473s] running develop
+[0.473s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.473s]   warnings.warn(
+[0.548s] running egg_info
+[0.548s] writing scheduler.egg-info/PKG-INFO
+[0.548s] writing dependency_links to scheduler.egg-info/dependency_links.txt
+[0.548s] writing entry points to scheduler.egg-info/entry_points.txt
+[0.548s] writing requirements to scheduler.egg-info/requires.txt
+[0.548s] writing top-level names to scheduler.egg-info/top_level.txt
+[0.549s] reading manifest file 'scheduler.egg-info/SOURCES.txt'
+[0.550s] writing manifest file 'scheduler.egg-info/SOURCES.txt'
+[0.551s] running build_ext
+[0.551s] Creating /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler.egg-link (link to .)
+[0.551s] Installing scheduler_2 script to /home/pacman/turtlebot3_ws/install/scheduler/lib/scheduler
+[0.551s] Installing sub_scheduler script to /home/pacman/turtlebot3_ws/install/scheduler/lib/scheduler
+[0.551s] 
+[0.551s] Installed /home/pacman/turtlebot3_ws/build/scheduler
+[0.551s] running symlink_data
+[0.552s] symbolically linking /home/pacman/turtlebot3_ws/build/scheduler/resource/scheduler -> /home/pacman/turtlebot3_ws/install/scheduler/share/ament_index/resource_index/packages
+[0.552s] symbolically linking /home/pacman/turtlebot3_ws/build/scheduler/package.xml -> /home/pacman/turtlebot3_ws/install/scheduler/share/scheduler
+[0.571s] Invoked command in '/home/pacman/turtlebot3_ws/build/scheduler' returned '0': PYTHONPATH=/home/pacman/turtlebot3_ws/build/scheduler/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pacman/turtlebot3_ws/build/scheduler/build --no-deps symlink_data --force

@@ -1,0 +1,10 @@
+bot_0:
+  name: bot_0
+  x_pose: '0.0'
+  y_pose: '0.0'
+  z_pose: '0.05'
+bot_1:
+  name: bot_1
+  x_pose: '0.0'
+  y_pose: '0.5'
+  z_pose: '0.05'

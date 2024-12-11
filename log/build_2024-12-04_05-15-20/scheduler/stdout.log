@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/scheduler/scheduler.egg-info/PKG-INFO
+writing dependency_links to ../../build/scheduler/scheduler.egg-info/dependency_links.txt
+writing entry points to ../../build/scheduler/scheduler.egg-info/entry_points.txt
+writing requirements to ../../build/scheduler/scheduler.egg-info/requires.txt
+writing top-level names to ../../build/scheduler/scheduler.egg-info/top_level.txt
+reading manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+writing manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+running build
+running build_py
+copying scheduler/scheduler_2.py -> /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler
+running install
+running install_lib
+copying /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler/scheduler_2.py -> /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+byte-compiling /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler/scheduler_2.py to scheduler_2.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/scheduler/scheduler.egg-info to /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler-0.0.0-py3.10.egg-info
+running install_scripts
+Installing scheduler_2 script to /home/pacman/turtlebot3_ws/install/scheduler/lib/scheduler
+writing list of installed files to '/home/pacman/turtlebot3_ws/build/scheduler/install.log'

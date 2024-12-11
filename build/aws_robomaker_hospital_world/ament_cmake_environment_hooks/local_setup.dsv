@@ -1,0 +1,2 @@
+source;share/aws_robomaker_hospital_world/environment/ament_prefix_path.sh
+source;share/aws_robomaker_hospital_world/environment/path.sh

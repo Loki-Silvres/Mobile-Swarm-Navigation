@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcombine_grids.a CMakeFiles/combine_grids.dir/src/combine_grids/grid_compositor.cpp.o CMakeFiles/combine_grids.dir/src/combine_grids/grid_warper.cpp.o CMakeFiles/combine_grids.dir/src/combine_grids/merging_pipeline.cpp.o
+/usr/bin/ranlib libcombine_grids.a

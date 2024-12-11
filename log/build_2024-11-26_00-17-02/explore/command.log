@@ -1,0 +1,6 @@
+Invoking command in '/home/pacman/turtlebot3_ws/build/explore': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/explore -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/explore
+Invoked command in '/home/pacman/turtlebot3_ws/build/explore' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pacman/turtlebot3_ws/src/explore -DCMAKE_INSTALL_PREFIX=/home/pacman/turtlebot3_ws/install/explore
+Invoking command in '/home/pacman/turtlebot3_ws/build/explore': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/explore -- -j12 -l12
+Invoked command in '/home/pacman/turtlebot3_ws/build/explore' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/explore -- -j12 -l12
+Invoking command in '/home/pacman/turtlebot3_ws/build/explore': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/explore
+Invoked command in '/home/pacman/turtlebot3_ws/build/explore' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/explore

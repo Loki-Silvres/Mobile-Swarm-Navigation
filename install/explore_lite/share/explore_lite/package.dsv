@@ -1,0 +1,8 @@
+source;share/explore_lite/hook/cmake_prefix_path.ps1
+source;share/explore_lite/hook/cmake_prefix_path.dsv
+source;share/explore_lite/hook/cmake_prefix_path.sh
+source;share/explore_lite/local_setup.bash
+source;share/explore_lite/local_setup.dsv
+source;share/explore_lite/local_setup.ps1
+source;share/explore_lite/local_setup.sh
+source;share/explore_lite/local_setup.zsh

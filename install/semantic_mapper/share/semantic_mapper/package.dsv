@@ -1,0 +1,6 @@
+source;share/semantic_mapper/hook/pythonpath.ps1
+source;share/semantic_mapper/hook/pythonpath.dsv
+source;share/semantic_mapper/hook/pythonpath.sh
+source;share/semantic_mapper/hook/ament_prefix_path.ps1
+source;share/semantic_mapper/hook/ament_prefix_path.dsv
+source;share/semantic_mapper/hook/ament_prefix_path.sh

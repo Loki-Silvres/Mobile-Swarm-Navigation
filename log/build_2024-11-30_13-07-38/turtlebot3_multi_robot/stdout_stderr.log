@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pacman/turtlebot3_ws/build/turtlebot3_multi_robot
+-- Install configuration: ""
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/navigation_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/localization_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/rviz_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/bringup_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/nav2_bringup/slam_launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/gazebo_multi_world.launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//launch/gazebo_multi_nav2_world.launch.py
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/meshes/waffle_base.dae
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/meshes/lds.dae
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/meshes/tire.dae
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/meshes/r200.dae
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/model_nocamera.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_waffle/model-1_4.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/model.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/model.config
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/meshes
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/meshes/burger_base.dae
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/meshes/lds.dae
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/meshes/tire.dae
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//models/turtlebot3_burger/model-1_4.sdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//rviz
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//rviz/multi_nav2_default_view.rviz
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//rviz/nav2_default_view.rviz
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//urdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//urdf/turtlebot3_burger.urdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//urdf/turtlebot3_waffle.urdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//urdf/common_properties.urdf
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//worlds
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//worlds/multi_empty_world.world
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//worlds/multi_robot_world.world
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//params
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot//params/nav2_params.yaml
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/multi_robot.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/ament_index/resource_index/package_run_dependencies/turtlebot3_multi_robot
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/ament_index/resource_index/parent_prefix_path/turtlebot3_multi_robot
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/ament_prefix_path.sh
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/path.sh
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/environment/path.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/local_setup.bash
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/local_setup.sh
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/local_setup.zsh
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/local_setup.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/package.dsv
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/ament_index/resource_index/packages/turtlebot3_multi_robot
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/cmake/turtlebot3_multi_robotConfig.cmake
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/cmake/turtlebot3_multi_robotConfig-version.cmake
+-- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_multi_robot/share/turtlebot3_multi_robot/package.xml

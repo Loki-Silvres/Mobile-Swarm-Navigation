@@ -1,0 +1,35 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running develop
+Removing /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler.egg-link (link to .)
+running egg_info
+writing ../../build/scheduler/scheduler.egg-info/PKG-INFO
+writing dependency_links to ../../build/scheduler/scheduler.egg-info/dependency_links.txt
+writing entry points to ../../build/scheduler/scheduler.egg-info/entry_points.txt
+writing requirements to ../../build/scheduler/scheduler.egg-info/requires.txt
+writing top-level names to ../../build/scheduler/scheduler.egg-info/top_level.txt
+reading manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+writing manifest file '../../build/scheduler/scheduler.egg-info/SOURCES.txt'
+running build
+running build_py
+copying scheduler/sub_scheduler.py -> /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler
+running install
+running install_lib
+creating /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+copying /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler/sub_scheduler.py -> /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+copying /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler/scheduler_2.py -> /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+copying /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler/scheduler_1.py -> /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+copying /home/pacman/turtlebot3_ws/build/scheduler/build/lib/scheduler/__init__.py -> /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler
+byte-compiling /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler/sub_scheduler.py to sub_scheduler.cpython-310.pyc
+byte-compiling /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler/scheduler_2.py to scheduler_2.cpython-310.pyc
+byte-compiling /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler/scheduler_1.py to scheduler_1.cpython-310.pyc
+byte-compiling /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/scheduler -> /home/pacman/turtlebot3_ws/install/scheduler/share/ament_index/resource_index/packages
+copying package.xml -> /home/pacman/turtlebot3_ws/install/scheduler/share/scheduler
+running install_egg_info
+Copying ../../build/scheduler/scheduler.egg-info to /home/pacman/turtlebot3_ws/install/scheduler/lib/python3.10/site-packages/scheduler-0.0.0-py3.10.egg-info
+running install_scripts
+Installing scheduler_2 script to /home/pacman/turtlebot3_ws/install/scheduler/lib/scheduler
+Installing sub_scheduler script to /home/pacman/turtlebot3_ws/install/scheduler/lib/scheduler
+writing list of installed files to '/home/pacman/turtlebot3_ws/build/scheduler/install.log'

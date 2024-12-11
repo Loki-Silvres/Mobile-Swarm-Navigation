@@ -1,0 +1,41 @@
+[0.036s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/frame_changer:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_description -- -j12 -l12
+[0.419s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/frame_changer:/opt/ros/humble /usr/bin/cmake --build /home/pacman/turtlebot3_ws/build/turtlebot3_description -- -j12 -l12
+[0.451s] Invoking command in '/home/pacman/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/frame_changer:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_description
+[0.467s] -- Install configuration: ""
+[0.467s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes
+[0.467s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+[0.467s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[0.467s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/rviz
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf
+[0.468s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[0.469s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[0.469s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[0.469s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[0.469s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[0.469s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[0.469s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[0.469s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[0.469s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[0.470s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[0.471s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[0.472s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[0.472s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[0.472s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[0.472s] -- Installing: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[0.472s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[0.473s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[0.473s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[0.473s] -- Up-to-date: /home/pacman/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[0.543s] Invoked command in '/home/pacman/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/turtlebot3_ws/install/turtlebot3_teleop:/home/pacman/turtlebot3_ws/install/turtlebot3_example:/home/pacman/turtlebot3_ws/install/frame_changer:/opt/ros/humble /usr/bin/cmake --install /home/pacman/turtlebot3_ws/build/turtlebot3_description

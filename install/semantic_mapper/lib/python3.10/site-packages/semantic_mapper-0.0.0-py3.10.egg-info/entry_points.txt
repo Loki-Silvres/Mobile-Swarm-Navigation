@@ -1,0 +1,3 @@
+[console_scripts]
+semantic_mapper = semantic_mapper.semantic_database:main
+

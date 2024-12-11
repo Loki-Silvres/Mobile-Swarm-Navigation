@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[100%] Built target turtlebot3_fake_node

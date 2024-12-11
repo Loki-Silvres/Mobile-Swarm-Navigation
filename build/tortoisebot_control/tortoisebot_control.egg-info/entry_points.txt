@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_twist_keyboard = tortoisebot_control.teleop_twist_keyboard:main
+

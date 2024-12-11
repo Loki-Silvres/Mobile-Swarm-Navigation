@@ -1,0 +1,60 @@
+[0.223s] Invoking command in '/home/pacman/tortoisebot_rb/build/multiple_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/pacman/tortoisebot_rb/tortoisebot/multiple_spawner -DCMAKE_INSTALL_PREFIX=/home/pacman/tortoisebot_rb/install/multiple_spawner
+[0.516s] -- The C compiler identification is GNU 11.4.0
+[0.516s] -- The CXX compiler identification is GNU 11.4.0
+[0.516s] -- Detecting C compiler ABI info
+[0.516s] -- Detecting C compiler ABI info - done
+[0.517s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.517s] -- Detecting C compile features
+[0.517s] -- Detecting C compile features - done
+[0.517s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.517s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.517s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.517s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.633s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.756s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.844s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.850s] -- Added test 'lint_cmake' to check CMake code style
+[0.850s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.851s] -- Added test 'xmllint' to check XML markup files
+[0.852s] -- Configuring done
+[0.856s] -- Generating done
+[0.856s] -- Build files have been written to: /home/pacman/tortoisebot_rb/build/multiple_spawner
+[0.859s] Invoked command in '/home/pacman/tortoisebot_rb/build/multiple_spawner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/pacman/tortoisebot_rb/tortoisebot/multiple_spawner -DCMAKE_INSTALL_PREFIX=/home/pacman/tortoisebot_rb/install/multiple_spawner
+[0.867s] Invoking command in '/home/pacman/tortoisebot_rb/build/multiple_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/pacman/tortoisebot_rb/build/multiple_spawner -- -j12 -l12
+[1.157s] Invoked command in '/home/pacman/tortoisebot_rb/build/multiple_spawner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/pacman/tortoisebot_rb/build/multiple_spawner -- -j12 -l12
+[1.186s] Invoking command in '/home/pacman/tortoisebot_rb/build/multiple_spawner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/pacman/tortoisebot_rb/build/multiple_spawner
+[1.303s] -- Install configuration: ""
+[1.303s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch
+[1.303s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/__pycache__
+[1.303s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/__pycache__/gazebo_multi_nav2_world_orig.launch.cpython-310.pyc
+[1.303s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/nav2_bringup
+[1.303s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/nav2_bringup/__pycache__
+[1.303s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/nav2_bringup/__pycache__/navigation_launch.cpython-310.pyc
+[1.303s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/nav2_bringup/navigation_launch.py
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/nav2_bringup/localization_launch.py
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/nav2_bringup/rviz_launch.py
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/nav2_bringup/bringup_launch.py
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/nav2_bringup/slam_launch.py
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/spawn_bots.py
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//launch/gazebo_multi_nav2_world_orig.launch.py
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//params
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//params/robot_data.yaml
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner//params/nav2_params.yaml
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/ament_index/resource_index/package_run_dependencies/multiple_spawner
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/ament_index/resource_index/parent_prefix_path/multiple_spawner
+[1.304s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/environment/ament_prefix_path.sh
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/environment/ament_prefix_path.dsv
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/environment/path.sh
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/environment/path.dsv
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/local_setup.bash
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/local_setup.sh
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/local_setup.zsh
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/local_setup.dsv
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/package.dsv
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/ament_index/resource_index/packages/multiple_spawner
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/cmake/multiple_spawnerConfig.cmake
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/cmake/multiple_spawnerConfig-version.cmake
+[1.305s] -- Installing: /home/pacman/tortoisebot_rb/install/multiple_spawner/share/multiple_spawner/package.xml
+[1.321s] Invoked command in '/home/pacman/tortoisebot_rb/build/multiple_spawner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/pacman/tortoisebot_rb/build/multiple_spawner

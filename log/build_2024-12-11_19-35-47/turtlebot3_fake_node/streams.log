@@ -1,0 +1,38 @@
+[0.250s] Invoking command in '/home/pacman/tortoisebot_rb/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/pacman/tortoisebot_rb/install/turtlebot3_msgs:/home/pacman/tortoisebot_rb/install/turtlebot3_multi_robot:/home/pacman/tortoisebot_rb/install/turtlebot3_navigation2:/home/pacman/tortoisebot_rb/install/turtlebot3_description:/home/pacman/tortoisebot_rb/install/turtlebot3_cartographer:/home/pacman/tortoisebot_rb/install/tortoisebot_gazebo:/home/pacman/tortoisebot_rb/install/tortoisebot_firmware:/home/pacman/tortoisebot_rb/install/tortoisebot_description:/home/pacman/tortoisebot_rb/install/tortoisebot_bringup:/home/pacman/tortoisebot_rb/install/multiple_spawner:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/pacman/tortoisebot_rb/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/pacman/tortoisebot_rb/install/turtlebot3_fake_node
+[0.304s] -- The C compiler identification is GNU 11.4.0
+[0.362s] -- The CXX compiler identification is GNU 11.4.0
+[0.369s] -- Detecting C compiler ABI info
+[0.436s] -- Detecting C compiler ABI info - done
+[0.444s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.445s] -- Detecting C compile features - done
+[0.448s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.517s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.517s] -- Detecting CXX compile features
+[0.518s] -- Detecting CXX compile features - done
+[0.521s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.642s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.720s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.750s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.754s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.761s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.769s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.809s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.821s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.854s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.856s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.873s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.882s] -- Looking for pthread.h
+[0.930s] -- Looking for pthread.h - found
+[0.930s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.978s] -- Found Threads: TRUE  
+[1.008s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.020s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.029s] -- Found tf2_msgs: 0.25.8 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.058s] -- Found turtlebot3_msgs: 2.2.3 (/home/pacman/tortoisebot_rb/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.120s] -- Configuring done
+[1.128s] -- Generating done
+[1.129s] -- Build files have been written to: /home/pacman/tortoisebot_rb/build/turtlebot3_fake_node

@@ -1,0 +1,8 @@
+source;share/map_merge/hook/cmake_prefix_path.ps1
+source;share/map_merge/hook/cmake_prefix_path.dsv
+source;share/map_merge/hook/cmake_prefix_path.sh
+source;share/map_merge/local_setup.bash
+source;share/map_merge/local_setup.dsv
+source;share/map_merge/local_setup.ps1
+source;share/map_merge/local_setup.sh
+source;share/map_merge/local_setup.zsh

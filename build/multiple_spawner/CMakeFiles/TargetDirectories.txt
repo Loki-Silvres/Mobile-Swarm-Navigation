@@ -1,0 +1,9 @@
+/home/pacman/tortoisebot_rb/build/multiple_spawner/CMakeFiles/uninstall.dir
+/home/pacman/tortoisebot_rb/build/multiple_spawner/CMakeFiles/multiple_spawner_uninstall.dir
+/home/pacman/tortoisebot_rb/build/multiple_spawner/CMakeFiles/test.dir
+/home/pacman/tortoisebot_rb/build/multiple_spawner/CMakeFiles/edit_cache.dir
+/home/pacman/tortoisebot_rb/build/multiple_spawner/CMakeFiles/rebuild_cache.dir
+/home/pacman/tortoisebot_rb/build/multiple_spawner/CMakeFiles/list_install_components.dir
+/home/pacman/tortoisebot_rb/build/multiple_spawner/CMakeFiles/install.dir
+/home/pacman/tortoisebot_rb/build/multiple_spawner/CMakeFiles/install/local.dir
+/home/pacman/tortoisebot_rb/build/multiple_spawner/CMakeFiles/install/strip.dir

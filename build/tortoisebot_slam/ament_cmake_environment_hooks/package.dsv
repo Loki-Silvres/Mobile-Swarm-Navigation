@@ -1,0 +1,4 @@
+source;share/tortoisebot_slam/local_setup.bash
+source;share/tortoisebot_slam/local_setup.dsv
+source;share/tortoisebot_slam/local_setup.sh
+source;share/tortoisebot_slam/local_setup.zsh

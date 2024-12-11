@@ -1,0 +1,125 @@
+[0.030s] Invoking command in '/home/pacman/tortoisebot_rb/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/pacman/tortoisebot_rb/install/turtlebot3_gazebo
+[0.518s] -- The C compiler identification is GNU 11.4.0
+[0.518s] -- The CXX compiler identification is GNU 11.4.0
+[0.518s] -- Detecting C compiler ABI info
+[0.518s] -- Detecting C compiler ABI info - done
+[0.518s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.518s] -- Detecting C compile features
+[0.518s] -- Detecting C compile features - done
+[0.518s] -- Detecting CXX compiler ABI info
+[0.518s] -- Detecting CXX compiler ABI info - done
+[0.518s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.518s] -- Detecting CXX compile features
+[0.518s] -- Detecting CXX compile features - done
+[0.518s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.519s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.519s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.519s] -- Checking for module 'bullet>=2.82'
+[0.519s] --   Found bullet, version 3.05
+[0.520s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.520s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.520s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.520s]   problems in calling code that expects `find_package` result variables
+[0.520s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.521s] Call Stack (most recent call first):
+[0.521s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.521s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.521s]   CMakeLists.txt:23 (find_package)
+[0.521s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.521s] [0m
+[0.626s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.686s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.704s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.898s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.920s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.925s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.931s] -- Searching for dependencies of ignition-math6
+[0.934s] -- Looking for OGRE...
+[0.935s] -- OGRE_PREFIX_WATCH changed.
+[0.939s] -- Checking for module 'OGRE'
+[0.953s] --   Found OGRE, version 1.9.0
+[0.985s] -- Found Ogre Ghadamon (1.9.0)
+[0.997s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.009s] -- Looking for OGRE_Paging...
+[1.012s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.012s] -- Looking for OGRE_Terrain...
+[1.019s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.019s] -- Looking for OGRE_Property...
+[1.027s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.027s] -- Looking for OGRE_RTShaderSystem...
+[1.036s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.036s] -- Looking for OGRE_Volume...
+[1.045s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.045s] -- Looking for OGRE_Overlay...
+[1.054s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.222s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.225s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.225s] -- Searching for dependencies of ignition-transport8
+[1.242s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.250s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.254s] -- Checking for module 'libzmq >= 4'
+[1.268s] --   Found libzmq , version 4.3.4
+[1.307s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.314s] -- Checking for module 'uuid'
+[1.326s] --   Found uuid, version 2.37.2
+[1.356s] -- Found UUID: TRUE  
+[1.359s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.361s] -- Searching for dependencies of ignition-msgs5
+[1.373s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.377s] -- Checking for module 'tinyxml2'
+[1.389s] --   Found tinyxml2, version 9.0.0
+[1.419s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.422s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.422s] -- Searching for dependencies of ignition-common3
+[1.423s] -- Looking for dlfcn.h - found
+[1.424s] -- Looking for libdl - found
+[1.424s] -- Found DL: TRUE  
+[1.435s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.435s] -- Searching for <ignition-common3> component [graphics]
+[1.438s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.438s] -- Searching for dependencies of ignition-common3-graphics
+[1.438s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.443s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.443s] -- Searching for dependencies of ignition-fuel_tools4
+[1.502s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.510s] -- Checking for module 'jsoncpp'
+[1.520s] --   Found jsoncpp, version 1.9.5
+[1.547s] -- Found JSONCPP: TRUE  
+[1.554s] -- Checking for module 'libzip'
+[1.565s] --   Found libzip, version 1.7.3
+[1.591s] -- Found ZIP: TRUE  
+[1.592s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.592s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.592s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.596s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[1.598s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.623s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.626s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.632s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.694s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.713s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.760s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.763s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.790s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.802s] -- Found Threads: TRUE  
+[1.834s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.847s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.900s] -- Configuring done
+[1.917s] -- Generating done
+[1.919s] -- Build files have been written to: /home/pacman/tortoisebot_rb/build/turtlebot3_gazebo
+[1.928s] Invoked command in '/home/pacman/tortoisebot_rb/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake /home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/pacman/tortoisebot_rb/install/turtlebot3_gazebo
+[1.929s] Invoking command in '/home/pacman/tortoisebot_rb/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/pacman/tortoisebot_rb/build/turtlebot3_gazebo -- -j12 -l12
+[1.967s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[1.968s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[1.969s] [ 37%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[1.969s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[10.760s] [ 62%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[10.901s] [ 75%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[10.902s] [ 87%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[10.936s] [ 87%] Built target obstacle2
+[11.057s] [ 87%] Built target obstacles
+[11.069s] [ 87%] Built target obstacle1
+[11.774s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[12.125s] [100%] Built target turtlebot3_drive

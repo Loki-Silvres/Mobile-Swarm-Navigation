@@ -1,0 +1,35 @@
+[0.017s] Invoking command in '/home/pacman/tortoisebot_rb/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/pacman/tortoisebot_rb/install/turtlebot3_msgs:/home/pacman/tortoisebot_rb/install/turtlebot3_multi_robot:/home/pacman/tortoisebot_rb/install/turtlebot3_navigation2:/home/pacman/tortoisebot_rb/install/turtlebot3_description:/home/pacman/tortoisebot_rb/install/turtlebot3_cartographer:/home/pacman/tortoisebot_rb/install/tortoisebot_gazebo:/home/pacman/tortoisebot_rb/install/tortoisebot_firmware:/home/pacman/tortoisebot_rb/install/tortoisebot_description:/home/pacman/tortoisebot_rb/install/tortoisebot_bringup:/home/pacman/tortoisebot_rb/install/multiple_spawner:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/pacman/tortoisebot_rb/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/pacman/tortoisebot_rb/install/turtlebot3_node
+[0.256s] -- The C compiler identification is GNU 11.4.0
+[0.256s] -- The CXX compiler identification is GNU 11.4.0
+[0.257s] -- Detecting C compiler ABI info
+[0.257s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.257s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.425s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.530s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.530s]   By not providing "Finddynamixel_sdk.cmake" in CMAKE_MODULE_PATH this
+[0.530s]   project has asked CMake to find a package configuration file provided by
+[0.530s]   "dynamixel_sdk", but CMake did not find one.
+[0.530s] 
+[0.530s]   Could not find a package configuration file provided by "dynamixel_sdk"
+[0.530s]   with any of the following names:
+[0.530s] 
+[0.530s]     dynamixel_sdkConfig.cmake
+[0.530s]     dynamixel_sdk-config.cmake
+[0.530s] 
+[0.530s]   Add the installation prefix of "dynamixel_sdk" to CMAKE_PREFIX_PATH or set
+[0.530s]   "dynamixel_sdk_DIR" to a directory containing one of the above files.  If
+[0.530s]   "dynamixel_sdk" provides a separate development package or SDK, be sure it
+[0.531s]   has been installed.
+[0.531s] 
+[0.531s] [0m
+[0.531s] -- Configuring incomplete, errors occurred!
+[0.531s] See also "/home/pacman/tortoisebot_rb/build/turtlebot3_node/CMakeFiles/CMakeOutput.log".
+[0.534s] Invoked command in '/home/pacman/tortoisebot_rb/build/turtlebot3_node' returned '1': CMAKE_PREFIX_PATH=/home/pacman/tortoisebot_rb/install/turtlebot3_msgs:/home/pacman/tortoisebot_rb/install/turtlebot3_multi_robot:/home/pacman/tortoisebot_rb/install/turtlebot3_navigation2:/home/pacman/tortoisebot_rb/install/turtlebot3_description:/home/pacman/tortoisebot_rb/install/turtlebot3_cartographer:/home/pacman/tortoisebot_rb/install/tortoisebot_gazebo:/home/pacman/tortoisebot_rb/install/tortoisebot_firmware:/home/pacman/tortoisebot_rb/install/tortoisebot_description:/home/pacman/tortoisebot_rb/install/tortoisebot_bringup:/home/pacman/tortoisebot_rb/install/multiple_spawner:/home/pacman/tortoisebot_rb/install/turtlebot3_teleop:/home/pacman/tortoisebot_rb/install/tortoisebot_slam:/home/pacman/tortoisebot_rb/install/tortoisebot_navigation:/home/pacman/tortoisebot_rb/install/tortoisebot_imu:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble LD_LIBRARY_PATH=/home/pacman/tortoisebot_rb/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/pacman/tortoisebot_rb/install/turtlebot3_node

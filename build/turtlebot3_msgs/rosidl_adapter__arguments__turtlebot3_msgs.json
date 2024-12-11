@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3_msgs:msg/Sound.msg",
+    "/home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3_msgs:srv/Sound.srv",
+    "/home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/pacman/tortoisebot_rb/tortoisebot/turtlebot3/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

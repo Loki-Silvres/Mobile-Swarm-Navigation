@@ -1,0 +1,21 @@
+[0.617s] Invoking command in '/home/pacman/tortoisebot_rb/tortoisebot/tortoisebot_control': PYTHONPATH=/home/pacman/tortoisebot_rb/build/tortoisebot_control/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/tortoisebot_rb/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tortoisebot_control build --build-base /home/pacman/tortoisebot_rb/build/tortoisebot_control/build install --record /home/pacman/tortoisebot_rb/build/tortoisebot_control/install.log --single-version-externally-managed install_data
+[0.757s] running egg_info
+[0.758s] writing ../../build/tortoisebot_control/tortoisebot_control.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../../build/tortoisebot_control/tortoisebot_control.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../../build/tortoisebot_control/tortoisebot_control.egg-info/entry_points.txt
+[0.758s] writing requirements to ../../build/tortoisebot_control/tortoisebot_control.egg-info/requires.txt
+[0.758s] writing top-level names to ../../build/tortoisebot_control/tortoisebot_control.egg-info/top_level.txt
+[0.759s] reading manifest file '../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+[0.760s] writing manifest file '../../build/tortoisebot_control/tortoisebot_control.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.760s] running build_py
+[0.760s] running install
+[0.761s] running install_lib
+[0.761s] running install_data
+[0.761s] running install_egg_info
+[0.763s] removing '/home/pacman/tortoisebot_rb/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.763s] Copying ../../build/tortoisebot_control/tortoisebot_control.egg-info to /home/pacman/tortoisebot_rb/install/tortoisebot_control/lib/python3.10/site-packages/tortoisebot_control-0.0.0-py3.10.egg-info
+[0.764s] running install_scripts
+[0.779s] Installing teleop_twist_keyboard script to /home/pacman/tortoisebot_rb/install/tortoisebot_control/lib/tortoisebot_control
+[0.779s] writing list of installed files to '/home/pacman/tortoisebot_rb/build/tortoisebot_control/install.log'
+[0.795s] Invoked command in '/home/pacman/tortoisebot_rb/tortoisebot/tortoisebot_control' returned '0': PYTHONPATH=/home/pacman/tortoisebot_rb/build/tortoisebot_control/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/tortoisebot_rb/install/tortoisebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tortoisebot_control build --build-base /home/pacman/tortoisebot_rb/build/tortoisebot_control/build install --record /home/pacman/tortoisebot_rb/build/tortoisebot_control/install.log --single-version-externally-managed install_data

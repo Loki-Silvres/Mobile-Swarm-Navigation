@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/frame_changer/frame_changer.egg-info
+writing ../../build/frame_changer/frame_changer.egg-info/PKG-INFO
+writing dependency_links to ../../build/frame_changer/frame_changer.egg-info/dependency_links.txt
+writing entry points to ../../build/frame_changer/frame_changer.egg-info/entry_points.txt
+writing requirements to ../../build/frame_changer/frame_changer.egg-info/requires.txt
+writing top-level names to ../../build/frame_changer/frame_changer.egg-info/top_level.txt
+writing manifest file '../../build/frame_changer/frame_changer.egg-info/SOURCES.txt'
+reading manifest file '../../build/frame_changer/frame_changer.egg-info/SOURCES.txt'
+writing manifest file '../../build/frame_changer/frame_changer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pacman/tortoisebot_rb/build/frame_changer/build
+creating /home/pacman/tortoisebot_rb/build/frame_changer/build/lib
+creating /home/pacman/tortoisebot_rb/build/frame_changer/build/lib/frame_changer
+copying frame_changer/frame_change.py -> /home/pacman/tortoisebot_rb/build/frame_changer/build/lib/frame_changer
+copying frame_changer/__init__.py -> /home/pacman/tortoisebot_rb/build/frame_changer/build/lib/frame_changer
+running install
+running install_lib
+creating /home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages/frame_changer
+copying /home/pacman/tortoisebot_rb/build/frame_changer/build/lib/frame_changer/frame_change.py -> /home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages/frame_changer
+copying /home/pacman/tortoisebot_rb/build/frame_changer/build/lib/frame_changer/__init__.py -> /home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages/frame_changer
+byte-compiling /home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages/frame_changer/frame_change.py to frame_change.cpython-310.pyc
+byte-compiling /home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages/frame_changer/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pacman/tortoisebot_rb/install/frame_changer/share/ament_index
+creating /home/pacman/tortoisebot_rb/install/frame_changer/share/ament_index/resource_index
+creating /home/pacman/tortoisebot_rb/install/frame_changer/share/ament_index/resource_index/packages
+copying resource/frame_changer -> /home/pacman/tortoisebot_rb/install/frame_changer/share/ament_index/resource_index/packages
+copying package.xml -> /home/pacman/tortoisebot_rb/install/frame_changer/share/frame_changer
+running install_egg_info
+Copying ../../build/frame_changer/frame_changer.egg-info to /home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages/frame_changer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing frame_changer script to /home/pacman/tortoisebot_rb/install/frame_changer/lib/frame_changer
+writing list of installed files to '/home/pacman/tortoisebot_rb/build/frame_changer/install.log'

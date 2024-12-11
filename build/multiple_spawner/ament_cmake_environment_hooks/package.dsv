@@ -1,0 +1,4 @@
+source;share/multiple_spawner/local_setup.bash
+source;share/multiple_spawner/local_setup.dsv
+source;share/multiple_spawner/local_setup.sh
+source;share/multiple_spawner/local_setup.zsh

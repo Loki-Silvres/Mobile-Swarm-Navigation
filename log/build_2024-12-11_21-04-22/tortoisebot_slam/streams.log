@@ -1,0 +1,25 @@
+[0.319s] Invoking command in '/home/pacman/tortoisebot_rb/build/tortoisebot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/pacman/tortoisebot_rb/build/tortoisebot_slam -- -j12 -l12
+[0.353s] Invoked command in '/home/pacman/tortoisebot_rb/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/pacman/tortoisebot_rb/build/tortoisebot_slam -- -j12 -l12
+[0.396s] Invoking command in '/home/pacman/tortoisebot_rb/build/tortoisebot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/pacman/tortoisebot_rb/build/tortoisebot_slam
+[0.417s] -- Install configuration: ""
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/launch
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/launch/cartographer.launch.py
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/config
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/config/ekf.yaml
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/config/slam.lua
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/ament_index/resource_index/package_run_dependencies/tortoisebot_slam
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/ament_index/resource_index/parent_prefix_path/tortoisebot_slam
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/environment/ament_prefix_path.sh
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/environment/ament_prefix_path.dsv
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/environment/path.sh
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/environment/path.dsv
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.bash
+[0.418s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.sh
+[0.419s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.zsh
+[0.419s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.dsv
+[0.419s] -- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/package.dsv
+[0.419s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/ament_index/resource_index/packages/tortoisebot_slam
+[0.419s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/cmake/tortoisebot_slamConfig.cmake
+[0.419s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/cmake/tortoisebot_slamConfig-version.cmake
+[0.419s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_slam/share/tortoisebot_slam/package.xml
+[0.432s] Invoked command in '/home/pacman/tortoisebot_rb/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/pacman/tortoisebot_rb/build/tortoisebot_slam

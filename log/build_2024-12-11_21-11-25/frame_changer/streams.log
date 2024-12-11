@@ -1,0 +1,21 @@
+[0.678s] Invoking command in '/home/pacman/tortoisebot_rb/tortoisebot/frame_changer': PYTHONPATH=/home/pacman/tortoisebot_rb/build/frame_changer/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/frame_changer build --build-base /home/pacman/tortoisebot_rb/build/frame_changer/build install --record /home/pacman/tortoisebot_rb/build/frame_changer/install.log --single-version-externally-managed install_data
+[0.834s] running egg_info
+[0.835s] writing ../../build/frame_changer/frame_changer.egg-info/PKG-INFO
+[0.835s] writing dependency_links to ../../build/frame_changer/frame_changer.egg-info/dependency_links.txt
+[0.835s] writing entry points to ../../build/frame_changer/frame_changer.egg-info/entry_points.txt
+[0.835s] writing requirements to ../../build/frame_changer/frame_changer.egg-info/requires.txt
+[0.835s] writing top-level names to ../../build/frame_changer/frame_changer.egg-info/top_level.txt
+[0.836s] reading manifest file '../../build/frame_changer/frame_changer.egg-info/SOURCES.txt'
+[0.837s] writing manifest file '../../build/frame_changer/frame_changer.egg-info/SOURCES.txt'
+[0.837s] running build
+[0.837s] running build_py
+[0.837s] running install
+[0.837s] running install_lib
+[0.838s] running install_data
+[0.838s] running install_egg_info
+[0.840s] removing '/home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages/frame_changer-0.0.0-py3.10.egg-info' (and everything under it)
+[0.840s] Copying ../../build/frame_changer/frame_changer.egg-info to /home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages/frame_changer-0.0.0-py3.10.egg-info
+[0.841s] running install_scripts
+[0.854s] Installing frame_changer script to /home/pacman/tortoisebot_rb/install/frame_changer/lib/frame_changer
+[0.855s] writing list of installed files to '/home/pacman/tortoisebot_rb/build/frame_changer/install.log'
+[0.873s] Invoked command in '/home/pacman/tortoisebot_rb/tortoisebot/frame_changer' returned '0': PYTHONPATH=/home/pacman/tortoisebot_rb/build/frame_changer/prefix_override:/home/pacman/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/pacman/tortoisebot_rb/install/frame_changer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/frame_changer build --build-base /home/pacman/tortoisebot_rb/build/frame_changer/build install --record /home/pacman/tortoisebot_rb/build/frame_changer/install.log --single-version-externally-managed install_data

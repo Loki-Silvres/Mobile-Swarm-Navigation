@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:19 (find_package):
+  By not providing "Finddynamixel_sdk.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "dynamixel_sdk", but CMake did not find one.
+
+  Could not find a package configuration file provided by "dynamixel_sdk"
+  with any of the following names:
+
+    dynamixel_sdkConfig.cmake
+    dynamixel_sdk-config.cmake
+
+  Add the installation prefix of "dynamixel_sdk" to CMAKE_PREFIX_PATH or set
+  "dynamixel_sdk_DIR" to a directory containing one of the above files.  If
+  "dynamixel_sdk" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

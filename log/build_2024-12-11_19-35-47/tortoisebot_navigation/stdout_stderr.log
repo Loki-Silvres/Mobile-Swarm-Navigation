@@ -1,0 +1,44 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pacman/tortoisebot_rb/build/tortoisebot_navigation
+-- Install configuration: ""
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/launch
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/launch/navigation.launch.py
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/config
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/config/nav2_params_simulation.yaml
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/config/nav2_params_robot.yaml
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/ament_index/resource_index/package_run_dependencies/tortoisebot_navigation
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/ament_index/resource_index/parent_prefix_path/tortoisebot_navigation
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/ament_prefix_path.dsv
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/path.sh
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/path.dsv
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.bash
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.sh
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.zsh
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.dsv
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/package.dsv
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/ament_index/resource_index/packages/tortoisebot_navigation
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/cmake/tortoisebot_navigationConfig.cmake
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/cmake/tortoisebot_navigationConfig-version.cmake
+-- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/package.xml

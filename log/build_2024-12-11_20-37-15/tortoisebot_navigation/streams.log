@@ -1,0 +1,25 @@
+[0.311s] Invoking command in '/home/pacman/tortoisebot_rb/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/pacman/tortoisebot_rb/build/tortoisebot_navigation -- -j12 -l12
+[0.338s] Invoked command in '/home/pacman/tortoisebot_rb/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --build /home/pacman/tortoisebot_rb/build/tortoisebot_navigation -- -j12 -l12
+[0.375s] Invoking command in '/home/pacman/tortoisebot_rb/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/pacman/tortoisebot_rb/build/tortoisebot_navigation
+[0.385s] -- Install configuration: ""
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/launch
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/launch/navigation.launch.py
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/config
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/config/nav2_params_simulation.yaml
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/config/nav2_params_robot.yaml
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/ament_index/resource_index/package_run_dependencies/tortoisebot_navigation
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/ament_index/resource_index/parent_prefix_path/tortoisebot_navigation
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/ament_prefix_path.sh
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/ament_prefix_path.dsv
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/path.sh
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/path.dsv
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.bash
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.sh
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.zsh
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.dsv
+[0.385s] -- Installing: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/package.dsv
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/ament_index/resource_index/packages/tortoisebot_navigation
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/cmake/tortoisebot_navigationConfig.cmake
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/cmake/tortoisebot_navigationConfig-version.cmake
+[0.385s] -- Up-to-date: /home/pacman/tortoisebot_rb/install/tortoisebot_navigation/share/tortoisebot_navigation/package.xml
+[0.402s] Invoked command in '/home/pacman/tortoisebot_rb/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pacman/tortoisebot_rb/install/tortoisebot_control:/opt/ros/humble /usr/bin/cmake --install /home/pacman/tortoisebot_rb/build/tortoisebot_navigation

@@ -75,12 +75,12 @@ def generate_launch_description():
     # world = os.path.join(
     #     get_package_share_directory('turtlebot3_multi_robot'),
     #     'worlds', 'multi_robot_world.world')
-    #world = os.path.join(
-    #     get_package_share_directory('aws_robomaker_hospital_world'),
-    #   'worlds', 'hospital.world')
     world = os.path.join(
-         get_package_share_directory('aws_robomaker_small_warehouse_world'),
-         'worlds', 'no_roof_small_warehouse','no_roof_small_warehouse.world')
+        get_package_share_directory('aws_robomaker_hospital_world'),
+      'worlds', 'hospital.world')
+    # world = os.path.join(
+    #      get_package_share_directory('aws_robomaker_small_warehouse_world'),
+    #      'worlds', 'no_roof_small_warehouse','no_roof_small_warehouse.world')
 
     gzserver_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(

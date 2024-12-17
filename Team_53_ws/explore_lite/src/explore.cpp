@@ -61,6 +61,8 @@ Explore::Explore()
 {
   double timeout;
   double min_frontier_size;
+  std::string ns_name;
+
   this->declare_parameter<float>("planner_frequency", 10);    //changed from 1.0
   this->declare_parameter<float>("progress_timeout", 5.0);
   this->declare_parameter<bool>("visualize", true);
@@ -69,7 +71,8 @@ Explore::Explore()
   this->declare_parameter<float>("gain_scale", 1.0);
   this->declare_parameter<float>("min_frontier_size", 0.7);
   this->declare_parameter<bool>("return_to_init", false);
-
+  this->declare_parameter<std::string>("ns_name", "bot_0");
+  
   this->get_parameter("planner_frequency", planner_frequency_);
   this->get_parameter("progress_timeout", timeout);
   this->get_parameter("visualize", visualize_);
@@ -79,11 +82,17 @@ Explore::Explore()
   this->get_parameter("min_frontier_size", min_frontier_size);
   this->get_parameter("return_to_init", return_to_init_);
   this->get_parameter("robot_base_frame", robot_base_frame_);
+  this->get_parameter("ns_name", ns_name);
+
+  this->robot_index = int(ns_name.back() - '0');
+
+  std::string action_name_with_ns = "/" + ns_name + "/" + ACTION_NAME;
 
   progress_timeout_ = timeout;
   move_base_client_ =
       rclcpp_action::create_client<nav2_msgs::action::NavigateToPose>(
-          this, ACTION_NAME);
+          this, action_name_with_ns);
+RCLCPP_INFO(this->get_logger(), "Action name with namespace: %s", action_name_with_ns.c_str());
 
   search_ = frontier_exploration::FrontierSearch(costmap_client_.getCostmap(),
                                                  potential_scale_, gain_scale_,
@@ -261,12 +270,34 @@ void Explore::makePlan()
     visualizeFrontiers(frontiers);
   }
 
+
+
+
   // find non blacklisted frontier
   auto frontier =
       std::find_if_not(frontiers.begin(), frontiers.end(),
                        [this](const frontier_exploration::Frontier& f) {
                          return goalOnBlacklist(f.centroid);
                        });
+  
+
+  std::vector<frontier_exploration::Frontier> non_blacklisted_frontiers;
+
+// Filter out non-blacklisted frontiers
+  std::copy_if(
+      frontiers.begin(), frontiers.end(),
+      std::back_inserter(non_blacklisted_frontiers),
+      [this](const frontier_exploration::Frontier& f) {
+          return !goalOnBlacklist(f.centroid);
+      });
+  
+  if (this->robot_index < non_blacklisted_frontiers.size()) {
+      // Access by index
+      frontier = non_blacklisted_frontiers.begin() + this->robot_index;
+
+      RCLCPP_INFO(logger_, "Selected frontier at index %d", this->robot_index);
+  }
+
   if (frontier == frontiers.end()) {
     RCLCPP_WARN(logger_, "All frontiers traversed/tried out, stopping.");
     stop(true);

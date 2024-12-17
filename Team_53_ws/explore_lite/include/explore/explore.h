@@ -78,7 +78,7 @@ class Explore : public rclcpp::Node
 public:
   Explore();
   ~Explore();
-
+  int robot_index;
   void start();
   void stop(bool finished_exploring = false);
   void resume();

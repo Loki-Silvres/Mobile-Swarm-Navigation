@@ -282,9 +282,9 @@ $HOME
 <u>For Further Details refer to individual package readme files</u>
 
 
-## Demonstration Videos
-[drive_link](https://drive.google.com/drive/folders/1R-KmugCW5OYquV0uMlaHNyM6oqgc6VKU?usp=sharing)
-
+## Demonstration
+- Videos: [drive_link](https://drive.google.com/drive/folders/1R-KmugCW5OYquV0uMlaHNyM6oqgc6VKU?usp=sharing)
+- Presentation: [canva_link](https://www.canva.com/design/DAGYiRrygrs/sYhHp51WUuve2WNG8jo0uA/edit?utm_content=DAGYiRrygrs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 # Resources
 

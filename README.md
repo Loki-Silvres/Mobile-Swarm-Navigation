@@ -135,7 +135,7 @@ sudo apt-get install unzip
 <text style="font-size: 16px;">2\. Unzip the file in home directory
 
 ```bash
-unzip ~/Downloads/53_m2_kalyani.zip -d ~
+unzip ~/Downloads/Mobile-Swarm-Navigation.zip -d ~
 ```
 
 
@@ -165,34 +165,34 @@ sudo apt install ros-humble-slam-toolbox
 
 - Export Turtlebot3 Model paths
 ```bash
-echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$HOME/53_m2_kalyani/Team_53_ws/auto_explore/models" >>  ~/.bashrc
+echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$HOME/Mobile-Swarm-Navigation/Team_53_ws/auto_explore/models" >>  ~/.bashrc
 echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
 ```
 - Export World Models paths
 
 ```bash
-echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/53_m2_kalyani/Team_53_ws/aws-robomaker-hospital-world/models:$GAZEBO_MODEL_PATH" >> ~/.bashrc
-echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/53_m2_kalyani/Team_53_ws/aws-robomaker-hospital-world/fuel_models:$GAZEBO_MODEL_PATH" >> ~/.bashrc  
-echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/53_m2_kalyani/Team_53_ws/aws-robomaker-small-warehouse-world/models:$GAZEBO_MODEL_PATH" >> ~/.bashrc
-echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/53_m2_kalyani/Team_53_ws/turtlebot3_multi_robot/models:$GAZEBO_MODEL_PATH" >> ~/.bashrc
+echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/Mobile-Swarm-Navigation/Team_53_ws/aws-robomaker-hospital-world/models:$GAZEBO_MODEL_PATH" >> ~/.bashrc
+echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/Mobile-Swarm-Navigation/Team_53_ws/aws-robomaker-hospital-world/fuel_models:$GAZEBO_MODEL_PATH" >> ~/.bashrc  
+echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/Mobile-Swarm-Navigation/Team_53_ws/aws-robomaker-small-warehouse-world/models:$GAZEBO_MODEL_PATH" >> ~/.bashrc
+echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/Mobile-Swarm-Navigation/Team_53_ws/turtlebot3_multi_robot/models:$GAZEBO_MODEL_PATH" >> ~/.bashrc
 ```
 
 - Export Plugins paths
 ```bash
-echo "export GAZEBO_PLUGIN_PATH=$GAZEBO_PLUGIN_PATH:~/53_m2_kalyani/Team_53_ws/plugins" >> ~/.bashrc
+echo "export GAZEBO_PLUGIN_PATH=$GAZEBO_PLUGIN_PATH:~/Mobile-Swarm-Navigation/Team_53_ws/plugins" >> ~/.bashrc
 ```
 <text style="font-size: 16px;">3\. Install dependencies
 
 - <u>Note: The following installation may take some time (>5 mins) depending on the system.</u>
 
 ```bash
-cd ~/53_m2_kalyani/Team_53_ws/aws-robomaker-hospital-world/
+cd ~/Mobile-Swarm-Navigation/Team_53_ws/aws-robomaker-hospital-world/
 rosdep install --from-paths . --ignore-src -r -y
 chmod +x setup.sh
 ./setup.sh
 cd ../../
 colcon build
-echo "source ~/53_m2_kalyani/Team_53_ws/install/setup.bash" >> ~/.bashrc
+echo "source ~/Mobile-Swarm-Navigation/Team_53_ws/install/setup.bash" >> ~/.bashrc
 ```
 
 <br>
@@ -204,7 +204,7 @@ echo "source ~/53_m2_kalyani/Team_53_ws/install/setup.bash" >> ~/.bashrc
 - It can be run through the the chatbot also by giving it a prompt to explore the environment.
 
 ```bash
-cd ~/53_m2_kalyani/Team53_ws/
+cd ~/Mobile-Swarm-Navigation/Team53_ws/
 ros2 launch auto_explore auto_map.launch.py
 ```
 
@@ -217,13 +217,13 @@ ros2 run nav2_map_server map_saver_cli -f ~/auto_explore/maps/map_new
 <text style="font-size: 16px;">3\. Running the chatbot:
 
 ```bash
-python3 ~/53_m2_kalyani/AI_ML_models/chatbot/app.py
+python3 ~/Mobile-Swarm-Navigation/AI_ML_models/chatbot/app.py
 ```
 
 <text style="font-size: 16px;">4\. Start Semantic mapping:
 
 ```bash
-python3 ~/53_m2_kalyani/Team_53_ws/semantic_mapper/semantic_mapper/semantic_mapper_launch.py --bot_name=<bot_i>   #Do this for each bot on which you want semantic mapping to happen 
+python3 ~/Mobile-Swarm-Navigation/Team_53_ws/semantic_mapper/semantic_mapper/semantic_mapper_launch.py --bot_name=<bot_i>   #Do this for each bot on which you want semantic mapping to happen 
 #<bot_i> is the bot name where i can be from 0 to num_bots
 ```
 
@@ -232,12 +232,12 @@ python3 ~/53_m2_kalyani/Team_53_ws/semantic_mapper/semantic_mapper/semantic_mapp
 
 ```bash
 ros2 run interpreter interpreter
-python3 ~/53_m2_kalyani/Team_53_ws/scheduler/launch/scheduler_launch.py --num_bots= <number_of_robots>
+python3 ~/Mobile-Swarm-Navigation/Team_53_ws/scheduler/launch/scheduler_launch.py --num_bots= <number_of_robots>
 ```
 <text style="font-size: 16px;">6\. Start the simulation:
 
 ```bash
-python3 ~/53_m2_kalyani/Team_53_ws/turtlebot3_multi_robot/launch/spawn_bots.py --num_bots=<number-of-robots> --x_pose =<space-separated-array> --y_pose =<space-separated-array>
+python3 ~/Mobile-Swarm-Navigation/Team_53_ws/turtlebot3_multi_robot/launch/spawn_bots.py --num_bots=<number-of-robots> --x_pose =<space-separated-array> --y_pose =<space-separated-array>
 ```
 
 
@@ -251,7 +251,7 @@ python3 ~/53_m2_kalyani/Team_53_ws/turtlebot3_multi_robot/launch/spawn_bots.py -
 
 ```bash
 $HOME
-└── 53_m2_kalyani
+└── Mobile-Swarm-Navigation
     ├── AI_ML_models
     │   ├── chatbot
     │   ├── Instance_Segmentation_Model_YOLOv8-seg
@@ -260,7 +260,7 @@ $HOME
     ├── README.md
     ├── requirements.txt
     ├── Videos
-    ├── 53_m2_kalyani.pdf
+    ├── Mobile-Swarm-Navigation.pdf
     └── Team_53_ws
         ├── auto_explore
         ├── aws-robomaker-hospital-world

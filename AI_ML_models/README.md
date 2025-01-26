@@ -45,7 +45,7 @@ This folder contains two AI/ML models that were developed and used in our projec
 ### **2. Chatbot (Gemini 1.5 Flash)**  
 - **Purpose**: A conversational AI implemented using a Flask web application.  
 - **Details**:  
-  - **Zero-shot Deployment**: The chatbot was not fine-tuned on specific data, leveraging its pre-trained knowledge for conversations.  
+  - **Few-shot Deployment**: The chatbot was not fine-tuned on specific data, leveraging its pre-trained knowledge for conversations.  
   - **Folder Breakdown**:  
     - `app.py`: The main script for running the chatbot Flask app.  
     - `static/`: Contains static files such as CSS (`styles.css`) and JavaScript (`script.js`).  

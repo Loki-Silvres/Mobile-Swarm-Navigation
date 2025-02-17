@@ -6,7 +6,9 @@ from google.api_core import retry
 import subprocess
 import markdown
 app = Flask(__name__)
-genai.configure(api_key="AIzaSyBrqbxl9HvXlW__1gG5S9Yl1K549D4vKpA")
+### Get API key from https://aistudio.google.com
+API_KEY = ""
+genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel(
     'gemini-1.5-flash-001',
     generation_config=genai.GenerationConfig(
